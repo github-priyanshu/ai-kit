@@ -22,7 +22,7 @@
         <div id="movieCount">/...Add Movies</div>
         <div>
           <button>Reset</button>
-          <button onclick="search(this)" url="https://github.com/github-priyanshu/ai-kit/edit/main/common/js/movies.js">Copy & Open</button>
+          <button onclick="copyOpen(this,data.movie)" url="https://github.com/github-priyanshu/ai-kit/edit/main/common/js/movies.js">Copy & Open</button>
         </div>
       </div>
 
@@ -55,11 +55,12 @@
     </div>
 
     <div class="workPan" panFor="series">
+      <!-- SERIES -->
       <div class="top flex">
         <div id="seriesCount">/...Add Series</div>
         <div>
           <button>Reset</button>
-          <button onclick="search(this)" url="https://github.com/github-priyanshu/ai-kit/edit/main/common/js/webSeries.js">Copy & Open</button>
+          <button onclick="copyOpen(this,data.series)" url="https://github.com/github-priyanshu/ai-kit/edit/main/common/js/webSeries.js">Copy & Open</button>
         </div>
       </div>
 
@@ -82,7 +83,7 @@
 
       <div class="w100p">
         <input type="number" id="enum" placeholder="No. of episodes">
-        <button>Add More</button>
+        <button onclick="addSeries()">Add More</button>
       </div>
 
     </div>

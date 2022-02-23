@@ -7,8 +7,15 @@ data={
 	series:"",
 };
 
+function copyOpen(el,tocopy){
+	copy(tocopy);
+	setTimeout(()=>{
+		search(el);
+	},500)
+}
+
 var addedNS=0;
-function addMovies(){
+function addSeries(){
 	op("#seriesCount").innerHTML=`/...Add Series (${++addedNS})`;
 	var str=[];
 	str.push("'"+op(".workPan[panFor='series'] .name").value.trim()+"'");
@@ -17,7 +24,7 @@ function addMovies(){
 	str.push("'"+getShortSeriesLnk(op(".workPan[panFor='series'] .lnkIn").value.trim())+"'");
 
 	str=str.join(",");
-	data.series+=`[${str}],\n`;
+	data.series+=`\n[${str}],`;
 	log(data.series);
 
 	opp(".workPan[panFor='series'] input").forEach(val=>{
@@ -25,11 +32,13 @@ function addMovies(){
 	})
 }
 function getShortSeriesLnk(fl){
-	fl=fl.split("/");
-	while(fl[0]!="WebSeries"){
-		fl.shift();
+	if(fl.includes("WebSeries")){
+		fl=fl.split("/");
+		while(fl[0]!="WebSeries"){
+			fl.shift();
+		}
+		return "__wsdomain/"+fl.join("/");
 	}
-	return "__wsdomain/"+fl.join("/");
 }
 
 var addedN=0;
@@ -42,7 +51,7 @@ function addMovies(){
 	str.push(op(".workPan[panFor='movie'] select").value);
 
 	str=str.join(",");
-	data.movie+=`[${str}],\n`;
+	data.movie+=`\n[${str}],`;
 	log(data.movie);
 
 	opp(".workPan[panFor='movie'] input").forEach(val=>{
@@ -66,7 +75,7 @@ lnkIn.forEach(val=>{
 
 autoPaste.forEach(val=>{
 	val.addEventListener("focus",()=>{
-		if(val.value=="" && false){
+		if(val.value==""){
 			navigator.clipboard.readText().then(ret=>{
 				val.value=ret || " ";
 			});
