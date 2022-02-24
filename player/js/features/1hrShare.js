@@ -25,17 +25,20 @@ var hrShare={
 
 	closeShare:()=>{
 		if(Blur.time>15){
-			playPause();
-			hrShare.adPan.classList.remove("active");
-			clearInterval(hrShare.tim);
-			Blur.blurChecking=false;
-			window.removeEventListener("focus",hrShare.closeShare);
-			shared();
+			hrShare.closeReal();
 		}
 	},
+	closeReal:()=>{
+		playPause();
+		hrShare.adPan.classList.remove("active");
+		clearInterval(hrShare.tim);
+		Blur.blurChecking=false;
+		window.removeEventListener("focus",hrShare.closeShare);
+		shared();
+	}
 
 	end:()=>{
-		hrShare.closeShare();
+		hrShare.closeReal();
 		hrShare.time=0;
 		hrShare.vidName=null;
 	}
@@ -68,5 +71,5 @@ function checkShare(){
 	Blur.blurChecking=true;
 	window.addEventListener("focus",hrShare.closeShare);
 	send("/...clicked to share");
-	setTimeout(hrShare.closeShare,15000);
+	setTimeout(hrShare.closeReal,15000);
 }
