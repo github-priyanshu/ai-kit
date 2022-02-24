@@ -7,7 +7,8 @@ var movies=
 [
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
-	
+
+['Texas Chainsaw Massacre','3HlwFsl',`${ms}HollyWood/NetFlix%20Movies/Texas.Chainsaw.Massacre.2022/Texas.Chainsaw.Massacre.2022.Hindi.English.480p.WEB-DL-DudeFilms.in.mkv`,3],
 ['Bheesma','3pcfR0J',`${ms}SouthMovies/Bheeshma.2020/Bheeshma.2020.480p.WEB-DL.Hindi.ORG.2.0-Telugu.ESub.x264-DudeFilms.in.mkv`,2],
 ['Fistful of Vengeance','34M1Ekq',`${ms}HollyWood/NetFlix%20Movies/Fistful.of.Vengeance.2022/Fistful.of.Vengeance.2022.480p.(Hindi+English).NF.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['A Thursday','36dVARS',`${ms}BollyWood/hotstar/A.Thursday.2022/A.Thursday.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
