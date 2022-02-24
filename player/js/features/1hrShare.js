@@ -21,7 +21,6 @@ var hrShare={
 		resetFormat();
 		send("/...Shown to share");
 		lastShare=video.src;
-		hrShare.closeShare();
 	},
 
 	closeShare:()=>{
@@ -69,4 +68,5 @@ function checkShare(){
 	Blur.blurChecking=true;
 	window.addEventListener("focus",hrShare.closeShare);
 	send("/...clicked to share");
+	setTimeout(hrShare.closeShare,15000);
 }
