@@ -4,6 +4,8 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Bestseller','3pyz0uj',8,'__wsdomain/WebSeries/Amazon.Prime/Bestseller.S01/Bestseller.S01.E01.720p.AMZN.WEB-DL.Esub-DudeFilms.in.mkv'],
+['Peacemaker','3p8NEYY',8,'__wsdomain/WebSeries/HBO/Peacemaker.S01/Peacemaker.S01.E01.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['mithya','3scVhzq',6,'__wsdomain/WebSeries/Zee5/Mithya.S01/Mithya.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ["Dexter New Blood","3oXSiIY",10,"__wsdomain/WebSeries/Dexter.New.Blood.S01/Dexter.New.Blood.S01.E01.Hindi.English.720p.HEVC.10bit.WEB-DL.ESub-DudeFilms.in.mkv"],
 ["Raising Dion","3p0ddLv",9,"__wsdomain/WebSeries/NetFlix/Raising.Dion/S01/Raising.Dion.S01.E01.720p.Hindi.English.Esub-DudeFilms.in.mkv"],
