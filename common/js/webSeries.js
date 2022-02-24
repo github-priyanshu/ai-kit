@@ -4,6 +4,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['mithya','3scVhzq',6,'__wsdomain/WebSeries/Zee5/Mithya.S01/Mithya.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ["Dexter New Blood","3oXSiIY",10,"__wsdomain/WebSeries/Dexter.New.Blood.S01/Dexter.New.Blood.S01.E01.Hindi.English.720p.HEVC.10bit.WEB-DL.ESub-DudeFilms.in.mkv"],
 ["Raising Dion","3p0ddLv",9,"__wsdomain/WebSeries/NetFlix/Raising.Dion/S01/Raising.Dion.S01.E01.720p.Hindi.English.Esub-DudeFilms.in.mkv"],
 ["Inventing Anna","3I8QBAg",9,"__wsdomain/WebSeries/NetFlix/Inventing.Anna.S01/Inventing.Anna.S01.E01.Hindi.English.720p.HEVC.10bit.WEB-DL.ESub-DudeFilms.in.mkv"],
