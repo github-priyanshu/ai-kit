@@ -35,7 +35,7 @@ var hrShare={
 		Blur.blurChecking=false;
 		window.removeEventListener("focus",hrShare.closeShare);
 		shared();
-	}
+	},
 
 	end:()=>{
 		hrShare.closeReal();
