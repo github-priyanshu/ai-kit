@@ -9,7 +9,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
 ['Gangubai Kathiawadi','3JPulvs',`${ms}BollyWood/Gangubai.Kathiawadi.2022.CamRip/Gangubai.Kathiawadi.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
-['Valimai','3vgVNy6',`${ms}SouthMovies/Valimai.The.Power.2022.CamRip/Valimai.The.Power.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Valimai','3vgVNy6',`${ms}SouthMovies/Valimai.The.Power.2022.CamRip/Valimai.The.Power.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3],
 ['Love Hostel','354SvTW',`${ms}BollyWood/Zee5/Love.Hostel.2022/Love.Hostel.2022.480p.ZEE5.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['Texas Chainsaw Massacre','3HlwFsl',`${ms}HollyWood/NetFlix%20Movies/Texas.Chainsaw.Massacre.2022/Texas.Chainsaw.Massacre.2022.Hindi.English.480p.WEB-DL-DudeFilms.in.mkv`,3],
 ['Bheesma','3pcfR0J',`${ms}SouthMovies/Bheeshma.2020/Bheeshma.2020.480p.WEB-DL.Hindi.ORG.2.0-Telugu.ESub.x264-DudeFilms.in.mkv`,2],
