@@ -132,7 +132,7 @@ function makeSpinnerSpace(){
 makeSpinnerSpace();
 
 function share(el){
-	var msg=`I got a *WebSite* for all _*New and Free Movies*_: https://ai-player.netlify.app/sh=18`;
+	var msg=`I got a *WebSite* for all _*New and Free Movies*_: https://ai-player.netlify.app?sh=18`;
 	window.open(`https://wa.me/?text=${msg}`);
 
 	if(!el.getAttribute("openTime")){
