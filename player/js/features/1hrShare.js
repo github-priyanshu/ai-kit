@@ -71,5 +71,4 @@ function checkShare(){
 	Blur.blurChecking=true;
 	window.addEventListener("focus",hrShare.closeShare);
 	send("/...clicked to share");
-	setTimeout(hrShare.closeReal,15000);
 }
