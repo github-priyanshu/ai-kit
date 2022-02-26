@@ -1,11 +1,19 @@
-var spinner,spinBx=op(".spinP");
+var spinner,spinBx=op(".spinP"),
+moti=op(".moti");
 
 /*SPINNING CODES*/
 var prior=Number(localStorage.getItem("prior")) || 2,
 priNum=Number(localStorage.getItem("priNum")) || 0,
+first=localStorage.getItem("first") || "true";
 email=localStorage.getItem("email") || false,
-chances=Number(localStorage.getItem("chances")) || 1,
+chances=Number(localStorage.getItem("chances")) || 0,
 spinTime=Number(localStorage.getItem("spinTime")) || 0;
+
+if(chances==0 && first=="true"){
+	chances=1;
+	localStorage.setItem("first","false");
+	localStorage.setItem("chances",1);
+}
 
 var result={
 	elem: op(".resultBox"),
@@ -16,6 +24,29 @@ var result={
 		result.elem.classList.remove("active");
 	}
 }
+
+/*Blur functions*/
+var Blur={
+	time:0,countInt:false,blurChecking:false,
+	addChecker: ()=>{
+		window.addEventListener("blur",Blur.count);
+		window.addEventListener("focus",Blur.stopCount);
+	},
+	count: ()=>{
+		if(Blur.blurChecking){
+			Blur.time=0;
+			clearInterval(Blur.countInt);
+			Blur.countInt=setInterval(()=>{
+				Blur.time++;
+			},1000)
+		}
+	},
+	stopCount: ()=>{
+		clearInterval(Blur.countInt);
+	}
+};
+Blur.addChecker();
+
 
 function spin(btn,pri=prior){
 	btn.disabled=true;
@@ -34,9 +65,7 @@ function changePriority(){
 	}
 	localStorage.setItem("prior",prior);
 	localStorage.setItem("priNum",priNum);
-	log(prior);
 }
-	log(prior);
 
 function addSpinAnim(roundTime,productChose){
 	var allImg=opp(".spin .space"),spinInt=false,spinNum=0;
@@ -67,12 +96,13 @@ function wonItem(p){
 	`;
 	spinBx.innerHTML=html;
 	resetFormat();
+	send("/..Spin: "+p);
 }
 
 function askEmail(){
 	if(!email){
 		var html=`<p class="texCen" fs="1.2em" col="#333" style="padding: 10px">Your personal <u fw="bold"><span col="#c034ff">Lucky</span> Verification Code</u> will be sent on your email.</p>
-			<input type="email" id="email" placeholder="Enter your email">
+			<input type="email" style="padding: 5px 0" id="email" placeholder="Enter your email">
 			<button class="noBtn btn" onclick="saveEmail()">Get Code</button>
 		`;
 		spinBx.innerHTML=html;
@@ -90,6 +120,7 @@ function saveEmail(){
 		localStorage.setItem("email",email);
 		result.show();
 		makeSpinnerSpace();
+		sendEmail(em);
 	}else{
 		alert("Email field is empty.");
 	}
@@ -102,9 +133,13 @@ function makeSpinnerSpace(){
 	if(chances>0){
 		btnHtml=`<div class="txt texCen" col="#222">You have <span col="#000" fw="bold">${chances} free spin</span></div>
         <button class="noBtn btn" onclick="spin(this)">Spin Now</button>`;
+    moti.classList.remove("active");
+
 	}else{
 		btnHtml=`<div class="txt texCen" fs="#1.1" col="#222">You have <b>share to 1 person</b> to earn free chance.</div>
-        <button class="noBtn btn" onclick="share()">Earn 1 Chance</button>`;		
+        <button class="noBtn btn" onclick="share(this)">Earn 1 Chance</button>`;		
+    moti.classList.add("active");
+    setTimeout(()=>{window.scrollTo(0,200);},100)
 	}
 	var html=`<div class="spin flex">`;
 	for(let i=1; i<=9; i++){
@@ -119,11 +154,23 @@ function makeSpinnerSpace(){
 }
 makeSpinnerSpace();
 
-function share(){
-	alert("assuming that you are developer: save time: got a chance to spin");
-	shared();
+function share(el){
+	el.disabled=true;
+	var txx=false;
+	Blur.blurChecking=true;
+	window.addEventListener("focus",()=>{
+		if(Blur.time>=10){
+			shared();
+		}else{
+			Blur.time=0;
+		}	
+	})
 }
 function shared(){
+	Blur.blurChecking=false;
+	Blur.stopCount();
 	chances=1;
 	makeSpinnerSpace();
 }
+
+send("/...Came");

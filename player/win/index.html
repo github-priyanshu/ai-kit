@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spin & Win: Ai-Player</title>
-  <!-- <base href="../"> -->
-  <base href="https://ai-kit.netlify.app/player/">
+  <base href="../">
+  <!-- <base href="https://ai-kit.netlify.app/player/"> -->
 
   <!-- common -->
   <link rel="stylesheet" href="../common/css/style.css">
@@ -17,6 +17,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Glory:wght@400&family=Encode+Sans+SC&display=swap" rel="stylesheet">
+
+  <script src="win/js/datasender.js"></script>
 </head>
 <body>
   <script src="win/js/loadImg.js"></script>
@@ -30,7 +32,7 @@
   </div>
 
   <div class="content flex c">
-    <div class="head texCen">Win from <span fs="1.1em" fw="bolder">₹5 Lakh+</span> Pool</div>
+    <div class="head texCen">Win from <span fs="1.1em" fw="bolder">₹50 Lakh+</span> Pool</div>
     
     <link rel="stylesheet" href="win/css/spinner.css">
 
@@ -38,11 +40,10 @@
       <p class="texCen">Result will be declared in 7 days on <u>6<sup>th</sup> March, 2022 (Sunday)</u><br> You will get the prizes .</p>
       <div class="closer flex" onclick="result.hide();"><span>+</span></div>
     </div>
-    <div class="spinP flex c">
-      
-    </div>
-    <script src="win/js/spinner.js"></script>
+    <div class="spinP flex c"></div>
+    <p class="moti" fs="1.2em" col="#ff0055">Spin More, <span fw="bold">Chance to win </span> more.</p>
 
+    <script src="win/js/spinner.js"></script>
   </div>
 
   <script type="text/javascript" src="win/js/script.js"></script>

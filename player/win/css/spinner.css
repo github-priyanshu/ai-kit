@@ -73,6 +73,12 @@
   transform: rotate(45deg);
   cursor: pointer;
 }
+.moti{
+  display: none;
+}
+.moti.active{
+  display: flex;
+}
 
 @keyframes wined{
   0%{transform: rotate(180deg) scale(0);}
