@@ -25,29 +25,6 @@ var result={
 	}
 }
 
-/*Blur functions*/
-var Blur={
-	time:0,countInt:false,blurChecking:false,
-	addChecker: ()=>{
-		window.addEventListener("blur",Blur.count);
-		window.addEventListener("focus",Blur.stopCount);
-	},
-	count: ()=>{
-		if(Blur.blurChecking){
-			Blur.time=0;
-			clearInterval(Blur.countInt);
-			Blur.countInt=setInterval(()=>{
-				Blur.time++;
-			},1000)
-		}
-	},
-	stopCount: ()=>{
-		clearInterval(Blur.countInt);
-	}
-};
-Blur.addChecker();
-
-
 function spin(btn,pri=prior){
 	btn.disabled=true;
 	var roundTime=1;
@@ -136,7 +113,7 @@ function makeSpinnerSpace(){
     moti.classList.remove("active");
 
 	}else{
-		btnHtml=`<div class="txt texCen" fs="#1.1" col="#222">You have <b>share to 1 person</b> to earn free chance.</div>
+		btnHtml=`<div class="txt texCen" fs="#1.1" col="#222">You have to <b>share to 1 person</b> to earn free chance.</div>
         <button class="noBtn btn" onclick="share(this)">Earn 1 Chance</button>`;		
     moti.classList.add("active");
     setTimeout(()=>{window.scrollTo(0,200);},100)
@@ -155,22 +132,34 @@ function makeSpinnerSpace(){
 makeSpinnerSpace();
 
 function share(el){
-	el.disabled=true;
-	var txx=false;
-	Blur.blurChecking=true;
-	window.addEventListener("focus",()=>{
-		if(Blur.time>=10){
-			shared();
-		}else{
-			Blur.time=0;
-		}	
-	})
+	var msg=`I got a *WebSite* for all _*New and Free Movies*_: https://ai-player.netlify.app/sh=18`;
+	window.open(`https://wa.me/?text=${msg}`);
+
+	if(!el.getAttribute("openTime")){
+		checkBlur(12,"shared");
+	}
+	el.setAttribute("openTime",1);
 }
 function shared(){
-	Blur.blurChecking=false;
-	Blur.stopCount();
 	chances=1;
 	makeSpinnerSpace();
 }
 
 send("/...Came");
+
+function checkBlur(after,fn){
+	var tim=false;
+	window.addEventListener("blur",check);
+	window.addEventListener("focus",reset);
+	console.log(fn)
+	function check(){
+		tim=setTimeout(()=>{
+			eval(fn+"()");
+			window.removeEventListener("blur",check);
+			window.removeEventListener("focus",reset);
+		},after*1000);
+	}
+	function reset(){
+		clearTimeout(tim);
+	}
+}
