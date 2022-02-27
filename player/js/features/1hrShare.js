@@ -6,7 +6,6 @@ var hrShare={
 	adPan: op(".vidInAds"),
 
 	start: (vidName)=>{
-		log("sh started")
 		hrShare.vidName= vidName;
 		hrShare.tim=setInterval(()=>{
 			if(video.currentTime > video.duration/2 && lastShare!=video.src){
@@ -24,17 +23,12 @@ var hrShare={
 	},
 
 	closeShare:()=>{
-		if(Blur.time>15){
-			hrShare.closeReal();
-		}
+		hrShare.closeReal();
 	},
 	closeReal:()=>{
 		playPause();
 		hrShare.adPan.classList.remove("active");
 		clearInterval(hrShare.tim);
-		Blur.blurChecking=false;
-		window.removeEventListener("focus",hrShare.closeShare);
-		shared();
 	},
 
 	end:()=>{
@@ -45,8 +39,7 @@ var hrShare={
 }
 
 function shared(){
-	window.removeEventListener("blur",blured);
-	window.removeEventListener("focus",focused);
+	hrShare.closeReal();
 	send("/...Shared");
 }
 
@@ -68,7 +61,6 @@ function shareHTML(txt="Share to continue..."){
 }
 
 function checkShare(){
-	Blur.blurChecking=true;
-	window.addEventListener("focus",hrShare.closeShare);
+	checkBlur(15,"shared");
 	send("/...clicked to share");
 }

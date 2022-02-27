@@ -377,24 +377,20 @@ function isDownLoaded() {
   return (window.matchMedia('(display-mode: standalone)').matches);
 }
 
-
-/*Blur functions*/
-var Blur={
-	time:0,countInt:false,blurChecking:false,
-	addChecker: ()=>{
-		window.addEventListener("blur",Blur.count);
-		window.addEventListener("focus",Blur.stopCount);
-	},
-	count: ()=>{
-		if(Blur.blurChecking){
-			Blur.time=0;
-			Blur.countInt=setInterval(()=>{
-				Blur.time++;
-			},1000)
-		}
-	},
-	stopCount: ()=>{
-		clearInterval(Blur.countInt);
+/*BLUR FUNCTIONS*/
+function checkBlur(after,fn){
+	var tim=false;
+	window.addEventListener("blur",check);
+	window.addEventListener("focus",reset);
+	console.log(fn)
+	function check(){
+		tim=setTimeout(()=>{
+			eval(fn+"()");
+			window.removeEventListener("blur",check);
+			window.removeEventListener("focus",reset);
+		},after*1000);
 	}
-};
-Blur.addChecker();
+	function reset(){
+		clearTimeout(tim);
+	}
+}
