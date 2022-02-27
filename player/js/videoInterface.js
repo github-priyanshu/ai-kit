@@ -58,13 +58,13 @@ if(mlnk){
 	setMovie(mlnk,"Direct Link");
 }
 else if(mid){
+	document.title=val.name + " : Ai-Player - All new movies";
 	var val=movies[mid];
 	dialog.inside(`Want to watch <span fs="1.1em" col="#ff3000">'${val.name}'</span> for free.`);
 	dialog.success=()=>{
 		setMovie(val.src,val.name);
 	}
 	dialog.show();
-	document.head.insertAdjacentHTML("afterbegin",`<meta property="og:image" content="${val.img}">`);
 }
 localStorage.removeItem("aiCurVid");
 
