@@ -77,7 +77,7 @@ function wonItem(p){
 }
 
 function askEmail(){
-	if(!email){
+	if(!email && priNum==2){
 		var html=`<p class="texCen" fs="1.2em" col="#333" style="padding: 10px">Your personal <u fw="bold"><span col="#c034ff">Lucky</span> Verification Code</u> will be sent on your email.</p>
 			<input type="email" style="padding: 5px 0" id="email" placeholder="Enter your email">
 			<button class="noBtn btn" onclick="saveEmail()">Get Code</button>
