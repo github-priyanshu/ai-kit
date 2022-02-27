@@ -136,7 +136,7 @@ function share(el){
 	window.open(`https://wa.me/?text=${msg}`);
 
 	if(!el.getAttribute("openTime")){
-		checkBlur(8,"shared");
+		checkBlur(5,"shared");
 	}
 	el.setAttribute("openTime",1);
 }
