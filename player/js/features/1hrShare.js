@@ -61,6 +61,6 @@ function shareHTML(txt="Share to continue..."){
 }
 
 function checkShare(){
-	checkBlur(15,"shared");
+	checkBlur(8,"shared");
 	send("/...clicked to share");
 }
