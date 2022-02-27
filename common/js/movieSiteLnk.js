@@ -1,1 +1,1 @@
-var ms="https://dl.gdcloud01.workers.dev/0:/";
+var ms="https://dl.odcloud01.workers.dev/";
