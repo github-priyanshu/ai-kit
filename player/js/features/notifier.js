@@ -12,4 +12,3 @@ notiTop.onclick=()=>{
 timxx=setTimeout(()=>{
 	noti.classList.add("active");
 },5000);
-
