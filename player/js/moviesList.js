@@ -56,7 +56,7 @@ function addMovies(){
 	addEvtoLastMv();
 	resetFormat();
 	clearTimeout(timX);
-	timX=setTimeout(adsFun.addPan,1000)
+	// timX=setTimeout(adsFun.addPan,1000)
 }
 
 function getSriesHtml(val,sid){
