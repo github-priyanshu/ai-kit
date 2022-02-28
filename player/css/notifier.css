@@ -19,10 +19,10 @@
   transition: all .25s;
 }
 .noti.active .bottom{
-  height: 130px;
+  height: 290px;
 }
 .noti .bottom > *{
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .noti .lined::before,
 .noti .lined::after{
@@ -35,6 +35,6 @@
 }
 
 .noti .img img{
-  width: 50px;
+  width: 100px;
   margin: 0 5px;
 }
