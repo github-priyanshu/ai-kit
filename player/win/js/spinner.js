@@ -85,7 +85,7 @@ function askEmail(){
 
 			<!-- TELEGRAM ICON -->
 			<link rel="stylesheet" href="css/floatingIcon.css">
-			<div class="ficon active flex c" onclick="window.open('https://t.me/aiplayermovies')">
+			<div class="ficon active flex c" onclick="result.show();makeSpinnerSpace();window.open('https://t.me/aiplayermovies')">
 				<div class="clicker flex">
 					<p fs=".8em">Join Free</p>
 					<img src="../common/img/telegram.gif"/>
