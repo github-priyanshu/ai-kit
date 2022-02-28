@@ -77,7 +77,7 @@
   display: none;
 }
 .moti.active{
-  display: flex;
+  display: block;
 }
 
 @keyframes wined{
