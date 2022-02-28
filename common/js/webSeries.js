@@ -4,6 +4,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['The Fame Game','3C0cpLO',8,'__wsdomain/WebSeries/NetFlix/The.Fame.Game.S01/The.Fame.Game.S01.E01.720p.NF.WEB-DL.Esub-DudeFilms.in.mkv'],
 ['Bestseller','3pyz0uj',8,'__wsdomain/WebSeries/Amazon.Prime/Bestseller.S01/Bestseller.S01.E01.720p.AMZN.WEB-DL.Esub-DudeFilms.in.mkv'],
 ['Peacemaker','3p8NEYY',8,'__wsdomain/WebSeries/HBO/Peacemaker.S01/Peacemaker.S01.E01.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['mithya','3scVhzq',6,'__wsdomain/WebSeries/Zee5/Mithya.S01/Mithya.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
