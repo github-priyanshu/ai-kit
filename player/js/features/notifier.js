@@ -1,14 +1,25 @@
 var noti=op(".noti"),timxx=false,
 conN=true,
-notiTop=op(".noti .top");
+notiTop=op(".noti .top"),
+seen=localStorage.getItem("notifier1") || false;
 
 notiTop.onclick=()=>{
 	noti.classList.toggle("active");
 	clearTimeout(timxx);
+	// localStorage.setItem("notifier1",true);
 	if(!noti.classList.contains("active") && conN){
 		send("/...Closed Notifier");
 	}
 }
 timxx=setTimeout(()=>{
-	noti.classList.add("active");
+	if(!seen){
+		noti.classList.add("active");
+	}
 },1000);
+
+function openNotiLnk(el){
+	localStorage.setItem("notifier1",true);
+	noti.classList.remove('active')
+	conN=false;
+	el.children[0].click()
+}
