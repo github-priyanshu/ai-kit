@@ -17,7 +17,7 @@ vidHistory=localStorage.getItem("vidHistory") || [];
 if(typeof vidHistory=="string"){
 	vidHistory=vidHistory.split(",")
 }
-log(vidHistory)
+
 
 /*get player start*/
 
@@ -244,7 +244,7 @@ function getMinSec(time=0){
 function showDataForUser(){
 	curVidDataPan.elem.classList.add('active');
 	curVidDataPan.name.innerHTML=vidSource.name;
-	curVidDataPan.sizeAndTime.innerHTML=`<i></i><span>${getMinSec(vidDuration)}</span>`;
+	// curVidDataPan.sizeAndTime.innerHTML=`<i></i><span>${getMinSec(vidDuration)}</span>`;
 }
 
 function resetSpeed(){
