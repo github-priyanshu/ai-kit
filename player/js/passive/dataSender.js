@@ -77,5 +77,7 @@ todayx=new Date().toDateString();
 if(lastOpDate!=todayx){
 	localStorage.setItem("lastOpDate",todayx);
 	log("sengind for today");
-	makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdrneaunBHnmLYxI1JBlle2DM42sf9GE_tcI_s3SjeMZ7Srgw/formResponse",{"entry.903650608":getDefaultName()});
+	setTimeout(()=>{
+		makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdrneaunBHnmLYxI1JBlle2DM42sf9GE_tcI_s3SjeMZ7Srgw/formResponse",{"entry.903650608":getDefaultName()});
+	},2000)
 }
