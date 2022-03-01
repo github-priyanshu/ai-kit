@@ -12,7 +12,7 @@ var hrShare={
 			if(video.currentTime > video.duration/2 && lastShare!=video.src){
 				hrShare.showShare();
 			}
-		},5*1000);
+		},15*1000);
 	},
 	showShare:()=>{
 		playing?playPause():'';
@@ -48,7 +48,7 @@ function adHtml(){
 	var html=`<div class="shareBx flex c" style="border: none;">
 		<div class="head"><p col="#ff0055" class="lined">INTERVAL</p></div>
 		<div class="w100p flex" style="margin: 10px 0;">${aadsHtml}</div>
-		<div class="shBtn">
+		<div class="shBtn" fs="1.1em" col="#111">
 			Spend at least <b>5s</b> in the above website.
 		</div>
 	</div>`;
