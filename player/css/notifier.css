@@ -6,6 +6,7 @@
   border-radius: 10px 10px 0 0;
   box-shadow: 0 -10px 30px #0003;
   text-align: center;
+  z-index: 2;
 }
 .noti .top{
   margin-bottom: 5px;
