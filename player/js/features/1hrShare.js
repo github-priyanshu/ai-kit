@@ -1,5 +1,6 @@
 var shTime=10000,
-lastShare=0;
+lastShare=0,
+aadsLast=localStorage.getItem("aadsLast") || "not today";
 
 var hrShare={
 	time: 0,vidName: null,tim:0,
@@ -11,14 +12,14 @@ var hrShare={
 			if(video.currentTime > video.duration/2 && lastShare!=video.src){
 				hrShare.showShare();
 			}
-		},20*1000);
+		},5*1000);
 	},
 	showShare:()=>{
 		playing?playPause():'';
 		hrShare.adPan.classList.add("active");
-		hrShare.adPan.innerHTML=shareHTML();
+		hrShare.adPan.innerHTML=(aadsLast!=new Date().toDateString())? adHtml():shareHTML();
 		resetFormat();
-		send("/...Shown to share");
+		send("/...Shown interval");
 		lastShare=video.src;
 	},
 
@@ -43,12 +44,28 @@ function shared(){
 	send("/...Shared");
 }
 
+function adHtml(){
+	var html=`<div class="shareBx flex c" style="border: none;">
+		<div class="head"><p col="#ff0055" class="lined">INTERVAL</p></div>
+		<div class="w100p flex" style="margin: 10px 0;">${aadsHtml}</div>
+		<div class="shBtn">
+			Spend at least <b>5s</b> in the above website.
+		</div>
+	</div>`;
+	checkBlur(4,"visitedaad");
+	return html;
+}
+function visitedaad(){
+	localStorage.setItem("aadsLast",new Date().toDateString());
+	hrShare.closeReal();
+	send("/...Clicked Ad");
+}
 
 function shareHTML(txt="Share to continue..."){
 	var msg=`Hey, I am watching ${vidSource.name || "this"} on Ai Player ${getLinkOrMid()}`;
 	msg=encodeURI(msg);
 	var html=`
-	<div class="shareBx flex c" shared="false">
+	<div class="shareBx flex c">
 		<div class="head"><p col="#ff0055">${txt}</p></div>
 		<div class="lined" fs=".8em">options</div>
 		<div class="shBtn flex">
@@ -61,6 +78,6 @@ function shareHTML(txt="Share to continue..."){
 }
 
 function checkShare(){
-	checkBlur(12,"shared");
+	checkBlur(8,"shared");
 	send("/...clicked to share");
 }
