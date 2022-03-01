@@ -40,7 +40,7 @@ video.onerror=(e)=>{
 		dialog.buttons("Close","Ok")
 		dialog.success=()=>{null};
 		dialog.show();
-		sendProblem("Try changin domain");
+		sendProblem(vidSource.name+" /...Problem");
 	}
 }
 
