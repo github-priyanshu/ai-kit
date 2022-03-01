@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['BangarRaju','3Hy5UB6',`${ms}SouthMovies/BangarRaju.2022/BangarRaju.2022.480p.WEB-DL.HQ-Hindi.Dub.x264-DudeFilms.in.mkv`,2],
 ['Gangubai Kathiawadi','3JPulvs',`${ms}BollyWood/Gangubai.Kathiawadi.2022.CamRip/Gangubai.Kathiawadi.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Valimai','3vgVNy6',`${ms}SouthMovies/Valimai.The.Power.2022.CamRip/Valimai.The.Power.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3],
 ['Love Hostel','354SvTW',`${ms}BollyWood/Zee5/Love.Hostel.2022/Love.Hostel.2022.480p.ZEE5.WEB-DL.Esub-DudeFilms.in.mkv`,1],
