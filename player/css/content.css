@@ -45,6 +45,15 @@
   background: #d59d9d;
   box-shadow: 0 1px 2px #00000020;
 }
+/*A-ADS*/
+.content .a-ads {
+  max-width: 600px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 120px;
+}
 .content .listPan .moviePan.series .data{
   height: 100%;
   color: #333;
