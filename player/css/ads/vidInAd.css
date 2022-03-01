@@ -9,8 +9,8 @@
 	color: #444;
 }
 .shareBx{
-	width: 269px;
-	height: 166px;
+	min-width: 300px;
+	min-height: 200px;
 	border: 2px solid #f61740;
 	border-radius: 118px;
 }
