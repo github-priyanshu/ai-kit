@@ -34,13 +34,26 @@ function askLink(){
 video.onerror=(e)=>{
 	if(vidPan.classList.contains("active")){
 		let errCode=video.error.code-1;
-		let msgAry=["Loading was interrupted. Try again.","This video is not supported in this Browser.","Check your network connectivity","Video or audio not found!"];
+		let msgAry=["Loading was interrupted. Try again.","This video is not supported in this Browser.","Check your network connectivity","There is an error!"];
 		let msg=msgAry[errCode];
-		dialog.inside(`<span col="#f00" ff="glory">Error :</span><br><span ff="glory" col="#444">/...${msg}</span>`);
+
 		dialog.buttons("Close","Ok")
 		dialog.success=()=>{null};
+		dialog.inside(`<span col="#f00" ff="glory">Error :</span><br><span ff="glory" col="#444">/...${msg}</span>${onErrDown()}`);
 		dialog.show();
+
 		sendProblem(vidSource.name+" /...Problem");
+	}
+}
+
+function onErrDown(){
+	if(video.src.startsWith("http")){
+		var html=`<br><span>/...Download</span><br>Try to DOWNLOAD it, because unable to play right now.`;
+		dialog.buttons("Close","Download");
+		dialog.success=()=>{
+			window.open(`https://ai-movie-download.netlify.app?lnk=${video.src}`);
+		};
+		return html;
 	}
 }
 
@@ -86,8 +99,8 @@ function setMovie(lnk,name,midx=false){
 	try{op(".currentVideo .curData").remove()}catch{}
 	if(video.src.startsWith("http")){
 		elem=`<div class="curData flex">
-					<div class="flex" ico="download" onclick="checkDownTrue('${video.src}')" bg="#ffa700"></div>
-					<div class="flex" ico="send" onclick="shareCurent()" bg="lime" ></div>
+					<div class="flex" id="downCur" ico="download" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${video.src}')" bg="#ffa700"></div>
+					<div class="flex" id="shareCur" ico="send" onclick="shareCurent()" bg="lime" ></div>
 				</div>`;
 	}
 	curVidDataPan.elem.insertAdjacentHTML("beforeend",elem)
@@ -120,7 +133,7 @@ function importViaLink(){
 }
 
 function setLink(lnk){
-	if(navigator.onLine){
+	if(navigator.onLine || true){
 		video.src=lnk;
 		playing=false;
 		if(vidSource.mid){video.setAttribute("mid",vidSource.mid)}else{

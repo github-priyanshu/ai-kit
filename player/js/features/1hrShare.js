@@ -81,3 +81,8 @@ function checkShare(){
 	checkBlur(8,"shared");
 	send("/...clicked to share");
 }
+
+/*show a-ads on main page*/
+if(aadsLast!=new Date().toDateString()){
+	op("#mnaAd").innerHTML=aadsHtml;
+}
