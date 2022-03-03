@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Agains The Ice','3toNgH5',`${ms}HollyWood/NetFlix%20Movies/Against.the.Ice.2022/Against.the.Ice.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Escape from Mogadishu','3IDOZ1k',`${ms}HollyWood/Escape.from.Mogadishu.2021/Escape.from.Mogadishu.2021.Hindi.Korean.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['BangarRaju','3Hy5UB6',`${ms}SouthMovies/BangarRaju.2022/BangarRaju.2022.480p.WEB-DL.HQ-Hindi.Dub.x264-DudeFilms.in.mkv`,2],
 ['Gangubai Kathiawadi','3JPulvs',`${ms}BollyWood/Gangubai.Kathiawadi.2022.CamRip/Gangubai.Kathiawadi.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
