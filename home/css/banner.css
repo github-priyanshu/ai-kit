@@ -1,38 +1,9 @@
 .banner .top{
-	min-height: 80px;
+	height: 100px;
 }
 .banner .top .head{
 	font-size: 3em;
-	margin: 0px 0;
-	animation: showH 3s cubic-bezier(.68,-0.55,.27,1.55) forwards;
-}
-@keyframes showH{
-	0%{font-size: 0em}
-	30%{font-size: 3em}
-	70%{font-size: 3em; top: 0px;}
-	100%{
-		font-size: 1em;top: -0px;
-	}
-}
-.banner .top .menuBar{
-	max-width: calc(100% - 10px);
-  flex-flow: row wrap;
-	transform: scaleX(0);
-	animation: shoM 1s cubic-bezier(.68,-0.55,.27,1.55) forwards 2s;
-}
-@keyframes shoM{
-	100%{transform: scale(1);}
-}
-.banner .top .menuBar .menu{
-	min-width: 100px;
-	padding: 5px 10px;
-	margin: 4px;
-	color: #fff;
-	border: 1px solid #fff;
-}
-.banner .top .menuBar .menu.active{
-	background: #fff;
-	color: #333;
+	margin: 10px 0;
 }
 .banner .bottom{
   width: 80%;
