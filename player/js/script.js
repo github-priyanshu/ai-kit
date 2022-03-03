@@ -88,8 +88,8 @@ lastStoredPtforTouch,
 brightVolTarget,
 skipTimeStamp=0,
 skipping=0,
-skipResetTime
-;
+skipResetTime,
+aiLoadedNum=Number(localStorage.getItem("aiLoadedNum")) || 1;
 
 /*varaibles are over*/
 
@@ -393,4 +393,11 @@ function checkBlur(after,fn){
 	function reset(){
 		clearTimeout(tim);
 	}
+}
+function switchMenu(opt,ek){
+	category.value=opt;
+	window.scrollTo(0,srhTop);
+	searchCat();
+	op(".menuBar .menu.active").classList.remove("active");
+	ek.classList.add("active");
 }

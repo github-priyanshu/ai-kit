@@ -8,7 +8,7 @@ mvNum=Math.floor(window.innerWidth / 350)*6,
 showMore=true,
 search=op("#search"),
 category=op("#category"),
-srhTop=op(".mainBnr").offsetHeight+200,
+srhTop=op(".mainBnr").offsetHeight+300,
 seriesOnly=false;
 
 mvNum = mvNum<10?10:mvNum;

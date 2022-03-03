@@ -11,8 +11,9 @@ notiTop.onclick=()=>{
 		send("/...Closed Notifier");
 	}
 }
+
 timxx=setTimeout(()=>{
-	if(!seen){
+	if(!seen && aiLoadedNum >2){
 		noti.classList.add("active");
 	}
 },1000);
