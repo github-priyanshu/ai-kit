@@ -53,6 +53,11 @@
   top: 0;
   z-index: 1;
 }
+.content .a-ads a{
+  background: #000;
+  padding: 10px;
+}
+
 .content .listPan .moviePan.series .data{
   height: 100%;
   color: #333;
