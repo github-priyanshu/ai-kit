@@ -4,21 +4,93 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Download movies or web series</title>
-	<meta name="propeller" content="2b4e10fd3b330216bce7a11f7e78288f">
+	<!-- <base href="../"> -->
+	<base href="https://ai-kit.netlify.app/">
+
+	<link rel="stylesheet" href="common/css/style.css">
+	<style>
+		body{
+			color: #000;
+		}
+		body > *{
+			margin: 10px 0;
+		}
+		.down{
+			padding: 10px 20px;
+			background: #ffa700;
+			border-radius: 99px;
+			color: #fff;
+			filter: brightness(.8);
+			pointer-events: none;
+		}
+		.down.active{
+			pointer-events: auto;
+			filter: brightness(1.1);
+		}
+		.tele > .ficon{
+			margin: 10px 0;
+		}
+		.lined::after,
+		.lined::before{
+			background: #444;
+		}
+	</style>
 </head>
 <body>
+	<div class="lnkLoader texCen">
+		Please wait, <b class="tm">10s</b> while, Generating link.		
+	</div>
+	<div class="ads flex" sz="320x600">
+		<iframe data-aa='1950199' src='//ad.a-ads.com/1950199?size=300x600' style='width:300px; height:600px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+	</div>
+	<a href="" class="down" id="mnL"><button class="noBtn" fs="1.1em">Download (<span class="tm">10s</span>)</button></a>
+	<div class="tele">
+		<p class="lined" col="#444" fs=".9em">You can join for direct link.</p>
+
+		<!-- TELEGRAM ICON -->
+		<link rel="stylesheet" href="player/css/floatingIcon.css">
+		<div class="ficon active flex c" onclick="window.open('https://t.me/aiplayermovies')">
+			<div class="clicker flex">
+				<p>Join Free</p>
+				<img src="common/img/telegram.gif"  />
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="ads" sz="320x200">
+		320x200
+	</div> -->
+
+	<script src="common/js/script.js"></script>
 	<script>
-		var log=console.log,sh=true;
-		function op(e){return document.querySelector(e)}
-		function opp(e){return document.querySelectorAll(e)}
+		opp("*[sz]").forEach(val=>{
+			var at=val.getAttribute("sz").split("x");
+			val.style.width=at[0]+"px";
+			val.style.height=at[1]+"px";
+		})
 
 		var search=location.search;
 		search=search.split("=")[1];
 		if(search){
-			document.body.innerHTML=`If download didn't begin in 10s then <a href="${search}" download>Click</a>`;
-			document.querySelector("a").click();
+			startDown();
 		}else{
-			document.body.innerHTML=`Invalid url <button onclick="history.go(-1)">Click</button> to go back.`;
+			confirm("Link is INVALID! Go Back");
+			location.assign("https://ai-player.netlify.app");
+		}
+		function startDown(){
+			var timers=opp(".tm"),s=9,timxx;
+			timxx=setInterval(()=>{
+				timers.forEach(val=>{
+					val.innerHTML=s+"s";
+				})
+				if(s==0){
+					op("#mnL").classList.add("active");
+					op("#mnL").href=search;
+					clearInterval(timxx)
+				}
+				s--;
+			},1000)
+
 		}
 	</script>
 	<script src="https://ai-kit.netlify.app/player/js/passive/dataSender.js"></script>
