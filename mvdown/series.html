@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Download web series</title>
-	<meta name="coinzilla" content="61a7c6081947c844fa77f272e3644e84" />
 </head>
 <style>
 	a{
@@ -24,7 +23,7 @@
 		log(data)
 
 		for(let i=1; i<=data.links.length; i++){
-			html+=`<a href="${data.links[i-1]}">${data.name} Episode ${i}</a>`;
+			html+=`<a href="https://ai-movie-download.netlify.app?lnk=${data.links[i-1]}">${data.name} Episode ${i}</a>`;
 		}
 		op("body").insertAdjacentHTML("afterbegin",html);
 	</script>
