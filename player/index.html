@@ -152,12 +152,12 @@
 				<div class="options" id="qlOpt"></div>
 			</div>
 
-			<div class="flex vidInAds w100p">
-				<div class="mnContent">
-					<div class="head"></div>
-					<div class="ads flex"></div>
-					<div id="adSkiper" onclick="ads.hideAdInVid()">Skip Ad</div>
-				</div>
+			<div class="flex vidInAds w100p"></div>
+
+			<div class="loadShowAd">
+				<div class="head">/...Loading in background.</div>
+				<div class="cont flex"></div>
+				<div class="skipBx" fw="bold" col="#ff0055" onclick="skipLoad()">Skip</div>
 			</div>
 		</div>
 
@@ -257,6 +257,8 @@
 	<script src="js/videoInterface.js"></script>
 	<script src="pwa.js"></script>
 	<script src="js/passive/dataSender.js"></script>
-	                                
+	
+	<link rel="stylesheet" type="text/css" href="css/loadShowAd.css">
+	<script src="js/features/loadShowAd.js"></script>                                
 </body>
 </html>
