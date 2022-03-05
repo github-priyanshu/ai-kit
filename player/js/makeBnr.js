@@ -31,6 +31,5 @@ function autoscroll(){
 }
 
 function userScroll(){
-	log('scroll of')
 	clearInterval(scrInt);
 }

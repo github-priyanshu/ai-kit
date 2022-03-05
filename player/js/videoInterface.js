@@ -300,6 +300,7 @@ function vidOnStart(){
 		quality.btn.style.display="none"
 	}
 	try{hrShare.start(vidSource.name);}catch{}	
+	try{showLoad()}catch{}	
 }
 
 function stopPlaying(){/*to stop the video forcefully*/
