@@ -47,7 +47,7 @@ function adHtml(){
 	var html=`<div class="shareBx flex c" style="border: none;">
 		<div class="head"><p col="#ff0055" class="lined">INTERVAL</p></div>
 		<div class="w100p flex">${aadsHtml}</div>
-		<div class="shBtn" fs="1.1em" style="color: rgb(17, 17, 17);font-size: 1.1em;position: absolute;color: #000;background: #fff;pointer-events: none;bottom: 10px;">
+		<div class="shBtn" fs="1.1em" style="color: rgb(17, 17, 17);font-size: 1.1em;position: absolute;color: #000;background: #fff;pointer-events: none;">
 			Spend at least <b>5s</b> in the above website.
 		</div>
 	</div>`;
