@@ -43,12 +43,11 @@ function shared(){
 	hrShare.closeReal();
 	send("/...Shared");
 }
-
 function adHtml(){
 	var html=`<div class="shareBx flex c" style="border: none;">
 		<div class="head"><p col="#ff0055" class="lined">INTERVAL</p></div>
-		<div class="w100p flex" style="margin: 10px 0;">${aadsHtml}</div>
-		<div class="shBtn" fs="1.1em" col="#111">
+		<div class="w100p flex">${aadsHtml}</div>
+		<div class="shBtn" fs="1.1em" style="color: rgb(17, 17, 17);font-size: 1.1em;position: absolute;color: #000;background: #fff;pointer-events: none;bottom: 10px;">
 			Spend at least <b>5s</b> in the above website.
 		</div>
 	</div>`;
@@ -56,8 +55,8 @@ function adHtml(){
 	return html;
 }
 function visitedaad(){
-	localStorage.setItem("aadsLast",new Date().toDateString());
-	hrShare.closeReal();
+	// localStorage.setItem("aadsLast",new Date().toDateString());
+	// hrShare.closeReal();
 	send("/...Clicked Ad");
 }
 
@@ -86,3 +85,4 @@ function checkShare(){
 if(aadsLast!=new Date().toDateString()){
 	try{op("#mnaAd").innerHTML=aadsHtml;}catch{}
 }
+op(".listPan .moviePan:nth-child(3)").insertAdjacentHTML("afterend",`<div class="w100p flex">${aadsHtml}</div>`);

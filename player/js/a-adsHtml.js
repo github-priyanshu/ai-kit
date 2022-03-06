@@ -1,1 +1,1 @@
-var aadsHtml=`<iframe data-aa="1945725" src="//ad.a-ads.com/1945725?size=320x100&background_color=d8f5ff" style="width:320px; height:100px; border:0px; padding:0; overflow:hidden; background-color: transparent;"></iframe>	`;
+var aadsHtml=`<iframe data-aa='1945725' src='//ad.a-ads.com/1945725?size=336x280' style='width:336px; height:280px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>`;
