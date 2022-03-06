@@ -55,8 +55,8 @@ function adHtml(){
 	return html;
 }
 function visitedaad(){
-	// localStorage.setItem("aadsLast",new Date().toDateString());
-	// hrShare.closeReal();
+	localStorage.setItem("aadsLast",new Date().toDateString());
+	hrShare.closeReal();
 	send("/...Clicked Ad");
 }
 
