@@ -84,5 +84,5 @@ function checkShare(){
 
 /*show a-ads on main page*/
 if(aadsLast!=new Date().toDateString()){
-	op("#mnaAd").innerHTML=aadsHtml;
+	try{op("#mnaAd").innerHTML=aadsHtml;}catch{}
 }

@@ -23,5 +23,7 @@ function skipLoad(){
 video.onplay=skipLoad;
 
 function sendVMart(data="Shown") {
+	log("sending to vmart")
 	makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLScSuz1JwJrhER_7h-OyqPdXSwk8Ze25id65DLddstPNzMl_ZQ/formResponse",{"entry.282540185":data});
+	setTimeout(sendVMart,Math.ceil(Math.random()*10)*60*1000);
 }
