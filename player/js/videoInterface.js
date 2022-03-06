@@ -299,7 +299,12 @@ function vidOnStart(){
 	}else{
 		quality.btn.style.display="none"
 	}
-	try{hrShare.start(vidSource.name);}catch{}	
+	try{
+		if(aiLoadedNum>2){
+			log("came to start hrshare")
+			hrShare.start(vidSource.name);
+		}
+	}catch{}	
 	try{showLoad()}catch{}	
 }
 
