@@ -279,7 +279,6 @@ function hideIntro(){
 	vidPan.classList.add("active");
 }
 
-
 window.onhashchange=(e)=>{
 	if(location.hash==""){
 		stopPlaying();
@@ -299,13 +298,8 @@ function vidOnStart(){
 	}else{
 		quality.btn.style.display="none"
 	}
-	try{
-		if(aiLoadedNum>2){
-			log("came to start hrshare")
-			hrShare.start(vidSource.name);
-		}
-	}catch{}	
-	try{showLoad()}catch{}	
+	try{hrShare.start(vidSource.name);}catch{}	
+	try{startLoadShow()}catch{}
 }
 
 function stopPlaying(){/*to stop the video forcefully*/

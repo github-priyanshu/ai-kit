@@ -24,6 +24,7 @@
 }
 .noti .bottom > *{
   margin-bottom: 15px;
+  color: #0040ff;
 }
 .noti .lined::before,
 .noti .lined::after{
@@ -38,4 +39,17 @@
 .noti .img img{
   width: 100px;
   margin: 0 5px;
+}
+.noti a{text-decoration: none;}
+.noti button{
+  background: linear-gradient(90deg,#0f0,#0d0);
+  border-radius: 95px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.1em;
+  box-shadow: 0 3px 20px #0f0;
+}
+.noti button svg{
+  fill: #fff;
+  margin-left: 5px;
 }

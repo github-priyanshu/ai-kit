@@ -1,6 +1,11 @@
 .ficon{
+	display: none;
   margin-bottom: 60px;
 }
+.ficon.active{
+	display: flex;	
+}
+
 .ficon .clicker{
 	background: #fff;
 	padding: 3px 2px;

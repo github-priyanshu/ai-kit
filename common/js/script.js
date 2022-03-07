@@ -35,3 +35,39 @@ function copyToClipboard(txt){
   elem.remove();
   return true;
 }
+
+/*Blur functions*/
+var Blur={
+  time:0,countInt:false,blurChecking:false,
+  addChecker: ()=>{
+    window.addEventListener("blur",Blur.count);
+    window.addEventListener("focus",Blur.stopCount);
+  },
+  count: ()=>{
+    if(Blur.blurChecking){
+      Blur.time=0;
+      Blur.countInt=setInterval(()=>{
+        Blur.time++;
+      },1000)
+    }
+  },
+  stopCount: ()=>{
+    clearInterval(Blur.countInt);
+  }
+};
+Blur.addChecker();
+
+function addStyle(url){
+  document.body.insertAdjacentHTML("beforeend",`<link rel="stylesheet" href="${url}">`);
+}
+function addScript(url){
+  var elem=document.createElement("script");
+  elem.src=url;
+  document.body.insertAdjacentElement("beforeend",elem);
+}
+
+function stored(varN,type=false){
+  var toR=localStorage.getItem(varN) || false;
+  if(type){toR=Number(toR)}
+  return toR;
+}
