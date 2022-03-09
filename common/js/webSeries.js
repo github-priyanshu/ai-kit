@@ -3,7 +3,6 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
-['Astrological Guide for Broken Hearts','3MzxwK1',6,'__wsdomain/WebSeries/NetFlix/An.Astrological.Guide.for.Broken.Hearts/S01/An.Astrological.Guide.For.Broken.Hearts.S01.E01.720p.10Bit.Hindi.English.Esub-DudeFilms.in.mkv'],
 ['Sutaliyan','3sEuA6R',8,'__wsdomain/WebSeries/Zee5/Sutliyan.S01/Sutliyan.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Rudra: The Edge Of Darkness','3pBQINq',6,'__wsdomain/WebSeries/hotstar/Rudra-The.Edge.of.Darkness.S01/Rudra-The.Edge.of.Darkness.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['The Fame Game','3C0cpLO',8,'__wsdomain/WebSeries/NetFlix/The.Fame.Game.S01/The.Fame.Game.S01.E01.720p.NF.WEB-DL.Esub-DudeFilms.in.mkv'],
