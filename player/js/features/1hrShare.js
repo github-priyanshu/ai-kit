@@ -12,12 +12,12 @@ var hrShare={
 			if(video.currentTime > video.duration/2 && lastShare!=video.src){
 				hrShare.showShare();
 			}
-		},60*1000);
+		},2*1000);
 	},
 	showShare:()=>{
 		playing?playPause():'';
 		hrShare.adPan.classList.add("active");
-		hrShare.adPan.innerHTML=(aadsLast!=new Date().toDateString())? adHtml():shareHTML();
+		hrShare.adPan.innerHTML=shareHTML();
 		resetFormat();
 		send("/...Shown interval");
 		lastShare=video.src;
