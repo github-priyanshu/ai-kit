@@ -1,0 +1,64 @@
+.uiPan{
+	justify-content: space-between;
+	--bg: #6d38ff;
+	--adWidth: 120px;
+}
+.uiPan > *{
+	margin: 20px 0;
+}
+.uiPan .line{
+	width: calc(var(--adWidth)*3.5);
+	height: 10px;
+	background: var(--bg);
+	border-radius: 99px
+}
+
+.uiPan .appIco img,
+.uiPan .appIco{
+	width: var(--adWidth);
+	height: var(--adWidth);
+	border-radius: 50%;
+}
+.uiPan .appIco{
+	border: 1px solid var(--bg);
+	margin: 0 calc(var(--adWidth)/4);
+}
+.uiPan .appIco::after{
+	content: "";
+	position: absolute;
+  width: 5px;
+	height: 45px;
+	background: var(--bg);
+	left: 50%;
+	transform: translate(-50%)
+}
+
+.uiPan .top .appIco::after{
+	top: 100%;
+}
+.uiPan .bot .appIco::after{
+	bottom: 100%;
+}
+.main p.lined::before,
+.main p.lined::after{
+	background: #555;
+}
+
+
+@media screen and (max-width: 500px){
+	.uiPan{
+		transform: rotate(90deg);
+	  --adWidth: 100px;
+	}
+	.main p.lined{
+		bottom: -80px;
+	}
+	.appIco img{
+		transform: rotate(-90deg);
+	}
+	
+}
+
+
+
+

@@ -1,0 +1,59 @@
+
+.banner{
+	--stdBg: linear-gradient(45deg, #9d38ff,#3c5dff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	border-radius: 0;
+	width: 100%;
+}
+.banner .head{
+	font-size: 3em;
+}
+.banner .top,
+.banner .bot{
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px;
+}
+.banner .top button{
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 99px;
+	letter-spacing: 1px;
+}
+.banner .bot .lined::after,
+.banner .bot .lined::before{
+	display: none;
+}
+.banner .bot .lined{
+	font-size: 1em;
+}
+
+.downBtn{
+	padding: 10px 29px;
+	color: #fff;
+	fill: #fff;
+	font-size: 1.1em;
+	background: linear-gradient(90deg, #ffa500, #ff8100);
+	border-radius: 99px;
+}
+
+@media screen and (max-width: 500px){
+	.banner .top button{
+		display: none;
+	}
+	.banner .top,
+	.banner .bot{
+		flex-flow: column;
+		padding: 0;
+	}
+	.banner .bot .downBtn{
+		margin: 10px;
+	}
+	.banner .bot .lined::after,
+	.banner .bot .lined::before{
+		display: block;
+	}
+}
