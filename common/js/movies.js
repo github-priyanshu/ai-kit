@@ -22,7 +22,7 @@ var movies=
 ['A Thursday','36dVARS',`${ms}BollyWood/hotstar/A.Thursday.2022/A.Thursday.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Ala.Vaikunthapurramuloo','3LH2v6l',`${ms}SouthMovies/Ala.Vaikunthapurramuloo.2020/Ala.Vaikunthapurramuloo.2020.Hindi.Telugu.480p.WEB-HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Love Story','3JAy7c2',`${ms}SouthMovies/Love.Story.2021/Love.Story.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
-['Badhaai Do','3s1vABy',`${ms}BollyWood/Badhaai.Do.2022.CamRip/Badhaai.Do.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Badhaai Do','3s1vABy',`${ms}BollyWood/Badhaai.Do.2021/Badhaai.Do.2021.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Gehraiyaan','3uMnI8P',`${ms}BollyWood/Amazon.Prime/Gehraiyaan.2022/Gehraiyaan.2022.480p.AMZN.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['Moonfall','3LuVplp',`${ms}HollyWood/Moonfall.2022.CamRip/Moonfall.2022.Hindi.English.480p.CAMRip-DudeFilms.in.mkv`,3],
 ['Looop Lapeta','3L2NtYi',`${ms}BollyWood/NetFlix/Looop.Lapeta.2022/Looop.Lapeta.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
