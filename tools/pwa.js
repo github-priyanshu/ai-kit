@@ -23,12 +23,14 @@ window.addEventListener('beforeinstallprompt', (e) => {
 })
 function makeDown(){
   log("made down btns")
-  val.onclick=(e) => {
-    log(e);
-    deferredPrompt.prompt(); deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        // console.log('User accepted the install prompt');
-      } else { /*console.log('User dismissed the install prompt');*/ }
-    });
-  };
+  downBtn.forEach(val=>{
+    val.onclick=(e) => {
+      log(e);
+      deferredPrompt.prompt(); deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          // console.log('User accepted the install prompt');
+        } else { /*console.log('User dismissed the install prompt');*/ }
+      });
+    };
+  })
 }
