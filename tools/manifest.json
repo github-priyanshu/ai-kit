@@ -1,0 +1,21 @@
+{
+  "short_name": "Ai Tools",
+  "name": "All useful tools in 1 app",
+  "description": "This webisite will allow you to perform a number of task with online tools.",
+  "icons": [
+   {
+     "src": "192px.png",
+     "type": "image/png",
+     "sizes": "192x192"
+   },
+   {
+     "src": "512px.png",
+     "type": "image/png",
+     "sizes": "512x512"
+   }
+  ],
+  "start_url": "index.html",
+  "background_color": "#ffe0e9",
+  "display": "standalone",
+  "theme_color": "#ffe0e9"
+ }

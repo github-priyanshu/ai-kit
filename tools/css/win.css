@@ -1,0 +1,48 @@
+.win.active{
+  display: block;
+}
+.banner.b2{
+  padding: 0 10px;
+  height: 50px;
+  width: 90%;
+  max-width: 250px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 10px 40px #0002;
+  z-index: 1;
+  top: -45px;
+  transition: all .25s;
+}
+.banner.active{
+  top: 0px;
+}
+.banner .handle{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: -15px;
+  background: #fff;
+  transform: translateX(-50%);
+  left: 50%;
+  border-radius: 50%;
+  fill: var(--col);  
+}
+.banner .handle svg{
+  top: 5px;
+  width: 20px;
+}
+.banner.b2 .head{
+  font-size: 1.1em;
+}
+.banner.b2 .downBtn{
+  font-size: .9em;
+  padding: 5px 10px;
+}
+.win .iframe iframe{
+  border: none;
+  width: 100%;
+  height: 100vh;
+}

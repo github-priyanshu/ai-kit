@@ -1,0 +1,62 @@
+.uiPan{
+  display: none;
+}
+.uiPan.active{
+  display: flex;
+}
+.content > .head{
+  margin: 40px;
+  font-size: 1.4em;
+  opacity: .8;
+}
+.content .appPan{
+  width: 90%;
+  background: #0000000d;
+  padding: 0 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #01614a44;
+}
+.content .appPan .head{
+  top: -1em;
+  background: #00000014;
+  padding: .4em;
+  border-radius: 2px;
+}
+.content .appPan .apps{
+  width: 100%;
+  flex-flow: row wrap;
+}
+#pan{
+  width: 100%;
+}
+.content .appPan .apps .app{
+  margin: 10px;
+  cursor: pointer;
+}
+.content .appPan .apps .app img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #eee;
+}
+
+.content .appPan .apps .app .name{
+  font-size: .8em;
+  margin-top: 5px;
+}
+@media screen and (max-width: 550px){
+  
+  .content .appPan {
+    width: 100%;
+    margin: 20px;
+    border: none;
+    padding: 0;
+  }  
+.content .appPan .apps .app img{
+  width: 70px;
+  height: 70px;
+}
+  .content > .head{
+  font-size: 1em;
+  }
+}

@@ -1,4 +1,27 @@
 body{
-	color: #111;
-	background: #fff;
+	--col: #01614a;
+	color: var(--col);
+	background: radial-gradient(circle at 20% 20%,#ffe0e9,#eef9ff);
+	background-attachment: fixed;
+}
+body > *{
+	width: 100%;
+}
+.border{
+	width: 90%;
+	height: 1px;
+	background: var(--col);
+	bottom: 0;
+	opacity: .4;
+}
+.uiPan{
+  display: none;
+}
+.win{
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+}
+.loader{
+	position: absolute;
 }
