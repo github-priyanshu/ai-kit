@@ -16,25 +16,14 @@ window.addEventListener('beforeinstallprompt', (e) => {
   downBtn1.classList.add("active");
   downBtn2.classList.add("active");
   readyToDownload=true;
-
-  makeDown(true);
+  makeDown();
 })
-makeDown(false)
-function makeDown(f=true){
-  downBtn.forEach(val=>{
-    val.classList[f?"add":"remove"]("active");
-    if(f){
-      val.onclick=(e) => {
-      deferredPrompt.prompt(); deferredPrompt.userChoice.then((choiceResult) => {
-        if (choiceResult.outcome === 'accepted') {
-          // console.log('User accepted the install prompt');
-        } else { /*console.log('User dismissed the install prompt');*/ }
-      });
-    };
-    }else{
-      val.onclick=()=>{
-        shareApp({title: "Ai Player",text: "Watch here all new movies",url:getURI()+"?sh=17"})
-      };
-    }
-  })
+function makeDown(){
+  val.onclick=(e) => {
+    deferredPrompt.prompt(); deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        // console.log('User accepted the install prompt');
+      } else { /*console.log('User dismissed the install prompt');*/ }
+    });
+  };
 }
