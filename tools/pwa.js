@@ -22,7 +22,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 makeDown(false)
 function makeDown(f=true){
   downBtn.forEach(val=>{
-    val.classList[f?"add":"remove"]("exact");
+    val.classList[f?"add":"remove"]("active");
     if(f){
       val.onclick=(e) => {
       deferredPrompt.prompt(); deferredPrompt.userChoice.then((choiceResult) => {

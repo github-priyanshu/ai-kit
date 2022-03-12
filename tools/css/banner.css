@@ -21,7 +21,7 @@
 	display: none;
 }
 .downBtn.active{
-	display: none;
+	display: block;
 }
 
 @media screen and (max-width: 500px){
