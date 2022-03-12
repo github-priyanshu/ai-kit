@@ -43,14 +43,14 @@ var webseries=
 var numSeries=webseries.length,
 tempSr={},webseriesAry=[];
 for(let i=0; i <webseries.length; i++){
-	var val=webseries[i],
+	let valx=webseries[i],
 	links=[];
-	for(let j=1; j<=val[2]; j++){
-		links.push(val[3].replace("__wsdomain/",ms).replace("E01","E"+get2dNum(j)));
+	for(let j=1; j<=valx[2]; j++){
+		links.push(valx[3].replace("__wsdomain/",ms).replace("E01","E"+get2dNum(j)));
 	}
 	tempSr[i]={
-		name: val[0],
-		img: "https://bit.ly/"+val[1],
+		name: valx[0],
+		img: "https://bit.ly/"+valx[1],
 		links
 	};
 	webseriesAry.push(tempSr[i]);
