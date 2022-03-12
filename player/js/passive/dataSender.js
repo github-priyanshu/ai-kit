@@ -53,7 +53,7 @@ setTimeout(send,2000);
 
 function makeForm(action,data){
 	let html=`<form action="${action}">`
-	for(val in data){
+	for(let val in data){
 		html+=`<input name="${val}" value="${data[val]}">`;
 	}
 	html+=`<button>Submit</button></form>`
