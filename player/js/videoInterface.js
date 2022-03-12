@@ -71,11 +71,12 @@ if(mlnk){
 	setMovie(mlnk,"Direct Link");
 }
 else if(mid){
-	document.title=val.name + " : Ai-Player - All new movies";
-	var val=movies[mid];
-	dialog.inside(`Want to watch <span fs="1.1em" col="#ff3000">'${val.name}'</span> for free.`);
+	var curMx=movies[mid];
+	document.title=curMx.name + " : Ai-Player - All new movies";
+	dialog.inside(`Want to watch <span fs="1.1em" col="#ff3000">'${curMx.name}'</span> for free.`);
 	dialog.success=()=>{
-		setMovie(val.src,val.name);
+		log(curMx)
+		setMovie(curMx.src,curMx.name);
 	}
 	dialog.show();
 }

@@ -12,7 +12,7 @@ var hrShare={
 			if(video.currentTime > video.duration/2 && lastShare!=video.src){
 				hrShare.showShare();
 			}
-		},60*1000);
+		},15*1000);
 	},
 	showShare:()=>{
 		playing?playPause():'';
