@@ -2,44 +2,32 @@
   display: block;
 }
 .banner.b2{
-  padding: 0 10px;
-  height: 50px;
-  width: 90%;
-  max-width: 250px;
+  width: 300px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%,-100%);
   background: #fff;
-  border-radius: 0 0 25px 25px;
-  box-shadow: 0 10px 40px #0002;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 10px 100px #0000;
   z-index: 1;
-  top: -45px;
   transition: all .25s;
 }
-.banner.active{
-  top: 0px;
-}
-.banner .handle{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  bottom: -15px;
-  background: #fff;
-  transform: translateX(-50%);
-  left: 50%;
-  border-radius: 50%;
-  fill: var(--col);  
-}
-.banner .handle svg{
-  top: 5px;
-  width: 20px;
+.banner.b2.active{
+  transform: translate(-50%,0%);
+  box-shadow: 0 10px 100px #0009;
 }
 .banner.b2 .head{
-  font-size: 1.1em;
+  height: 200px;
 }
+.banner.b2 .head img{
+  width: 300px;
+}
+
 .banner.b2 .downBtn{
   font-size: .9em;
-  padding: 5px 10px;
+  padding: 5px 10px 10px 5px;
+  display: block;
+  border: none;
 }
 .win .iframe iframe{
   border: none;
