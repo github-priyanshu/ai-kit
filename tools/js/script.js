@@ -42,7 +42,7 @@ function switchUI(){
 function switchWin(){
 	setTimeout(()=>{
 	  location.assign(document.URL.split("#")[0]+"#app");
-	},200);
+	},1000);
   op(".uiPan").classList.remove("active");
   op(".win").classList.add("active");
 }

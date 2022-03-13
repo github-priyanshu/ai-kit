@@ -11,7 +11,7 @@ document.body.insertAdjacentHTML("afterbegin",`
       <div class="head texCen flex c">
         <p>All Useful tools in 1 = AI Tools</p>
         <div class="border" w="0" m="5"></div>
-        <p class="lined" fs=".8em">No app needed for using these</p>
+        <p class="lined" fs=".8em">No more external app needed now.</p>
       </div>
       <div id="pan" class="flex c">
 
