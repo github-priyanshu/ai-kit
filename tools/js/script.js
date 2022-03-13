@@ -10,7 +10,7 @@ function loadedWin(elem){
 }
 
 function openWindow(n){
-	send("Opened: " +app);
+	send("Opened: " +n);
 	let d=tools[n];
 	if(d[2]){
 		frame=op("#iframe");
