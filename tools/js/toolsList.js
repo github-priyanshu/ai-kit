@@ -25,7 +25,7 @@ Snapdeal:["https://www.snapdeal.com/"],
 Movies:["https://ai-player.netlify.app/"],
 }
 var appTree={
-	Popular:["Vidmate","Bg_Remover","Anything_HPDF","Beautiful_QR","Hot_Songs"],
+	Popular:["Vidmate","Bg_Remover","Anything_HPDF","Beautiful_QR","Hot_Songs","Unlock_PDF"],
 	Media:["Movies","Hot_Songs","High_Img","Wallpaper","Vidmate"],
 	Files:["Anything_HPDF","Unlock_PDF","Crop_PDF","Rotate_PDF"],
 	Shoping:["Meesho","Shopsy","Flipkart","Amazon","Snapdeal"],
