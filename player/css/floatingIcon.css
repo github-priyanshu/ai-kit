@@ -1,6 +1,5 @@
 .ficon{
 	display: none;
-  margin-bottom: 60px;
 }
 .ficon.active{
 	display: flex;	

@@ -1,0 +1,37 @@
+.menuPan{
+	max-width: calc(100% - 10px);
+	overflow: auto;
+	margin-bottom: 100px;
+	background: #9221d1;
+  border-radius: 5px;
+	padding: 10px;
+}
+.menuPan::before,
+.menuPan::after{
+	content: "";
+	position: absolute;
+	width: 50%;
+	height: 10px;
+	border-radius: 100%;
+	background: repeating-linear-gradient(90deg,#d2d5eb 10px,#d2d5eb 20px,#fff0 20px,#fff0 30px);
+}
+.menuPan::before{
+	top: 0;
+	right: 10px;
+}
+.menuBar{
+	width: max-content;
+}
+
+.menuBar .menu{
+	min-width: 100px;
+	padding: 5px 10px;
+	margin: 4px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.menuBar .menu.active{
+	background: #fff;
+	color: #333;
+}
