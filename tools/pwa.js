@@ -1,11 +1,11 @@
-// op("head").insertAdjacentHTML("beforeend",`<link rel="manifest" href="pwa/manifest.json">`)
 let readyToDownload=false;
 if ('serviceWorker' in navigator) {
    window.addEventListener('load', function () { navigator.serviceWorker.register('https://ai-tools.netlify.app/sw.js').then(function (registration) {log("registered sw")}, function (err) {log("failed sw")}); });
 }
 let deferredPrompt,
 downBtn1=op(".downBtn"),
-downBtn2=op("#winDownUI");
+downBtn2=op("#winDownUI"),
+downBtn=[downBtn2,downBtn1];
 
 downBtn1.classList.remove("active");
 downBtn2.classList.remove("active");
