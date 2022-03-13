@@ -51,19 +51,6 @@ aiSharedBy=localStorage.getItem("aiSharedBy");
 /*at last*/
 setTimeout(send,2000);
 
-function makeForm(action,data){
-	let html=`<form action="${action}">`
-	for(let val in data){
-		html+=`<input name="${val}" value="${data[val]}">`;
-	}
-	html+=`<button>Submit</button></form>`
-
-	op("body").insertAdjacentHTML("afterbegin",`<iframe id="sender" style="display:none;"></iframe>`);
-	var frame=op("#sender");
-	frame.contentWindow.document.querySelector("body").innerHTML=html;
-	frame.contentWindow.document.querySelector("button").click();
-}
-
 function getDefaultName(name){
 	var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An.."),
 	dv =name || localStorage.getItem('userName') || ((aiSharedBy || "") + ":"+ dv);
