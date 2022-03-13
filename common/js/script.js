@@ -2,6 +2,10 @@ var log=console.log;
 function op(elem){return document.querySelector(elem)}
 function opp(elem){return document.querySelectorAll(elem)}
 
+if(self!=top){
+  top.location=self.location;
+}
+
 function resetFormat(){
   let keys={
     col: "color",
