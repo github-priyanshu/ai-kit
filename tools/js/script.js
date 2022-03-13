@@ -1,6 +1,5 @@
 /*THIS PAGE WILL BE ATTACHED TO BOTTOM MOST OF THE PAGE*/
 if(app){
-	send("Opened: " +app);
 	openWindow(app);
 }else{
 	switchUI();
@@ -11,6 +10,7 @@ function loadedWin(elem){
 }
 
 function openWindow(n){
+	send("Opened: " +app);
 	let d=tools[n];
 	if(d[2]){
 		frame=op("#iframe");
