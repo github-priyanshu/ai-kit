@@ -17,7 +17,6 @@
 	<!-- common stylesheets -->
 	<link rel="stylesheet" href="https://ai-kit.netlify.app/common/css/style.css">
 	<link rel="stylesheet" href="https://ai-kit.netlify.app/common/css/layout.css">
-	<link rel="stylesheet" href="https://ai-kit.netlify.app/common/css/dev.css">
 	<link rel="stylesheet" href="https://ai-kit.netlify.app/home/css/banner.css">
 
 	<link rel="stylesheet" href="css/style.css">
@@ -40,19 +39,28 @@
 <body class="body flex c">
 
 	<div class="banner mainBnr flex c active"><!-- active -->
-	  <div class="top flex c">
+	  <div class="top flex">
+		  
 		  <div class="texCen head" fw="bolder">Ai Player</div>
-		  <div class="menuBar flex">
-		  	<button onclick="switchMenu('0',this)" class="noBtn active menu flex"><span>New Movies</span></button>
-		  	<button onclick="switchMenu('1',this)" class="noBtn menu flex"><span>Bollywood</span></button>
-		  	<button onclick="switchMenu('3',this)" class="noBtn menu flex"><span>Hollywood</span></button>
-		  	<button onclick="switchMenu('2',this)" class="noBtn menu flex"><span>South Indian</span></button>
-		  	<button onclick="switchMenu('webseries',this)" class="noBtn menu flex"><span>Webseries</span></button>
+
+		  <link rel="stylesheet" href="css/toolPan.css">
+		  <div class="toolPan" id="toolPan">
+		  	<p class="head flex" onclick="location.assign('https://ai-tools.netlify.app')"><span>Ai Tools</span></p>
+		  	<div class="icon" onclick="togTool();">
+		  		<img src="img/apps.svg" alt="">
+		  	</div>
+		  	<div id="toolL" class="tools flex">
+
+		  	</div>
+		  	<script src="https://ai-kit.netlify.app/tools/js/toolsList.js"></script>
+		  	<script src="js/toolPan.js"></script>
 		  </div>
+
+		</div>
+
 		  <!-- <p class="lined">Velentine's Day</p>
 		  <img src="https://bit.ly/3BfN9B0" alt="" onclick="window.open('https://wish-me.netlify.app/?by=Ai-Player')">
 		   -->
-		</div>
 		<div class="bottom flex c">
 		  <div class="bnrBtn flex">
 		  	<button class="downBtn flex"><span ico="download" class="active">Download</span><span class="noActive">Share</span></button>
@@ -179,8 +187,20 @@
 		</div>
 	</div>
  -->
+
+	<div class="menuPan ">
+		<link rel="stylesheet" href="css/menubar.css">
+		<div class="menuBar flex">
+			<button onclick="switchMenu('0',this)" class="noBtn active menu flex"><span>New Movies</span></button>
+			<button onclick="switchMenu('1',this)" class="noBtn menu flex"><span>Bollywood</span></button>
+			<button onclick="switchMenu('3',this)" class="noBtn menu flex"><span>Hollywood</span></button>
+			<button onclick="switchMenu('2',this)" class="noBtn menu flex"><span>South Indian</span></button>
+			<button onclick="switchMenu('webseries',this)" class="noBtn menu flex"><span>Webseries</span></button>
+			<button onclick="window.open('https://t.me/aiplayermovies')" class="noBtn menu flex"><span>Join Telegram</span></button>
+		</div>
+	</div>
+
 	<link rel="stylesheet" href="css/content.css">
-	
 	<div class="content flex c">
 		<div class="head flex">
 			<div class="srhBox flex">
