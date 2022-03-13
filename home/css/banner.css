@@ -1,7 +1,7 @@
 .banner .top{
 	height: 100px;
 }
-.banner .top .head{
+.banner .top > .head{
 	font-size: 3em;
 	margin: 10px 0;
 }
