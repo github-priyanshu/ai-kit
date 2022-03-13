@@ -8,7 +8,17 @@ document.body.insertAdjacentHTML("beforeend",`
     </div>
 
     <div class="iframe">
-      <iframe src="" id="iframe"></iframe>
+      <iframe id="iframe"></iframe>
     </div>
+    <div id="loader" onloadstart='loadedWin(this);'></div>
   </div>
 	`);
+
+var loader={
+  el:op("#loader"),
+  show:(txt="Loading...")=>{
+    loader.el.innerHTML=txt;
+    loader.el.classList.add('active');
+  },
+  hide: ()=>{loader.el.classList.remove("active")}
+}

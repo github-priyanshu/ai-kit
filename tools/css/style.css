@@ -3,6 +3,9 @@ body{
 	color: var(--col);
 	background: radial-gradient(circle at 20% 20%,#ffe0e9,#eef9ff);
 	background-attachment: fixed;
+	font-family: "Hubballi";
+	font-weight: bold;
+	font-size: 1.2em;
 }
 body > *{
 	width: 100%;
