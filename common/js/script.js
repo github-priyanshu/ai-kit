@@ -5,7 +5,6 @@ function opp(elem){return document.querySelectorAll(elem)}
 if(self!=top){
   top.location=self.location;
 }
-
 function resetFormat(){
   let keys={
     col: "color",
@@ -40,27 +39,6 @@ function copyToClipboard(txt){
   return true;
 }
 
-/*Blur functions*/
-var Blur={
-  time:0,countInt:false,blurChecking:false,
-  addChecker: ()=>{
-    window.addEventListener("blur",Blur.count);
-    window.addEventListener("focus",Blur.stopCount);
-  },
-  count: ()=>{
-    if(Blur.blurChecking){
-      Blur.time=0;
-      Blur.countInt=setInterval(()=>{
-        Blur.time++;
-      },1000)
-    }
-  },
-  stopCount: ()=>{
-    clearInterval(Blur.countInt);
-  }
-};
-Blur.addChecker();
-
 function addStyle(url){
   document.body.insertAdjacentHTML("beforeend",`<link rel="stylesheet" href="${url}">`);
 }
@@ -74,4 +52,21 @@ function stored(varN,type=false){
   var toR=localStorage.getItem(varN) || false;
   if(type){toR=Number(toR)}
   return toR;
+}
+function makeForm(action,data){
+  let html=`<form action="${action}">`
+  for(let val in data){
+    html+=`<input name="${val}" value="${data[val]}">`;
+  }
+  html+=`<button>Submit</button></form>`
+
+  op("body").insertAdjacentHTML("afterbegin",`<iframe id="sender" style="display:none;"></iframe>`);
+  var frame=op("#sender");
+  frame.contentWindow.document.querySelector("body").innerHTML=html;
+  frame.contentWindow.document.querySelector("button").click();
+}
+
+function getDefaultName(name){
+  var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An.."),
+  return dv;
 }
