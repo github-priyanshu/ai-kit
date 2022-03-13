@@ -1,14 +1,20 @@
 /*THIS PAGE WILL BE ATTACHED TO BOTTOM MOST OF THE PAGE*/
-if(!app){
-	switchUI();
-}else{
+if(app){
+	send("Opened: " +app);
 	openWindow(app);
+}else{
+	switchUI();
+}
+
+function loadedWin(elem){
+	loader.hide();
 }
 
 function openWindow(n){
-	var d=tools[n];
+	let d=tools[n];
 	if(d[2]){
 		frame=op("#iframe");
+		loader.show();
 		frame.src=d[0];
 		frame.setAttribute("name",n);
 		frame.setAttribute("desc",d[1])
@@ -24,8 +30,8 @@ function openWindow(n){
 window.addEventListener("hashchange",(e)=>{
 	if(location.hash!="#app"){
 		switchUI();
-		var frame=op("#iframe");
-		frame.insertAdjacentElement("afterend",frame.cloneNode(true));
+		let frame=op("#iframe");
+		frame.insertAdjacentHTML("afterend","<iframe id='iframe' onloadstart='loadedWin(this);'></iframe>");	
 		frame.remove();
 	}
 })
@@ -40,3 +46,11 @@ function switchWin(){
   op(".uiPan").classList.remove("active");
   op(".win").classList.add("active");
 }
+
+function send(data="Loaded",name=getDefaultName()){
+	makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZr8Afwsp7DCCac7kBdBfgy6hRzBy97WYAP0ri3YSgfu9cCg/formResponse",{
+		"entry.1520339883":name,
+		"entry.524320178":data
+	});
+}
+send();
