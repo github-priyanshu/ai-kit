@@ -4,9 +4,8 @@ if ('serviceWorker' in navigator) {
    window.addEventListener('load', function () { navigator.serviceWorker.register('https://ai-tools.netlify.app/sw.js').then(function (registration) {log("registered sw")}, function (err) {log("failed sw")}); });
 }
 let deferredPrompt,
-downBtn=opp(".downBtn"),
-downBtn1=downBtn[0],
-downBtn2=downBtn[1];
+downBtn1=op(".downBtn"),
+downBtn2=op("#winDownUI");
 
 downBtn1.classList.remove("active");
 downBtn2.classList.remove("active");
