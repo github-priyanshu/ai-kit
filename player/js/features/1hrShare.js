@@ -60,7 +60,7 @@ function visitedaad(){
 	send("/...Clicked Ad");
 }
 
-function shareHTML(txt="Share to continue..."){
+function shareHTML(txt="Share to more than <u>3 persons</u> to continue..."){
 	var msg=`Hey, I am watching ${vidSource.name || "this"} on Ai Player ${getLinkOrMid()}`;
 	msg=encodeURI(msg);
 	var html=`
