@@ -1,4 +1,3 @@
-log(appTree["Popular"])
 let htmlx="",toolP=op("#toolL");
 for(let val of appTree["Popular"]){
 	htmlx+=`

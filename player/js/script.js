@@ -401,7 +401,3 @@ function switchMenu(opt,ek){
 	op(".menuBar .menu.active").classList.remove("active");
 	ek.classList.add("active");
 }
-
-if(aiLoadedNum>2){
-	addScript("js/features/loadShowAd.js");
-}

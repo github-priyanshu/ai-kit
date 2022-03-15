@@ -80,9 +80,3 @@ function checkShare(){
 	checkBlur(8,"shared");
 	send("/...clicked to share");
 }
-
-/*show a-ads on main page*/
-if(aadsLast!=new Date().toDateString()){
-	try{op("#mnaAd").innerHTML=aadsHtml;}catch{}
-}
-op(".listPan .moviePan:nth-child(3)").insertAdjacentHTML("afterend",`<div class="w100p flex">${aadsHtml}</div>`);
