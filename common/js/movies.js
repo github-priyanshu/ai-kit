@@ -8,7 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
-['The Kashmir Files','3JoDewt',`https://healthy24x.com/tkf.mp4`,1],
+['The Kashmir Files','3JoDewt',`https://s17.drop.download:182/d/epc4vb2m4tcdvbi4fg4jjgs42polow66olwsyrja6yzkgisb4yvr5hwoxaspsa64nueblv5a/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Radhe Shyam','3t17ZBI',`${ms}SouthMovies/Radhe.Shyam.2022.CamRip/Radhe.Shyam.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Etharkkum Thunindhavan','3J3V9s4',`${ms}SouthMovies/Etharkkum.Thunindhavan.2022.CamRip/Etharkkum.Thunindhavan.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Tha Adam Project','3J8FaZQ',`${ms}HollyWood/NetFlix%20Movies/The.Adam.Project.2022/The.Adam.Project.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
