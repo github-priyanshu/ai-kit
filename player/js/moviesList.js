@@ -93,10 +93,19 @@ function getMvHtml(val){
 					</div>
 					<div class="data flex">
 						<div class="mvActBtn flex" ico="send" onclick="share(${val.mid},'${val.name}')" style="--c: lime"></div>
-						<div class="mvActBtn flex" ico="play" style="--c: #ff3000" onclick="setMovie('${val.src}','${val.name}',${val.mid})"></div>
+						<div class="mvActBtn flex" ico="play" style="--c: #ff3000" onclick="setMovie('${val.src}','${val.name}',${val.mid});openProAd();"></div>
 						<div class="mvActBtn flex" ico="download" style="--c: #ffa700" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${val.src}')"></div>
 					</div>
 				</div>`;
+}
+
+/*PROPELLAR ADS FUNCITONS*/
+function openProAd(){
+	if(aiLoadedNum>1){
+		setTimeout(()=>{
+			window.open("//benoopto.com/4/4937751");
+		},1000)
+	}
 }
 
 function share(mid,name=""){
