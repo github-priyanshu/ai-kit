@@ -101,9 +101,14 @@ function getMvHtml(val){
 
 /*PROPELLAR ADS FUNCITONS*/
 function openProAd(){
-	if(aiLoadedNum>1){
+	var lastPlayProAd=Number(localStorage.getItem("lastPlayProAd")),
+	nowTime=new Date().getTime()/1000;
+
+	if(aiLoadedNum>1 && lastPlayProAd+30<nowTime){
+		log("open");
 		setTimeout(()=>{
 			window.open("//benoopto.com/4/4937751");
+			localStorage.setItem("lastPlayProAd",nowTime);
 		},1000)
 	}
 }
