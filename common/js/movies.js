@@ -8,7 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
-['The Kashmir Files','3JoDewt',`https://dl.gdcloud02.workers.dev/0:/BollyWood/The.Kashmir.Files.2022.CamRip/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['The Kashmir Files','3JoDewt',`https://s17.drop.download:182/d/epc4vb2m4tcdvbi4fg4jjgs42polow66olwsyrja6yzkgiso4m4casluqdwwxr6aiswa3mez/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Lalitham Sundram','3urOG4b',`${ms}SouthMovies/Lalitham.Sundaram.2022/Lalitham.Sundaram.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Jalsa','36v2phW',`${ms}BollyWood/Amazon.Prime/Jalsa.2022/Jalsa.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Radhe Shyam','3t17ZBI',`${ms}SouthMovies/Radhe.Shyam.2022.CamRip/Radhe.Shyam.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
