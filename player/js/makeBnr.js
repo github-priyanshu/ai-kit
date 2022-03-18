@@ -19,7 +19,7 @@ opp(".posPan .pos").forEach(val=>{
 var scrNum=0;
 posPan.addEventListener('scroll',userScroll);
 autoscroll();
-var scrInt=setInterval(autoscroll,3000);
+var scrInt=setInterval(autoscroll,2000);
 function autoscroll(){
 	posPan.removeEventListener('scroll',userScroll);
 	posPan.scrollTo(psLeft[scrNum] - tosub,0);
