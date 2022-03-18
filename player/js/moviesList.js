@@ -104,7 +104,7 @@ function openProAd(){
 	var lastPlayProAd=Number(localStorage.getItem("lastPlayProAd")),
 	nowTime=new Date().getTime()/1000;
 
-	if(aiLoadedNum>4 && lastPlayProAd+60<nowTime){
+	if(aiLoadedNum>4 && lastPlayProAd+60<nowTime && false){
 		log("open");
 		setTimeout(()=>{
 			window.open("//benoopto.com/4/4937751");
