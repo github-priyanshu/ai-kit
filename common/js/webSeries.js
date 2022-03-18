@@ -3,7 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
-['Apharan Season 2','3Ig4I5S',11,'__wsdomain/WebSeries/Voot/Apharan.S02/Apharan.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Apharan Season 2','3u7fdn4',11,'__wsdomain/WebSeries/Voot/Apharan.S02/Apharan.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Bloody Brothers','3CUsGCQ',6,'__wsdomain/WebSeries/Zee5/Bloody.Brothers.S01/Bloody.Brothers.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Sutaliyan','3sEuA6R',8,'__wsdomain/WebSeries/Zee5/Sutliyan.S01/Sutliyan.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Rudra: The Edge Of Darkness','3pBQINq',6,'__wsdomain/WebSeries/hotstar/Rudra-The.Edge.of.Darkness.S01/Rudra-The.Edge.of.Darkness.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
