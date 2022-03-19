@@ -100,15 +100,13 @@ function getMvHtml(val){
 }
 
 /*PROPELLAR ADS FUNCITONS*/
-function openProAd(){
-	var lastPlayProAd=Number(localStorage.getItem("lastPlayProAd")),
-	nowTime=new Date().getTime()/1000;
-
-	if(aiLoadedNum>4 && lastPlayProAd+60<nowTime && false){
+var onPlayAd=false;
+function openProAd(){	
+	if(aiLoadedNum>1 && !onPlayAd){
+		onPlayAd=true;
 		log("open");
 		setTimeout(()=>{
-			window.open("//benoopto.com/4/4937751");
-			localStorage.setItem("lastPlayProAd",nowTime);
+			makeScript({"async":"async","data-cfasync":"false","src":"//upgulpinon.com/1?z=4952593"});
 		},1000)
 	}
 }
