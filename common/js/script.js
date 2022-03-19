@@ -47,6 +47,13 @@ function addScript(url){
   elem.src=url;
   document.body.insertAdjacentElement("beforeend",elem);
 }
+function makeScript(obj){
+  var elem=document.createElement('script');
+  for(let val in obj){
+    elem.setAttribute(val,obj[val]);
+  }
+  document.body.insertAdjacentElement("beforeend",elem);
+}
 
 function stored(varN,type=false){
   var toR=localStorage.getItem(varN) || false;
