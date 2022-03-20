@@ -9,6 +9,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
 ['The Kashmir Files','3JoDewt',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/The.Kashmir.Files.2022.CamRip/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['James','3ws13Ql',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/James.2022.CamRip/James.2022.480p.CAMRip.Hindi.x264-DudeFilms.in.mkv`,2],
 ['Bachchhan Pandey','3IrBZeh',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Bachchhan.Paandey.2022.CamRip/Bachchhan.Paandey.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Black Crab','3N0nd1Q',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Black.Crab.2022/Black.Crab.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Lalitham Sundram','3urOG4b',`${ms}SouthMovies/Lalitham.Sundaram.2022/Lalitham.Sundaram.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
