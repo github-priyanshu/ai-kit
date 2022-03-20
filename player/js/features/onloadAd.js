@@ -16,10 +16,9 @@ function openProAd(){
 
 	if(aiLoadedNum>1 && lastIntAdTime+120 < nowTime && proIntAdList.length){
 		lastIntAdTime=nowTime;
-		log("/... Shown pro ad "+ (5 - proIntAdList.length));
 		makeScript(proIntAdList.shift());
 		localStorage.setItem("lastIntAdTime",nowTime)
-		send("/... Shown pro ad "+ 5 - proIntAdList.length);
+		send("/... Shown pro ad "+ (5 - proIntAdList.length));
 	}
 }
 setTimeout(openProAd,5000);
