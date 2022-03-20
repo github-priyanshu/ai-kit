@@ -106,6 +106,8 @@ function setMovie(lnk,name,midx=false){
 	}
 	curVidDataPan.elem.insertAdjacentHTML("beforeend",elem)
 	resetFormat();
+
+	try{openProAd();}catch{}
 }
 function getLinkOrMid(){
 	if(!video.src.startsWith("http")){
@@ -387,7 +389,6 @@ function saveDownData(kind="set"){
 	}
 }
 function updateHistory(midx){
-	log(midx)
 	if(vidHistory[0]!=midx){
 		vidHistory.unshift(midx);
 		localStorage.setItem("vidHistory",vidHistory.join(","));

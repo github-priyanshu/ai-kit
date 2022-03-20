@@ -3,7 +3,7 @@ var mvtoshow=5,posPan=op(".posPan");
 var html="";
 for(let i=0; i<mvtoshow; i++){
 	let mid=lastMid-i,valx=movies[mid];
-	html+=`<div class="pos" mid="${mid}" onclick="setMovie('${valx.src}','${valx.name}',${valx.mid});openProAd();">
+	html+=`<div class="pos" mid="${mid}" onclick="setMovie('${valx.src}','${valx.name}',${valx.mid});">
 		  		<img src="${valx.img}" alt="${valx.name}">
 		  	 </div>`;
 }
