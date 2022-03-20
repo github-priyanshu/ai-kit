@@ -20,9 +20,9 @@ if(aiLoadedNum){
 
 function send(data="",name){
 	name=getDefaultName(name);
-	var html=makeForm("https://docs.google.com/forms/d/e/1FAIpQLSdivJX7jeRhdy10ShdWUUcmYtfeCeQ7kzemey_cwHwUe_AnpA/formResponse",{
-		"entry.503708584":name,
-		"entry.758577080":data
+	var html=makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSfQS7utKix65JFZR7FzsEaJg13WBQzFbXfG9HhsErUZxbNXCg/formResponse",{
+		"entry.1500665516":name,
+		"entry.838715434":data
 	});
 }
 function sendProblem(data="",name){
