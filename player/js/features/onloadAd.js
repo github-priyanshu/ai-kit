@@ -14,7 +14,7 @@ function openProAd(){
 	var nowTime=new Date().getTime()/1000;
 	log(nowTime)
 
-	if(aiLoadedNum>1 && lastIntAdTime+120 < nowTime && proIntAdList.length){
+	if(aiLoadedNum>1 && lastIntAdTime+300 < nowTime && proIntAdList.length){
 		lastIntAdTime=nowTime;
 		makeScript(proIntAdList.shift());
 		localStorage.setItem("lastIntAdTime",nowTime)
