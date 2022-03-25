@@ -1,0 +1,39 @@
+body{
+	--col: #01614a;
+	color: var(--col);
+	background:radial-gradient(circle at 20% 20%,#e0fcff,#ffeef5);
+	background-attachment: fixed;
+	font-family: "Hubballi";
+	font-size: 1.2em;
+	width: 100%;
+}
+body > *{
+	width: 100%;
+}
+.border{
+	width: 90%;
+	height: 1px;
+	background: var(--col);
+	bottom: 0;
+	opacity: .4;
+}
+.live{
+	padding: 3px 10px;
+	background: #f00;
+	border-radius: 3px;
+	display: inline-flex;
+	font-size: .9em;
+	color: #fff;
+}
+.live > span{
+	width: var(--s);height: var(--s);
+	border-radius: var(--s);margin-left: 5px;
+	display: inline-block;
+	background: #fff;
+}
+
+/*TOP*/
+.top > .head{
+	margin: 20px;
+	font-size: 2em;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IPL Admin Panel</title>
+</head>
+<style>
+	*{
+		margin: 0;padding: 0;box-sizing: border-box;
+		position: relative;
+	}
+	body{
+		width: 100%;
+		min-height: 100vh;
+		background: #222;
+		color: #fff;
+	}
+	.flex{display: flex;align-items: center;justify-content: center;}
+	.c{flex-flow: column;}
+</style>
+<body>
+	<div class="form">
+
+	</div>
+
+	<script>
+		var log=console.log;
+		var allMathes="";
+		resetForm();
+
+		function getData(){
+			var obj=`{name: "${op("#mn").value}",img: "${op("#il").value}",time: "${new Date(op("#mdt").value).toString()}",},\n`;
+			log(obj)
+			return obj;
+		}
+
+		function addThis(){
+			allMathes+=getData();
+			resetForm();
+		}
+		function copyAndOpen(){
+			log(allMathes)
+
+			copy(allMathes);
+			// window.open("file url")
+		}
+		function resetForm(){
+			var html=`		<label>
+			<p>Match Name </p>
+			<input type="text" id="mn">
+		</label>
+		<label>
+			<p>Image link</p>
+			<input type="url" id="il">
+		</label>
+		<label>
+			<p>Match Date & Time</p>
+			<input type="datetime-local" id="mdt">
+		</label>
+
+		<div class="btn">
+			<button onclick="copyAndOpen()">Copy & Open</button>
+			<button onclick="addThis()">Add This</button>
+		</div>`;
+			op(".form").innerHTML=html;
+		}
+
+		function copy(txt){
+			let elem=document.createElement("textarea");
+			document.body.insertAdjacentElement("beforeend",elem)
+			elem.value=txt;
+			elem.select();
+			elem.setSelectionRange(0, 99999999999999); 
+			document.execCommand("copy");
+			navigator.clipboard.writeText(elem.value);
+			elem.remove();
+		}
+		function op(e){return document.querySelector(e)}
+		function opp(e){return document.querySelectorAll(e)}
+	</script>
+
+</body>
+</html>
