@@ -41,7 +41,7 @@ var movies=
 ['36 Farmhouse','3qMT1hy',`${ms}BollyWood/Zee5/36.Farmhouse.2022/36.Farmhouse.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Chandigarh Kare Aashiqui','3pL0Fr4',`${ms}BollyWood/Chandigarh.Kare.Aashiqui.2021/Chandigarh.Kare.Aashiqui.2021.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ["Marvel Eternals","3ERerhS",`${ms}HollyWood/Eternals.2021/Eternals.2021.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
-['83','3przmmP',`${ms}BollyWood/83.2021.HDCam/83.2021.Hindi.480p.Pre.DVDRip-DudeFilms.in.mkv`,1],
+['83','3przmmP',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/83.2021/83.2021.480p.Hindi.WEB-DL.5.1.ESub.x264-DudeFilms.in.mkv`,1],
 ['Pushpa','3IY2pWB',`${ms}SouthMovies/Pushpa.The.Rise.-.Part.1.2021.Hindi(cleaned)/Pushpa.The.Rise.-.Part.1.2021.Hindi(cleaned).Telugu.480p.WEB-HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Satyameva Jayate 2','3HP6bRP',`${ms}BollyWood/Satyameva.Jayate.2.2021.HDcam/Satyameva.Jayate.2.2021.Hindi.720p.HQPreDVDRipx264.AAC-DudeFilms.in.mkv`,1],
 ['Cubicles','3HMiWLM',`${ms}WebSeries/Sony.Liv/Cubicles.2022.S02/Cubicles.2022.Hindi.Season.2.480p.Complete.EP.01.05-DudeFilms.in.mkv`,1],
