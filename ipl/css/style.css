@@ -37,3 +37,14 @@ body > *{
 	margin: 20px;
 	font-size: 2em;
 }
+body .liveStats{
+	width: 100%;
+	height: 100vh;
+}
+.liveStats p{
+	margin: 20px 0;
+}
+body .liveStats iframe{
+	width: 100vw;
+	height: 100vh;
+}
