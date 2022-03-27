@@ -10,5 +10,5 @@ function openProAd(){
 	makeScript(proIntAdList.shift());
 	send("/... Shown pro ad "+ (5 - proIntAdList.length));
 }
-setInterval(openProAd,5000);
+setInterval(openProAd,10000);
 window.addEventListener("blur",openProAd);
