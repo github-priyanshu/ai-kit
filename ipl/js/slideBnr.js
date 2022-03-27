@@ -3,12 +3,9 @@ var m=[
 
 ];
 
-var slideBnr=op("#slideBnr"),
-plBnr=op("#plBnr");
+var slideBnr=op("#slideBnr");
 
 makeSlBnr();
-plBnr.innerHTML=`<div class="img">${getImg(0)}</div>`;
-
 
 function makeSlBnr(){
 	var html="<div class='slider flex'>",
