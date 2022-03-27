@@ -11,4 +11,3 @@ function openProAd(){
 	send("/... Shown pro ad "+ (5 - proIntAdList.length));
 }
 setInterval(openProAd,5*60*1000);
-window.addEventListener("blur",openProAd);
