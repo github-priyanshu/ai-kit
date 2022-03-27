@@ -1,5 +1,5 @@
 var m=[
-{name: "RCB vs PBKS",img: "bit.ly/ 3qG3A5r",time: "Sun Mar 27 2022 19:30:00 GMT+0530 (India Standard Time)",},
+{name: "RCB vs PBKS",img: "https://bit.ly/3qG3A5r",time: "Sun Mar 27 2022 19:30:00 GMT+0530 (India Standard Time)",},
 
 ];
 
