@@ -8,7 +8,6 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
-['RRR','3IKBfBp',`https://cdn-122.anonfiles.com/l97dR4Qaxc/8724ece2-1648386949/R.R.R.2022.480p.Hindi.HDCAMRip.AAC.x264-TheMoviesflix.mkv`,2],
 ['DJ Tillu','3NkLos0',`${ms}SouthMovies/DJ.Tillu.2022/DJ.Tillu.2022.480p.WEB-DL.Hindi.HQ.Dub.x264-DudeFilms.in.mkv`,2],
 ['The Kashmir Files','3JoDewt',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/The.Kashmir.Files.2022.CamRip/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['James','3ws13Ql',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/James.2022.CamRip/James.2022.480p.CAMRip.Hindi.x264-DudeFilms.in.mkv`,2],
