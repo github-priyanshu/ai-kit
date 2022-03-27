@@ -33,7 +33,6 @@ function getImg(n){
 	var html=`<img src="${val.img}" alt="${val.name}">`;
 
 	var diff=(new Date(val.time).getTime() - new Date().getTime())/1000/60/60;
-	log(diff);
 	
 	if(diff<0){
 		html+=`<div class="live flex">LIVE <span style="--s: 4px"></span></div>`
@@ -58,7 +57,6 @@ function autoScroll(num){
 	tm=setTimeout(()=>{
 		asNum=num;
 		autoScroll(++asNum);
-		log("cam");
 	},3000);
 }
 autoScroll(0)

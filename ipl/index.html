@@ -27,9 +27,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
 </head>
+<script src="ipl/js/passive/dataSender.js"></script>
 <body>
   <div class="top flex c">
     <h1 class="head">Free <p class="live flex">LIVE <span style="--s:5px;"></span></p> <b>IPL</b></h1>
+    <div class="menuPan flex">
+      <a href="ipl/scoreViewer/index.html"><button>See Score</button></a>
+      <a href="https://ai-player.netlify.app"><button>Movies & Webseries</button></a>
+      <button ico="share" onclick="shareApp({title:'Ai IPL: Live and Free',text:'Watch here free and Live IPL',url:'https://ai-ipl.netlify.app'})">Share</button>
+    </div>
   </div>
 
 
@@ -41,16 +47,11 @@
   <div class="slideBnr" id="plBnr" onclick="openLive()"></div>
   <script src="ipl/js/slideBnr.js"></script>
 
-  <div class="liveStats flex c">
-    <p>Live Score</p>
-    <!---iframe src="https://www.espncricinfo.com/series/indian-premier-league-2022-1298423/chennai-super-kings-vs-kolkata-knight-riders-1st-match-1304047/live-cricket-score"></iframe-->
-  </div>
-
-
-
+  <script src="ipl/js/script.js"></script>
   <script>
     function openLive(){
-      window.open("https://t.me/mivs_dc");
+      window.open("https://t.me/+Pc0XpM833LtmYmU1");
+      send("Clicked Match");
     }
   </script>
 </body>
