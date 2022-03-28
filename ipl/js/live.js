@@ -1,14 +1,16 @@
 var tohide=opp(".body"),
 livePan=op(".liveVid"),
 isFs=false,
-fsBtn=op("#fsBtn");
+fsBtn=op("#fsBtn"),
+btnTxt="Exit Full";
 
 
 function fullScr(el){
 	log(el)
 	tohide.forEach(val=>{val.classList.toggle("hidden")});
 	livePan.classList.toggle("fullScr");
-	el.innerHTML="Exit Full";
+	el.innerHTML=btnTxt;
+	btnTxt="Full Screen"
 
 	applyFullEff();
 }
