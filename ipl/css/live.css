@@ -15,6 +15,6 @@
 .liveVid.fullScr > button{
   position: absolute;
   top: 0;
-  opacity: .2;
-  transform: scale(.8);
+  opacity: .5;
+  transform: scale(.9);
 }
