@@ -1,1 +1,1 @@
-https://prod-fastly-ap-southeast-1.video.pscp.tv/Transcoding/v1/hls/TrWOg5TCHPo9xh8GSrdoE-pNmm_nVMvaKE-tNuWKoHW37N8R4JeCrwm_e2ZxvQNmfld9ITIn77mIM0fcbnoZiQ/transcode/ap-southeast-1/periscope-replay-direct-live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ180ODBwMzBfMTAiLCJIZWlnaHQiOjQ4MCwiS2JwcyI6MTIwMCwiV2lkdGgiOjg0OH0.0LJi1usWbiPqp0QIcpq7Md5g1WxvJcPqVWNqsKw5nhA/dynamic_highlatency.m3u8?type=live
+https://ib.qqkkqqk.com/live/ch_5.m3u8
