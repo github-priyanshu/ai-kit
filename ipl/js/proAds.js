@@ -7,6 +7,7 @@ var proIntAdList=[
 ];
 openProAd();
 function openProAd(){
+	log("Iam callsed")
 	makeScript(proIntAdList.shift());
 	send("/... Shown pro ad "+ (5 - proIntAdList.length));
 }

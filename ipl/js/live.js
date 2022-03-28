@@ -6,11 +6,10 @@ btnTxt="Exit Full";
 
 
 function fullScr(el){
-	log(el)
 	tohide.forEach(val=>{val.classList.toggle("hidden")});
 	livePan.classList.toggle("fullScr");
 	el.innerHTML=btnTxt;
-	btnTxt="Full Screen"
+	btnTxt=isFs?"Exit Full" : "Full Screen";
 
 	applyFullEff();
 }
