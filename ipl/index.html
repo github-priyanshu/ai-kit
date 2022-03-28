@@ -29,25 +29,30 @@
 </head>
 <script src="ipl/js/passive/dataSender.js"></script>
 <body>
-  <div class="top flex c">
-    <h1 class="head">Free <p class="live flex">LIVE <span style="--s:5px;"></span></p> <b>IPL</b></h1>
-    <div class="menuPan flex">
-      <a href="ipl/scoreViewer/index.html"><button>See Score</button></a>
-      <a href="https://ai-player.netlify.app"><button>Movies & Webseries</button></a>
-      <button ico="share" onclick="shareApp({title:'Ai IPL: Live and Free',text:'Watch here free and Live IPL',url:'https://ai-ipl.netlify.app'})">Share</button>
+  <div class="body">
+      <div class="top flex c">
+      <h1 class="head">Free <p class="live flex">LIVE <span style="--s:5px;"></span></p> <b>IPL</b></h1>
+      <div class="menuPan flex">
+        <a href="ipl/scoreViewer/index.html"><button>See Score</button></a>
+        <a href="https://ai-player.netlify.app"><button>Movies & Webseries</button></a>
+        <button ico="share" onclick="shareApp({title:'Ai IPL: Live and Free',text:'Watch here free and Live IPL',url:'https://ai-ipl.netlify.app'})">Share</button>
+      </div>
     </div>
+
+
+    <link rel="stylesheet" href="ipl/css/slideBnr.css">
+    <div id="slideBnr" class="slideBnr">
+
+    </div>
+    <script src="ipl/js/slideBnr.js"></script>
   </div>
 
-
-  <link rel="stylesheet" href="ipl/css/slideBnr.css">
-  <div id="slideBnr" class="slideBnr">
-
+  <link rel="stylesheet" href="ipl/css/live.css">
+  <div class="liveVid flex c">
+    <iframe src="ipl/live/index.html"></iframe>
+    <button onclick="fullScr(this);" id="fsBtn">Full Screen</button>
   </div>
-  <script src="ipl/js/slideBnr.js"></script>
-
-  <div class="liveVid flex">
-    <iframe src="ipl/live/index.html" frameborder="0"></iframe>
-  </div>
+  <script src="ipl/js/live.js"></script>
 
   <script src="ipl/js/script.js"></script>
   
