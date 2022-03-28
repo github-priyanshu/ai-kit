@@ -42,7 +42,7 @@ body > *{
 	max-width: 100%;
 	flex-flow: row wrap;
 }
-.menuPan button{
+button{
 	margin: 0 5px;
 	padding: 10px 20px;
 	display: block;

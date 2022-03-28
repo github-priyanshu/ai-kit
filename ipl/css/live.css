@@ -1,0 +1,20 @@
+.liveVid{
+  padding: 5px;
+}
+.liveVid button{
+  margin-top: 10px;
+}
+.liveVid iframe{
+  width: calc(100% - 10px);
+  height: calc(100vw * 9/16);
+  border-radius: 5px;
+}
+.body.hidden{
+  display: none;
+}
+.liveVid.fullScr > button{
+  position: absolute;
+  top: 0;
+  opacity: .2;
+  transform: scale(.8);
+}
