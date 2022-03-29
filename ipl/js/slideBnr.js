@@ -1,5 +1,5 @@
 var m=[
-{name: "Gujarat Titans vs Lucknow Super Gaint",img: "https://bit.ly/36Acyuj",time: "Mon Mar 28 2022 19:30:00 GMT+0530 (India Standard Time)",},
+{name: "SRH vs RAJ",img: "https://bit.ly/3NrTTkV",time: "Tue Mar 29 2022 19:30:00 GMT+0530 (India Standard Time)",},
 
 ];
 
