@@ -142,7 +142,7 @@ function copy(txt) {
   elem.select();
   elem.setSelectionRange(0, 99999); 
   document.execCommand("copy");
-  navigator.clipboard.writeText(elem.value);
+  try{navigator.clipboard.writeText(elem.value);}catch{}
   elem.remove();
   return true;
 }
