@@ -1,4 +1,4 @@
-.liveVid{
+.iveVid{
   padding: 5px;
 }
 .liveVid button{
@@ -13,8 +13,42 @@
   display: none;
 }
 .liveVid.fullScr > button{
-  position: absolute;
+  position: fixed;
   top: 0;
   opacity: .5;
   transform: scale(.9);
+}
+
+/* share css */
+
+.shareBox{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background: #fff;
+  display: none;
+}
+.shareBox.active{
+  display: flex;
+}
+.shareBox .shareBx{
+  border: 1px solid var(--col);
+  padding: 10px;
+  border-radius: 20px;
+}
+.shareBox .shareBx > *{
+  margin: 10px 0;
+}
+.shareBox .shareBx .shBtn button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.shareBox .shareBx .shBtn button svg{
+  fill: #fff;
+  width: 30px;
+  height: 30px;
 }

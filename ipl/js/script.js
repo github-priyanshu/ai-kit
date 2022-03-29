@@ -15,3 +15,5 @@ function shareApp(data){
   }
   /*data={ title,text,url }*/
 }
+
+resetFormat();
