@@ -34,7 +34,7 @@ function copyToClipboard(txt){
   elem.select();
   elem.setSelectionRange(0, 99999999999999); 
   document.execCommand("copy");
-  navigator.clipboard.writeText(elem.value);
+  try{navigator.clipboard.writeText(elem.value);}catch{}
   elem.remove();
   return true;
 }
@@ -76,4 +76,23 @@ function makeForm(action,data){
 function getDefaultName(name){
   var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An..");
   return dv;
+}
+
+
+/*BLUR FUNCTIONS*/
+function checkBlur(after,fn){
+  var tim=false;
+  window.addEventListener("blur",check);
+  window.addEventListener("focus",reset);
+  console.log(fn)
+  function check(){
+    tim=setTimeout(()=>{
+      eval(fn+"()");
+      window.removeEventListener("blur",check);
+      window.removeEventListener("focus",reset);
+    },after*1000);
+  }
+  function reset(){
+    clearTimeout(tim);
+  }
 }
