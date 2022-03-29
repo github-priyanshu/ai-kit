@@ -1,6 +1,5 @@
 var m=[
-{name: "DC vs MI",img: "http://bit.ly/3iCC18H",time: "Sun Mar 27 2022 15:30:00 GMT+0530 (India Standard Time)",},
-
+{name: "RR vs SRH",img: "https://bit.ly/3qLh4gj",time: "Tue Mar 29 2022 19:30:00 GMT+0530 (India Standard Time)",},
 ];
 
 var slideBnr=op("#slideBnr");
