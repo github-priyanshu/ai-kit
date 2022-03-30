@@ -1,0 +1,21 @@
+{
+  "short_name": "Ai IPL",
+  "name": "IPL : Watch here free and LIVE IPL",
+  "description": "Here you can watch live IPL in free just in single click, you can also see the live scores",
+  "icons": [
+   {
+     "src": "192px.png",
+     "type": "image/png",
+     "sizes": "192x192"
+   },
+   {
+     "src": "512px.png",
+     "type": "image/png",
+     "sizes": "512x512"
+   }
+  ],
+  "start_url": "index.html",
+  "background_color": "#ffe0e9",
+  "display": "standalone",
+  "theme_color": "#ffe0e9"
+ }
