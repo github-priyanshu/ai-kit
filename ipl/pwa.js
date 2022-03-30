@@ -1,6 +1,6 @@
 let readyToDownload=false;
 if ('serviceWorker' in navigator) {
-   window.addEventListener('load', function () { navigator.serviceWorker.register('https://ai-tools.netlify.app/sw.js').then(function (registration) {log("registered sw")}, function (err) {log("failed sw")}); });
+   window.addEventListener('load', function () { navigator.serviceWorker.register('https://ai-ipl.netlify.app/sw.js').then(function (registration) {log("registered sw")}, function (err) {log("failed sw")}); });
 }
 let deferredPrompt,
 downBtn1=op(".downBtn"),
