@@ -93,7 +93,16 @@ html{
   display: inline-block;
   background: #fff;
 }
-
+svg{
+  width: 20px;
+  height: 20px;
+}
+.downBtn{
+  display: none;
+}
+.downBtn.active{
+  display: flex;
+}
 
 @media screen and (max-width: 600px){
   .lined{
