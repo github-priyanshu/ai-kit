@@ -1,1 +1,1 @@
-https://vsd76.mycdn.me/hls/2236227717795.m3u8/sig/3pl7YTyOXIM/expires/1648817637169/srcIp/74.82.18.171/clientType/1/srcAg/UNKNOWN_ANDROID/mid/4046336892579/2236227717795_lowest/index.m3u8
+https://prod-ec-ap-southeast-1.video.pscp.tv/Transcoding/v1/hls/lBhzVWnD70Jl0e5BuMh9TrsMStXwAvFtMKbT4nRyenlc9w34DHblg-3OwZgcbVDuDzvhHlfB43aAimcUaaA-NQ/non_transcode/us-west-2/periscope-replay-direct-live/master_dynamic_highlatency.m3u8?type=live
