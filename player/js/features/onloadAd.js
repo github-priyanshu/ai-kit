@@ -17,6 +17,9 @@ function openProAd(){
 	if(aiLoadedNum>1 && lastIntAdTime+300 < nowTime && proIntAdList.length){
 		lastIntAdTime=nowTime;
 		makeScript(proIntAdList.shift());
+
+		try{disableProInt()}catch{}
+
 		localStorage.setItem("lastIntAdTime",nowTime)
 		send("/... Shown pro ad "+ (5 - proIntAdList.length));
 	}
