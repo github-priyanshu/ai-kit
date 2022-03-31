@@ -8,6 +8,9 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Death on the Nile','3uJDFLC',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Death.on.the.Nile.2022.Hindi(CAM)/Death.on.the.Nile.2022.Hindi(CAM).English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
+['Maaran','3NtT1wa',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Maaran.2022.Hindi(HQ)/Maaran.2022.UNCUT.Hindi(HQ).Tamil.480p.HDRip.ESub-DudeFilms.in.mkv`,2],
+['Veerame Vaagai Soodum','3LxdYVs',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Veerame.Vaagai.Soodum.2022/Veerame.Vaagai.Soodum.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 ['RRR: Rise Roar Revolt','3DhQvoa',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/RRR.Rise.Roar.Revolt.2022.CamRip/RRR.Rise.Roar.Revolt.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['DJ Tillu','3NkLos0',`${ms}SouthMovies/DJ.Tillu.2022/DJ.Tillu.2022.480p.WEB-DL.Hindi.HQ.Dub.x264-DudeFilms.in.mkv`,2],
 ['The Kashmir Files','3JoDewt',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/The.Kashmir.Files.2022.CamRip/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
