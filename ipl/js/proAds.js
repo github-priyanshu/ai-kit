@@ -13,9 +13,12 @@ function openProAd(){
 	var nowTime=new Date().getTime()/1000;
 	log(nowTime)
 
-	if(lastIntAdTime+300 < nowTime && proIntAdList.length){
+	if(lastIntAdTime+0 < nowTime && proIntAdList.length){
 		lastIntAdTime=nowTime;
 		makeScript(proIntAdList.shift());
+		
+		try{disableProInt();}catch{}
+
 		localStorage.setItem("lastIntAdTime",nowTime)
 		send("/... Shown pro ad "+ (5 - proIntAdList.length));
 	}
