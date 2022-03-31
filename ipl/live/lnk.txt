@@ -1,1 +1,1 @@
-https://vsd95.mycdn.me/hls/2236591377059.m3u8/sig/uJqMUGu18Dc/expires/1648826330780/srcIp/74.82.60.29/clientType/1/srcAg/CHROME_ANDROID/mid/4046617058979/2236591377059_medium/index.m3u8
+https://diokz91u21fy1.cloudfront.net/iplch1/2022/master/360/20220331.m3u8
