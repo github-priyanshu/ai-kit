@@ -1,1 +1,1 @@
-https://vsd85.mycdn.me/hls/2233521408675.m3u8/sig/loBivytRVb4/expires/1648731477459/srcIp/72.52.87.96/clientType/1/srcAg/UNKNOWN_ANDROID/mid/4044200091299/2233521408675_medium/index.m3u8
+https://vsd76.mycdn.me/hls/2236227717795.m3u8/sig/3pl7YTyOXIM/expires/1648817637169/srcIp/74.82.18.171/clientType/1/srcAg/UNKNOWN_ANDROID/mid/4046336892579/2236227717795_lowest/index.m3u8
