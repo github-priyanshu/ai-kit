@@ -1,1 +1,1 @@
-https://diokz91u21fy1.cloudfront.net/iplch1/2022/master/360/20220331.m3u8
+https://prod-ec-eu-central-1.video.pscp.tv/Transcoding/v1/hls/fOTWlZCwDOCaQA0gbVXf3Cb_4dyn4i64ulWL5RLgWs6hUqRrWCCFsqwOiEcnsxal7GLD2JPs-YpwgyoSVGzC0Q/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
