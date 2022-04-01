@@ -1,5 +1,5 @@
 var m=[
-{name: "PBKS vs KKR",img: "https://bit.ly/3tYyHeB",time: "Fri Apr 01 2022 19:55:00 GMT+0530 (India Standard Time)",},
+{name: "PBKS vs KKR",img: "https://bit.ly/3wUCc7I",time: "Fri Apr 01 2022 19:55:00 GMT+0530 (India Standard Time)",},
 ];
 
 var slideBnr=op("#slideBnr");
