@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Trust no one... Crypto','388raRZ',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Trust.No.One.The.Hunt.for.the.Crypto.King.2022/Trust.No.One.The.Hunt.for.the.Crypto.King.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Hey Sinamika','3Drb29Y',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Hey.Sinamika.2022/Hey.Sinamika.2022.480p.WEB-DL.x264.Hindi.MSubs-DudeFilms.in.mkv`,2],
 ['Death on the Nile','3uJDFLC',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Death.on.the.Nile.2022.Hindi(CAM)/Death.on.the.Nile.2022.Hindi(CAM).English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['Maaran','3NtT1wa',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Maaran.2022.Hindi(HQ)/Maaran.2022.UNCUT.Hindi(HQ).Tamil.480p.HDRip.ESub-DudeFilms.in.mkv`,2],
