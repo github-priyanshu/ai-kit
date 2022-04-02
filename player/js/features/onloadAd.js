@@ -25,7 +25,30 @@ function openProAd(toOpen=false){
 
 		setTimeout(()=>{
 			openProAd();
-		},20*1000)
+		},2*60*1000)
 	}
 }
 
+var int=false;
+function disableProInt(toOpen=false){
+	clearInterval(int);
+	int=setInterval(()=>{
+		log("came to disable"+toOpen)
+		if(document.body.style.overflow=='hidden'){
+			clearInterval(int);
+
+			var baap=op("#_m8beems").parentElement.parentElement;
+			baap.style.display="none";
+
+			if(toOpen){
+				if(fullScr){fullScrPan.click();}
+				try{op("#_m8beems iframe ~ div").click();}catch{}
+			}
+			baap.remove();
+			document.body.style.overflow="";
+		}
+	},100);
+	setTimeout(()=>{
+		clearInterval(int);
+	},20000)
+}
