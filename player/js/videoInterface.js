@@ -106,8 +106,6 @@ function setMovie(lnk,name,midx=false){
 	}
 	curVidDataPan.elem.insertAdjacentHTML("beforeend",elem)
 	resetFormat();
-
-	try{openProAd();}catch{}
 }
 function getLinkOrMid(){
 	if(!video.src.startsWith("http")){

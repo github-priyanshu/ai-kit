@@ -10,19 +10,22 @@ var proIntAdList=[
 var lastIntAdTime=localStorage.getItem("lastIntAdTime") || 0;
 lastIntAdTime=Number(lastIntAdTime);
 
-function openProAd(){
+function openProAd(toOpen=false){
 	var nowTime=new Date().getTime()/1000;
 	log(nowTime)
 
-	if(aiLoadedNum>1 && lastIntAdTime+300 < nowTime && proIntAdList.length){
+	if((aiLoadedNum>1 && lastIntAdTime+300 < nowTime && proIntAdList.length) || toOpen){
 		lastIntAdTime=nowTime;
 		makeScript(proIntAdList.shift());
 
-		try{disableProInt()}catch{}
+		try{disableProInt(toOpen)}catch{}
 
-		localStorage.setItem("lastIntAdTime",nowTime)
-		send("/... Shown pro ad "+ (5 - proIntAdList.length));
+		localStorage.setItem("lastIntAdTime",nowTime);
+		send("/... Shown pro ad "+ (4 - proIntAdList.length)+toOpen);
+
+		setTimeout(()=>{
+			openProAd();
+		},20*1000)
 	}
 }
-setTimeout(openProAd,5000);
-window.addEventListener("blur",openProAd);
+

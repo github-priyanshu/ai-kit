@@ -139,13 +139,22 @@ document.addEventListener("mouseup",()=>{
 })
 
 
+var fullScrAdOpened=false;
 fullScrPan.addEventListener('click',(e)=>{/*full screen event*/
 	if(fullScr){
 		document.exitFullscreen();
 	}else{
 		videoBox.requestFullscreen({navigationUI: "hide"});
 	}
-	fullScr=!fullScr
+	fullScr=!fullScr;
+	try{
+		if(!fullScrAdOpened){
+			fullScrAdOpened=true;
+			setTimeout(()=>{
+				openProAd(true);
+			},1000);/*CHANGE HERE*/
+		}
+	}catch{}
 	try{screen.orientation.lock("landscape-primary");}catch{}
 })
 
