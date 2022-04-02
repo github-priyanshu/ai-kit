@@ -39,16 +39,27 @@ function disableProInt(toOpen=false){
 
 			var baap=op("#_m8beems").parentElement.parentElement;
 			baap.style.display="none";
-/*
+
 			if(toOpen){
 				if(fullScr){fullScrPan.click();}
 				try{op("#_m8beems iframe ~ div").click();}catch{}
-			}*/
+			}
 			baap.remove();
-			document.body.style.overflow="";
+			temp();
 		}
 	},100);
 	setTimeout(()=>{
 		clearInterval(int);
 	},20000)
+}
+
+function temp(){
+
+	var intx=setInterval(()=>{
+		log("alllonwing scroll")
+		if(document.body.style.overflow=='hidden'){
+			document.body.style.overflow="";
+			clearInterval(intx);
+		}
+	},100);
 }
