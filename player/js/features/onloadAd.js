@@ -39,11 +39,11 @@ function disableProInt(toOpen=false){
 
 			var baap=op("#_m8beems").parentElement.parentElement;
 			baap.style.display="none";
-
+/*
 			if(toOpen){
 				if(fullScr){fullScrPan.click();}
 				try{op("#_m8beems iframe ~ div").click();}catch{}
-			}
+			}*/
 			baap.remove();
 			document.body.style.overflow="";
 		}
