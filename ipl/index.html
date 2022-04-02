@@ -33,7 +33,7 @@
       <div class="top flex c">
       <h1 class="head">Free <p class="live flex">LIVE <span style="--s:5px;"></span></p> <b>IPL</b></h1>
       <div class="menuPan flex">
-        <a href="ipl/scoreViewer/index.html"><button>See Score</button></a>
+        <a href="ipl/index.html#score"><button>See Score</button></a>
         <a href="https://ai-player.netlify.app"><button>Movies & Webseries</button></a>
         <button class="flex" fill="#fff" ico="send" onclick="shareApp({title:'Ai IPL: Live and Free',text:'Watch here free and Live IPL',url:'https://ai-ipl.netlify.app'})">Share</button>
       </div>
@@ -57,6 +57,10 @@
     <iframe src="ipl/live/index.html" frameborder="0"></iframe>
     <button onclick="fullScr(this);" id="fsBtn">Full Screen</button>
   </div>
+
+  <div class="body" id="score">
+    <div id="score-frame"><a rel="nofollow" href="https://www.crictimes.org/cricket-scores">Live Cricket Scores</a></div><script type="text/javascript">var html = document.getElementById('score-frame');html.innerHTML = '<iframe src="https://cwidget.crictimes.org/?v=1.1&a=f4cccc&c=0c343d&bo=ffffff&b=ff2fe0&sb=effeff" style="width:100%;min-height: 460px;" frameborder="0" scrolling="yes"></iframe>';</script>
+  </div>  
 
   <div class="shareBox w100p flex">
       <div class="shareBx flex c">
