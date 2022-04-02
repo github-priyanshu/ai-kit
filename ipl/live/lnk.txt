@@ -1,1 +1,1 @@
-https://vkvsd62.mycdn.me/hls/2310949374662.m3u8/sig/_S3f8XhUoG0/expires/1648979406879/srcIp/116.202.133.254/clientType/13/srcAg/CHROME/mid/3594439764934/2310949374662_medium/index.m3u8
+https://cdn.livepeer.com/hls/963dcvbknghwbt7n/4_0/index.m3u8
