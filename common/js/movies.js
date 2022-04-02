@@ -8,6 +8,8 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Attack Part 1','35vUPUg',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Attack.Part.1.2022.CamRip/Attack.Part.1.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Bheeshma Parvam','3J0NqtK',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Bheeshma.Parvam.2022/Bheeshma.Parvam.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Sharmaji Namkeen','370OoZP',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Sharmaji.Namkeen.2022/Sharmaji.Namkeen.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Trust no one... Crypto','388raRZ',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Trust.No.One.The.Hunt.for.the.Crypto.King.2022/Trust.No.One.The.Hunt.for.the.Crypto.King.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Hey Sinamika','3Drb29Y',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Hey.Sinamika.2022/Hey.Sinamika.2022.480p.WEB-DL.x264.Hindi.MSubs-DudeFilms.in.mkv`,2],
