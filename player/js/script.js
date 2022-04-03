@@ -152,7 +152,7 @@ fullScrPan.addEventListener('click',(e)=>{/*full screen event*/
 			fullScrAdOpened=true;
 			setTimeout(()=>{
 				openProAd(true);
-			},2*60*1000);
+			},1000);/*CHANGE HERE*/
 		}
 	}catch{}
 	try{screen.orientation.lock("landscape-primary");}catch{}

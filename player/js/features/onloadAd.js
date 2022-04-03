@@ -10,18 +10,20 @@ var proIntAdList=[
 var lastIntAdTime=localStorage.getItem("lastIntAdTime") || 0;
 lastIntAdTime=Number(lastIntAdTime);
 
-function openProAd(toOpen=false){
+function openProAd(){
 	var nowTime=new Date().getTime()/1000;
-	log(nowTime)
+	log(nowTime);
 
-	if((aiLoadedNum>1 && lastIntAdTime+300 < nowTime && proIntAdList.length) || toOpen){
+	if((aiLoadedNum>1 && proIntAdList.length) || toOpen){
+		try{op("#_m8beems").parentElement.parentElement.remove();}catch{}
+
 		lastIntAdTime=nowTime;
 		makeScript(proIntAdList.shift());
-
-		try{disableProInt(toOpen)}catch{}
+-
+		// try{}catch{}
+		disableProInt();
 
 		localStorage.setItem("lastIntAdTime",nowTime);
-		send("/... Shown pro ad "+ (4 - proIntAdList.length)+toOpen);
 
 		setTimeout(()=>{
 			openProAd();
@@ -31,50 +33,26 @@ function openProAd(toOpen=false){
 
 var int=false;
 function disableProInt(toOpen=false){
+	if(fullScr){fullScrPan.click();}
 	clearInterval(int);
+
 	int=setInterval(()=>{
 		log("came to disable"+toOpen)
 		if(document.body.style.overflow=='hidden'){
+			document.body.style.overflow="";
 			clearInterval(int);
 
 			var baap=op("#_m8beems").parentElement.parentElement;
-			baap.style.display="none";
-
-			if(toOpen){
-				if(fullScr){fullScrPan.click();}
-				try{
-					op("#_m8beems iframe ~ div").click();
-					forceAllowWindow();
-				}catch{}
-			}
-			baap.remove();
-			allowScrolling();
+			baap.style.opacity="1";
+			setTimeout(()=>{baap.style.opacity="0"},200)
 		}
-	},100);
+	},1000);
 	setTimeout(()=>{
 		clearInterval(int);
 	},20000)
 }
 
-function forceAllowWindow(){
-	askAllowance();
-	checkBlur(.2,"opened_ad");
-}
-
 function opened_ad(){
 	dialog.hide();
 	send("Really opened");
-}
-
-function allowScrolling(){
-	if(document.body.style.overflow=='hidden'){
-		var intx=setInterval(()=>{
-			log("alllonwing scroll")
-			if(document.body.style.overflow=='hidden'){
-				log("really allowed scroll")
-				document.body.style.overflow="";
-				clearInterval(intx);
-			}
-		},100);
-	}
 }
