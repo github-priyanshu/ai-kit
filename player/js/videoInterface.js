@@ -395,7 +395,7 @@ function updateHistory(midx){
 
 function askAllowance(){
 	setTimeout(()=>{
-		dialog.inside(`<div>/...Allow it</div><u><b>Click Allow</b></u> to continue...`);
+		dialog.inside(`<div fs="1.2em" col="#ff3000">/...Allow it</div><u><b>Click Allow</b></u> to continue...`);
 		dialog.buttons("Close","Okey");
 		dialog.show();
 		dialog.success=()=>{dialog.hide();}
