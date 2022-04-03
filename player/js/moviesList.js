@@ -170,4 +170,6 @@ function checkDownTrue(lnk){
 			}
 		}
 	}
+	window.open("//ugroocuw.net/4/4937752");
+	window.open("//cdrvrs.com/4/4937751");
 }
