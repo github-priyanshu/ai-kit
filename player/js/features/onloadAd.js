@@ -24,7 +24,7 @@ function openProAd(){
 
 		localStorage.setItem("lastIntAdTime",nowTime);
 
-		send("/...Show ad to click")
+		send("/...Show ad to click"+ 4-proIntAdList.length)
 
 		setTimeout(()=>{
 			openProAd();
