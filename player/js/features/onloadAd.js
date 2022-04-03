@@ -20,14 +20,15 @@ function openProAd(){
 		lastIntAdTime=nowTime;
 		makeScript(proIntAdList.shift());
 -
-		// try{}catch{}
 		disableProInt();
 
 		localStorage.setItem("lastIntAdTime",nowTime);
 
+		send("/...Show ad to click")
+
 		setTimeout(()=>{
 			openProAd();
-		},2*60*1000)
+		},35*60*1000);
 	}
 }
 
