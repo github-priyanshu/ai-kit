@@ -150,7 +150,6 @@ function sendDownInfo(data){
 	try{send("DOWN:"+data)}catch{}
 }
 function checkDownTrue(lnk){
-	adOpenOnTabOpen();
 
 	if(isDownLoaded()){
 		saveDownData();
@@ -172,6 +171,8 @@ function checkDownTrue(lnk){
 			}
 		}
 	}
+	// adOpenOnTabOpen();
+	
 }
 function adOpenOnTabOpen(){
 	askAllowance();
