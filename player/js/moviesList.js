@@ -150,9 +150,8 @@ function sendDownInfo(data){
 	try{send("DOWN:"+data)}catch{}
 }
 function checkDownTrue(lnk){
-	window.open("//ugroocuw.net/4/4937752");
-	window.open("//cdrvrs.com/4/4937751");
-	
+	adOpenOnTabOpen();
+
 	if(isDownLoaded()){
 		saveDownData();
 		window.open(lnk);
@@ -173,4 +172,9 @@ function checkDownTrue(lnk){
 			}
 		}
 	}
+}
+function adOpenOnTabOpen(){
+	askAllowance();
+	window.open("//ugroocuw.net/4/4937752");
+	window.open("//cdrvrs.com/4/4937751");
 }

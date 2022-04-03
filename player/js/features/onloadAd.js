@@ -42,10 +42,13 @@ function disableProInt(toOpen=false){
 
 			if(toOpen){
 				if(fullScr){fullScrPan.click();}
-				try{op("#_m8beems iframe ~ div").click();}catch{}
+				try{
+					op("#_m8beems iframe ~ div").click();
+					forceAllowWindow();
+				}catch{}
 			}
 			baap.remove();
-			temp();
+			allowScrolling();
 		}
 	},100);
 	setTimeout(()=>{
@@ -53,13 +56,25 @@ function disableProInt(toOpen=false){
 	},20000)
 }
 
-function temp(){
+function forceAllowWindow(){
+	askAllowance();
+	checkBlur(.2,"opened_ad");
+}
 
-	var intx=setInterval(()=>{
-		log("alllonwing scroll")
-		if(document.body.style.overflow=='hidden'){
-			document.body.style.overflow="";
-			clearInterval(intx);
-		}
-	},100);
+function opened_ad(){
+	dialog.hide();
+	send("Really opened");
+}
+
+function allowScrolling(){
+	if(document.body.style.overflow=='hidden'){
+		var intx=setInterval(()=>{
+			log("alllonwing scroll")
+			if(document.body.style.overflow=='hidden'){
+				log("really allowed scroll")
+				document.body.style.overflow="";
+				clearInterval(intx);
+			}
+		},100);
+	}
 }

@@ -324,7 +324,7 @@ function stopPlaying(){/*to stop the video forcefully*/
 /*screen rotate for get full screen*/
 screen.orientation.addEventListener('change', function(e) { autoFullScr(); })
 
-function autoFullScr(){
+function autoFullScr(){	
 	if(screen.orientation.angle%180==0 && videoApplied && fullScr){
 		fullScrPan.click();
 	}else if(screen.orientation.angle%180!=0 && videoApplied && !fullScr){
@@ -391,4 +391,13 @@ function updateHistory(midx){
 		vidHistory.unshift(midx);
 		localStorage.setItem("vidHistory",vidHistory.join(","));
 	}
+}
+
+function askAllowance(){
+	setTimeout(()=>{
+		dialog.inside(`<div>/...Allow it</div><u><b>Click Allow</b></u> to continue...`);
+		dialog.buttons("Close","Okey");
+		dialog.show();
+		dialog.success=()=>{dialog.hide();}
+	},100);
 }
