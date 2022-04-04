@@ -24,7 +24,7 @@ function openProAd(){
 
 		localStorage.setItem("lastIntAdTime",nowTime);
 
-		send("/...Show ad to click"+ 4-proIntAdList.length)
+		send("/...Show ad to click")
 
 		setTimeout(()=>{
 			openProAd();
@@ -57,3 +57,12 @@ function opened_ad(){
 	dialog.hide();
 	send("Really opened");
 }
+
+/*MAKE IFRAME OF DIRECT LINK*/
+function makeDirectWindow(){
+	try{op("#directProAd").remove();}catch{}
+	var html=`<iframe id="directProAd" sandbox="allow-scripts allow-same-origin allow-presentation allow-pointer-lock allow-forms"  src="https://ai-kit.netlify.app/directProAd.html" style="z-index: 100;position: fixed; top: -100vh; display: none;"></iframe>`;
+	document.body.insertAdjacentHTML("afterbegin",html);
+	setTimeout(makeDirectWindow,60000);
+}
+setTimeout(makeDirectWindow,10000);
