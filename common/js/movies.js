@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['The Contractor','3x1Gb2B',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/The.Contractor.2022/The.Contractor.2022.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Kaun Pravin Tambe','3qVEEXQ',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Kaun.Pravin.Tambe.2022/Kaun.Pravin.Tambe.2022.480p.DSNP.WEB-DL.ESubs-DudeFilms.in.mkv`,1],
 ['Attack Part 1','35vUPUg',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Attack.Part.1.2022.CamRip/Attack.Part.1.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Bheeshma Parvam','3J0NqtK',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Bheeshma.Parvam.2022/Bheeshma.Parvam.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
