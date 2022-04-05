@@ -5,7 +5,7 @@
   width: 60%;
   top: -25px;
   height: 50px;
-  background: linear-gradient(45deg,#ae60cb,#6642cb);
+  background: var(--stdBg);
   color: #000;
   border-radius: 3px;
   justify-content: space-between;
