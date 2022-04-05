@@ -1,5 +1,4 @@
 var m=[
-{name: "RR vs RCB",img: "https://bit.ly/3KcZzxl",time: "Tue Apr 05 2022 19:29:00 GMT+0530 (India Standard Time)",},
 
 ];
 
