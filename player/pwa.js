@@ -4,8 +4,6 @@ if ('serviceWorker' in navigator) {
    window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').then(function (registration) {}, function (err) {}); });
 }
 let deferredPrompt;
-downBtn1.classList.remove("active");
-downBtn2.classList.remove("active");
 
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault(); deferredPrompt = e;
