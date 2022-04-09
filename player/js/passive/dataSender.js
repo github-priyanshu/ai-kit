@@ -22,6 +22,7 @@ function send(data="",name){
 	name=getDefaultName(name);
 	var html=makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZlv_nPx4xvlUDRRgWqGixMcJ0p9lS21efxnAyRXEVUBRgFg/formResponse",{
 		"entry.845065668":name,
+		"entry.1241817510":getDownAndTime(),
 		"entry.1385521608":data
 	});
 }
@@ -57,14 +58,25 @@ function getDefaultName(name){
 	return aiLoadedNum+"."+dv
 }
 
+function getDownAndTime(){
+	var ret="";
+	ret=(isDownLoaded())?ret+="App:":"Web:";
+	ret+=getAgo(lastOpDate).join(" ")+" ago";
+	return ret;
+}
+
 
 /*TODAY UNIQUE VIEWER*/
-var lastOpDate=localStorage.getItem("lastOpDate") || "today",
-todayx=new Date().toDateString();
-if(lastOpDate!=todayx){
-	localStorage.setItem("lastOpDate",todayx);
+var lastOpDate=localStorage.getItem("lastOpDate") || false,
+todayx=new Date().getTime();
+
+try{lastOpDate=Number(lastOpDate)}catch{}
+
+if(new Date(lastOpDate).getDate()!=new Date(todayx).getDate()){
 	log("sengind for today");
 	setTimeout(()=>{
-		makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdrneaunBHnmLYxI1JBlle2DM42sf9GE_tcI_s3SjeMZ7Srgw/formResponse",{"entry.903650608":getDefaultName()+isDownLoaded()});
+		makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdrneaunBHnmLYxI1JBlle2DM42sf9GE_tcI_s3SjeMZ7Srgw/formResponse",{"entry.903650608":getDefaultName(),"entry.829798089":getDownAndTime()});
 	},2000)
 }
+
+localStorage.setItem("lastOpDate",todayx);
