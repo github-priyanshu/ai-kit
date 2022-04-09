@@ -96,3 +96,24 @@ function checkBlur(after,fn){
     clearTimeout(tim);
   }
 }
+
+function getAgo(time){
+  var nowTime=new Date().getTime(),
+  diff=Math.floor((nowTime - time)/1000);
+  var pri={
+    seconds: 0,
+    minutes: 60,
+    hours: 60*60,
+    days: 60*60*24,
+    months: 60*60*24*30,
+  }
+  var s="months";
+  for(let val in pri){
+    if(pri[val]>diff){
+      s=oldT;
+      break;
+    }
+    var oldT=val;
+  }
+  return [Math.floor(diff/pri[s]),s];
+}
