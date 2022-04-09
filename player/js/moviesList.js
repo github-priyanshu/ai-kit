@@ -101,7 +101,7 @@ function getMvHtml(val){
 
 function share(mid,name=""){
 	var val=movies[mid];
-	shareApp({url: getURI()+`?mid=${mid}`,title: val.name,text: `Direct movie link ${name}`});
+	shareApp({url: getURI()+`?mid=${mid}&sh=17`,title: val.name,text: `Direct movie link ${name}`});
 }
 function getURI(){
 	return location.origin;
