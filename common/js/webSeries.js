@@ -52,7 +52,7 @@ for(let i=0; i <webseries.length; i++){
 	let valx=webseries[i],
 	links=[];
 	for(let j=1; j<=valx[2]; j++){
-		links.push(valx[3].replace("__wsdomain/",ms).replace("E01","E"+get2dNum(j)));
+		links.push(valx[3].replace("__wsdomain/",seriesDomain).replace("E01","E"+get2dNum(j)));
 	}
 	tempSr[i]={
 		name: valx[0],
