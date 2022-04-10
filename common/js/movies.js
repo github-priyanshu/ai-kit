@@ -8,6 +8,8 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Hurdang','3xd4kDd',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Hurdang.2022.CamRip/Hurdang.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Raja Raja Chora','3LQpyuP',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Raja.Raja.Chora.2021/Raja.Raja.Chora.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Bheemla Nayak','3joh1TL',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Bheemla.Nayak.2022/Bheemla.Nayak.2022.Hindi.Telugu.480p.HDRip-DudeFilms.in.mkv`,2],
 ['Dasvi','37uLcWM',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Dasvi.2022/Dasvi.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Contractor','3x1Gb2B',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/The.Contractor.2022/The.Contractor.2022.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
