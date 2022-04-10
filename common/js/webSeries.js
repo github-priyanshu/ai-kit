@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Elite Season 5','3NZ63SJ',8,'__wsdomain/WebSeries/NetFlix/Elite.S05/Elite.S05.E01.Hindi.English.720p.10bit.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Gullak Season 3','3uqc0R2',5,'__wsdomain/WebSeries/Sony.Liv/Gullak.S03/Gullak.S03.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Abhay Season 3','3ungbN8',8,'__wsdomain/WebSeries/Zee5/Abhay.S03/Abhay.S03.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Eternally Confused and Eager for Love','3qu0VMo',8,'__wsdomain/WebSeries/NetFlix/Eternally.Confused.and.Eager.for.Love.S01/Eternally.Confused.and.Eager.for.Love.S01.E01.WebRip.720p.Hindi.5.1.x264.MSubs-DudeFilms.in.mkv'],
