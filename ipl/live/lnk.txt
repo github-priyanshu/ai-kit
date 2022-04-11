@@ -1,1 +1,1 @@
-https://e7384f46cb09.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.922366157501.channel.GOtmfkLbP0bY.m3u8
+https://vsd126.mycdn.me/hls/2397971286615.m3u8/sig/xgcgiCqiaSI/expires/1649777331594/srcIp/138.68.151.140/clientType/1/srcAg/CHROME/mid/3762429173335/2397971286615_lowest/index.m3u8
