@@ -1,1 +1,1 @@
-https://vsd126.mycdn.me/hls/2266903677603.m3u8/sig/pXLa6A4M8eE/expires/1649767645805/srcIp/64.71.185.169/clientType/1/srcAg/CHROME_ANDROID/mid/4071537385123/2266903677603_lowest/index.m3u8
+https://e7384f46cb09.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.922366157501.channel.GOtmfkLbP0bY.m3u8
