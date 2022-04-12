@@ -1,6 +1,5 @@
 var m=[
-{name: "KKR vs DC",img: "https://bit.ly/3JkLIUo",time: "Sun Apr 10 2022 15:30:00 GMT+0530 (India Standard Time)",},
-{name: "RR vs LSG",img: "https://bit.ly/3upKAue",time: "Sun Apr 10 2022 19:30:00 GMT+0530 (India Standard Time)",},
+{name: "CSK vs RCB",img: "https://bit.ly/3E3pHZe",time: "Tue Apr 12 2022 19:30:00 GMT+0530 (India Standard Time)",},
 
 ];
 
