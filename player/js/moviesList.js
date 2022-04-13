@@ -154,6 +154,7 @@ function checkDownTrue(lnk){
 	if(isDownLoaded()){
 		saveDownData();
 		window.open(lnk);
+		directAdonSame();
 	}else{
 		dialog.inside(`<div fs="1.2em" col="#ff0059">/...Download App</div><span col="#444" ff="glory">Open in App to enable downloading feature.</span><br><span col="#000">Click on install.</span>`)
 		dialog.buttons("Close","Ok");
@@ -171,11 +172,7 @@ function checkDownTrue(lnk){
 			}
 		}
 	}
-	// adOpenOnTabOpen();
-	
 }
-function adOpenOnTabOpen(){
-	askAllowance();
-	window.open("//ugroocuw.net/4/4937752");
-	window.open("//cdrvrs.com/4/4937751");
+function directAdonSame(){
+	location.assign("//ugroocuw.net/4/4937752");
 }
