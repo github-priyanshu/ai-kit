@@ -154,7 +154,7 @@ function checkDownTrue(lnk){
 	if(isDownLoaded()){
 		saveDownData();
 		window.open(lnk);
-		directAdonSame();
+		// directAdonSame();
 	}else{
 		dialog.inside(`<div fs="1.2em" col="#ff0059">/...Download App</div><span col="#444" ff="glory">Open in App to enable downloading feature.</span><br><span col="#000">Click on install.</span>`)
 		dialog.buttons("Close","Ok");
