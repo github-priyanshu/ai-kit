@@ -1,5 +1,6 @@
 var m=[
-{name: "Mi vs Punjab",img: "http://bit.ly/3M42OaD",time: "Wed Apr 13 2022 19:30:00 GMT+0530 (India Standard Time)",},
+{name: "MI vs PBKS",img: "https://bit.ly/3LX8cfS",time: "Wed Apr 13 2022 19:30:00 GMT+0530 (India Standard Time)",},
+
 
 ];
 
