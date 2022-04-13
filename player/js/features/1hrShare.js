@@ -1,6 +1,4 @@
-var shTime=10000,
-lastShare=0,
-aadsLast=localStorage.getItem("aadsLast") || "not today";
+var lastShare=Number(localStorage.getItem("lastShare")) || 0,nowTime;
 
 var hrShare={
 	time: 0,vidName: null,tim:0,
@@ -9,8 +7,11 @@ var hrShare={
 	start: (vidName)=>{
 		hrShare.vidName= vidName;
 		hrShare.tim=setInterval(()=>{
-			if(video.currentTime > video.duration/2 && lastShare!=video.src){
+			nowTime=new Date().getTime()/(1000*60);
+			log(nowTime,lastShare);
+			if(video.currentTime > video.duration/2 && lastShare+20<nowTime){
 				hrShare.showShare();
+				clearInterval(hrShare.tim);
 			}
 		},15*1000);
 	},
@@ -20,7 +21,6 @@ var hrShare={
 		hrShare.adPan.innerHTML=shareHTML();
 		resetFormat();
 		send("/...Shown interval");
-		lastShare=video.src;
 	},
 
 	closeShare:()=>{
@@ -39,25 +39,11 @@ var hrShare={
 	}
 }
 
-function shared(){
+function shared(){	
 	hrShare.closeReal();
-	send("/...Shared");
-}
-function adHtml(){
-	var html=`<div class="shareBx flex c" style="border: none;">
-		<div class="head"><p col="#ff0055" class="lined">INTERVAL</p></div>
-		<div class="w100p flex">${aadsHtml}</div>
-		<div class="shBtn" fs="1.1em" style="color: rgb(17, 17, 17);font-size: 1.1em;position: absolute;color: #000;background: #fff;pointer-events: none;">
-			Spend at least <b>5s</b> in the above website.
-		</div>
-	</div>`;
-	checkBlur(4,"visitedaad");
-	return html;
-}
-function visitedaad(){
-	localStorage.setItem("aadsLast",new Date().toDateString());
-	hrShare.closeReal();
-	send("/...Clicked Ad");
+	log(nowTime)
+	localStorage.setItem("lastShare",nowTime);
+	send("/...Shared "+getAgo(lastShare*60*1000).join(" ")+" ago");
 }
 
 function shareHTML(txt="Share to more than <u>3 persons</u> to continue..."){
