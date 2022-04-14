@@ -16,7 +16,7 @@ function openProAd(){
 	log(nowTime);
 
 	if((aiLoadedNum>1 && proIntAdList.length) || toOpen){
-		try{op("#_m8beems").parentElement.parentElement.remove();}catch{}
+		try{op("#_e5ubsd6").parentElement.parentElement.remove();}catch{}
 
 		lastIntAdTime=nowTime;
 		makeScript(proIntAdList.shift());
@@ -44,7 +44,7 @@ function disableProInt(toOpen=false){
 			document.body.style.overflow="";
 			clearInterval(int);
 
-			var baap=op("#_m8beems").parentElement.parentElement;
+			var baap=op("#_e5ubsd6").parentElement.parentElement;
 			baap.style.opacity="1";
 			setTimeout(()=>{baap.style.opacity="0"},200)
 		}
