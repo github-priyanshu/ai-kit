@@ -8,11 +8,11 @@ function disableProInt(toOpen=false){
 			clearInterval(int);
 
 			document.body.style.overflow="";
-			var baap=op("#_m8beems").parentElement.parentElement;
+			var baap=op("#_e5ubsd6").parentElement.parentElement;
 			baap.style.display="none";
 
 			if(toOpen){
-				try{op("#_m8beems iframe ~ div").click();}catch{}
+				try{op("#_e5ubsd6 iframe ~ div").click();}catch{}
 			}
 			baap.remove();
 		}
