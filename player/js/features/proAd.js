@@ -12,7 +12,7 @@ lastIntAdTime=Number(lastIntAdTime);
 
 function openProAd(){
 	/*COMMENTED ADS PRO*/
-	/*var nowTime=new Date().getTime()/1000;
+	var nowTime=new Date().getTime()/1000;
 	log(nowTime);
 
 	if((aiLoadedNum>1 && proIntAdList.length) || toOpen){
@@ -30,7 +30,7 @@ function openProAd(){
 		setTimeout(()=>{
 			openProAd();
 		},35*60*1000);
-	}*/
+	}
 }
 
 var int=false;
