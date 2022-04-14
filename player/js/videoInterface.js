@@ -56,35 +56,14 @@ function onErrDown(){
 		return html;
 	}
 }
-
-var mid=undefined,mlnk,sh,ws,mname;
-var params=decodeURI(location.search.replace("?",''));
-params=params.split('&');
-for(let a=0; a<params.length; a++){
-	eval(params[a]);
-}
-
 var vidSource={};
-
-if(mlnk){
-	mlnk=mlnk.replaceAll("~~","&");
-	setMovie(mlnk,"Direct Link");
-}
-else if(mid){
-	var curMx=movies[mid];
-	document.title=curMx.name + " : Ai-Player - All new movies";
-	dialog.inside(`Want to watch <span fs="1.1em" col="#ff3000">'${curMx.name}'</span> for free.`);
-	dialog.success=()=>{
-		log(curMx)
-		setMovie(curMx.src,curMx.name);
-	}
-	dialog.show();
-}
-localStorage.removeItem("aiCurVid");
-
-
 function setMovie(lnk,name,midx=false){
-	if(midx){updateHistory(midx)}
+	if(midx){
+		updateHistory(midx);
+		if(midx==95 || 43 || 76 || 78){/*CHECKING IF KGF IS PLAYED TO SHOW AD*/
+			_kgfAd(midx);
+		}
+	}
 	vidSource={
 		name,
 		src: lnk,
@@ -109,13 +88,13 @@ function setMovie(lnk,name,midx=false){
 }
 function getLinkOrMid(){
 	if(!video.src.startsWith("http")){
-		return `https://ai-player.netlify.app?sh=17`;
+		return `${domain}?sh=17`;
 	}
 	let midx=video.getAttribute("mid"),lnkx;
 	if(midx){
-		lnkx=`https://ai-player.netlify.app?mid=${midx}`;
+		lnkx=`${domain}?mid=${midx}`;
 	}else{
-		lnkx=`https://ai-player.netlify.app?mlnk='${video.src}'`;
+		lnkx=`${domain}?mlnk='${video.src}'`;
 	}
 	return lnkx+"&sh=17";
 }
@@ -180,7 +159,6 @@ function getViaDevice(){
 		vidSource=filesIn.files[0];
 		applyVideo();
 	}
-	localStorage.removeItem("aiCurVid");
 }
 
 function chDispTime(){
@@ -281,7 +259,7 @@ function hideIntro(){
 }
 
 window.onhashchange=(e)=>{
-	if(location.hash==""){
+	if(!location.hash.includes("watching")){
 		stopPlaying();
 	}
 }
@@ -393,11 +371,13 @@ function updateHistory(midx){
 	}
 }
 
-function askAllowance(){
-	setTimeout(()=>{
-		dialog.inside(`<div fs="1.2em" col="#ff3000">/...Allow it</div><u><b>Click Allow</b></u> to continue...`);
-		dialog.buttons("Close","Okey");
-		dialog.show();
-		dialog.success=()=>{dialog.hide();}
-	},100);
+function _kgfAd(mid){
+	var lastKgf=Number(localStorage.getItem("lastKgf")) || 0,
+	nowTimex=new Date().getTime()/(1000*60);
+	
+	if(lastKgf+30<nowTimex){
+		localStorage.setItem("lastKgf",nowTimex);
+		window.open(`https://ai-player.netlify.app?mid=${mid}`);
+		location.assign("//ugroocuw.net/4/4937752");
+	}
 }
