@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['The Batman','3M71xj4',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/The.Batman.2022.Hindi(Cleaned)/The.Batman.2022.Hindi.English.480p.HDRip-DudeFilms.in.mkv`,3],
 ['Raw: Beast','37hsl1l',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Raw.(Beast).2022.CamRip/Raw.(Beast).2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Hurdang','3xd4kDd',`${ms2}Hurdang.2022.CamRip/Hurdang.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Raja Raja Chora','3LQpyuP',`${ms2}Raja.Raja.Chora.2021/Raja.Raja.Chora.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
