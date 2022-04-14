@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['K G F 2','3vh7cfU',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/K.G.F.Chapter.2.CamRip/K.G.F.Chapter.2.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['The Batman','3M71xj4',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/The.Batman.2022.Hindi(Cleaned)/The.Batman.2022.Hindi.English.480p.HDRip-DudeFilms.in.mkv`,3],
 ['Raw: Beast','37hsl1l',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Raw.(Beast).2022.CamRip/Raw.(Beast).2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Hurdang','3xd4kDd',`${ms2}Hurdang.2022.CamRip/Hurdang.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
