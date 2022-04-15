@@ -29,7 +29,7 @@ var movies=
 ['DJ Tillu','3NkLos0',`${ms}SouthMovies/DJ.Tillu.2022/DJ.Tillu.2022.480p.WEB-DL.Hindi.HQ.Dub.x264-DudeFilms.in.mkv`,2],
 ['The Kashmir Files','3JoDewt',`${ms2}The.Kashmir.Files.2022.CamRip/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['James','3ws13Ql',`${ms2}James.2022.CamRip/James.2022.480p.CAMRip.Hindi.x264-DudeFilms.in.mkv`,2],
-['Bachchhan Pandey','3IrBZeh',`${ms2}Bachchhan.Paandey.2022.CamRip/Bachchhan.Paandey.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Bachchhan Pandey','3IrBZeh',`${ms2}Bachchhan.Paandey.2022/Bachchhan.Paandey.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Black Crab','3N0nd1Q',`${ms2}Black.Crab.2022/Black.Crab.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Lalitham Sundram','3urOG4b',`${ms}SouthMovies/Lalitham.Sundaram.2022/Lalitham.Sundaram.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Jalsa','36v2phW',`${ms}BollyWood/Amazon.Prime/Jalsa.2022/Jalsa.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
