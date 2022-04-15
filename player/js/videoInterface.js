@@ -63,7 +63,6 @@ function setMovie(lnk,name,midx=false){
 		updateHistory(midx);
 		if(midx==95 || 43 || 76 || 78){/*CHECKING IF KGF IS PLAYED TO SHOW AD*/
 			_kgfAd(midx);
-			return false;
 		}
 	}
 	vidSource={
