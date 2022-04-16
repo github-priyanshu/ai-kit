@@ -8,13 +8,13 @@ function disableProInt(toOpen=false){
 			clearInterval(int);
 
 			document.body.style.overflow="";
-			var baap=op("#_e5ubsd6").parentElement.parentElement;
+			var baap=op("body ~ div div[id^=p_]").parentElement;
 			baap.style.display="none";
 
 			if(toOpen){
-				try{op("#_e5ubsd6 iframe ~ div").click();}catch{}
+				try{op("body ~ div div[id^=p_] iframe ~ div").click();}catch{}
 			}
-			baap.remove();
+			// baap.remove();
 		}
 	},100);
 	setTimeout(()=>{
