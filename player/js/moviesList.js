@@ -174,5 +174,5 @@ function checkDownTrue(lnk){
 	}
 }
 function directAdonSame(){
-	location.assign("//ugroocuw.net/4/4937752");
+	location.assign("https://www.youtube.com/c/AwesomeCode");
 }
