@@ -24,15 +24,17 @@
 }
 .vidPan .dataBox{
 	width: 100%;
-	border-bottom: 1px solid #aaa;
 	font-family: Encode Sans SC;
+	background: #fff;
 	color: #555;
 }
-.vidPan .dataBox .currentVideo{
+.vidPan .dataBox > div{
+	border-bottom: 1px solid #aaa;
 	width: 100%;
 	padding: 5px 10px;
+}
+.vidPan .dataBox .currentVideo{
 	display: none;
-	background: #fff;
 	text-transform: capitalize;
 }
 .vidPan .dataBox .currentVideo.active{
@@ -59,6 +61,15 @@
 	margin: 0 5px;
 	cursor: pointer;
 }
+.vidPan .dataBox .downAd{
+	justify-content: space-between;
+}
+.vidPan .dataBox .downAd button{
+	padding: 10px 20px;
+	background: #0099ff;
+	border-radius: 3px;
+}
+
 .vidPan{
 	width: var(--allWidth);
 }
