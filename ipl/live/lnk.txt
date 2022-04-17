@@ -1,1 +1,1 @@
-https://www.mediaserver.express/live/aTKcHUBa/index.m3u8
+http://178.128.212.189:8081/TPL2/SLOW/playlist.m3u8
