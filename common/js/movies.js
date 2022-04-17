@@ -8,7 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
-['K G F Chapter 2','3JMkN3P',`https://s09.drop.download:182/d/hpcwaozv4tcdvbi4lk4njwcyzg4qefyp7xwmxxuhxwsnzhg7ytqyimxqn7wrpodc7kk4bm5m/K.G.F.Chapter.2.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,1],
+['K G F Chapter 2','3JMkN3P',`https://s09.drop.download:182/d/hpcwaozv4tcdvbi4lk4njwcyzg4qefyp7xwmxxuhxwsbqrkp4y3jc26uyqtgkojoaeqac7ps/K.G.F.Chapter.2.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['The Batman','3M71xj4',`${ms2}The.Batman.2022.Hindi(Cleaned)/The.Batman.2022.Hindi.English.480p.HDRip-DudeFilms.in.mkv`,3],
 ['Raw: Beast','37hsl1l',`${ms2}Raw.(Beast).2022.CamRip/Raw.(Beast).2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Hurdang','3xd4kDd',`${ms2}Hurdang.2022.CamRip/Hurdang.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
