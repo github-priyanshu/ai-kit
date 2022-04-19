@@ -1,1 +1,1 @@
-http://178.128.212.189:8081/TPL2/SLOW/playlist.m3u8
+https://bf4da0c1c0ff.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.922366157501.channel.JcQgyniGOUkz.m3u8
