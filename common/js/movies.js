@@ -9,7 +9,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
 ['K G F Chapter 2','3JMkN3P',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/K.G.F.Chapter.2.CamRip/K.G.F.Chapter.2.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,1],
-['The Batman','3M71xj4',`${ms2}The.Batman.2022.Hindi(Cleaned)/The.Batman.2022.Hindi.English.480p.HDRip-DudeFilms.in.mkv`,3],
+['The Batman','3M71xj4',`${ms2}The.Batman.2022/The.Batman.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Raw: Beast','37hsl1l',`${ms2}Raw.(Beast).2022.CamRip/Raw.(Beast).2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Hurdang','3xd4kDd',`${ms2}Hurdang.2022.CamRip/Hurdang.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Raja Raja Chora','3LQpyuP',`${ms2}Raja.Raja.Chora.2021/Raja.Raja.Chora.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
