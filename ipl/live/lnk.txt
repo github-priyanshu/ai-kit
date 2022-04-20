@@ -1,1 +1,1 @@
-https://vsd116.mycdn.me/hls/2295241181920.m3u8/sig/02pH_lmfrt0/expires/1650547822910/srcIp/103.83.3.171/clientType/1/srcAg/UNKNOWN_ANDROID/mid/3173116550880/video.m3u8
+http://89.187.162.109/STARSPORTS1HINDIHD/mono.m3u8
