@@ -69,7 +69,7 @@ class main{
 			this.#s.step=step;
 			log("step No. "+this.#s.step);
 			a.checkBlur(5,"next");
-			window.open(lnk[n]);
+			window.open("pro/direct.html#"+lnk[n]);
 		}
 	}
 
@@ -81,12 +81,14 @@ class main{
 		var n=this.#s.step;
 		this.#s.totalSteps>n-1?this.#make(n):this.#givePro();
 		log("came next "+n);
+		send("Step: "+n);
 	}
 
 	#givePro(){
 		var proTimEnd=new Date().getTime()+(7*24*3600*1000);
 		localStorage.setItem("proTimEnd",proTimEnd);
 		this.#make(5);
+		send("/...GivenPro");
 	}
 
 	#make(n){
@@ -102,7 +104,7 @@ class main{
 				this.#s.step=Number(op(".mainBtn").getAttribute('goto'));
 				log("step No. "+this.#s.step);
 				this.checkBlur(data.time,"next");
-				window.open(data.lnk);
+				window.open("pro/direct.html#"+data.lnk);
 			}
 		}catch{}
 
@@ -142,3 +144,11 @@ function goPro(){
 		location.reload();
 	}
 }
+
+function send(data,name=getDefaultName()){
+	makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdMAqTjnBkkh2barK-Y9wqM0dVGvQiB-HSXerkJHGS1WcxC8A/formResponse",{
+		"entry.1038083523": name,
+		"entry.733764757": data,
+	})
+}
+send("Came");
