@@ -1,1 +1,1 @@
-https://live.jiotvlive.tk/hls/stream.m3u8
+http://139.59.55.116/dtvfamily/live.m3u8
