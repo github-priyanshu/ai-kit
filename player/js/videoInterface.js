@@ -62,7 +62,7 @@ function setMovie(lnk,name,midx=false){
 	if(midx){
 		updateHistory(midx);
 		if(midx==95 || 43 || 76 || 78){/*CHECKING IF KGF IS PLAYED TO SHOW AD*/
-			// _kgfAd(midx);
+			_kgfAd(midx);
 		}
 	}
 	vidSource={
@@ -379,6 +379,6 @@ function _kgfAd(mid){
 	if(lastKgf+30<nowTimex){
 		localStorage.setItem("lastKgf",nowTimex);
 		window.open(`https://ai-player.netlify.app?mid=${mid}`);
-		location.assign("https://www.youtube.com/watch?v=vkt-dgP7As4");
+		location.assign("https://youtube.com/watch?v=pfEYVwIykVk");
 	}
 }
