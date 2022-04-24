@@ -41,7 +41,9 @@
 		var url=location.hash.replace("#","");
 		function clicked(){
 			localStorage.setItem("clicked",'true');
+			console.log(localStorage)
 			setTimeout(()=>{
+				console.log(localStorage);
 				window.open(url);
 			},500);
 		}
