@@ -1,5 +1,6 @@
-var pan=op(".pan");
-var a;
+var pan=op(".pan"),
+a,
+win;
 function begin(step=1){
 	a=new main(step);
 }
@@ -11,7 +12,7 @@ class main{
 	}
 	data=[
 		{
-			lnk: "https://www.youtube.com/channel/UCGZCRAfcylnkYP3V65r6fyQ",
+			lnk: "https://youtube.com/channel/UCGZCRAfcylnkYP3V65r6fyQ",
 			m1: "<p col='#444'>Just few steps away...</p>",
 			m2: `<p col="#ff3000" class="warn">Don't Press <b>Back Button</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 1</div>`,
@@ -45,7 +46,7 @@ class main{
 			m2: `<p col="#ff9900">Just go simple to share</p>`,
 			s: `<div col="#777" fs="2em">STEP 4</div>`,
 			button: `<button class="noBtn mainBtn" goto="5" bg="linear-gradient(90deg,#0f0,#090)" col="#fff">Share</button>`,
-			m3: `<p col="#222"><u>Share</u> to more 2 people to get <b>Preimium</b></p>`,
+			m3: `<p col="#222"><u>Share</u> to more 2 people to get <b>Premium</b></p>`,
 			time: 8,
 		},
 		{
@@ -68,8 +69,8 @@ class main{
 		op(".mainBtn").onclick=()=>{
 			this.#s.step=step;
 			log("step No. "+this.#s.step);
-			a.checkBlur(4,"next");
-			window.open("pro/direct.html#"+lnk[n]);
+			a.checkLocal(4,"next");
+			win=window.open("pro/direct.html#"+lnk[n]);
 		}
 	}
 
@@ -78,6 +79,7 @@ class main{
 	}
 
 	next(){
+		if(win){win.close()}
 		var n=this.#s.step;
 		this.#s.totalSteps>n-1?this.#make(n):this.#givePro();
 		log("came next "+n);
@@ -103,8 +105,8 @@ class main{
 			op(".mainBtn").onclick=()=>{
 				this.#s.step=Number(op(".mainBtn").getAttribute('goto'));
 				log("step No. "+this.#s.step);
-				this.checkBlur(data.time,"next");
-				window.open("pro/direct.html#"+data.lnk);
+				this.checkLocal(data.time,"next");
+				win=window.open("pro/direct.html#"+data.lnk);
 			}
 		}catch{}
 
@@ -115,19 +117,31 @@ class main{
 			}
 		}		
 	}
-
+	checkLocal(time){
+		var tim=setInterval(()=>{
+			if(localStorage.getItem("clicked")){
+				this.checkBlur(time,"next");
+				clearTimeout(tim);
+				log("cleckded to click")
+			}
+		},500);
+	}
 	checkBlur(time,fn){
 		log(time,fn)
 
 	  var tim=false;
+	  check();
 	  window.addEventListener("blur",check);
 	  window.addEventListener("focus",reset);
 
 	  function check(){
 	    tim=setTimeout(()=>{
-	      a[fn]();
-	      window.removeEventListener("blur",check);
-	      window.removeEventListener("focus",reset);
+	    	if(localStorage.getItem("clicked")){
+					localStorage.removeItem("clicked");
+		      a[fn]();
+		      window.removeEventListener("blur",check);
+		      window.removeEventListener("focus",reset);
+	    	}
 	    },time*1000);
 	  }
 	  function reset(){
