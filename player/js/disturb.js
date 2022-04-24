@@ -8,7 +8,7 @@ if(checkPro()){
 	}
 }else{
 	addScript("js/disturb/1hrShare.js");
-	if(aiLoadedNum>2){
+	if(aiLoadedNum>2 && false){
 		addScript("js/disturb/vignetteAd.js");
 		addScript("js/disturb/proAd.js");
 	}
