@@ -40,10 +40,10 @@
 	<script>
 		var url=location.hash.replace("#","");
 		function clicked(){
+			localStorage.setItem("clicked",'true');
 			setTimeout(()=>{
-				localStorage.setItem("clicked",'true');
-			},1000);
-			window.open(url);
+				window.open(url);
+			},500);
 		}
 		window.onfocus=()=>{
 			localStorage.removeItem("clicked")
