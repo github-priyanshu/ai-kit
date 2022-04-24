@@ -70,7 +70,8 @@ class main{
 			this.#s.step=step;
 			log("step No. "+this.#s.step);
 			a.checkLocal(4,"next");
-			win=window.open("pro/direct.html#"+lnk[n]);
+			win=window.open("https://ai-player.netlify.app/pro/direct.html#"+data.lnk);
+			// win=window.open("pro/direct.html#"+data.lnk);
 		}
 	}
 
