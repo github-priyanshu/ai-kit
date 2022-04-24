@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Legends of the Ramayana','3rQfw5j',3,'__wsdomain/WebSeries/Discovery+/Legends.of.the.Ramayana.With.Amish.S01/Legends.of.the.Ramayana.With.Amish.S01.E01.720p.Web.dl.Esub-DudeFilms.in.mkv'],
 ['Guilty Minds Season 1','3k6RkaF',10,'__wsdomain/WebSeries/Amazon.Prime/Guilty.Minds.S01/720p/Guilty.Minds.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Anantham Season 1','3OvCN6s',8,'__wsdomain/WebSeries/Zee5/Anantham.S01/Anantham.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['London Files Season 1','3vF5wNg',6,'__wsdomain/WebSeries/Voot/London.Files.S01/London.Files.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
