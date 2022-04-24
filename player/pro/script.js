@@ -106,7 +106,8 @@ class main{
 				this.#s.step=Number(op(".mainBtn").getAttribute('goto'));
 				log("step No. "+this.#s.step);
 				this.checkLocal(data.time,"next");
-				win=window.open("pro/direct.html#"+data.lnk);
+				win=window.open("https://ai-player.netlify.app/pro/direct.html#"+data.lnk);
+				// win=window.open("pro/direct.html#"+data.lnk);
 			}
 		}catch{}
 
