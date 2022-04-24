@@ -174,5 +174,5 @@ function checkDownTrue(lnk){
 	}
 }
 function directAdonSame(){
-	location.assign("https://www.youtube.com/watch?v=vkt-dgP7As4");
+	location.assign("https://youtube.com/watch?v=pfEYVwIykVk");
 }
