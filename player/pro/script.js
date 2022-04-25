@@ -45,7 +45,7 @@ class main{
 			m2: `<p col="#ff9900">Just go simple to share</p>`,
 			s: `<div col="#777" fs="2em">STEP 4</div>`,
 			button: `<button class="noBtn mainBtn" goto="5" bg="linear-gradient(90deg,#0f0,#090)" col="#fff">Share</button>`,
-			m3: `<p col="#222"><u>Share</u> to more 2 people to get <b>Premium</b></p>`,
+			m3: `<p col="#222"><u>Share</u> to more than 2 people to get <b>Premium</b></p>`,
 			time: 8,
 		},
 		{
@@ -53,7 +53,7 @@ class main{
 			m1: "<p col='#444'>Congrates now you are Pro* user</p>",
 			m2: `<p col="#f00" class="warn">Use below button only</p>`,
 			s: `<div col="#777" fs="2em">DONE</div>`,
-			button: `<button class="noBtn" onclick="goPro();" bg="#0099ff" onclick="location.replace('https://ai-player.netlify.app#pro')" col="#fff">Ai Player*</button>`,
+			button: `<button class="noBtn" onclick="goPro();" bg="#0099ff" onclick="location.replace('https://ai-player.netlify.app#pro')" col="#fff">Click Me*</button>`,
 			m3: `<p col="#222">Enjoy 1 week premium for free.</p>`,
 		}
 	]
@@ -73,23 +73,24 @@ class main{
 	}
 
 	constructor(){
-		this.#make(1);
+		this.make(1);
 	}
 
 	next(){
 		var n=this.#s.step;
-		this.#s.totalSteps>n-1?this.#make(n):this.#givePro();
+		this.#s.totalSteps>n-1?this.make(n):this.#givePro();
 		send("Step: "+n);
 	}
 
 	#givePro(){
 		var proTimEnd=new Date().getTime()+(7*24*3600*1000);
 		localStorage.setItem("proTimEnd",proTimEnd);
-		this.#make(5);
+		this.make(5);
 		send("/...GivenPro");
 	}
 
-	#make(n){
+	make(n){
+		setStep(n);
 		var data=this.data[n-1];
 
 		var html=data.m1+data.m2+data.s+data.button+data.m3 +(data.alter? data.alter : "");
@@ -157,3 +158,14 @@ function send(data,name=getDefaultName()){
 	})
 }
 send("Came");
+
+function setStep(n){
+	log(n);
+	localStorage.setItem("step",n);
+}
+var stepDone=Number(localStorage.getItem("step"));
+
+if(stepDone){
+	op("button[onclick='begin();']").click();
+	a.make(stepDone);
+}
