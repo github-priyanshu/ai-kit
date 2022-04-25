@@ -1,6 +1,5 @@
 var pan=op(".pan"),
-a,
-win;
+a;
 function begin(step=1){
 	a=new main(step);
 }
@@ -18,7 +17,7 @@ class main{
 			s: `<div col="#777" fs="2em">STEP 1</div>`,
 			button: `<button class="noBtn mainBtn" goto="2" bg="#f00" col="#fff">SUBSCRIBE</button>`,
 			m3: `<p col="#222">Do subscribe on <u>YouTube</u> to pass the first step.</p>`,
-			time: 4,
+			time: 5,
 		},
 		{
 			lnk: "https://instagram.com/web_dev.priyanshu/",
@@ -37,7 +36,7 @@ class main{
 			s: `<div col="#777" fs="2em">STEP 3</div>`,
 			button: `<button class="noBtn mainBtn" goto="4" bg="#0f0" col="#fff">Join Now</button>`,
 			m3: `<p col="#222">Join us on <u>Telegram</u> for 3<sup>rd</sup> step</p>`,
-			time: 4,
+			time: 5,
 			alter: `<button class="noBtn altBtn" num="1" goto="4">no Telegram</button>`,
 		},
 		{
@@ -68,10 +67,8 @@ class main{
 		resetFormat();
 		op(".mainBtn").onclick=()=>{
 			this.#s.step=step;
-			log("step No. "+this.#s.step);
-			a.checkLocal(4,"next");
-			win=window.open("https://ai-player.netlify.app/pro/direct.html#"+data.lnk);
-			// win=window.open("pro/direct.html#"+data.lnk);
+			checkBlur(5,"next");
+			window.open(lnk[n]);
 		}
 	}
 
@@ -80,10 +77,8 @@ class main{
 	}
 
 	next(){
-		if(win){win.close()}
 		var n=this.#s.step;
 		this.#s.totalSteps>n-1?this.#make(n):this.#givePro();
-		log("came next "+n);
 		send("Step: "+n);
 	}
 
@@ -105,10 +100,8 @@ class main{
 		try{
 			op(".mainBtn").onclick=()=>{
 				this.#s.step=Number(op(".mainBtn").getAttribute('goto'));
-				log("step No. "+this.#s.step);
-				this.checkLocal(data.time,"next");
-				win=window.open("https://ai-player.netlify.app/pro/direct.html#"+data.lnk);
-				// win=window.open("pro/direct.html#"+data.lnk);
+				checkBlur(data.time,"next");
+				window.open(data.lnk);
 			}
 		}catch{}
 
@@ -119,38 +112,34 @@ class main{
 			}
 		}		
 	}
-	checkLocal(time){
-		var tim=setInterval(()=>{
-			if(localStorage.getItem("clicked")){
-				this.checkBlur(time,"next");
-				clearTimeout(tim);
-				log("cleckded to click")
-			}
-		},500);
-	}
-	checkBlur(time,fn){
-		log(time,fn)
 
-	  var tim=false;
-	  check();
+}
+
+
+function checkBlur(time,fn){
+	log(time,fn)
+
+  var tim=false;
+
+  function check(){
+  	console.warn("check");                           
+  	clearTimeout(tim);
+
+
 	  window.addEventListener("blur",check);
-	  window.addEventListener("focus",reset);
+	  setTimeout(()=>{window.addEventListener("focus",reset);},500)
 
-	  function check(){
-	    tim=setTimeout(()=>{
-	    	if(localStorage.getItem("clicked")){
-					localStorage.removeItem("clicked");
-		      a[fn]();
-		      window.removeEventListener("blur",check);
-		      window.removeEventListener("focus",reset);
-	    	}
-	    },time*1000);
-	  }
-	  function reset(){
-	    clearTimeout(tim);
-	  }
-
-	}
+    tim=setTimeout(()=>{
+      a[fn]();
+      window.removeEventListener("blur",check);
+      window.removeEventListener("focus",reset);
+    },time*1000);
+  }
+  function reset(){
+  	console.warn("reset")
+    clearTimeout(tim);
+  }
+  check();
 }
 
 function goPro(){
