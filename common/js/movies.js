@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Gangubai Kathiawadi HD','3JPulvs',`${ms2}Gangubai.Kathiawadi.2022/Gangubai.Kathiawadi.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['Jersey 2022','3v8bJSY',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Jersey.2022.CamRip/Jersey.2022.480p.CAMRip.HINDI.x264-DudeFilms.in.mkv`,1],
 ['K G F Chapter 2','3JMkN3P',`https://dl2.odcloud02.workers.dev/odCloud_Dhub/KGF.Chapter.2.2022.HDCAM.V3/KGF.Chapter.2.2022.480p.Hindi.HQ.V3.HDCAM.x264-DudeFilms.in.mkv`,1],
 ['FIR','3vuz6oS',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/FIR.2022/FIR.2022.Hindi.HQ.Dub.Tamil.480p.HDRip-DudeFilms.in.mkv`,1],
@@ -43,7 +44,6 @@ var movies=
 ['Agains The Ice','3toNgH5',`${ms}HollyWood/NetFlix%20Movies/Against.the.Ice.2022/Against.the.Ice.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Escape from Mogadishu','3IDOZ1k',`${ms}HollyWood/Escape.from.Mogadishu.2021/Escape.from.Mogadishu.2021.Hindi.Korean.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['BangarRaju','3Hy5UB6',`${ms}SouthMovies/BangarRaju.2022/BangarRaju.2022.480p.WEB-DL.HQ-Hindi.Dub.x264-DudeFilms.in.mkv`,2],
-['Gangubai Kathiawadi','3JPulvs',`${ms}BollyWood/Gangubai.Kathiawadi.2022.CamRip/Gangubai.Kathiawadi.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Valimai','3vgVNy6',`${ms}SouthMovies/Valimai.The.Power.2022.CamRip/Valimai.The.Power.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3],
 ['Love Hostel','354SvTW',`${ms}BollyWood/Zee5/Love.Hostel.2022/Love.Hostel.2022.480p.ZEE5.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['Texas Chainsaw Massacre','3HlwFsl',`${ms}HollyWood/NetFlix%20Movies/Texas.Chainsaw.Massacre.2022/Texas.Chainsaw.Massacre.2022.Hindi.English.480p.WEB-DL-DudeFilms.in.mkv`,3],
