@@ -61,9 +61,7 @@ var vidSource={};
 function setMovie(lnk,name,midx=false){
 	if(midx){
 		updateHistory(midx);
-		if(midx==96 || 95 || 43 || 76 || 78){/*CHECKING IF KGF IS PLAYED TO SHOW AD*/
-			_kgfAd(midx);
-		}
+		try{disturbOnVidSet()}catch{}
 	}
 	vidSource={
 		name,
@@ -278,8 +276,7 @@ function vidOnStart(){/*ON THE VIDEO PAN IS SHOWN TO PLAY*/
 	}else{
 		quality.btn.style.display="none"
 	}
-	try{hrShare.start(vidSource.name);}catch{}	
-	try{startLoadShow()}catch{}
+	try{disturbOnVidStart()}catch{}
 }
 
 function stopPlaying(){/*to stop the video forcefully*/
