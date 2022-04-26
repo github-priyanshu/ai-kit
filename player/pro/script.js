@@ -21,7 +21,7 @@ class main{
 		},
 		{
 			lnk: "https://instagram.com/web_dev.priyanshu?igshid=YmMyMTA2M2Y=",
-			m1: "<p col='#444'>Just 3 steps away...</p>",
+			m1: "<p col='#444'>Just 2 steps away...</p>",
 			m2: `<p col="#ff3000" class="warn">Don't go <b>Back</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 2</div>`,
 			button: `<button class="noBtn mainBtn" goto="3" bg="#0099ff" col="#fff">FOLLOW</button>`,
@@ -31,7 +31,7 @@ class main{
 		},
 		{
 			lnk: "https://t.me/aiplayermovies",
-			m1: "<p col='#444'>Just 2 steps away from premium</p>",
+			m1: "<p col='#444'>Just 1 steps away from premium</p>",
 			m2: `<p col="#ff3000" class="warn">Don't Press <b>Back Button</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 3</div>`,
 			button: `<button class="noBtn mainBtn" goto="4" bg="#0f0" col="#fff">Join Now</button>`,
