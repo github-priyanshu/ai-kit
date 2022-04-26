@@ -12,7 +12,7 @@
   margin-bottom: 5px;
   width: 100%;
   padding: 15px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #bbb;
 }
 .noti .bottom {
   height: 0px;
@@ -24,7 +24,7 @@
 }
 .noti .bottom > *{
   margin-bottom: 15px;
-  color: #0040ff;
+  color: #444;
 }
 .noti .lined::before,
 .noti .lined::after{
@@ -42,14 +42,19 @@
 }
 .noti a{text-decoration: none;}
 .noti button{
-  background: linear-gradient(90deg,#0f0,#0d0);
-  border-radius: 95px;
+  border-radius: 2px;
   padding: 10px 20px;
   color: #fff;
   font-size: 1.1em;
-  box-shadow: 0 3px 20px #0f0;
 }
 .noti button svg{
   fill: #fff;
   margin-left: 5px;
+}
+.noti ul{
+  text-align: left;
+}
+.noti ul li{
+  margin: 5px 0;
+  margin-left: 30px;
 }
