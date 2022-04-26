@@ -17,7 +17,7 @@ class main{
 			s: `<div col="#777" fs="2em">STEP 1</div>`,
 			button: `<button class="noBtn mainBtn" goto="2" bg="#f00" col="#fff">SUBSCRIBE</button>`,
 			m3: `<p col="#222">Do subscribe on <u>YouTube</u> to pass the first step.</p>`,
-			time: 5,
+			time: 9,
 		},
 		{
 			lnk: "https://instagram.com/web_dev.priyanshu?igshid=YmMyMTA2M2Y=",
@@ -36,7 +36,7 @@ class main{
 			s: `<div col="#777" fs="2em">STEP 3</div>`,
 			button: `<button class="noBtn mainBtn" goto="4" bg="#0f0" col="#fff">Join Now</button>`,
 			m3: `<p col="#222">Join us on <u>Telegram</u> for 3<sup>rd</sup> step</p>`,
-			time: 5,
+			time: 6,
 			alter: `<button class="noBtn altBtn" num="1" goto="4">no Telegram</button>`,
 		},
 		{
