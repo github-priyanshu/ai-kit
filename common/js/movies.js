@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['365 Days This Day','3xVqomg',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/365.Days.This.Day.2022/365.Days.This.Day.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Gangubai Kathiawadi HD','3JPulvs',`${ms2}Gangubai.Kathiawadi.2022/Gangubai.Kathiawadi.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['Jersey 2022','3v8bJSY',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Jersey.2022.CamRip/Jersey.2022.480p.CAMRip.HINDI.x264-DudeFilms.in.mkv`,1],
 ['K G F Chapter 2','3JMkN3P',`https://dl2.odcloud02.workers.dev/odCloud_Dhub/KGF.Chapter.2.2022.HDCAM.V3/KGF.Chapter.2.2022.480p.Hindi.HQ.V3.HDCAM.x264-DudeFilms.in.mkv`,1],
