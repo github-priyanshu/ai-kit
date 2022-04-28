@@ -57,7 +57,7 @@ function shareHTML(txt="Share to more than <u>3 persons</u> to continue..."){
 			<button class="noBtn flex" onclick="checkShare();shareCurent();" bg="linear-gradient(90deg,#ff6c00,#f40051)" ico="send"></button>
 			<button class="noBtn flex" onclick="checkShare();this.children[0].click()" bg="linear-gradient(0deg,#06b900,#08f400)" ico="whatsapp"><a href="https://wa.me/?text=${msg}" hidden target="__blank"></a></button>
 		</div>
-		${(!checkPro() && aiLoadedNum>=4)?`<button onclick="window.open('https://ai-player.netlify.app/pro')" class="noBtn" style="border-radius: 2px;color: #fff; background: #0099ff"><span fw="bold">Remove Share</span> forever</button>`:''}
+		${(toAskPro())?`<button onclick="window.open('https://ai-player.netlify.app/pro')" class="noBtn" style="border-radius: 2px;color: #fff; background: #0099ff"><span fw="bold">Remove Share</span> forever</button>`:''}
 	</div>
 	`;
 	return html;

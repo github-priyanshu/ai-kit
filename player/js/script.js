@@ -406,3 +406,9 @@ function checkPro(){
 		return false;
 	}
 }
+function toAskPro(){
+	var givenTime=localStorage.getItem("gotPro1");
+	if(!givenTime && aiLoadedNum>=4 && !checkPro()){
+		return true;
+	}
+}

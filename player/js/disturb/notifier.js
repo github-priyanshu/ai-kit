@@ -27,6 +27,6 @@ function openNotiLnk(el){
 }
 resetFormat();
 
-if(checkPro() || aiLoadedNum<4){
+if(!toAskPro()){
 	noti.style.display="none";
 }
