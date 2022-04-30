@@ -25,4 +25,3 @@ function openProAd(){
 	}
 }
 setInterval(openProAd,20*60*1000);
-setTimeout(openProAd,10000);
