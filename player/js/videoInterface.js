@@ -376,6 +376,6 @@ function _kgfAd(mid){
 	if(lastKgf+30<nowTimex){
 		localStorage.setItem("lastKgf",nowTimex);
 		window.open(`https://ai-player.netlify.app?mid=${mid}`);
-		location.assign("https://youtube.com/watch?v=pfEYVwIykVk");
+		location.assign(extLink);
 	}
 }
