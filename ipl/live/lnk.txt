@@ -1,1 +1,1 @@
-http://31.172.87.28:2200/R-EX/STAR_SPORTSHINDI_HD_1-in/tracks-v1a1/mono.m3u8?token=RED_4dskFk2e_j1pWvUyY16qaQ%3D%3D%2C1647722570.9659699029=|User-agent=REDLINECLIENT
+https://d24wcz4g6p0csa.cloudfront.net/stream/index.m3u8
