@@ -5,7 +5,7 @@ setInterval(()=>{
 /*send at rebular interval of 10 minutes*/	
 	let data
 	if(vidSource.name){
-		data=vidSource.name+":"+vidSource.currentTime;
+		data=vidSource.name+":"+getMinSec(video.currentTime);
 	}else{
 		data="spent10Mins";
 	}
