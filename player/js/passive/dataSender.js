@@ -1,5 +1,6 @@
 let shareName=["Team of fun","Awesome Code","Chahat","Telegram","Prashant","Swapnil","Akash","Josh","fb","insta","other","qr code","person","code viewer site","ai kit","WISH","user share","Spin&Win","MallQr","ShortShare"],
-aiSharedBy;
+aiSharedBy,
+nowOpenedAt=new Date().getTime();
 
 setInterval(()=>{
 /*send at rebular interval of 10 minutes*/	
@@ -61,7 +62,7 @@ function getDefaultName(name){
 function getDownAndTime(){
 	var ret="";
 	ret=(isDownLoaded())?ret+="App:":"Web:";
-	ret+=getAgo(lastOpDate).join(" ")+" ago";
+	ret+=", Last: "+getAgo(lastOpDate).join(" ")+", Opened:"+getAgo(nowOpenedAt).join(" ");
 	return ret;
 }
 
