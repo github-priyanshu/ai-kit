@@ -379,3 +379,25 @@ function _kgfAd(mid){
 		location.assign(extLink);
 	}
 }
+
+function getShareLink(toAdd=""){
+	var data=`
+${toAdd}
+
+*FREE new Movies* here...
+
+Some Populars are:
+*RRR*
+*KGF 2*
+*Jersey*
+*The Kashmir Files*
+*Gangubai Khathiawadi*
+*Pushpa*
+
+And more in one link..!!
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*`;
+
+return encodeURI("https://wa.me/?text="+data);
+}
