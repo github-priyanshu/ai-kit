@@ -99,7 +99,7 @@ function checkBlur(after,fn){
 
 function getAgo(time){
   var nowTime=new Date().getTime(),
-  diff=Math.floor((nowTime - time)/1000);
+  diff=Math.abs(Math.floor((nowTime - time))/1000);
   var pri={
     seconds: 0,
     minutes: 60,
