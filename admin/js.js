@@ -47,7 +47,7 @@ function addMovies(){
 	var str=[];
 	str.push("'"+op(".workPan[panFor='movie'] .name").value.trim()+"'");
 	str.push("'"+op(".workPan[panFor='movie'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
-	str.push("`"+op(".workPan[panFor='movie'] .lnkIn").value.trim().replace(ms,"${ms}")+"`");
+	str.push("`"+getMovieServerNLink()+"`");
 	str.push(op(".workPan[panFor='movie'] select").value);
 
 	str=str.join(",");
@@ -57,6 +57,16 @@ function addMovies(){
 	opp(".workPan[panFor='movie'] input").forEach(val=>{
 		val.value="";
 	})
+
+	function getMovieServerNLink(){
+		var link=op(".workPan[panFor='movie'] .lnkIn").value.trim();
+		if(link.includes(ms)){
+			link=link.replace(ms,"${ms}");
+		}else{
+			link=link.replace(ms2,"${ms2}");
+		}
+		return link;
+	}
 }
 
 nameIn.forEach(val=>{
