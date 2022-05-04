@@ -9,7 +9,7 @@ var webseries=
 ['Anantham Season 1','3OvCN6s',8,'__wsdomain/WebSeries/Zee5/Anantham.S01/Anantham.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['London Files Season 1','3vF5wNg',6,'__wsdomain/WebSeries/Voot/London.Files.S01/London.Files.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Murder in Agonda Season 1','3OvXT4j',5,'__wsdomain/WebSeries/Amazon.Prime/Murder.in.Agonda.S01/Murder.in.Agonda.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
-['Moon Knight Season 1','3KMyxNu',3,'__wsdomain/WebSeries/hotstar/Moon.Knight.S01/480p/Moon.Knight.S01.E01.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Moon Knight Season 1','3KMyxNu',4,'__wsdomain/WebSeries/hotstar/Moon.Knight.S01/480p/Moon.Knight.S01.E01.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Elite Season 5','3NZ63SJ',8,'__wsdomain/WebSeries/NetFlix/Elite.S05/Elite.S05.E01.Hindi.English.720p.10bit.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Gullak Season 3','3uqc0R2',5,'__wsdomain/WebSeries/Sony.Liv/Gullak.S03/Gullak.S03.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Abhay Season 3','3ungbN8',8,'__wsdomain/WebSeries/Zee5/Abhay.S03/Abhay.S03.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
