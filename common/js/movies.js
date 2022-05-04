@@ -8,8 +8,8 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
-['Runway 34','39lV31P',`https://s01.drop.download:182/d/ghczzybt4tcdvbi4u255pbiesncpclmk6yzrjlit7zbps4ubzwa6dyrxbwilqsrz3xt3pl6y/Runway.34.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
-['Heropanti 2','3v8maFZ',`https://s24.drop.download:182/d/kxct36bt4tcdvbi4u255fdcu2ze3yqb2iv2w4mstbq5ba55xy3c5bavqv5tm4j5xihiumzdk/Heropanti.2.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
+['Runway 34','39lV31P',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Runway.34.2022.CamRip/Runway.34.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Heropanti 2','3v8maFZ',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Heropanti.2.2022.CamRip/Heropanti.2.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
 ['365 Days This Day','3xVqomg',`${ms2}365.Days.This.Day.2022/365.Days.This.Day.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Gangubai Kathiawadi HD','3JPulvs',`${ms2}Gangubai.Kathiawadi.2022/Gangubai.Kathiawadi.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['Jersey 2022','3v8bJSY',`${ms2}Jersey.2022.CamRip/Jersey.2022.480p.CAMRip.HINDI.x264-DudeFilms.in.mkv`,1],
