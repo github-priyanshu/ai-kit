@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Dear Father','3FfWoTP',`${ms2}Dear.Father.2022/Dear.Father.2022.480p.AMZN.WEB.DL-DudeFilms.in.mkv`,1],
 ['Radhe Shyam HD','3t17ZBI',`${ms2}Radhe.Shyam.2022/Radhe.Shyam.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,2],
 ['Runway 34','39lV31P',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Runway.34.2022.CamRip/Runway.34.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Heropanti 2','3v8maFZ',`https://s24.drop.download:182/d/kxct36bt4tcdvbi4u255fdcu2ze3yqb2iv2w4mstbq5h4kjc5ndzynqsnli466owwyocqsu4/Heropanti.2.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
