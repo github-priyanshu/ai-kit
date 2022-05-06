@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['KGF 2 HD','3P5H3dc',`${ms2}K.G.F.Chapter.2.2022.HQ.Line/K.G.F.Chapter.2.2022.480p.Hindi.HDRip.HC-ESub-DudeFilms.in.mkv`,2],
 ['Dear Father','3FfWoTP',`${ms2}Dear.Father.2022/Dear.Father.2022.480p.AMZN.WEB.DL-DudeFilms.in.mkv`,1],
 ['Radhe Shyam HD','3t17ZBI',`${ms2}Radhe.Shyam.2022/Radhe.Shyam.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,2],
 ['Runway 34','39lV31P',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Runway.34.2022.CamRip/Runway.34.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
@@ -15,7 +16,6 @@ var movies=
 ['365 Days This Day','3xVqomg',`${ms2}365.Days.This.Day.2022/365.Days.This.Day.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Gangubai Kathiawadi HD','3JPulvs',`${ms2}Gangubai.Kathiawadi.2022/Gangubai.Kathiawadi.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['Jersey 2022','3v8bJSY',`${ms2}Jersey.2022.CamRip/Jersey.2022.480p.CAMRip.HINDI.x264-DudeFilms.in.mkv`,1],
-['K G F Chapter 2','3JMkN3P',`${ms2}KGF.Chapter.2.2022.HDCAM.V3/KGF.Chapter.2.2022.480p.Hindi.HQ.V3.HDCAM.x264-DudeFilms.in.mkv`,1],
 ['FIR','3vuz6oS',`${ms2}FIR.2022/FIR.2022.Hindi.HQ.Dub.Tamil.480p.HDRip-DudeFilms.in.mkv`,1],
 ['The Batman','3M71xj4',`${ms2}The.Batman.2022/The.Batman.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Raw: Beast','37hsl1l',`${ms2}Raw.(Beast).2022.CamRip/Raw.(Beast).2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2],
