@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Doctor Strange 2','3shtZaG',`${ms2}Doctor.Strange.2.2022.HDcam/Doctor.Strange.2.2022.480p.HDCAM.Hindi.Engish.x264-DudeFilms.in.mkv`,3],
 ['KGF 2 HD','3P5H3dc',`${ms2}K.G.F.Chapter.2.2022.HQ.Line/K.G.F.Chapter.2.2022.480p.Hindi.HDRip.HC-ESub-DudeFilms.in.mkv`,2],
 ['Dear Father','3FfWoTP',`${ms2}Dear.Father.2022/Dear.Father.2022.480p.AMZN.WEB.DL-DudeFilms.in.mkv`,1],
 ['Radhe Shyam HD','3t17ZBI',`${ms2}Radhe.Shyam.2022/Radhe.Shyam.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,2],
