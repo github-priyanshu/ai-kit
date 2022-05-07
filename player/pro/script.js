@@ -1,5 +1,23 @@
 var pan=op(".pan"),
-a;
+a,
+shMsg=`
+*FREE new Movies* here...
+
+Some Populars are:
+*RRR*
+*KGF 2*
+*Jersey*
+*The Kashmir Files*
+*Gangubai Khathiawadi*
+*Pushpa*
+
+And many more in one link..!!
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*`;
+
+shMsg=encodeURI("https://wa.me/?text="+shMsg);
+
 function begin(step=1){
 	a=new main(step);
 }
@@ -29,7 +47,7 @@ class main{
 			time: 5,
 		},
 		{
-			lnk: "https://youtube.com/c/AwesomeCode",
+			lnk: "https://www.youtube.com/channel/UClSSBep-FAPjB6hWiBtxM_A",
 			m1: "<p col='#444'>Just 1 steps away...</p>",
 			m2: `<p col="#ff3000" class="warn">Don't Press <b>Back Button</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 3</div>`,
@@ -38,7 +56,7 @@ class main{
 			time: 5,
 		},
 		{
-			lnk: "https://wa.me/?text=Hey!%20I%20watch%20here%20daily%20releas…20link%20for%20free.%20*HTTPS://AI-PLAYER.NETLIFY.APP?SH=17*",
+			lnk: shMsg,
 			m1: "<p col='#444'>Last & Final step</p>",
 			m2: `<p col="#ff9900">Just go simple to share</p>`,
 			s: `<div col="#777" fs="2em">STEP 4</div>`,
@@ -83,6 +101,7 @@ class main{
 	#givePro(){
 		var proTimEnd=new Date().getTime()+(7*24*3600*1000);
 		localStorage.setItem("proTimEnd",proTimEnd);
+		localStorage.setItem("gotPro1",proTimEnd);
 		this.make(5);
 		send("/...GivenPro");
 	}
@@ -145,6 +164,7 @@ function goPro(){
 	if(localStorage.getItem("proTimEnd")){
 		location.replace("https://ai-player.netlify.app#pro");
 	}else{
+		alert("You have got premium from here once...");
 		location.reload();
 	}
 }
