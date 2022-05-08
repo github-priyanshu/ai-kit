@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['RRR HD','3DhQvoa',`${ms2}RRR.2022.HQ.Line/RRR.2022.Hindi.Dubbed.(HQ.Line.Audio).480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Heropanti 2','3v8maFZ',`https://s24.drop.download:182/d/kxct36bt4tcdvbi4u255fdcu2ze3yqb2iv2w4mstbq5gdbaejdkbxsjta4jhclko4xesujzx/Heropanti.2.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
 ['Doctor Strange 2','3shtZaG',`${ms2}Doctor.Strange.2.2022.HDcam/Doctor.Strange.2.2022.480p.HDCAM.Hindi.Engish.x264-DudeFilms.in.mkv`,3],
 ['KGF 2 HD','3P5H3dc',`${ms2}K.G.F.Chapter.2.2022.HQ.Line/K.G.F..Chapter.2.2022.Hindi.Cleaned.480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
@@ -34,7 +35,6 @@ var movies=
 ['Death on the Nile','3uJDFLC',`${ms2}Death.on.the.Nile.2022.Hindi(CAM)/Death.on.the.Nile.2022.Hindi(CAM).English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['Maaran','3NtT1wa',`${ms2}Maaran.2022.Hindi(HQ)/Maaran.2022.UNCUT.Hindi(HQ).Tamil.480p.HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Veerame Vaagai Soodum','3LxdYVs',`${ms2}Veerame.Vaagai.Soodum.2022/Veerame.Vaagai.Soodum.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
-['RRR: Rise Roar Revolt','3DhQvoa',`${ms2}RRR.Rise.Roar.Revolt.2022.CamRip/RRR.Rise.Roar.Revolt.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['DJ Tillu','3NkLos0',`${ms}SouthMovies/DJ.Tillu.2022/DJ.Tillu.2022.480p.WEB-DL.Hindi.HQ.Dub.x264-DudeFilms.in.mkv`,2],
 ['The Kashmir Files','3JoDewt',`${ms2}The.Kashmir.Files.2022.CamRip/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['James','3ws13Ql',`${ms2}James.2022.CamRip/James.2022.480p.CAMRip.Hindi.x264-DudeFilms.in.mkv`,2],
