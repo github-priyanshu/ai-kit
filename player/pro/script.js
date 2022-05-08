@@ -38,7 +38,7 @@ class main{
 			time: 8,
 		},
 		{
-			lnk: "https://youtube.com/channel/UCjvd4eGiqjWbh_mz4_TFU-g",
+			lnk: "https://www.youtube.com/channel/UClSSBep-FAPjB6hWiBtxM_A",
 			m1: "<p col='#444'>Just 2 steps away from premium</p>",
 			m2: `<p col="#ff3000" class="warn">Don't go <b>Back</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 2</div>`,
@@ -47,7 +47,7 @@ class main{
 			time: 5,
 		},
 		{
-			lnk: "https://www.youtube.com/channel/UClSSBep-FAPjB6hWiBtxM_A",
+			lnk: "https://youtube.com/channel/UCjvd4eGiqjWbh_mz4_TFU-g",
 			m1: "<p col='#444'>Just 1 steps away...</p>",
 			m2: `<p col="#ff3000" class="warn">Don't Press <b>Back Button</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 3</div>`,
