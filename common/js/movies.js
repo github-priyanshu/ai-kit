@@ -9,7 +9,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
 ['RRR HD','3DhQvoa',`${ms2}RRR.2022.HQ.Line/RRR.2022.Hindi.Dubbed.(HQ.Line.Audio).480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
-['Heropanti 2','3v8maFZ',`https://s24.drop.download:182/d/kxct36bt4tcdvbi4u255fdcu2ze3yqb2iv2w4mstbq5gdbaejdkbxsjta4jhclko4xesujzx/Heropanti.2.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
+['Heropanti 2','3v8maFZ',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Heropanti.2.2022.CamRip/Heropanti.2.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
 ['Doctor Strange 2','3shtZaG',`${ms2}Doctor.Strange.2.2022.HDcam/Doctor.Strange.2.2022.480p.HDCAM.Hindi.Engish.x264-DudeFilms.in.mkv`,3],
 ['KGF 2 HD','3P5H3dc',`${ms2}K.G.F.Chapter.2.2022.HQ.Line/K.G.F..Chapter.2.2022.Hindi.Cleaned.480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Dear Father','3FfWoTP',`${ms2}Dear.Father.2022/Dear.Father.2022.Gujarati.480p.WEB-DL.ESub-DudeFilms.in.mkv?preview`,1],
