@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['Fantastic Beasts','3ln812l',`${ms2}Fantastic.Beasts.2022.Hindi.CAM/Fantastic.Beasts.The.Secrets.of.Dumbledore.(2022).Hindi.(CAM).English.480p.HDRip-DudeFilms.in.mkv`,3],
 ['Beast HD','3smhbjb',`${ms2}Beast.2022.Hindi.Cleaned/Beast.2022.Hindi.(Cleaned).Tamil.480p.HDRip.HC.ESub-DudeFilms.in.mkv`,2],
 ['Thar','395lubO',`${ms2}Thar.2022/Thar.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Takedown','3L0WQGB',`${ms2}The.Takedown.2022/The.Takedown.2022.Hindi.English.480p.WEB.DL.ESub-DudeFilms.in.mkv`,3],
