@@ -9,12 +9,14 @@ showMore=true,
 search=op("#search"),
 category=op("#category"),
 srhTop=op(".mainBnr").offsetHeight+300,
-seriesOnly=false;
+seriesOnly=false,
+loadedPage=false;
 
 mvNum = mvNum<10?10:mvNum;
 addMovies();
 
 function searchCat(){
+	loadPage();
 	if(category.value=="webseries"){
 		currentToshow=webseries;
 		seriesOnly=true;
@@ -118,6 +120,9 @@ search.onfocus=()=>{
 window.onscroll=(e)=>{
 	if(lastMovieElem && window.innerHeight>lastMovieElem.getBoundingClientRect().top && showMore){
 		addMovies();
+		/*
+		loadPage();
+		try{fetchMore();}catch{}*/
 	}
 }
 
@@ -175,4 +180,10 @@ function checkDownTrue(lnk){
 }
 function directAdonSame(){
 	location.assign(extLink);
+}
+
+function loadPage(){
+	/*if(!loadedPage){
+		addScript("passiveMovies/loadMorePage.js");
+	}*/
 }
