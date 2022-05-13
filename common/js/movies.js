@@ -8,6 +8,7 @@ var movies=
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 /*['name',`${ms}lnk`,mid,'img', cat],*/
 
+['The Kashmir Files HD','3FItM5P',`${ms2}The.Kashmir.Files.2022/The.Kashmir.Files.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Fantastic Beasts','3ln812l',`${ms2}Fantastic.Beasts.2022.Hindi.CAM/Fantastic.Beasts.The.Secrets.of.Dumbledore.(2022).Hindi.(CAM).English.480p.HDRip-DudeFilms.in.mkv`,3],
 ['Beast HD','3smhbjb',`${ms2}Beast.2022.Hindi.Cleaned/Beast.2022.Hindi.(Cleaned).Tamil.480p.HDRip.HC.ESub-DudeFilms.in.mkv`,2],
 ['Thar','395lubO',`${ms2}Thar.2022/Thar.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
@@ -39,7 +40,6 @@ var movies=
 ['Maaran','3NtT1wa',`${ms2}Maaran.2022.Hindi(HQ)/Maaran.2022.UNCUT.Hindi(HQ).Tamil.480p.HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Veerame Vaagai Soodum','3LxdYVs',`${ms2}Veerame.Vaagai.Soodum.2022/Veerame.Vaagai.Soodum.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 ['DJ Tillu','3NkLos0',`${ms}SouthMovies/DJ.Tillu.2022/DJ.Tillu.2022.480p.WEB-DL.Hindi.HQ.Dub.x264-DudeFilms.in.mkv`,2],
-['The Kashmir Files','3JoDewt',`${ms2}The.Kashmir.Files.2022.CamRip/The.Kashmir.Files.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['James','3ws13Ql',`${ms2}James.2022.CamRip/James.2022.480p.CAMRip.Hindi.x264-DudeFilms.in.mkv`,2],
 ['Bachchhan Pandey','3IrBZeh',`${ms2}Bachchhan.Paandey.2022/Bachchhan.Paandey.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Black Crab','3N0nd1Q',`${ms2}Black.Crab.2022/Black.Crab.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
