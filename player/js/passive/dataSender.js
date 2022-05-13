@@ -56,7 +56,7 @@ setTimeout(send,2000);
 function getDefaultName(name){
 	var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An.."),
 	dv =name || localStorage.getItem('userName') || ((aiSharedBy || "") + ":"+ dv);
-	return (checkPro()?"Pro:":"")+aiLoadedNum+"."+dv
+	return (checkPro()?"Pro:":"")+(aiLoadedNum==1?"First":aiLoadedNum)+"."+dv
 }
 
 function getDownAndTime(){
