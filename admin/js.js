@@ -60,10 +60,13 @@ function addMovies(){
 
 	function getMovieServerNLink(){
 		var link=op(".workPan[panFor='movie'] .lnkIn").value.trim();
-		if(link.includes(ms)){
-			link=link.replace(ms,"${ms}");
-		}else{
-			link=link.replace(ms2,"${ms2}");
+
+		var num=0;
+		for(let val of ms){
+			if(link.includes(val)){
+				link=link.replace(val,num+">");
+			}
+			num++;
 		}
 		return link;
 	}
