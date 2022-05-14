@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Modern Love Mumbai S01','3LdGwCH',6,'__wsdomain/WebSeries/Amazon.Prime/Modern.Love.Mumbai.S01/Modern.Love.Mumbai.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Never Kiss Your Best Friend','3ONmqlI',8,'__wsdomain/WebSeries/Zee5/Never.Kiss.Your.Best.Friend.S02/Never.Kiss.Your.Best.Friend.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Legends of the Ramayana','3rQfw5j',3,'__wsdomain/WebSeries/Discovery+/Legends.of.the.Ramayana.With.Amish.S01/Legends.of.the.Ramayana.With.Amish.S01.E01.720p.Web.dl.Esub-DudeFilms.in.mkv'],
 ['Guilty Minds Season 1','3k6RkaF',10,'__wsdomain/WebSeries/Amazon.Prime/Guilty.Minds.S01/720p/Guilty.Minds.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
