@@ -9,7 +9,7 @@ document.body.insertAdjacentHTML("beforeend",`
     </div>
 
     <div class="iframe">
-      <iframe id="iframe"></iframe>
+      <iframe id="iframe" sandbox></iframe>
     </div>
     <div id="loader" onloadstart='loadedWin(this);'></div>
   </div>

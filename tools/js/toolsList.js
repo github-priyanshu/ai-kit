@@ -23,11 +23,12 @@ Meesho:["https://meesho.com/"],
 Shopsy:["https://www.shopsy.in/"],
 Snapdeal:["https://www.snapdeal.com/"],
 Movies:["https://ai-player.netlify.app/"],
+Figlet:["https://doodlenerd.com/web-tool/figlet-generator/"],
 }
 var appTree={
-	Popular:["Vidmate","Bg_Remover","Anything_HPDF","Beautiful_QR","Hot_Songs","Unlock_PDF"],
+	Popular:["Vidmate","Bg_Remover","Anything_HPDF","Beautiful_QR","Hot_Songs","Figlet"],
 	Media:["Movies","Hot_Songs","High_Img","Wallpaper","Vidmate"],
-	Files:["Anything_HPDF","Unlock_PDF","Crop_PDF","Rotate_PDF"],
+	Files:["Anything_HPDF","Unlock_PDF","Crop_PDF","Rotate_PDF","Figlet"],
 	Shoping:["Meesho","Shopsy","Flipkart","Amazon","Snapdeal"],
 	Social_Link:["Youtube","Facebook","Instagram","Twitter","Quora","Share_Chat"],
 }
