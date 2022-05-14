@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Jayeshbhai Jordaar','3L8EljT',`1>Jayeshbhai.Jordaar.2022.CamRip/Jayeshbhai.Jordaar.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['The Kashmir Files HD','3FItM5P',`1>The.Kashmir.Files.2022/The.Kashmir.Files.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Fantastic Beasts','3ln812l',`1>Fantastic.Beasts.2022.Hindi.CAM/Fantastic.Beasts.The.Secrets.of.Dumbledore.(2022).Hindi.(CAM).English.480p.HDRip-DudeFilms.in.mkv`,3],
 ['Beast HD','3smhbjb',`1>Beast.2022.Hindi.Cleaned/Beast.2022.Hindi.(Cleaned).Tamil.480p.HDRip.HC.ESub-DudeFilms.in.mkv`,2],
