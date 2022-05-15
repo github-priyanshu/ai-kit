@@ -10,13 +10,15 @@ search=op("#search"),
 category=op("#category"),
 srhTop=op(".mainBnr").offsetHeight+300,
 seriesOnly=false,
-loadedPage=false;
+loadedPage=false,
+loadAllPage=false,
+checkPageMoreTim=true;
 
 mvNum = mvNum<10?10:mvNum;
 addMovies();
 
+
 function searchCat(){
-	loadPage();
 	if(category.value=="webseries"){
 		currentToshow=webseries;
 		seriesOnly=true;
@@ -113,6 +115,8 @@ function addEvtoLastMv(){
 }
 
 search.onfocus=()=>{
+	loadPage();
+	loadAllPage=true;
 	window.scrollTo(0,srhTop)
 }
 
@@ -120,9 +124,13 @@ search.onfocus=()=>{
 window.onscroll=(e)=>{
 	if(lastMovieElem && window.innerHeight>lastMovieElem.getBoundingClientRect().top && showMore){
 		addMovies();
-		/*
+	}
+	if(checkPageMoreTim && !showMore /*window.scrollY > document.body.offsetHeight - 1000*/){
+		log("yes load next page...");
+		checkPageMoreTim=false;
+		
 		loadPage();
-		try{fetchMore();}catch{}*/
+		try{fetchMore();}catch{}
 	}
 }
 
@@ -183,7 +191,8 @@ function directAdonSame(){
 }
 
 function loadPage(){
-	/*if(!loadedPage){
+	if(!loadedPage){
 		addScript("passiveMovies/loadMorePage.js");
-	}*/
+		loadedPage=true;
+	}
 }

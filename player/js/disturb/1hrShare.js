@@ -56,7 +56,7 @@ function shareHTML(txt="Share to more than <u>3 persons</u> to continue..."){
 		<div class="head"><p col="#ff0055">${txt}</p></div>
 		<div class="lined" fs=".8em">options</div>
 		<div class="shBtn flex">
-			<button class="noBtn flex" onclick="checkShare();shareCurent();" bg="linear-gradient(90deg,#ff6c00,#f40051)" ico="send"></button>
+			<button class="noBtn flex" onclick="checkShare(13);shareCurent();" bg="linear-gradient(90deg,#ff6c00,#f40051)" ico="send"></button>
 			<button class="noBtn flex" onclick="checkShare();this.children[0].click()" bg="linear-gradient(0deg,#06b900,#08f400)" ico="whatsapp"><a href="${url}" hidden target="__blank"></a></button>
 		</div>
 		${(toAskPro())?`<button onclick="window.open('https://ai-player.netlify.app/pro')" class="noBtn" style="border-radius: 2px;color: #fff; background: #0099ff"><span fw="bold">Remove Share</span> forever</button>`:''}
@@ -65,7 +65,7 @@ function shareHTML(txt="Share to more than <u>3 persons</u> to continue..."){
 	return html;
 }
 
-function checkShare(){
-	checkBlur(8,"shared");
+function checkShare(tm=10){
+	checkBlur(tm,"shared");
 	send("/...clicked to share");
 }
