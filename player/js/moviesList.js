@@ -96,17 +96,17 @@ function getMvHtml(val){
 						<div class="name">${val.name}</div>
 					</div>
 					<div class="data flex">
-						<div class="mvActBtn flex" ico="send" onclick="share(${val.mid},'${val.name}')" style="--c: lime"></div>
+						<div class="mvActBtn flex" ico="send" onclick="shareCurent(${val.mid},'${val.name}')" style="--c: lime"></div>
 						<div class="mvActBtn flex" ico="play" style="--c: #ff3000" onclick="setMovie('${val.src}','${val.name}',${val.mid});"></div>
 						<div class="mvActBtn flex" ico="download" style="--c: #ffa700" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${val.src}')"></div>
 					</div>
 				</div>`;
 }
-
+/*
 function share(mid,name=""){
 	var val=movies[mid];
 	shareApp({url: getURI()+`?mid=${mid}&sh=17`,title: val.name,text: `Direct movie link ${name}`});
-}
+}*/
 function getURI(){
 	return location.origin;
 }

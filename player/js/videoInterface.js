@@ -13,7 +13,24 @@ vidDuration,
 videoApplied=false,
 msgInterval,
 videoStoringInterval,
-vidHistory=localStorage.getItem("vidHistory") || [];
+vidHistory=localStorage.getItem("vidHistory") || [],
+
+shareText=`
+
+*FREE new Movies* here...
+
+Some Populars are:
+*RRR*
+*KGF 2*
+*Jersey*
+*The Kashmir Files*
+*Gangubai Khathiawadi*
+*Pushpa*
+
+And more in one link..!!
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
+*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*`;
 if(typeof vidHistory=="string"){
 	vidHistory=vidHistory.split(",")
 }
@@ -85,21 +102,19 @@ function setMovie(lnk,name,midx=false){
 	curVidDataPan.elem.insertAdjacentHTML("beforeend",elem)
 	resetFormat();
 }
-function getLinkOrMid(){
-	if(!video.src.startsWith("http")){
-		return `${domain}?sh=17`;
-	}
-	let midx=video.getAttribute("mid"),lnkx;
+function getLinkOrMid(midx=video.getAttribute("mid")){
+	log(midx)
+	let lnkx=domain+"?sh=17";
 	if(midx){
-		lnkx=`${domain}?mid=${midx}`;
-	}else{
-		lnkx=`${domain}?mlnk='${video.src}'`;
+		lnkx+=`&mid=${midx}`;
+	}else if(video.src && video.src.startsWith("http")){
+		lnkx+=`&mlnk='${video.src}'`;
 	}
-	return lnkx+"&sh=17";
+	return lnkx;
 }
-function shareCurent(){
-	var lnkx=getLinkOrMid();
-	shareApp({title: vidSource.name,text: `Direct link for ${vidSource.name}`, url:lnkx})
+function shareCurent(mid,name=vidSource.name){
+	var lnkx=getLinkOrMid(mid);
+	shareApp({title: name,text: `Direct link for ${name}`+shareText, url:lnkx})
 }
 
 function importViaLink(){
@@ -294,6 +309,7 @@ function stopPlaying(){/*to stop the video forcefully*/
 	vidPan.classList.remove("active");
 	curVidDataPan.elem.classList.remove("active")
 	video.src='';
+	video.removeAttribute("mid");
 	try{hrShare.end();}catch{}
 }
 
@@ -381,23 +397,6 @@ function _kgfAd(mid){
 }
 
 function getShareLink(toAdd=""){
-	var data=`
-${toAdd}
-
-*FREE new Movies* here...
-
-Some Populars are:
-*RRR*
-*KGF 2*
-*Jersey*
-*The Kashmir Files*
-*Gangubai Khathiawadi*
-*Pushpa*
-
-And more in one link..!!
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*`;
-
-return encodeURI("https://wa.me/?text="+data);
+	var data=toAdd+shareText;
+	return encodeURI("https://wa.me/?text="+data);
 }

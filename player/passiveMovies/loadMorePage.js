@@ -35,6 +35,7 @@ function arrangeFetched(raw) {
 	showMore=true;
 	for(let val of raw){
 		moviesAry.push({
+			mid:0,
 			name: val[0],
 			img: "https://bit.ly/"+val[1],
 			src: makeFullSrc(val[2]),
