@@ -41,4 +41,5 @@ function arrangeFetched(raw) {
 			category: val[3]
 		});
 	}
+	doSearch();
 }
