@@ -1,5 +1,5 @@
-var lastShare=Number(localStorage.getItem("lastShare")) || 0,nowTime,
-extLink="https://ai-article.netlify.app/page/bhool%20bhulaiyaa%202";
+var lastShare=localStorage.getItem("lastShare") || 0,nowVid,
+extLink="https://www.youtube.com/watch?v=9er3ixdsS64";
 
 var hrShare={
 	time: 0,vidName: null,tim:0,
@@ -8,9 +8,8 @@ var hrShare={
 	start: (vidName)=>{
 		hrShare.vidName= vidName;
 		hrShare.tim=setInterval(()=>{
-			nowTime=new Date().getTime()/(1000*60);
-			log(nowTime,lastShare);
-			if(video.currentTime > video.duration/2 && lastShare+20<nowTime){
+			nowVid=vidSource.name;
+			if(video.currentTime > video.duration/2 && lastShare!=vidSource.name){
 				hrShare.showShare();
 				clearInterval(hrShare.tim);
 			}
@@ -42,8 +41,8 @@ var hrShare={
 
 function shared(){	
 	hrShare.closeReal();
-	log(nowTime)
-	localStorage.setItem("lastShare",nowTime);
+	log(nowVid)
+	localStorage.setItem("lastShare",nowVid);
 	send("/...Shared "+getAgo(lastShare*60*1000).join(" ")+" ago");
 }
 
