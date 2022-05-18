@@ -36,9 +36,6 @@ And more in one link..!!
 if(typeof vidHistory=="string"){
 	vidHistory=vidHistory.split(",")
 }
-if(aiLoadedNum<4){
-	durationChRate=1000;
-}
 
 
 /*get player start*/
@@ -299,6 +296,10 @@ function vidOnStart(){/*ON THE VIDEO PAN IS SHOWN TO PLAY*/
 		quality.btn.style.display="none"
 	}
 	try{disturbOnVidStart()}catch{}
+
+	if(aiLoadedNum<4 && video.src.startsWith("http")){
+		durationChRate=1000;
+	}
 }
 
 function stopPlaying(){/*to stop the video forcefully*/
