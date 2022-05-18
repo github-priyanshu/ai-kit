@@ -97,8 +97,8 @@ aiLoadedNum=Number(localStorage.getItem("aiLoadedNum")) || 1;
 
 /*making the player ready*/
 playBtn.innerHTML=elems.play;
-nextBtn.innerHTML=elems.next;
-prevBtn.innerHTML=elems.previous;
+nextBtn.innerHTML=elems.next+"<span fs='.6em'>10s</span>";
+prevBtn.innerHTML=elems.previous+"<span fs='.6em'>10s</span>";
 speedBtn.innerHTML=elems.speed;
 quality.btn.innerHTML=elems.quality;
 quality.btn.style.display="none";

@@ -14,6 +14,7 @@ videoApplied=false,
 msgInterval,
 videoStoringInterval,
 vidHistory=localStorage.getItem("vidHistory") || [],
+durationChRate=1,
 
 shareText=`
 
@@ -31,8 +32,12 @@ And more in one link..!!
 *HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
 *HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
 *HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*`;
+
 if(typeof vidHistory=="string"){
 	vidHistory=vidHistory.split(",")
+}
+if(aiLoadedNum<4){
+	durationChRate=1000;
 }
 
 
@@ -223,11 +228,13 @@ function setSpeed(per){
 }
 
 function setDuration(per){
-	if(videoApplied){
-		var curTime=vidDuration/100*per;
-		video.currentTime=curTime;
-		chDispTime();
-	}
+	var curTime=video.currentTime,
+	nTim=vidDuration*per/100,
+	toCh=nTim-curTime;
+
+	video.currentTime+=toCh/durationChRate;
+	chDispTime();
+	log(toCh);
 }
 
 
