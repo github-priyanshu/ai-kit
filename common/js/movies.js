@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Jersey HD','3GhIIIF',`1>Jersey.2022/Jersey.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Morbius','3lpJmKo',`1>Morbius.2022/Morbius.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Cyber Hell Exposing an Internet Horror','3G0DTmF',`1>Cyber.Hell.Exposing.an.Internet.Horror.2022/Cyber.Hell.Exposing.an.Internet.Horror.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Jayeshbhai Jordaar','3L8EljT',`1>Jayeshbhai.Jordaar.2022.CamRip/Jayeshbhai.Jordaar.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
