@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Escaype Live S01','3lvQ8y9',7,'__wsdomain/WebSeries/hotstar/Escaype.Live.S01/Escaype.Live.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Panchayat S02','3Mvxen4',8,'__wsdomain/WebSeries/Amazon.Prime/Panchayat.S02/Panchayat.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Modern Love Mumbai S01','3LdGwCH',6,'__wsdomain/WebSeries/Amazon.Prime/Modern.Love.Mumbai.S01/Modern.Love.Mumbai.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Never Kiss Your Best Friend','3ONmqlI',8,'__wsdomain/WebSeries/Zee5/Never.Kiss.Your.Best.Friend.S02/Never.Kiss.Your.Best.Friend.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
