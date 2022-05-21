@@ -9,7 +9,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 ['Dhaakad','39Mu53S',`https://dl2.odcloud03.workers.dev/ODCloud_Dhub/Dhaakad.2022.CamRip/Dhaakad.2022.480p.CAMRip.HINDI.DUB.PariMatch-DudeFilms.in.mkv`,1],
-['Bhool Bhulaiyaa 2','3Nj2qWC',`1>Bhool.Bhulaiyaa.2.2022.CamRip/Bhool.Bhulaiyaa.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Bhool Bhulaiyaa 2','3Nj2qWC',`https://s25.drop.download:182/d/k3ctxpj74tcdvbi46g54bfipsvg5az3ifs6awfn7wkungynmzia2ytehasrq6sz4whgeqctt/Bhool.Bhulaiyaa.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Jersey HD','3GhIIIF',`1>Jersey.2022/Jersey.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Morbius','3lpJmKo',`1>Morbius.2022/Morbius.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Cyber Hell Exposing an Internet Horror','3G0DTmF',`1>Cyber.Hell.Exposing.an.Internet.Horror.2022/Cyber.Hell.Exposing.an.Internet.Horror.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
