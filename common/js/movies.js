@@ -8,7 +8,6 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Sonic the  Hedgehog 2','bit.ly/3PA2N0K',`1>Sonic.the.Hedgehog.2.2022/Sonic.the.Hedgehog.2.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Dhaakad','39Mu53S',`https://dl2.odcloud03.workers.dev/ODCloud_Dhub/Dhaakad.2022.CamRip/Dhaakad.2022.480p.CAMRip.HINDI.DUB.PariMatch-DudeFilms.in.mkv`,1],
 ['Bhool Bhulaiyaa 2','3Nj2qWC',`https://dl2.odcloud03.workers.dev/OdCloud_Dhub/Bhool.Bhulaiyaa.2.2022.CamRip/Bhool.Bhulaiyaa.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Jersey HD','3GhIIIF',`1>Jersey.2022/Jersey.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
