@@ -8,8 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Dhaakad','39Mu53S',`https://dl2.odcloud03.workers.dev/ODCloud_Dhub/Dhaakad.2022.CamRip/Dhaakad.2022.480p.CAMRip.HINDI.DUB.PariMatch-DudeFilms.in.mkv`,1],
-['Bhool Bhulaiyaa 2','3Nj2qWC',`https://dl2.odcloud03.workers.dev/OdCloud_Dhub/Bhool.Bhulaiyaa.2.2022.CamRip/Bhool.Bhulaiyaa.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Dhaakad','39Mu53S',`1>Dhaakad.2022.CamRip/Dhaakad.2022.480p.CAMRip.HINDI.DUB.PariMatch-DudeFilms.in.mkv`,1],
+['Bhool Bhulaiyaa 2','3Nj2qWC',`1>Bhool.Bhulaiyaa.2.2022.CamRip/Bhool.Bhulaiyaa.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Jersey HD','3GhIIIF',`1>Jersey.2022/Jersey.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Morbius','3lpJmKo',`1>Morbius.2022/Morbius.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Cyber Hell Exposing an Internet Horror','3G0DTmF',`1>Cyber.Hell.Exposing.an.Internet.Horror.2022/Cyber.Hell.Exposing.an.Internet.Horror.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
@@ -25,7 +25,7 @@ var movies=
 ['KGF 2 HD','3P5H3dc',`1>K.G.F.Chapter.2.2022.HQ.Line/K.G.F..Chapter.2.2022.Hindi.Cleaned.480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Dear Father','3FfWoTP',`1>Dear.Father.2022/Dear.Father.2022.Gujarati.480p.WEB-DL.ESub-DudeFilms.in.mkv?preview`,1],
 ['Radhe Shyam HD','3t17ZBI',`1>Radhe.Shyam.2022/Radhe.Shyam.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,2],
-['Runway 34','39lV31P',`https://dl2.odcloud02.workers.dev/OdCloud_Dhub/Runway.34.2022.CamRip/Runway.34.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Runway 34','39lV31P',`1>Runway.34.2022.CamRip/Runway.34.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['365 Days This Day','3xVqomg',`1>365.Days.This.Day.2022/365.Days.This.Day.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Gangubai Kathiawadi HD','3JPulvs',`1>Gangubai.Kathiawadi.2022/Gangubai.Kathiawadi.2022.480p.NF.WEB-DL.Esub-DudeFilms.in.mkv`,1],
 ['Jersey 2022','3v8bJSY',`1>Jersey.2022.CamRip/Jersey.2022.480p.CAMRip.HINDI.x264-DudeFilms.in.mkv`,1],
