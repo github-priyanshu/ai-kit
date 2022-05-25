@@ -8,9 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Top Gun Maverick','3GdPA9V',`1>Top.Gun.Maverick.2022.Eng.CamRip/Top.Gun.Maverick.2022.English.480p.CAMRip-DudeFilms.in.mkv`,3],
-['Nayika Devi The Warrior Queen','3Nxgo7j',`1>Nayika.Devi.The.Warrior.Queen.2022.CamRip/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.480p.PreDvDRip.x264-DudeFilms.in.mkv`,1],
-['Toolsidas Junior','38LmW3w',`1>Toolsidas.Junior.2022/Toolsidas.Junior.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Nayika Devi The Warrior Queen','3GfEKjC',`1>Nayika.Devi.The.Warrior.Queen.2022.CamRip/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.480p.PreDvDRip.x264-DudeFilms.in.mkv`,1],
+['Toolsidas Junior','3lHQmT1',`1>Toolsidas.Junior.2022/Toolsidas.Junior.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Dhaakad','39Mu53S',`1>Dhaakad.2022.CamRip/Dhaakad.2022.480p.CAMRip.HINDI.DUB.PariMatch-DudeFilms.in.mkv`,1],
 ['Bhool Bhulaiyaa 2','3Nj2qWC',`1>Bhool.Bhulaiyaa.2.2022.CamRip/Bhool.Bhulaiyaa.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Jersey HD','3GhIIIF',`1>Jersey.2022/Jersey.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
