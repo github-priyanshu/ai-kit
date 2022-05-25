@@ -22,6 +22,19 @@
 .vidPan.active{
 	display: flex;
 }
+.vidPan .vidLogo{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	pointer-events: none;
+}
+.vidPan .vidLogo #aiGoo{
+	opacity: .8;
+	width: 150px;
+	top: -18px;
+	display: none;
+}
 .vidPan .dataBox{
 	width: 100%;
 	font-family: Encode Sans SC;
