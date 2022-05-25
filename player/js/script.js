@@ -420,4 +420,4 @@ setInterval(()=>{
 	setTimeout(()=>{
 		aiGooLogo.style.display="none";
 	},15000)
-},15*1000)
+},15*60*1000)
