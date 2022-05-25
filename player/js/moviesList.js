@@ -68,18 +68,22 @@ function getSriesHtml(val,sid){
 	for(let i=1; i<=val.links.length; i++){
 		lnkHtml+=`<div class="flex" onclick="setMovie('${val.links[i-1]}','${val.name} Episode ${i}')"><span>${i}</span></div>`;
 	}
-	return `<div class="noAd moviePan series flex">
+	return `<div class="noAd moviePan series flex c">
 					<div class="poster w100p">
 						<img src="${val.img}" alt="${val.name}" loading="lazy" class="w100p">
-						<div class="name">${val.name}</div>
-					</div>
-					<div class="data flex c">
-						<p fs="1.1em" col="#444">Episodes</p>
-						<div class="downSr" ico="download" bg="#ffa700" style="fill: #fff; padding: 5px 7px; cursor: pointer; border-radius: 2px;" onclick="downSeries(${sid})"></div>
-						<div class="eps flex">
-							${lnkHtml}
+
+						<div class="downPan flex c">
+							<p fs="1.1em" col="#fff">Episodes</p>
+							<div class="eps flex">
+								${lnkHtml}
+							</div>
 						</div>
 					</div>
+					<div class="data flex">
+						<div class="name">${val.name}</div>
+						<div class="downSr mvActBtn" ico="download" padding: 5px 7px; cursor: pointer; border-radius: 2px;" onclick="downSeries(${sid})"></div>
+					</div>
+
 				</div>`;
 }
 function downSeries(sid){
@@ -90,15 +94,17 @@ function downSeries(sid){
 }
 
 function getMvHtml(val){
-	return `<div class="moviePan noAd flex">
-					<div class="poster w100p">
+	return `<div class="moviePan noAd flex c">
+					<div class="poster w100p" onclick="setMovie('${val.src}','${val.name}',${val.mid});">
 						<img src="${val.img}" alt="${val.name}" loading="lazy" class="w100p">
-						<div class="name">${val.name}</div>
 					</div>
 					<div class="data flex">
-						<div class="mvActBtn flex" ico="send" onclick="shareCurent(${val.mid},'${val.name}')" style="--c: lime"></div>
-						<div class="mvActBtn flex" ico="play" style="--c: #ff3000" onclick="setMovie('${val.src}','${val.name}',${val.mid});"></div>
-						<div class="mvActBtn flex" ico="download" style="--c: #ffa700" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${val.src}')"></div>
+						<div class="name"v onclick="setMovie('${val.src}','${val.name}',${val.mid});">${val.name}</div>
+
+						<div class="btnBn flex">
+							<div class="mvActBtn flex" ico="send" onclick="shareCurent(${val.mid},'${val.name}')"></div>
+							<div class="mvActBtn flex" ico="download" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${val.src}')"></div>
+						</div>
 					</div>
 				</div>`;
 }
