@@ -9,6 +9,7 @@ videoBox=op(".videoBox"),
 playBtn=op("#playBtn"),
 nextBtn=op("#nextBtn"),
 prevBtn=op("#prevBtn"),
+aiGooLogo=op("#aiGoo"),
 
 controlBox=op(".controls"),
 speedIco=op('.speedIco'),
@@ -412,3 +413,11 @@ function toAskPro(){
 		return true;
 	}
 }
+
+/*ANIMATING IN VIDEO LOGO*/
+setInterval(()=>{
+	aiGooLogo.style.display="block";
+	setTimeout(()=>{
+		aiGooLogo.style.display="none";
+	},15000)
+},15*1000)
