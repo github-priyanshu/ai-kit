@@ -1,6 +1,6 @@
 body{
   --br: 40px 40px;
-  --divWidth: calc(100% - 10px);
+  --divWidth: 100%;
   --stdBg: linear-gradient(45deg,#ff79dc,#7042cb);
 }
 .banner{
