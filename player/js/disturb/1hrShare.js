@@ -1,5 +1,5 @@
 var lastShare=localStorage.getItem("lastShare") || 0,nowVid,
-extLink="https://ai-article.netlify.app/page/bhool%20bhulaiyaa%202";
+extLink="https://youtu.be/qt_qFEOaq4o";
 
 var hrShare={
 	time: 0,vidName: null,tim:0,
