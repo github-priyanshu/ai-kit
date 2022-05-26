@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Gamanam','39YAMzB',`1>Gamanam.2021/Gamanam.2021.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Nayika Devi The Warrior Queen','3GfEKjC',`1>Nayika.Devi.The.Warrior.Queen.2022.CamRip/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.480p.PreDvDRip.x264-DudeFilms.in.mkv`,1],
 ['Toolsidas Junior','3lHQmT1',`1>Toolsidas.Junior.2022/Toolsidas.Junior.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Dhaakad','39Mu53S',`1>Dhaakad.2022.CamRip/Dhaakad.2022.480p.CAMRip.HINDI.DUB.PariMatch-DudeFilms.in.mkv`,1],
