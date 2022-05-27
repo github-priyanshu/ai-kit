@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Heropanti 2 HD','3MS8t4D',`1>Heropanti.2.2022/Heropanti.2.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Gamanam','39YAMzB',`1>Gamanam.2021/Gamanam.2021.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Nayika Devi The Warrior Queen','3GfEKjC',`1>Nayika.Devi.The.Warrior.Queen.2022.CamRip/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.480p.PreDvDRip.x264-DudeFilms.in.mkv`,1],
 ['Toolsidas Junior','3lHQmT1',`1>Toolsidas.Junior.2022/Toolsidas.Junior.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
@@ -23,7 +24,6 @@ var movies=
 ['Thar','395lubO',`1>Thar.2022/Thar.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Takedown','3L0WQGB',`1>The.Takedown.2022/The.Takedown.2022.Hindi.English.480p.WEB.DL.ESub-DudeFilms.in.mkv`,3],
 ['RRR HD','3DhQvoa',`1>RRR.2022.HQ.Line/RRR.2022.Hindi.Dubbed.(HQ.Line.Audio).480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
-['Heropanti 2','3v8maFZ',`1>Heropanti.2.2022.CamRip/Heropanti.2.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
 ['Doctor Strange 2','3shtZaG',`1>Doctor.Strange.2.2022.HDcam/Doctor.Strange.2.2022.480p.HDCAM.Hindi.Engish.x264-DudeFilms.in.mkv`,3],
 ['KGF 2 HD','3P5H3dc',`1>K.G.F.Chapter.2.2022.HQ.Line/K.G.F..Chapter.2.2022.Hindi.Cleaned.480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Dear Father','3FfWoTP',`1>Dear.Father.2022/Dear.Father.2022.Gujarati.480p.WEB-DL.ESub-DudeFilms.in.mkv?preview`,1],
