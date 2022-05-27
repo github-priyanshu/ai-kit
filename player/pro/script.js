@@ -38,7 +38,7 @@ class main{
 			time: 8,
 		},
 		{
-			lnk: "https://www.youtube.com/channel/UClSSBep-FAPjB6hWiBtxM_A",
+			lnk: "https://youtube.com/c/AwesomeCode",
 			m1: "<p col='#444'>Just 2 steps away from premium</p>",
 			m2: `<p col="#ff3000" class="warn">Don't go <b>Back</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 2</div>`,
