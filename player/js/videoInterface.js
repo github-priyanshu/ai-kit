@@ -214,7 +214,7 @@ function applyData(){/*funciton will be called after the video is started to be 
 	showDataForUser();
 
 	document.title=vidSource.name+" : Ai-Player";
-	send("Started~"+vidSource.name);
+	send("/...Started_"+vidSource.name);
 	setZeroVidErr();
 }
 
