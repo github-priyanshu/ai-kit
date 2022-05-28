@@ -421,3 +421,7 @@ setInterval(()=>{
 		aiGooLogo.style.display="none";
 	},15000)
 },15*60*1000)
+
+function joinTelegram(){
+	window.open('https://t.me/aiplayermovies')
+}

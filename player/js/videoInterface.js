@@ -50,19 +50,34 @@ function askLink(){
 	}
 }
 
+var vidErrorCt=Number(localStorage.getItem("vidErrorCt")) || 0;
 video.onerror=(e)=>{
 	if(vidPan.classList.contains("active")){
+		vidErrorCt++;
+		localStorage.setItem("vidErrorCt",vidErrorCt);
+
 		let errCode=video.error.code-1;
 		let msgAry=["Loading was interrupted. Try again.","This video is not supported in this Browser.","Check your network connectivity","There is an error!"];
 		let msg=msgAry[errCode];
 
-		dialog.buttons("Close","Ok")
-		dialog.success=()=>{null};
-		dialog.inside(`<span col="#f00" ff="glory">Error :</span><br><span ff="glory" col="#444">/...${msg}</span>${onErrDown()}`);
+		if(vidErrorCt>=2){
+			dialog.inside(`<span col="#f00" ff="glory">Problem in server :</span><br><span ff="glory" col="#444">Unable to play movie now. </span><br><br><i>Please <b><u>Join our Telegram channel</u></b> to know when the error will be resolved.</i>`);
+			setZeroVidErr();
+			
+			dialog.buttons("Close","Join")
+			dialog.success=()=>{joinTelegram()};
+			send("/...Problem twice "+vidSource.name);
+		}else{
+			dialog.inside(`<span col="#f00" ff="glory">Error :</span><br><span ff="glory" col="#444">/...${msg}</span>${onErrDown()}`);
+		}
 		dialog.show();
 
 		sendProblem(vidSource.name+" /...Problem");
 	}
+}
+function setZeroVidErr(n=0){
+	vidErrorCt=n;
+	localStorage.setItem("vidErrorCt",n);
 }
 
 function onErrDown(){
@@ -199,6 +214,8 @@ function applyData(){/*funciton will be called after the video is started to be 
 	showDataForUser();
 
 	document.title=vidSource.name+" : Ai-Player";
+	send("Started~"+vidSource.name);
+	setZeroVidErr();
 }
 
 function playPause(){

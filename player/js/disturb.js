@@ -5,8 +5,12 @@ if(checkPro()){
 }else{
 	addScript("js/disturb/1hrShare.js");
 	if(aiLoadedNum>2){
-//		addScript("js/disturb/vignetteAd.js");
-//		addScript("js/disturb/proAd.js");
+		addScript("js/disturb/vignetteAd.js");
+		addScript("js/disturb/proAd.js");
+		
+		setTimeout(()=>{
+			addScript("js/disturb/after30minAd.js");
+		},30*60*1000)
 	}
 }
 
