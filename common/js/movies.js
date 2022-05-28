@@ -8,9 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Acharya','3LTrWAI',`1>Acharya.2022.HQ.Hindi/Acharya.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
-['Anek','3ND0dp9',`1>Anek.2022.CamRip/Anek.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
-['Runway 34 HD','3wWbFXa',`1>Runway.34.2022/Runway.34.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+//['Acharya','3LTrWAI',`1>Acharya.2022.HQ.Hindi/Acharya.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
+//['Anek','3ND0dp9',`1>Anek.2022.CamRip/Anek.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Runway 34 HD','3wWbFXa',`https://d600.userdrive.me/d/3ojxg4jb2as5ln23fli3pwt4hr7wwol75t34kkyzeyu5nmlyxu4thvrigmnphlgjtcx3looh/Runway.34.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Heropanti 2 HD','3MS8t4D',`1>Heropanti.2.2022/Heropanti.2.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Gamanam','39YAMzB',`1>Gamanam.2021/Gamanam.2021.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Nayika Devi The Warrior Queen','3GfEKjC',`1>Nayika.Devi.The.Warrior.Queen.2022.CamRip/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.480p.PreDvDRip.x264-DudeFilms.in.mkv`,1],
