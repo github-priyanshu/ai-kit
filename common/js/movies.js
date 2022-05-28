@@ -11,7 +11,7 @@ var movies=
 //['Acharya','3LTrWAI',`1>Acharya.2022.HQ.Hindi/Acharya.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 //['Anek','3ND0dp9',`1>Anek.2022.CamRip/Anek.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Runway 34 HD','3wWbFXa',`https://d600.userdrive.me/d/3ojxg4jb2as5ln23fli3pwt4hr7wwol75t34kkyzeyu5nmlyxu4thvrigmnphlgjtcx3looh/Runway.34.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
-['Heropanti 2 HD','3MS8t4D',`1>Heropanti.2.2022/Heropanti.2.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Heropanti 2 HD','3MS8t4D',`https://d500.userdrive.me/d/3wjycsbb2as5ln23fli6ltldecyd2jrk3i2xushwvo3mfutsqh4jazvz6fsfvngb3zdmiwee/Heropanti.2.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Gamanam','39YAMzB',`1>Gamanam.2021/Gamanam.2021.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Nayika Devi The Warrior Queen','3GfEKjC',`1>Nayika.Devi.The.Warrior.Queen.2022.CamRip/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.480p.PreDvDRip.x264-DudeFilms.in.mkv`,1],
 ['Toolsidas Junior','3lHQmT1',`1>Toolsidas.Junior.2022/Toolsidas.Junior.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
