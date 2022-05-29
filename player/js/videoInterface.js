@@ -15,6 +15,8 @@ msgInterval,
 videoStoringInterval,
 vidHistory=localStorage.getItem("vidHistory") || [],
 durationChRate=1,
+curVid="",
+vidErrorCt=Number(localStorage.getItem("vidErrorCt")) || 0,
 
 shareText=`
 
@@ -50,7 +52,6 @@ function askLink(){
 	}
 }
 
-var vidErrorCt=Number(localStorage.getItem("vidErrorCt")) || 0;
 video.onerror=(e)=>{
 	if(vidPan.classList.contains("active")){
 		vidErrorCt++;
@@ -200,22 +201,26 @@ function chDispTime(){
 	duration.filled.style.width=Math.ceil(filledWidht)+'px';
 }
 
-function applyData(){/*funciton will be called after the video is started to be played*/
-	vidDuration=video.duration;
-	timeBox.total.innerHTML='/'+getMinSec(vidDuration);
 
+function applyData(){/*funciton will be called after the video is started to be played*/
 	videoApplied=true;
 	clearInterval(timeChInterval);
 	timeChInterval=setInterval(()=>{
-		chDispTime();
-		notLoaded();
+	chDispTime();
+	notLoaded();
 	},1000)
 	clearInterval(msgInterval);
 	showDataForUser();
 
-	document.title=vidSource.name+" : Ai-Player";
-	send("/...Started_"+vidSource.name);
-	setZeroVidErr();
+	if(curVid!=vidSource.name){/*ONE TIME ONLY: WHEN VIDEO STARTS AT FIRST*/
+		curVid=vidSource.name;
+		vidDuration=video.duration;
+		timeBox.total.innerHTML='/'+getMinSec(vidDuration);
+
+		document.title=vidSource.name+" : Ai-Player";
+		send("/...Started~"+vidSource.name);
+		setZeroVidErr();
+	}
 }
 
 function playPause(){
@@ -248,7 +253,6 @@ function setDuration(per){
 
 	video.currentTime+=toCh/durationChRate;
 	chDispTime();
-	log(toCh);
 }
 
 
