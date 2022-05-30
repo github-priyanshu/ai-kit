@@ -1,5 +1,5 @@
 var lastShare=localStorage.getItem("lastShare") || 0,nowVid,
-extLink="https://ai-article.netlify.app/page/bhool%20bhulaiyaa%202";
+extLink="https://www.youtube.com/watch?v=9er3ixdsS64";
 
 var hrShare={
 	time: 0,vidName: null,tim:0,
@@ -9,7 +9,7 @@ var hrShare={
 		hrShare.vidName= vidName;
 		hrShare.tim=setInterval(()=>{
 			nowVid=vidSource.name;
-			if(video.currentTime > video.duration/2 && lastShare!=vidSource.name){
+			if(video.currentTime > video.duration/2 && !vidSource.name.includes(lastShare)){
 				hrShare.showShare();
 				clearInterval(hrShare.tim);
 			}
@@ -41,8 +41,7 @@ var hrShare={
 
 function shared(){	
 	hrShare.closeReal();
-	log(nowVid)
-	localStorage.setItem("lastShare",nowVid);
+	localStorage.setItem("lastShare",nowVid.split("Episode")[0]);
 	send("/...Shared "+getAgo(lastShare*60*1000).join(" ")+" ago");
 }
 
@@ -55,10 +54,9 @@ function shareHTML(txt="Share to more than <u>3 persons</u> to continue..."){
 		<div class="head"><p col="#ff0055">${txt}</p></div>
 		<div class="lined" fs=".8em">options</div>
 		<div class="shBtn flex">
-			<button class="noBtn flex" onclick="checkShare(13);shareCurent();" bg="linear-gradient(90deg,#ff6c00,#f40051)" ico="send"></button>
 			<button class="noBtn flex" onclick="checkShare();this.children[0].click()" bg="linear-gradient(0deg,#06b900,#08f400)" ico="whatsapp"><a href="${url}" hidden target="__blank"></a></button>
 		</div>
-		${(toAskPro())?`<button onclick="window.open('https://ai-player.netlify.app/pro')" class="noBtn" style="border-radius: 2px;color: #fff; background: #0099ff"><span fw="bold">Remove Share</span> forever</button>`:''}
+		${(toAskPro())?`<button onclick="window.open('https://ai-player.netlify.app/pro')" class="noBtn" style="border-radius: 2px;color: #fff; background: #0099ff" fs="1em">Don't want to <span fw="bold">Share</span></button>`:''}
 	</div>
 	`;
 	return html;
