@@ -1,4 +1,4 @@
-var lastShare=localStorage.getItem("lastShare") || 0,nowVid,
+var lastShare=localStorage.getItem("lastShare") || false,nowVid,
 extLink="https://ai-article.netlify.app/page/bhool%20bhulaiyaa%202";
 
 var hrShare={
@@ -45,18 +45,18 @@ function shared(){
 	send("/...Shared "+getAgo(lastShare*60*1000).join(" ")+" ago");
 }
 
-function shareHTML(txt="Share to more than <u>3 persons</u> to continue..."){
+function shareHTML(txt="Share to more than <u>3 persons</u> to continue...<br><b col='#f00'>Don't Close</b> You will not be able to <b col='#f00'>resume from here</b>."){
 	var url=getShareLink(`Hey, I am watching *${vidSource.name || "this"}* on Ai Player:
 *${getLinkOrMid()}* `);
 
 	var html=`
 	<div class="shareBx flex c">
-		<div class="head"><p col="#ff0055">${txt}</p></div>
+		<div class="head"><p col="#000">${txt}</p></div>
 		<div class="lined" fs=".8em">options</div>
 		<div class="shBtn flex">
 			<button class="noBtn flex" onclick="checkShare();this.children[0].click()" bg="linear-gradient(0deg,#06b900,#08f400)" ico="whatsapp"><a href="${url}" hidden target="__blank"></a></button>
 		</div>
-		${(toAskPro())?`<button onclick="window.open('https://ai-player.netlify.app/pro')" class="noBtn" style="border-radius: 2px;color: #fff; background: #0099ff" fs="1em">Don't want to <span fw="bold">Share</span></button>`:''}
+		${(toAskPro())?`<button onclick="window.open('https://ai-player.netlify.app/pro')" class="noBtn" fs="1em">Don't want to <span fw="bold">Share</span></button>`:''}
 	</div>
 	`;
 	return html;
