@@ -1,7 +1,7 @@
 .vidPan .vidInAds{
 	position: absolute;
 	height: 100%;
-	background: #eee;
+	background: #111;
 	top: 0;
 	left: 0;
 	display: none;
@@ -11,8 +11,9 @@
 .shareBx{
 	min-width: 300px;
 	min-height: 200px;
-	border: 2px solid #f61740;
-	border-radius: 118px;
+	border-radius: 10px;
+	padding: 10px;
+	background: #fff;
 }
 .shareBx p{
 	
