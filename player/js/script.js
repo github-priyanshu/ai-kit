@@ -419,12 +419,13 @@ setInterval(()=>{
 
 function chAiGooLogo(add=false){
 	if(add){
+		chAiGooLogo();
 		op(".videoBox .vidLogo").insertAdjacentHTML("afterbegin",`<img src="logo/tran-google-ai.gif" alt="ai-player" id="aiGoo">`);
 		setTimeout(()=>{
 			chAiGooLogo();
 		},13000)
 	}else{
-		op("#aiGoo").remove();
+		try{op("#aiGoo").remove();}catch{}
 	}
 }
 
