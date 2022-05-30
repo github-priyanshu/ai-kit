@@ -31,9 +31,32 @@
 }
 .vidPan .vidLogo #aiGoo{
 	opacity: .8;
-	width: 150px;
+	width: 30%;
 	top: -18px;
-	display: none;
+	display: block;
+	animation: aiGoo 2s ease forwards;
+}
+@keyframes aiGoo{
+	0%{
+		left: calc(50% - 15%);
+		top: 100%;
+		transform: scale(0);
+	}
+	20%{
+		left: calc(50% - 15%);
+		top: 100%;
+		transform: scale(1);
+	}
+	80%{
+		left: calc(50% - 15%);
+		top: 100%;
+		transform: scale(1);
+	}
+	100%{
+		top: -40%;
+		transform: scale(1);
+		left: 0;
+	}
 }
 .vidPan .dataBox{
 	width: 100%;
