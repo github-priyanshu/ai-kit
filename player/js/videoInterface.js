@@ -321,6 +321,7 @@ function vidOnStart(){/*ON THE VIDEO PAN IS SHOWN TO PLAY*/
 	if(aiLoadedNum<4 && video.src.startsWith("http")){
 		durationChRate=1000;
 	}
+	chAiGooLogo(true);
 }
 
 function stopPlaying(){/*to stop the video forcefully*/

@@ -9,7 +9,6 @@ videoBox=op(".videoBox"),
 playBtn=op("#playBtn"),
 nextBtn=op("#nextBtn"),
 prevBtn=op("#prevBtn"),
-aiGooLogo=op("#aiGoo"),
 
 controlBox=op(".controls"),
 speedIco=op('.speedIco'),
@@ -414,13 +413,20 @@ function toAskPro(){
 	}
 }
 
-/*ANIMATING IN VIDEO LOGO*/
 setInterval(()=>{
-	aiGooLogo.style.display="block";
-	setTimeout(()=>{
-		aiGooLogo.style.display="none";
-	},15000)
-},15*60*1000)
+	chAiGooLogo(true);
+},10*60*1000)
+
+function chAiGooLogo(add=false){
+	if(add){
+		op(".videoBox .vidLogo").insertAdjacentHTML("afterbegin",`<img src="logo/tran-google-ai.gif" alt="ai-player" id="aiGoo">`);
+		setTimeout(()=>{
+			chAiGooLogo();
+		},13000)
+	}else{
+		op("#aiGoo").remove();
+	}
+}
 
 function joinTelegram(){
 	window.open('https://t.me/aiplayermovies')

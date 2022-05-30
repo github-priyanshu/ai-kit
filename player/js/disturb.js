@@ -1,3 +1,5 @@
+/*THESE ARE SOME LOCALSTORATE VARIABLES*/
+// 'notifier3ClTim,vidErrorCt,lastShare,vidHistory,aiCurVid,lastOpDate,aiSharedBy,downloadExperience,lastIntAdTime,step,gotPro1,aiDownDataSent,aiLoadedNum,lastKgf'
 // addScript("js/disturb/notifier.js");
 
 if(checkPro()){
@@ -5,7 +7,7 @@ if(checkPro()){
 }else{
 	addScript("js/disturb/1hrShare.js");
 	if(aiLoadedNum>2){
-		addScript("js/disturb/vignetteAd.js");
+//		addScript("js/disturb/vignetteAd.js");
 //		addScript("js/disturb/proAd.js");
 		
 		setTimeout(()=>{
