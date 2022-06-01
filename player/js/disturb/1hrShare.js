@@ -12,6 +12,8 @@ var hrShare={
 			if(video.currentTime > video.duration/2 && !vidSource.name.includes(lastShare)){
 				hrShare.showShare();
 				clearInterval(hrShare.tim);
+				movieExp+=1;
+				localStorage.setItem("movieExp",movieExp);
 			}
 		},15*1000);
 	},
