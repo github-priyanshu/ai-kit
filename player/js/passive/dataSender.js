@@ -10,6 +10,8 @@ setInterval(()=>{
 	}else{
 		data="spent10Mins";
 	}
+	experienceMin+=10;
+	localStorage.setItem("experienceMin",experienceMin);
 	send(data);
 },1000*60*10)
 

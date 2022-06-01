@@ -90,7 +90,9 @@ brightVolTarget,
 skipTimeStamp=0,
 skipping=0,
 skipResetTime,
-aiLoadedNum=Number(localStorage.getItem("aiLoadedNum")) || 1;
+aiLoadedNum=Number(localStorage.getItem("aiLoadedNum")) || 1,
+experienceMin=Number(localStorage.getItem("experienceMin")) || 0,
+movieExp=Number(localStorage.getItem("movieExp")) || 0;
 
 /*varaibles are over*/
 

@@ -318,7 +318,7 @@ function vidOnStart(){/*ON THE VIDEO PAN IS SHOWN TO PLAY*/
 	}
 	try{disturbOnVidStart()}catch{}
 
-	if(aiLoadedNum<4 && video.src.startsWith("http")){
+	if((experienceMin>30 || movieExp>=1 || aiLoadedNum>5) && video.src.startsWith("http")){/*CHANGE HERE AFTER 10 DAY OF 10 JUNE: REMOVE AI LOADED NUM*/
 		durationChRate=1000;
 	}
 	chAiGooLogo(true);
