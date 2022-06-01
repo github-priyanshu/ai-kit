@@ -63,8 +63,9 @@ function getDefaultName(name){
 
 function getDownAndTime(){
 	var ret="";
-	ret=(isDownLoaded())?ret+="App:":"Web:";
-	ret+=", Last: "+getAgo(lastOpDate).join(" ")+", Opened:"+getAgo(nowOpenedAt).join(" ");
+	ret+=movieExp+"~"+experienceMin+"~";
+	ret+=(isDownLoaded())?ret+="App:":"Web:";
+	ret+=" ~"+getAgo(lastOpDate).join(" ")+" ~"+getAgo(nowOpenedAt).join(" ");
 	return ret;
 }
 

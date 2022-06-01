@@ -31,9 +31,9 @@ Some Populars are:
 *Pushpa*
 
 And more in one link..!!
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*`;
+https://ai-player.netlify.app?sh=17
+https://ai-player.netlify.app?sh=17
+https://ai-player.netlify.app?sh=17`;
 
 if(typeof vidHistory=="string"){
 	vidHistory=vidHistory.split(",")

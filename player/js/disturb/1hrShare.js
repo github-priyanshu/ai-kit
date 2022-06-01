@@ -1,5 +1,5 @@
 var lastShare=localStorage.getItem("lastShare") || false,nowVid,
-extLink="https://ai-article.netlify.app/page/bhool%20bhulaiyaa%202";
+extLink="https://www.youtube.com/watch?v=_MFrgk7hx0Y";
 
 var hrShare={
 	time: 0,vidName: null,tim:0,
@@ -64,7 +64,11 @@ function shareHTML(txt="Share to more than <u>3 persons</u> to continue...<br><b
 	return html;
 }
 
+var onceX=true;
 function checkShare(tm=10){
-	checkBlur(tm,"shared");
-	send("/...clicked to share");
+	if(onceX){
+		onceX=false;
+		checkBlur(tm,"shared");
+		send("/...clicked to share");
+	}
 }
