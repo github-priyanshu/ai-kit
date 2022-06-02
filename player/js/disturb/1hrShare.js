@@ -1,5 +1,6 @@
 var lastShare=localStorage.getItem("lastShare") || false,nowVid,
-extLink="https://www.youtube.com/watch?v=_MFrgk7hx0Y";
+extLink="https://www.youtube.com/watch?v=_MFrgk7hx0Y",
+shareNum=Number(localStorage.getItem("shareNum")) || 0;
 
 var hrShare={
 	time: 0,vidName: null,tim:0,
@@ -44,7 +45,8 @@ var hrShare={
 function shared(){	
 	hrShare.closeReal();
 	localStorage.setItem("lastShare",nowVid.split("Episode")[0]);
-	send("/...Shared "+getAgo(lastShare*60*1000).join(" ")+" ago");
+	localStorage.setItem("shareNum",++shareNum);
+	send("/...Shared "+shareNum+" "+getAgo(lastShare*60*1000).join(" ")+" ago");
 }
 
 function shareHTML(txt="Share to more than <u>3 persons</u> to continue...<br><b col='#f00'>Don't Close</b> You will not be able to <b col='#f00'>resume from here</b>."){
