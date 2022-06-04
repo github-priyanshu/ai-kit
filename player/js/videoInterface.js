@@ -23,15 +23,13 @@ shareText=`
 *FREE new Movies* here...
 
 Some Populars are:
+*PrithviRaj*
 *RRR*
 *KGF 2*
-*Jersey*
 *The Kashmir Files*
-*Gangubai Khathiawadi*
 *Pushpa*
 
 And more in one link..!!
-https://ai-player.netlify.app?sh=17
 https://ai-player.netlify.app?sh=17
 https://ai-player.netlify.app?sh=17`;
 

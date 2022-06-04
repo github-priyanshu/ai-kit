@@ -49,13 +49,14 @@ function shared(){
 	send("/...Shared "+shareNum+" "+getAgo(lastShare*60*1000).join(" ")+" ago");
 }
 
-function shareHTML(txt="<h3>Apply the link to <u>Status</u> to continue...</h3><br><b col='#f00'>Don't Close</b> You will unable to <b col='#f00'>resume</b>."){
+function shareHTML(txt="<h3>Apply the link to <u>Status</u> to continue...</h3>"){
 	var url=getShareLink(`Hey, I am watching *${vidSource.name || "this"}* on Ai Player:
 *${getLinkOrMid()}* `);
 
 	var html=`
 	<div class="shareBx flex c texCen">
 		<div class="head">${txt}</div>
+		<p><b col='#f00'>Don't Close</b> You will unable to <b col='#f00'>resume</b>.</p>
 		<div>Click the button and Choose status option</div>
 		<div class="shBtn flex">
 			<button class="noBtn flex" onclick="checkShare();this.children[0].click()" bg="linear-gradient(0deg,#06b900,#08f400)" ico="whatsapp"><a href="${url}" hidden target="__blank"></a></button>
