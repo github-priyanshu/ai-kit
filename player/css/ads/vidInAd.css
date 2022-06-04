@@ -12,10 +12,11 @@
 	min-width: 300px;
 	min-height: 200px;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 0 10px;
 	background: #fff;
-	font-size: 1.1em;
+	font-size: 1em;
 }
+
 .shareBx p{
 	text-align: center;
 }
@@ -24,11 +25,8 @@
 	background: #333;	
 }
 
-.shareBx .lined{
-	margin: 0;
-}
 .shareBx > *{
-	margin: 10px 0;
+	margin: 4px 0;
 }
 .shareBx button{
 	margin: 0 5px;
