@@ -16,7 +16,7 @@ var hrShare={
 				movieExp+=1;
 				localStorage.setItem("movieExp",movieExp);
 			}
-		},15*1000);
+		},1*1000);
 	},
 	showShare:()=>{
 		playing?playPause():'';
@@ -49,14 +49,14 @@ function shared(){
 	send("/...Shared "+shareNum+" "+getAgo(lastShare*60*1000).join(" ")+" ago");
 }
 
-function shareHTML(txt="Share to more than <u>3 persons</u> to continue...<br><b col='#f00'>Don't Close</b> You will not be able to <b col='#f00'>resume from here</b>."){
+function shareHTML(txt="<h3>Apply the link to <u>Status</u> to continue...</h3><br><b col='#f00'>Don't Close</b> You will unable to <b col='#f00'>resume</b>."){
 	var url=getShareLink(`Hey, I am watching *${vidSource.name || "this"}* on Ai Player:
 *${getLinkOrMid()}* `);
 
 	var html=`
-	<div class="shareBx flex c">
-		<div class="head"><p col="#000">${txt}</p></div>
-		<div class="lined" fs=".8em">options</div>
+	<div class="shareBx flex c texCen">
+		<div class="head">${txt}</div>
+		<div>Click the button and Choose status option</div>
 		<div class="shBtn flex">
 			<button class="noBtn flex" onclick="checkShare();this.children[0].click()" bg="linear-gradient(0deg,#06b900,#08f400)" ico="whatsapp"><a href="${url}" hidden target="__blank"></a></button>
 		</div>
