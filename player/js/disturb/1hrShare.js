@@ -16,7 +16,7 @@ var hrShare={
 				movieExp+=1;
 				localStorage.setItem("movieExp",movieExp);
 			}
-		},1*1000);
+		},15*1000);
 	},
 	showShare:()=>{
 		playing?playPause():'';
