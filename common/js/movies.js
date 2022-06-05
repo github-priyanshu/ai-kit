@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Samrat Prithviraj','38MMBsv',`https://s19.drop.download:182/d/ehc2yxb44tcdvbi43655xhiuyjjkaj4f37hj4pzzqgdoim3jljowx5xvxogjtdn3kr63i4mc/Samrat.Prithviraj.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Samrat Prithviraj','38MMBsv',`https://s19.drop.download:182/d/ehc2yxb44tcdvbi43655xhiuyjjkaj4f37hj4pzzqgdoim3lazlwhvukz2lxdc4flesh3sey/Samrat.Prithviraj.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Major','3teGmok',`https://s18.drop.download:182/d/elczy3r44tcdvbi43s55jgauywiwsjjf74xweijsnsevsux7jjq2gld2jrsxgqxzh4n2lgpd/Major.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Sher Shivraj','3M1gdjv',`1>Sher.Shivraj.2022.Marathi/Sher.Shivraj.2022.Marathi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Acharya','3LTrWAI',`1>Acharya.2022.HQ.Hindi/Acharya.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
