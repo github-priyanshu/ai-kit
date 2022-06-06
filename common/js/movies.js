@@ -29,7 +29,7 @@ var movies=
 ['Beast HD','3smhbjb',`1>Beast.2022.Hindi.Cleaned/Beast.2022.Hindi.(Cleaned).Tamil.480p.HDRip.HC.ESub-DudeFilms.in.mkv`,2],
 ['Thar','395lubO',`1>Thar.2022/Thar.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Takedown','3L0WQGB',`1>The.Takedown.2022/The.Takedown.2022.Hindi.English.480p.WEB.DL.ESub-DudeFilms.in.mkv`,3],
-['RRR HD','3DhQvoa',`1>RRR.2022.HQ.Line/RRR.2022.Hindi.Dubbed.(HQ.Line.Audio).480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
+['RRR HD','3DhQvoa',`1>RRR.2022/RRR.2022.Hindi.Dubbed.480p.NF.WEBDL.ESub-DudeFilms.in.mkv`,2],
 ['Doctor Strange 2','3shtZaG',`1>Doctor.Strange.2.2022.HDcam/Doctor.Strange.2.2022.480p.HDCAM.Hindi.Engish.x264-DudeFilms.in.mkv`,3],
 ['KGF 2 HD','3P5H3dc',`1>K.G.F.Chapter.2.2022.HQ.Line/K.G.F..Chapter.2.2022.Hindi.Cleaned.480p.HC.HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Dear Father','3FfWoTP',`1>Dear.Father.2022/Dear.Father.2022.Gujarati.480p.WEB-DL.ESub-DudeFilms.in.mkv?preview`,1],
