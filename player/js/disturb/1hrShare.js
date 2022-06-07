@@ -1,5 +1,5 @@
 var lastShare=localStorage.getItem("lastShare") || false,nowVid,
-extLink="https://youtu.be/qt_qFEOaq4o",
+extLink="https://www.youtube.com/watch?v=_MFrgk7hx0Y",
 shareNum=Number(localStorage.getItem("shareNum")) || 0;
 
 var hrShare={
@@ -69,6 +69,7 @@ function shareHTML(txt="<h3>Apply the link to <u>Status</u> to continue...</h3>"
 
 var onceX=true;
 function checkShare(tm=10){
+	if(movieExp<=1){tm-=3;}
 	if(onceX){
 		onceX=false;
 		checkBlur(tm,"shared");
