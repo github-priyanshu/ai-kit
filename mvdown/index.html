@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-	<meta name="google-site-verification" content="PRevEAasLsr0bAa7RarwMOn3dydkdRKWC0RjVwdjT0I" />
 	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +9,6 @@
 	<base href="https://ai-kit.netlify.app/">
 
 	<link rel="stylesheet" href="common/css/style.css">
-	<script type="text/javascript" async src="https://platform.foremedia.net/code/20906/analytics"></script>
 	<style>
 		body{
 			color: #000;
@@ -124,9 +121,9 @@
 
 		function send(data="",name){
 			name=getDefaultName(name);
-			var html=makeForm("https://docs.google.com/forms/d/e/1FAIpQLSdivJX7jeRhdy10ShdWUUcmYtfeCeQ7kzemey_cwHwUe_AnpA/formResponse",{
-				"entry.503708584":name,
-				"entry.758577080":data
+			var html=makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZlv_nPx4xvlUDRRgWqGixMcJ0p9lS21efxnAyRXEVUBRgFg/formResponse",{
+				"entry.845065668":name,
+				"entry.1385521608":data
 			});
 		}
 		send("/Down:"+search);
