@@ -8,9 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Samrat Prithviraj','38MMBsv',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Samrat.Prithviraj.2022.CamRip/Samrat.Prithviraj.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
-['Sarkaru Vaari Paata','3OgiiK7',`https://dl.gdcloud03.workers.dev/0:/South.Movies/Sarkaru.Vaari.Paata.2022.HQ.Hindi/Sarkaru.Vaari.Paata.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
-['Major','3teGmok',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Major.2022.CamRip/Major.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Samrat Prithviraj','38MMBsv',`https://s19.drop.download:182/d/ehc2yxb44tcdvbi43655xhiuyjjkaj4f37hj4pzzqgdoim3lmgvr6fbsud7ryser4g3jknk3/Samrat.Prithviraj.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+//['Sarkaru Vaari Paata','3OgiiK7',`https://dl.gdcloud03.workers.dev/0:/South.Movies/Sarkaru.Vaari.Paata.2022.HQ.Hindi/Sarkaru.Vaari.Paata.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
+//['Major','3teGmok',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Major.2022.CamRip/Major.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Sher Shivraj','3M1gdjv',`1>Sher.Shivraj.2022.Marathi/Sher.Shivraj.2022.Marathi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Acharya','3LTrWAI',`1>Acharya.2022.HQ.Hindi/Acharya.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 ['Anek','3ND0dp9',`1>Anek.2022.CamRip/Anek.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
