@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Vikram','3aEUvot',`https://s18.drop.download:182/d/elcwtnj44tcdvbi432545hyu2cnig5tbzxz6rv7clsjdkuuryarg5jny6dolwsgcyqblekrr/Vikram.2022.Hindi.Dubbed.720p.V3.CAMRip-DudeFilms.in.mkv`,1],
 ['Samrat Prithviraj','38MMBsv',`https://s19.drop.download:182/d/ehc2yxb44tcdvbi43655xhiuyjjkaj4f37hj4pzzqgdjlqgvamtd5isgllvqxlrpnoqe3drr/Samrat.Prithviraj.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 //['Sarkaru Vaari Paata','3OgiiK7',`https://dl.gdcloud03.workers.dev/0:/South.Movies/Sarkaru.Vaari.Paata.2022.HQ.Hindi/Sarkaru.Vaari.Paata.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 //['Major','3teGmok',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Major.2022.CamRip/Major.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
