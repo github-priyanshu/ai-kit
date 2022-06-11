@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['The Broken news','http://bit.ly/3MImssW',8,'__wsdomain/WebSeries/Zee5/The.Broken.News.S01/The.Broken.News.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Wan Kenobi S1','3NzA22u',2,'__wsdomain/WebSeries/Obi.Wan.Kenobi.S01/Obi.Wan.Kenobi.S01.E01.Hindi.English.720p.10bit.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Stranger Things S04','3NCsdZY',7,'__wsdomain/WebSeries/NetFlix/Stranger.Things.S04/Stranger.Things.S04.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Nirmal Pathaki Ghar Wapsi S01','3PKljDU',5,'__wsdomain/WebSeries/Sony.Liv/Nirmal.Pathak.Ki.Ghar.Wapsi.S01/Nirmal.Pathak.Ki.Ghar.Wapsi.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
