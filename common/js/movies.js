@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Charlie 777','3NO3DWw',`https://s14.drop.download:182/d/fhc27ab34tcdvbi4z255vhqyzu4f6kdrgkrnvn5setweoex7b6f7m3aqpcaozztznruwuzrl/777.Charlie.2022.Dual.Audio.Hindi.Tamil.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Ardh movie','3O4y22A',`https://s01.drop.download:182/d/ghcvjmb34tcdvbi4zw55dhizsthi4dfn3ou6bn745vfn227u3agc7dasepmydckuucu4knqn/Ardh.2022.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Samrat Prithviraj','38MMBsv',`https://s19.drop.download:182/d/ehc2yxb44tcdvbi43655xhiuyjjkaj4f37hj4pzzqgdjlqgvamf7badx7kypvw4munov4fgf/Samrat.Prithviraj.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 //['Sarkaru Vaari Paata','3OgiiK7',`https://dl.gdcloud03.workers.dev/0:/South.Movies/Sarkaru.Vaari.Paata.2022.HQ.Hindi/Sarkaru.Vaari.Paata.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
