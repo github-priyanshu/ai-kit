@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Jana gana mana','3mTNUJA',`https://s28.drop.download:182/d/khcw2tj24tcdvbi4gc55rwqms22xzq5maupndo7bwqyh5rorseiwyl7qbhvjwevfglty5nav/Jana.Gana.Mana.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,1],
 //['Vikram movie','3aEUvot',`https://s18.drop.download:182/d/elcwvnj44tcdvbi43255dvic2vl3v5hffoiteolawa4aeuibbwstvqm2tjfzgg6djqqwjvi2/Vikram.2022.Hindi.Dubbed.480p.V3.CAMRip-DudeFilms.in.mkv`,1],
 //['Charlie 777','3NO3DWw',`https://s14.drop.download:182/d/fhc27ab34tcdvbi4z255vhqyzu4f6kdrgkrnvn5setweoex7b6f7m3aqpcaozztznruwuzrl/777.Charlie.2022.Dual.Audio.Hindi.Tamil.480p.CAMRip-DudeFilms.in.mkv`,1],
 //['Ardh movie','3O4y22A',`https://s01.drop.download:182/d/ghcvjmb34tcdvbi4zw55dhizsthi4dfn3ou6bn745vfn227u3agc7dasepmydckuucu4knqn/Ardh.2022.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
