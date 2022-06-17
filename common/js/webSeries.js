@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Bandon Mein Tha Dam S01','3OhovG5',4,'__wsdomain/WebSeries/Voot/Bandon.Mein.Tha.Dam.S01/Bandon.Mein.Tha.Dam.S01.E01.Hindi.720p.WEB-DL-DudeFilms.in.mkv'],
 ['The Broken news','https://bit.ly/3NDII8u',8,'__wsdomain/WebSeries/Zee5/The.Broken.News.S01/The.Broken.News.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Wan Kenobi S1','3NzA22u',2,'__wsdomain/WebSeries/Obi.Wan.Kenobi.S01/Obi.Wan.Kenobi.S01.E01.Hindi.English.720p.10bit.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Stranger Things S04','3NCsdZY',7,'__wsdomain/WebSeries/NetFlix/Stranger.Things.S04/Stranger.Things.S04.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
