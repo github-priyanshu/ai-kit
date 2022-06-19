@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Bhool Bhulaiyaa 2  HD','3zNtk5p',`1>Bhool.Bhulaiyaa.2.2022/Bhool.Bhulaiyaa.2.2022.Hindi.480p.NF.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Nikamma','3HBFIHm',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Nikamma.2022.HDCampRip/Nikamma.2022.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1],
 ['Samrat Prithviraj','38MMBsv',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Samrat.Prithviraj.2022.CamRip/Samrat.Prithviraj.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Sarkaru Vaari Paata','3OgiiK7',`https://dl.gdcloud03.workers.dev/0:/South.Movies/Sarkaru.Vaari.Paata.2022.HQ.Hindi/Sarkaru.Vaari.Paata.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
