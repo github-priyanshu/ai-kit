@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Bangarraju','http://bit.ly/3OaRsDo',`https://dl.gdcloud03.workers.dev/0:/South.Movies/Bangarraju.2022/Bangarraju.2022.UNCUT.Dual.Audio.Hindi.Telugu.720p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Jan Hit Mein Jari','3QAor5K',`https://bit.ly/3N3RiMQ`,1],
 ['Bhool Bhulaiyaa 2  HD','3zNtk5p',`1>Bhool.Bhulaiyaa.2.2022/Bhool.Bhulaiyaa.2.2022.Hindi.480p.NF.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Nikamma','3HBFIHm',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Nikamma.2022.HDCampRip/Nikamma.2022.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1],
