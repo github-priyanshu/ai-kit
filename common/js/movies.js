@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Theal','3NsWHNJ',`2>South.Movies/Theal.2022/Theal.2022.UNCUT.Dual.Audio.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
+['Anek HD','3AiesMq',`2>BollyWood/Anek.2022/Anek.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Jug Jugg Jeeyo','3HNJLk0',`2>BollyWood/Jug.Jugg.Jeeyo.2022.CamRip/Jug.Jugg.Jeeyo.2022.Hindi.480p.HD.CAMRip-DudeFilms.in-.mkv`,1],
 ['Jaanu','3OxOzwe',`2>South.Movies/Jaanu.2020/Jaanu.2020.UNCUT.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in-.mkv`,2],
 ['Forensic','3bvNcQA',`2>BollyWood/Forensic.2022/Forensic.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
@@ -20,14 +22,12 @@ var movies=
 ['Spider Man No Way Home HD','3zA7iDg',`0>HollyWood/Spider.Man.No.Way.Home.2021/Spider.Man.No.Way.Home.2021.Hindi.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['Sher Shivraj','3M1gdjv',`1>Sher.Shivraj.2022.Marathi/Sher.Shivraj.2022.Marathi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Acharya','3LTrWAI',`1>Acharya.2022.HQ.Hindi/Acharya.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
-['Anek','3ND0dp9',`1>Anek.2022.CamRip/Anek.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Runway 34 HD','3wWbFXa',`https://dl2.odcloud03.workers.dev/OdCloud_Dhub/Runway.34.2022/Runway.34.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Heropanti 2 HD','3MS8t4D',`https://dl2.odcloud03.workers.dev/OdCloud_Dhub/Heropanti.2.2022/Heropanti.2.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Gamanam','39YAMzB',`1>Gamanam.2021/Gamanam.2021.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Nayika Devi The Warrior Queen','3GfEKjC',`1>Nayika.Devi.The.Warrior.Queen.2022.CamRip/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.480p.PreDvDRip.x264-DudeFilms.in.mkv`,1],
 ['Toolsidas Junior','3lHQmT1',`1>Toolsidas.Junior.2022/Toolsidas.Junior.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Dhaakad','39Mu53S',`1>Dhaakad.2022.CamRip/Dhaakad.2022.480p.CAMRip.HINDI.DUB.PariMatch-DudeFilms.in.mkv`,1],
-['Bhool Bhulaiyaa 2','3Nj2qWC',`https://dl2.odcloud03.workers.dev/OdCloud_Dhub/Bhool.Bhulaiyaa.2.2022.CamRip/Bhool.Bhulaiyaa.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Jersey HD','3GhIIIF',`1>Jersey.2022/Jersey.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Morbius','3lpJmKo',`1>Morbius.2022/Morbius.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Cyber Hell Exposing an Internet Horror','3G0DTmF',`1>Cyber.Hell.Exposing.an.Internet.Horror.2022/Cyber.Hell.Exposing.an.Internet.Horror.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
