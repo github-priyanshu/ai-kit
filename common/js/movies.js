@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Samrat Prithviraj HD','3bvFkyg',`2>BollyWood/Samrat.Prithviraj.2022/Samrat.Prithviraj.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Dhaakad HD','3ORgaZt',`2>BollyWood/Dhaakad.2022/Dhaakad.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['12Th Man ','3ueQ8as',`2>South.Movies/12Th.Man.2022.HQ/12Th.Man.2022.480p.WEB-DL.Hindi.HQ-Dub.ESub-DudeFilms.in.mkv`,2],
 ['Theal','3NsWHNJ',`2>South.Movies/Theal.2022/Theal.2022.UNCUT.Dual.Audio.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Anek HD','3AiesMq',`2>BollyWood/Anek.2022/Anek.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Jug Jugg Jeeyo','3HNJLk0',`2>BollyWood/Jug.Jugg.Jeeyo.2022.CamRip/Jug.Jugg.Jeeyo.2022.Hindi.480p.HD.CAMRip-DudeFilms.in-.mkv`,1],
