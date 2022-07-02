@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Babloo Bachelor','3R98VhA',`2>BollyWood/Babloo.Bachelor.2022/Babloo.Bachelor.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1],
+['Ghani','3R5cULL',`2>South.Movies/Ghani.2022.HQ/Ghani.2022.480p.WEB-DL.Hindi.HQ-Dub.ESub-DudeFilms.in.mkv`,2],
+['Om The Battle Within','3OWRnTJ',`2>BollyWood/Om.The.Battle.Within.2022.HDCam/Om.The.Battle.Within.2022.480p.Hindi.V2.HDCAM-DudeFilms.in.mkv`,1],
 ['Rocketry','3Imwuzv',`2>BollyWood/Rocketry.2022.CamRip/Rocketry.2022.480p.CAMRip.HIN.DUB.RajBet-DudeFilms.in.mkv`,1],
 ['Samrat Prithviraj HD','3bvFkyg',`2>BollyWood/Samrat.Prithviraj.2022/Samrat.Prithviraj.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Dhaakad HD','3ORgaZt',`2>BollyWood/Dhaakad.2022/Dhaakad.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
