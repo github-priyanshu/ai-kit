@@ -47,7 +47,7 @@ class main{
 			time: 5,
 		},
 		{
-			lnk: "https://www.youtube.com/channel/UClSSBep-FAPjB6hWiBtxM_A",
+			lnk: "https://m.youtube.com/c/AwesomeCode",
 			m1: "<p col='#444'>Just 1 steps away...</p>",
 			m2: `<p col="#ff3000" class="warn">Don't Press <b>Back Button</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 3</div>`,
