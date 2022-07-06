@@ -1,5 +1,5 @@
 var lastShare=localStorage.getItem("lastShare") || false,nowVid,
-extLink="https://youtu.be/5IkyKvhTN8o",
+extLink="https://youtu.be/4u7JsH1b2mw",
 shareNum=Number(localStorage.getItem("shareNum")) || 0;
 
 var hrShare={
