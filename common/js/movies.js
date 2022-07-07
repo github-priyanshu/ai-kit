@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Thor Love and Thunder','3yfdLRC',`2>HollyWood/Thor.Love.and.Thunder.2022.CamRip/Thor.Love.and.Thunder.2022.Hindi.English.480p.CAMRip-DudeFilms.in.mkv`,3],
+['O2','3an6SWy',`2>South.Movies/O2.2022.HQ/O2.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 ['Babloo Bachelor','3R98VhA',`2>BollyWood/Babloo.Bachelor.2022/Babloo.Bachelor.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1],
 ['Ghani','3R5cULL',`2>South.Movies/Ghani.2022.HQ/Ghani.2022.480p.WEB-DL.Hindi.HQ-Dub.ESub-DudeFilms.in.mkv`,2],
 ['Om The Battle Within','3OWRnTJ',`2>BollyWood/Om.The.Battle.Within.2022.HDCam/Om.The.Battle.Within.2022.480p.Hindi.V2.HDCAM-DudeFilms.in.mkv`,1],
