@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Khuda Haafiz Chapter 2','3nLBowf',`2>BollyWood/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.CamRip/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Thor Love and Thunder','3yfdLRC',`2>HollyWood/Thor.Love.and.Thunder.2022.CamRip/Thor.Love.and.Thunder.2022.Hindi.English.480p.CAMRip-DudeFilms.in.mkv`,3],
 ['O2','3an6SWy',`2>South.Movies/O2.2022.HQ/O2.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 ['Babloo Bachelor','3R98VhA',`2>BollyWood/Babloo.Bachelor.2022/Babloo.Bachelor.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1],
