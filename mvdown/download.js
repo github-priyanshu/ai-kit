@@ -12,13 +12,12 @@ Many Popular Movies are here.
 https://ai-player.netlify.app?sh=21
 
 Some Populars are:
+*Khuda Hafiz 2*
 *PrithviRaj*
 *RRR*
 *KGF 2*
 *The Kashmir Files*
-*Pushpa*
 
-And more in one link..!!
 https://ai-player.netlify.app?sh=21`,
 shareNum=Number(localStorage.getItem("shareNum")) || 0;
 
@@ -50,7 +49,7 @@ makeUi("<span fs='1.2em' col='#ff3000'>Link Created but Quota over</span><br><p>
 }
 
 function shareOn(){
-	checkBlur(6,"shared");
+	checkBlur(4,"shared");
 	window.open(encodeURI("https://wa.me?text="+shareText));
 }
 function setQuota(){
