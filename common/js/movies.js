@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Titu Ambani','3bXheNb',`2>BollyWood/Titu.Ambani.2022.CamRip/Titu.Ambani.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Khuda Haafiz Chapter 2','3nLBowf',`2>BollyWood/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.CamRip/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Mere Desh Ki Dharti','3ACy8e7',`2>BollyWood/Mere.Desh.Ki.Dharti.2022/Mere.Desh.Ki.Dharti.2022.Hindi.1080p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Virata Parvam','3bUXg5D',`2>South.Movies/Virata.Parvam.2022.HQ/Virata.Parvam.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
