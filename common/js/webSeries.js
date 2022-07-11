@@ -3,6 +3,8 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Jholachhap.S01','3OccO2B',7,'__wsdomain/WebSeries/Voot/Jholachhap.S01/Jholachhap.S01.E01.Hindi.720p.WEB-DL-DudeFilms.in.mkv'],
+['Saas.Bahu.Achaar.Pvt.Ltd.S01','3nVkMCc',6,'__wsdomain/WebSeries/Zee5/Saas.Bahu.Achaar.Pvt.Ltd.S01/Saas.Bahu.Achaar.Pvt.Ltd.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Cyber Vaar S01','3OmsGQm',4,'__wsdomain/WebSeries/Voot/Cyber.Vaar.S01/Cyber.Vaar.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Bandon Mein Tha Dam S01','3OhovG5',4,'__wsdomain/WebSeries/Voot/Bandon.Mein.Tha.Dam.S01/Bandon.Mein.Tha.Dam.S01.E01.Hindi.720p.WEB-DL-DudeFilms.in.mkv'],
 ['The Broken news','https://bit.ly/3NDII8u',8,'__wsdomain/WebSeries/Zee5/The.Broken.News.S01/The.Broken.News.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
