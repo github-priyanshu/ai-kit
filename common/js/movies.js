@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Jahjit Mein Jaari','3IC8Kat',`2>BollyWood/Jahjit.Mein.Jaari.2022.CamRip/Jahjit.Mein.Jaari.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['The Pirates The Last Royal Treasure','3RzTG15',`2>HollyWood/The.Pirates.The.Last.Royal.Treasure.2022/The.Pirates.The.Last.Royal.Treasure.2022.Hindi.English.Korean.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
+['Black','3O94Hnc',`2>South.Movies/Black.2022/Black.2022.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Titu Ambani','3bXheNb',`2>BollyWood/Titu.Ambani.2022.CamRip/Titu.Ambani.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Khuda Haafiz Chapter 2','3nLBowf',`2>BollyWood/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.CamRip/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Mere Desh Ki Dharti','3ACy8e7',`2>BollyWood/Mere.Desh.Ki.Dharti.2022/Mere.Desh.Ki.Dharti.2022.Hindi.1080p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
