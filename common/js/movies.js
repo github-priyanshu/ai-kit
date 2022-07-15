@@ -8,7 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Jahjit Mein Jaari','3IC8Kat',`2>BollyWood/Jahjit.Mein.Jaari.2022.CamRip/Jahjit.Mein.Jaari.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Downton Abbey A New Era','3RyWA6h',`2>HollyWood/Downton.Abbey.A.New.Era.2022/Downton.Abbey.A.New.Era.2022.Dual.Audio.Hindi.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
+['Jahjit Mein Jaari HD','3IC8Kat',`2>BollyWood/Janhit.Mein.Jaari.2022/Janhit.Mein.Jaari.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Pirates The Last Royal Treasure','3RzTG15',`2>HollyWood/The.Pirates.The.Last.Royal.Treasure.2022/The.Pirates.The.Last.Royal.Treasure.2022.Hindi.English.Korean.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Black','3O94Hnc',`2>South.Movies/Black.2022/Black.2022.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Titu Ambani','3bXheNb',`2>BollyWood/Titu.Ambani.2022.CamRip/Titu.Ambani.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
