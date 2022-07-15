@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Jaadugar','3AVhXck',`2>BollyWood/Jaadugar.2022/Jaadugar.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Downton Abbey A New Era','3RyWA6h',`2>HollyWood/Downton.Abbey.A.New.Era.2022/Downton.Abbey.A.New.Era.2022.Dual.Audio.Hindi.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['Jahjit Mein Jaari HD','3IC8Kat',`2>BollyWood/Janhit.Mein.Jaari.2022/Janhit.Mein.Jaari.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Pirates The Last Royal Treasure','3RzTG15',`2>HollyWood/The.Pirates.The.Last.Royal.Treasure.2022/The.Pirates.The.Last.Royal.Treasure.2022.Hindi.English.Korean.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
