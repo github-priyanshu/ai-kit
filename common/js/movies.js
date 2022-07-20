@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Gumnaam (Rakshasudu)','3ofV37E',`2>South.Movies/Gumnaam.(Rakshasudu).2022/Gumnaam.(Rakshasudu).2022.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
+['Marshall Mu GuiYing','3B5W9uu',`2>HollyWood/Marshall.Mu.GuiYing.2022/Marshall.Mu.GuiYing.2022.Hindi.Dubbed.480p.HDRip.ESub-DudeFilms.in.mkv`,3],
+['Jurassic World Dominion 2022','3ofVzCC',`2>HollyWood/Jurassic.World.Dominion.2022/Jurassic.World.Dominion.2022.Dual.Audio.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3],
 ['Shabaash Mithu ','3yL2cSr',`2>BollyWood/Shabaash.Mithu.2022.CamRip/Shabaash.Mithu.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Hit The First Case','3PfqZFb',`2>South.Movies/Hit.The.First.Case.2022.CamRip/Hit.The.First.Case.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Persuasion','3O6YhoN',`2>HollyWood/Persuasion.2022/Persuasion.2022.480p.Web-Dl.Hindi.English.Msubs-DudeFilms.in.mkv`,3],
