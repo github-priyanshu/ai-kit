@@ -3,6 +3,8 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Dr Arora S01','3Os4xY4',8,'__wsdomain/WebSeries/Sony.Liv/Dr.Arora.S01/Dr.Arora.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Parampara S02','3czmIy3',5,'__wsdomain/WebSeries/Hotstar/Parampara.S02/Parampara.S02.E01.Dual.Audio.Hindi.Telugu.720p.WEB.DL.ESub-DudeFilms.in.mkv'],
 ['Indian Predator The Butcher of Delhi','3B9Fgze',3,'__wsdomain/WebSeries/Indian.Predator.The.Butcher.of.Delhi.S01/Indian.Predator.The.Butcher.of.Delhi.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Shoorveer','3z5XCiW',8,'__wsdomain/WebSeries/Hotstar/Shoorveer.S01/Shoorveer.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Jholachhap S01','3OccO2B',7,'__wsdomain/WebSeries/Voot/Jholachhap.S01/Jholachhap.S01.E01.Hindi.720p.WEB-DL-DudeFilms.in.mkv'],
