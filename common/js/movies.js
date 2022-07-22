@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['JugJugg Jeeyo HD','3ctAHFv',`2>BollyWood/JugJugg.Jeeyo.2022/JugJugg.Jeeyo.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Gumnaam (Rakshasudu)','3ofV37E',`2>South.Movies/Gumnaam.(Rakshasudu).2022/Gumnaam.(Rakshasudu).2022.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Marshall Mu GuiYing','3B5W9uu',`2>HollyWood/Marshall.Mu.GuiYing.2022/Marshall.Mu.GuiYing.2022.Hindi.Dubbed.480p.HDRip.ESub-DudeFilms.in.mkv`,3],
 ['Jurassic World Dominion 2022','3ofVzCC',`2>HollyWood/Jurassic.World.Dominion.2022/Jurassic.World.Dominion.2022.Dual.Audio.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3],
@@ -34,15 +35,9 @@ var movies=
 ['12Th Man ','3ueQ8as',`2>South.Movies/12Th.Man.2022.HQ/12Th.Man.2022.480p.WEB-DL.Hindi.HQ-Dub.ESub-DudeFilms.in.mkv`,2],
 ['Theal','3NsWHNJ',`2>South.Movies/Theal.2022/Theal.2022.UNCUT.Dual.Audio.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Anek HD','3AiesMq',`2>BollyWood/Anek.2022/Anek.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
-['Jug Jugg Jeeyo','3HNJLk0',`2>BollyWood/Jug.Jugg.Jeeyo.2022.CamRip/Jug.Jugg.Jeeyo.2022.Hindi.480p.HD.CAMRip-DudeFilms.in-.mkv`,1],
 ['Jaanu','3OxOzwe',`2>South.Movies/Jaanu.2020/Jaanu.2020.UNCUT.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in-.mkv`,2],
 ['Forensic','3bvNcQA',`2>BollyWood/Forensic.2022/Forensic.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
-//['Jan Hit Mein Jari','3QAor5K',`https://bit.ly/3N3RiMQ`,1],
 ['Bhool Bhulaiyaa 2  HD','3zNtk5p',`1>Bhool.Bhulaiyaa.2.2022/Bhool.Bhulaiyaa.2.2022.Hindi.480p.NF.WEB-DL.ESub-DudeFilms.in.mkv`,1],
-//['Nikamma','3HBFIHm',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Nikamma.2022.HDCampRip/Nikamma.2022.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1],
-//['Samrat Prithviraj','38MMBsv',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Samrat.Prithviraj.2022.CamRip/Samrat.Prithviraj.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
-//['Sarkaru Vaari Paata','3OgiiK7',`https://dl.gdcloud03.workers.dev/0:/South.Movies/Sarkaru.Vaari.Paata.2022.HQ.Hindi/Sarkaru.Vaari.Paata.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
-//['Major','3teGmok',`https://dl.gdcloud03.workers.dev/0:/BollyWood/Major.2022.CamRip/Major.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Spider Man No Way Home HD','3zA7iDg',`0>HollyWood/Spider.Man.No.Way.Home.2021/Spider.Man.No.Way.Home.2021.Hindi.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['Sher Shivraj','3M1gdjv',`1>Sher.Shivraj.2022.Marathi/Sher.Shivraj.2022.Marathi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Acharya','3LTrWAI',`1>Acharya.2022.HQ.Hindi/Acharya.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
