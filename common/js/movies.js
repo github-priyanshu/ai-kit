@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Godse','3b3wkAK',`2>South.Movies/Godse.2022.HQ/Godse.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
+['Rk Rkay','3OvC5Vv',`2>BollyWood/Rk.Rkay.2022/Rk.Rkay.2022.Hindi.480p.HDRip-DudeFilms.in.mkv`,1],
 ['Shamshera','3yXVSad',`2>BollyWood/Shamshera.2022.CamRip/Shamshera.2022.Hindi.480p.HDCAM.Rip.x264.AAC-DudeFilms.in.mkv`,1],
 ['JugJugg Jeeyo HD','3ctAHFv',`2>BollyWood/JugJugg.Jeeyo.2022/JugJugg.Jeeyo.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Gumnaam (Rakshasudu)','3ofV37E',`2>South.Movies/Gumnaam.(Rakshasudu).2022/Gumnaam.(Rakshasudu).2022.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
