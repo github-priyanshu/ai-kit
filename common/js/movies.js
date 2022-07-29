@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Vikrant Rona','3zidRbw',`2>South.Movies/Vikrant.Rona.2022.CamRip/Vikrant.Rona.2022.Dual.Audio.Hindi.Kannada.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Anythings Possible','3b44Afe',`2>HollyWood/Anythings.Possible.2022/Anythings.Possible.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Godse','3b3wkAK',`2>South.Movies/Godse.2022.HQ/Godse.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 ['Rk Rkay','3OvC5Vv',`2>BollyWood/Rk.Rkay.2022/Rk.Rkay.2022.Hindi.480p.HDRip-DudeFilms.in.mkv`,1],
