@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Ek Villain Returns','3PLOHJw',`2>BollyWood/Ek.Villain.Returns.2022.CamRip/Ek.Villain.Returns.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
+['Purple Hearts','3vrlcVg',`2>HollyWood/Purple.Hearts.2022/Purple.Hearts.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Good Luck Jerry HD','3OI0nvx',`2>BollyWood/Good.Luck.Jerry.2022/Good.Luck.Jerry.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Rocketry The Nambi Effect HD','3cJmNiB',`2>BollyWood/Rocketry.The.Nambi.Effect.2022/Rocketry.The.Nambi.Effect.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Vikrant Rona','3zidRbw',`2>South.Movies/Vikrant.Rona.2022.CamRip/Vikrant.Rona.2022.Dual.Audio.Hindi.Kannada.480p.CAMRip-DudeFilms.in.mkv`,2],
