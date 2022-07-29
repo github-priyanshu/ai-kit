@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Good Luck Jerry HD','3OI0nvx',`2>BollyWood/Good.Luck.Jerry.2022/Good.Luck.Jerry.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Rocketry The Nambi Effect HD','3cJmNiB',`2>BollyWood/Rocketry.The.Nambi.Effect.2022/Rocketry.The.Nambi.Effect.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Vikrant Rona','3zidRbw',`2>South.Movies/Vikrant.Rona.2022.CamRip/Vikrant.Rona.2022.Dual.Audio.Hindi.Kannada.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Anythings Possible','3b44Afe',`2>HollyWood/Anythings.Possible.2022/Anythings.Possible.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Godse','3b3wkAK',`2>South.Movies/Godse.2022.HQ/Godse.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
@@ -34,7 +36,6 @@ var movies=
 ['Babloo Bachelor','3R98VhA',`2>BollyWood/Babloo.Bachelor.2022/Babloo.Bachelor.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1],
 ['Ghani','3R5cULL',`2>South.Movies/Ghani.2022.HQ/Ghani.2022.480p.WEB-DL.Hindi.HQ-Dub.ESub-DudeFilms.in.mkv`,2],
 ['Om The Battle Within','3OWRnTJ',`2>BollyWood/Om.The.Battle.Within.2022.HDCam/Om.The.Battle.Within.2022.480p.Hindi.V2.HDCAM-DudeFilms.in.mkv`,1],
-['Rocketry','3Imwuzv',`2>BollyWood/Rocketry.2022.CamRip/Rocketry.2022.480p.CAMRip.HIN.DUB.RajBet-DudeFilms.in.mkv`,1],
 ['Samrat Prithviraj HD','3bvFkyg',`2>BollyWood/Samrat.Prithviraj.2022/Samrat.Prithviraj.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Dhaakad HD','3ORgaZt',`2>BollyWood/Dhaakad.2022/Dhaakad.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['12Th Man ','3ueQ8as',`2>South.Movies/12Th.Man.2022.HQ/12Th.Man.2022.480p.WEB-DL.Hindi.HQ-Dub.ESub-DudeFilms.in.mkv`,2],
