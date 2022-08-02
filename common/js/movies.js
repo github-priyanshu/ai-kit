@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Jaysuk Zdpayo Comedy','3zr4whV',`2>Gujarati.Movies/Jaysuk.Zdpayo.2022/Jaysuk.Zdpayo.2022.480p.Amzn.Web.Dl.Esub-DudeFilms.in.mkv`,1],
+['Lover','3QfdCoI',`2>Punjabi.Movies/Lover.2022/Lover.2022.Punjabi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['The Lost City','3zpl0qE',`2>HollyWood.English.Movies/The.Lost.City.2022/The.Lost.City.2022.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
+['Odd Couple','3zu3iSL',`2>BollyWood/Odd.Couple.2022/Odd.Couple.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Ek Villain Returns','3PLOHJw',`2>BollyWood/Ek.Villain.Returns.2022.CamRip/Ek.Villain.Returns.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
 ['Purple Hearts','3vrlcVg',`2>HollyWood/Purple.Hearts.2022/Purple.Hearts.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Good Luck Jerry HD','3OI0nvx',`2>BollyWood/Good.Luck.Jerry.2022/Good.Luck.Jerry.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
