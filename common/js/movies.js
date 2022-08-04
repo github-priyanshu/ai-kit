@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Lightyear','3vFkFiq',`2>HollyWood/Lightyear.2022/Lightyear.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Jaysuk Zdpayo Comedy','3zr4whV',`2>Gujarati.Movies/Jaysuk.Zdpayo.2022/Jaysuk.Zdpayo.2022.480p.Amzn.Web.Dl.Esub-DudeFilms.in.mkv`,1],
 ['Lover','3QfdCoI',`2>Punjabi.Movies/Lover.2022/Lover.2022.Punjabi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Lost City','3zpl0qE',`2>HollyWood.English.Movies/The.Lost.City.2022/The.Lost.City.2022.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
