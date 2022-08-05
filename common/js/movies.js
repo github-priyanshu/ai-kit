@@ -8,6 +8,12 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Timepass 3','3zCbrVy',`2>Marathi.Movies/Timepass.3.2022.CamRip/Timepass.3.2022.Marathi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Thirteen Lives','3d9RQ7y',`2>HollyWood/Thirteen.Lives.2022/Thirteen.Lives.2022.Dual.Audio.Hindi-English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
+['Wedding Season','3JvRhB8',`2>HollyWood/Wedding.Season.2022/Wedding.Season.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Kaduva','3dc94ks',`2>South.Movies/Kaduva.2022.Hindi(Cam)/Kaduva.2022.Dual.Audio.Hindi.(Cleaned).Malayalam.480p.HDRip-DudeFilms.in.mkv`,2],
+['Bullet Train','3bA8eOg',`2>HollyWood/Bullet.Train.2022.camrip/Bullet.Train.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3],
+['Countryside Gundey','3Ssd7te',`2>Punjabi.Movies/Countryside.Gundey.2022/Countryside.Gundey.2022.Punjabi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Lightyear','3vFkFiq',`2>HollyWood/Lightyear.2022/Lightyear.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Jaysuk Zdpayo Comedy','3zr4whV',`2>Gujarati.Movies/Jaysuk.Zdpayo.2022/Jaysuk.Zdpayo.2022.480p.Amzn.Web.Dl.Esub-DudeFilms.in.mkv`,1],
 ['Lover','3QfdCoI',`2>Punjabi.Movies/Lover.2022/Lover.2022.Punjabi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
