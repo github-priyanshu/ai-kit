@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['The.Great.Weddings.of.Munnes.S01','3dehMPy',10,'__wsdomain/WebSeries/Voot/The.Great.Weddings.of.Munnes.S01/The.Great.Weddings.of.Munnes.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['The Queens Gambit S01','3JBGvcr',7,'__wsdomain/WebSeries/NetFlix/The.Queens.Gambit.S01/The.Queens.Gambit.S01.E01.English.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Victim.S01','3JFij9i',4,'__wsdomain/WebSeries/Sony.Liv/Victim.S01/Victim.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Keep Breathing S01','3BwpEFY',6,'__wsdomain/WebSeries/NetFlix/Keep.Breathing.S01/Keep.Breathing.S01.E01.Hindi.English.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv'],
