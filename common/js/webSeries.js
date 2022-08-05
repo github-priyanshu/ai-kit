@@ -3,6 +3,8 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['The Queens Gambit S01','3JBGvcr',7,'__wsdomain/WebSeries/NetFlix/The.Queens.Gambit.S01/The.Queens.Gambit.S01.E01.English.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Victim.S01','3JFij9i',4,'__wsdomain/WebSeries/Sony.Liv/Victim.S01/Victim.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Keep Breathing S01','3BwpEFY',6,'__wsdomain/WebSeries/NetFlix/Keep.Breathing.S01/Keep.Breathing.S01.E01.Hindi.English.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Dr Arora S01','3Os4xY4',8,'__wsdomain/WebSeries/Sony.Liv/Dr.Arora.S01/Dr.Arora.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Parampara S02','3czmIy3',5,'__wsdomain/WebSeries/Hotstar/Parampara.S02/Parampara.S02.E01.Dual.Audio.Hindi.Telugu.720p.WEB.DL.ESub-DudeFilms.in.mkv'],
