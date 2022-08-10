@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Prey 2022','3SHyVkH',`2>HollyWood.English.Movies/Prey.2022/Prey.2022.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
+['19(1)(a)','3doC4Wj',`2>South.Movies/19(1)(a).(2022).Hindi.HQ/19(1)(a).(2022).Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
 ['Darlings','3Q5knK2',`2>BollyWood/Darlings.2022/Darlings.2022.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1],
 ['Ramarao On Duty','3JCE35m',`2>South.Movies/Ramarao.On.Duty.2022.CamRip/Ramarao.On.Duty.2022.Dual.Audio.Hindi-Telugu.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Carter','3zEM4Ck',`2>HollyWood/Carter.2022/Carter.2022.Multi.Audio.Hindi-English-Korean.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
