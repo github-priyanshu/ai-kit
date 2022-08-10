@@ -3,6 +3,11 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['I.Am.Groot.S01','3AdsoHb',5,'__wsdomain/WebSeries/Hotstar/I.Am.Groot.S01/720p/I.Am.Groot.S01.E01.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Locke.And.Key','3QePItD',8,'__wsdomain/WebSeries/NetFlix/Locke.And.Key/S03/Locke.And.Key.S03.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Delhi.Crime.S01','3JLBPRq',7,'__wsdomain/WebSeries/Delhi.Crime.S01/Delhi.Crime.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Crash.Course.S01','3bJysOe',10,'__wsdomain/WebSeries/Amazon.Prime/Crash.Course.S01/Crash.Course.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['The.Sandman.S01','3p8ikJg',10,'__wsdomain/WebSeries/NetFlix/The.Sandman.S01/The.Sandman.S01.E01.Hindi-English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['The.Great.Weddings.of.Munnes.S01','3dehMPy',10,'__wsdomain/WebSeries/Voot/The.Great.Weddings.of.Munnes.S01/The.Great.Weddings.of.Munnes.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['The Queens Gambit S01','3JBGvcr',7,'__wsdomain/WebSeries/NetFlix/The.Queens.Gambit.S01/The.Queens.Gambit.S01.E01.English.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Victim.S01','3JFij9i',4,'__wsdomain/WebSeries/Sony.Liv/Victim.S01/Victim.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
