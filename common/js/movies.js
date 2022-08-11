@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Laal Singh Chaddha','3AeJ4OJ',`2>BollyWood/Laal.Singh.Chaddha.2022.CamRip/Laal.Singh.Chaddha.2022.Hindi.720p.CAMRip-DudeFilms.in.mkv`,1],
 ['Rashtra Kavach Om HD','3Ac0Uls',`2>BollyWood/Rashtra.Kavach.Om.2022/Rashtra.Kavach.Om.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Prey 2022','3SHyVkH',`2>HollyWood.English.Movies/Prey.2022/Prey.2022.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['19(1)(a)','3doC4Wj',`2>South.Movies/19(1)(a).(2022).Hindi.HQ/19(1)(a).(2022).Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
