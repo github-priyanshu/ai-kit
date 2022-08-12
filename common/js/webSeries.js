@@ -3,6 +3,8 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Udan.Patolas.S01','3SOTyvA',6,'__wsdomain/WebSeries/Amazon.Prime/Udan.Patolas.S01/Udan.Patolas.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Udan.Patolas.S02','3SOTyvA',6,'__wsdomain/WebSeries/Amazon.Prime/Udan.Patolas.S02/Udan.Patolas.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['I.Am.Groot.S01','3AdsoHb',5,'__wsdomain/WebSeries/Hotstar/I.Am.Groot.S01/720p/I.Am.Groot.S01.E01.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Locke.And.Key','3QePItD',8,'__wsdomain/WebSeries/NetFlix/Locke.And.Key/S03/Locke.And.Key.S03.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Delhi.Crime.S01','3JLBPRq',7,'__wsdomain/WebSeries/Delhi.Crime.S01/Delhi.Crime.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
