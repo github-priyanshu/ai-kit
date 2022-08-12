@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Laal Singh Chaddha','3AeJ4OJ',`2>BollyWood/Laal.Singh.Chaddha.2022.CamRip/Laal.Singh.Chaddha.2022.Hindi.720p.CAMRip-DudeFilms.in.mkv`,1],
+['Laal Singh Chaddha','3AeJ4OJ',`https://s29.drop.download:182/d/kdcvakrn4tcdvbi4t65m7dybsrkckvvovvs4syfpuywlbckjmljkjmxtx7ssrjl7ilufiurx/Laal.Singh.Chaddha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Raksha Bandhan','3QFpVec',`2>BollyWood/Raksha.Bandhan.2022.CamRip/Raksha.Bandhan.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv.mkv`,1],
 ['Shabaash Mithu','3dqIsMJ',`2>BollyWood/Shabaash.Mithu.2022/Shabaash.Mithu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv.mkv`,1],
 ['Rashtra Kavach Om HD','3Ac0Uls',`2>BollyWood/Rashtra.Kavach.Om.2022/Rashtra.Kavach.Om.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
