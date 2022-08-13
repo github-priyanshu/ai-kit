@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Match Of Life','3C3RKca',`2>BollyWood/Match.Of.Life.2022.CamRip/Match.Of.Life.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Pakaa Commercial','3wprqFN',`2>South.Movies/Pakaa.Commercial.2022.HQ/Pakaa.Commercial.2022.Dual.Audio.Hindi(HQ).Telugu.480p.HDRip-DudeFilms.in.mkv`,2],
+['The Musical','3Aid2RJ',`2>HollyWood/13.The.Musical.2022/13.The.Musical.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
+['Day Shift ','3SNNMdj',`2>HollyWood/Day.Shift.2022/Day.Shift.2022.Dual.Audio.Hindi.English.480p.WEB.DL.ESub-DudeFilms.in.mkv`,3],
 ['Laal Singh Chaddha','3AeJ4OJ',`https://s29.drop.download:182/d/kdcvakrn4tcdvbi4t65m7dybsrkckvvovvs4syfpuywlbckjmljkjmxtx7ssrjl7ilufiurx/Laal.Singh.Chaddha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Raksha Bandhan','3QFpVec',`https://s24.drop.download:182/d/kxcqwarn4tcdvbi4tg5nnfc2zcaolylbczvlq2lukpqc2jl5ck54mytssdoy4hplgsrk5q6z/Raksha.Bandhan.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv.mkv`,1],
 ['Shabaash Mithu','3dqIsMJ',`2>BollyWood/Shabaash.Mithu.2022/Shabaash.Mithu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv.mkv`,1],
