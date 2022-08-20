@@ -69,7 +69,7 @@ var movies=
 ['Anek HD','3AiesMq',`2>BollyWood/Anek.2022/Anek.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Jaanu','3OxOzwe',`2>South.Movies/Jaanu.2020/Jaanu.2020.UNCUT.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in-.mkv`,2],
 ['Forensic','3bvNcQA',`2>BollyWood/Forensic.2022/Forensic.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
-['Bhool Bhulaiyaa 2  HD','3zNtk5p',`1>Bhool.Bhulaiyaa.2.2022/Bhool.Bhulaiyaa.2.2022.Hindi.480p.NF.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+/*['Bhool Bhulaiyaa 2  HD','3zNtk5p',`1>Bhool.Bhulaiyaa.2.2022/Bhool.Bhulaiyaa.2.2022.Hindi.480p.NF.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Spider Man No Way Home HD','3zA7iDg',`0>HollyWood/Spider.Man.No.Way.Home.2021/Spider.Man.No.Way.Home.2021.Hindi.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['Sher Shivraj','3M1gdjv',`1>Sher.Shivraj.2022.Marathi/Sher.Shivraj.2022.Marathi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Acharya','3LTrWAI',`1>Acharya.2022.HQ.Hindi/Acharya.2022.HQ.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
@@ -145,7 +145,7 @@ var movies=
 ["Marvel Eternals","3ERerhS",`0>HollyWood/Eternals.2021/Eternals.2021.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['83','3przmmP',`1>83.2021/83.2021.480p.Hindi.WEB-DL.5.1.ESub.x264-DudeFilms.in.mkv`,1],
 ['Pushpa','3IY2pWB',`0>SouthMovies/Pushpa.The.Rise.-.Part.1.2021.Hindi(cleaned)/Pushpa.The.Rise.-.Part.1.2021.Hindi(cleaned).Telugu.480p.WEB-HDRip.ESub-DudeFilms.in.mkv`,2],
-['Satyameva Jayate 2','3HP6bRP',`0>BollyWood/Satyameva.Jayate.2.2021.HDcam/Satyameva.Jayate.2.2021.Hindi.720p.HQPreDVDRipx264.AAC-DudeFilms.in.mkv`,1],
+['Satyameva Jayate 2','3HP6bRP',`0>BollyWood/Satyameva.Jayate.2.2021.HDcam/Satyameva.Jayate.2.2021.Hindi.720p.HQPreDVDRipx264.AAC-DudeFilms.in.mkv`,1],*/
 ];
 
 var midTemp=movies.length,lastMid=midTemp,
