@@ -1,4 +1,4 @@
-var totalPage=1;
+var totalPage=0;
 
 fetchMore();
 
