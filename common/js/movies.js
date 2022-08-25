@@ -8,7 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-
+['Pantham','3cnVaM7',`2>South.Movies/Pantham.2018.HQ/Pantham.2018.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
+['Royalteen','3q2f6aV',`2>HollyWood/Royalteen.2022/Royalteen.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
+['The Ledge','3Km5Ebv',`2>HollyWood/The.Ledge.2022/The.Ledge.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Shamshera HD','3cgaYk1',`2>BollyWood/Shamshera.2022/Shamshera.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Next 365 Days HD [18+]','3pzGFYU',`2>HollyWood/The.Next.365.Days.2022/The.Next.365.Days.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Dobaaraa','3T35bip',`2>BollyWood/Dobaaraa.2022.CamRip/Dobaaraa.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
