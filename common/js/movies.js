@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Sherdil','3KmUwLH',`https://s25.drop.download:182/d/k3c4fdrk4tcdvbi4565mlbcu2ii3vomgudqeuke6nkig5sxv3gv4amvnhakeqmpcmyojhbvn/Sherdil.The.Pilibhit.Saga.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Sherdil','3KmUwLH',`https://dl3.odcloud04.workers.dev/BollyWood/Sherdil.The.Pilibhit.Saga.2022/Sherdil.The.Pilibhit.Saga.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Pantham','3cnVaM7',`2>South.Movies/Pantham.2018.HQ/Pantham.2018.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
 ['Royalteen','3q2f6aV',`2>HollyWood/Royalteen.2022/Royalteen.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['The Ledge','3Km5Ebv',`2>HollyWood/The.Ledge.2022/The.Ledge.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
