@@ -1,5 +1,5 @@
 var lastShare=localStorage.getItem("lastShare") || false,nowVid,
-extLink="https://www.youtube.com/watch?v=RSPlBjSIHZ0",
+extLink="https://muscle-factory-gym.netlify.app/",
 shareNum=Number(localStorage.getItem("shareNum")) || 0;
 
 var hrShare={
