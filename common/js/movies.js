@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Sita Ramam','3wLjzSS',`2>South.Movies/Sita.Ramam.2022.HQ/Sita.Ramam.2022.Hindi.(HQ.Dubbed).480p.HDCAM-DudeFilms.in.mkv`,2],
 ['Yaanai','3R5MvNx',`2>South.Movies/Yaanai.2022.HQ/Yaanai.2022.Dual.Audio.Hindi.(HQ)-Tamil.480p.HDRip-DudeFilms.in.mkv`,2],
 ['Sherdil','3KmUwLH',`https://dl3.odcloud04.workers.dev/BollyWood/Sherdil.The.Pilibhit.Saga.2022/Sherdil.The.Pilibhit.Saga.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Pantham','3cnVaM7',`2>South.Movies/Pantham.2018.HQ/Pantham.2018.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
