@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Maharani.S02','Maharani.S02',10,'__wsdomain/WebSeries/Sony.Liv/Maharani.S02/Maharani.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Udan.Patolas.S01','3SOTyvA',6,'__wsdomain/WebSeries/Amazon.Prime/Udan.Patolas.S01/Udan.Patolas.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Udan.Patolas.S02','3SOTyvA',6,'__wsdomain/WebSeries/Amazon.Prime/Udan.Patolas.S02/Udan.Patolas.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['I.Am.Groot.S01','3AdsoHb',5,'__wsdomain/WebSeries/Hotstar/I.Am.Groot.S01/720p/I.Am.Groot.S01.E01.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
