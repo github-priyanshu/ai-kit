@@ -8,10 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Cuttputlli','3q99TxU',`https://s24.drop.download:182/d/kxczepqx4tcdvbi4zw5nfcqos5ex35dlxq73d7nofvtmkry53nbt6acozui23ofy6gbrjxfz/Cuttputlli.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Prey','3TFWhHP',`2>HollyWood/Prey.2022.HQ/Prey.2022.Dual.Audio.Hindi.(HQ)-English.480p.HDRip-DudeFilms.in.mkv`,3],
 ['Vikrant Rona HD','3q8B9MU',`2>South.Movies/Vikrant.Rona.2022.Hindi.CAM/Vikrant.Rona.2022.Dual.Audio.Hindi.(Cleaned)-Kannada.480p.WEB-DL-DudeFilms.in.mkv`,2],
 ['Khuda Haafiz Chapter 2 HD','3QdMeqw',`2>BollyWood/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
-['Cuttputlli','3q99TxU',`2>BollyWood/Cuttputlli.2022/Cuttputlli.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Fakt Mahilao Maate','3TyXoJr',`2>Gujarati.Movies/Fakt.Mahilao.Maate.2022.CamRip/Fakt.Mahilao.Maate.2022.Gujarati.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Sita Ramam','3wLjzSS',`2>South.Movies/Sita.Ramam.2022.HQ/Sita.Ramam.2022.Hindi.(HQ.Dubbed).480p.HDCAM-DudeFilms.in.mkv`,2],
 ['Yaanai','3R5MvNx',`2>South.Movies/Yaanai.2022.HQ/Yaanai.2022.Dual.Audio.Hindi.(HQ)-Tamil.480p.HDRip-DudeFilms.in.mkv`,2],
