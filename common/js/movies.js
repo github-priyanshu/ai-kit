@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Liger','3QopkNk',`https://dl.gd4hub03.workers.dev/0:/South.Movies/Liger.2022.CamRip/Liger.2022.Dual.Audio.Hindi-Tamil.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Cuttputlli','3q99TxU',`2>BollyWood/Cuttputlli.2022/Cuttputlli.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Prey','3TFWhHP',`2>HollyWood/Prey.2022.HQ/Prey.2022.Dual.Audio.Hindi.(HQ)-English.480p.HDRip-DudeFilms.in.mkv`,3],
 ['Vikrant Rona HD','3q8B9MU',`2>South.Movies/Vikrant.Rona.2022.Hindi.CAM/Vikrant.Rona.2022.Dual.Audio.Hindi.(Cleaned)-Kannada.480p.WEB-DL-DudeFilms.in.mkv`,2],
