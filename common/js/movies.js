@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Vickida No Varghodo','3qiim20',`2>Gujarati.Movies/Vickida.No.Varghodo.2022/Vickida.No.Varghodo.2022.Gujarati.480p.Web-Dl.mkv`,1],
+['Macherla Niyojakavargam','3x1Q1kf',`2>South.Movies/Macherla.Niyojakavargam.2022.HDCam/Macherla.Niyojakavargam.2022.Hindi.HQ.Dubbed.480p.HDCAM-DudeFilms.in.mkv`,2],
+['Sundari Gardens','3x1U4gl',`2>South.Movies/Sundari.Gardens.2022/Sundari.Gardens.2022.Dual.Audio.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
+['Arjun Gowda','3D0mKu1',`2>South.Movies/Arjun.Gowda.2021/Arjun.Gowda.2021.Dual.Audio.Hindi.Kannada.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Liger','3QopkNk',`https://dl.gd4hub03.workers.dev/0:/South.Movies/Liger.2022.CamRip/Liger.2022.Dual.Audio.Hindi-Tamil.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Cuttputlli','3q99TxU',`2>BollyWood/Cuttputlli.2022/Cuttputlli.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Prey','3TFWhHP',`2>HollyWood/Prey.2022.HQ/Prey.2022.Dual.Audio.Hindi.(HQ)-English.480p.HDRip-DudeFilms.in.mkv`,3],
