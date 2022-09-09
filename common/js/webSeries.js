@@ -3,6 +3,8 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['She Hulk Attorney at Law S01','3L8rMqf',4,'__wsdomain/WebSeries/Hotstar/She.Hulk.Attorney.at.Law.S01/720p/She.Hulk.Attorney.at.Law.S01.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Ms.Marvel.S01','3TWz6t6',6,'__wsdomain/WebSeries/hotstar/Ms.Marvel.S01/480p/Ms.Marvel.S01.E01.Hindi.English.480p.WEB-DL-DudeFilms.in.mkv'],
 ['Maharani.S02','Maharani.S02',10,'__wsdomain/WebSeries/Sony.Liv/Maharani.S02/Maharani.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Udan.Patolas.S01','3SOTyvA',6,'__wsdomain/WebSeries/Amazon.Prime/Udan.Patolas.S01/Udan.Patolas.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Udan.Patolas.S02','3SOTyvA',6,'__wsdomain/WebSeries/Amazon.Prime/Udan.Patolas.S02/Udan.Patolas.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
