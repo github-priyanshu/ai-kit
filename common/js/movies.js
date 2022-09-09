@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Ek Villain Returns HD','3xaty4r',`2>BollyWood/Ek.Villain.Returns.2022/Ek.Villain.Returns.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Lakshay','3QEdL4Y',`2>South.Movies/Lakshay.2021.Hindi.HQ/Lakshay.2021.Dual.Audio.Hindi.(HQ)-Telugu.480p.WEB-DL-DudeFilms.in.mkv`,1],
+['Thor Love and Thunder','3RAm5nA',`2>HollyWood/Thor.Love.and.Thunder.2022/Thor.Love.and.Thunder.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
+['Pinocchio','3d2OC68',`2>HollyWood/Pinocchio.2022/Pinocchio.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Vickida No Varghodo','3qiim20',`2>Gujarati.Movies/Vickida.No.Varghodo.2022/Vickida.No.Varghodo.2022.Gujarati.480p.Web-Dl.mkv`,1],
 ['Macherla Niyojakavargam','3x1Q1kf',`2>South.Movies/Macherla.Niyojakavargam.2022.HDCam/Macherla.Niyojakavargam.2022.Hindi.HQ.Dubbed.480p.HDCAM-DudeFilms.in.mkv`,2],
 ['Sundari Gardens','3x1U4gl',`2>South.Movies/Sundari.Gardens.2022/Sundari.Gardens.2022.Dual.Audio.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
@@ -53,7 +57,6 @@ var movies=
 ['Lover','3QfdCoI',`2>Punjabi.Movies/Lover.2022/Lover.2022.Punjabi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['The Lost City','3zpl0qE',`2>HollyWood.English.Movies/The.Lost.City.2022/The.Lost.City.2022.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3],
 ['Odd Couple','3zu3iSL',`2>BollyWood/Odd.Couple.2022/Odd.Couple.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
-['Ek Villain Returns','3PLOHJw',`2>BollyWood/Ek.Villain.Returns.2022.CamRip/Ek.Villain.Returns.2022.Hindi.480p.V2.CAMRip-DudeFilms.in.mkv`,1],
 ['Purple Hearts','3vrlcVg',`2>HollyWood/Purple.Hearts.2022/Purple.Hearts.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Good Luck Jerry HD','3OI0nvx',`2>BollyWood/Good.Luck.Jerry.2022/Good.Luck.Jerry.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Rocketry The Nambi Effect HD','3cJmNiB',`2>BollyWood/Rocketry.The.Nambi.Effect.2022/Rocketry.The.Nambi.Effect.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
@@ -78,7 +81,6 @@ var movies=
 ['Khuda Haafiz Chapter 2','3nLBowf',`2>BollyWood/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.CamRip/Khuda.Haafiz.Chapter.2.Agni.Pariksha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Mere Desh Ki Dharti','3ACy8e7',`2>BollyWood/Mere.Desh.Ki.Dharti.2022/Mere.Desh.Ki.Dharti.2022.Hindi.1080p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Virata Parvam','3bUXg5D',`2>South.Movies/Virata.Parvam.2022.HQ/Virata.Parvam.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
-['Thor Love and Thunder','3yfdLRC',`2>HollyWood/Thor.Love.and.Thunder.2022.CamRip/Thor.Love.and.Thunder.2022.Hindi.English.480p.CAMRip-DudeFilms.in.mkv`,3],
 ['O2','3an6SWy',`2>South.Movies/O2.2022.HQ/O2.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 ['Babloo Bachelor','3R98VhA',`2>BollyWood/Babloo.Bachelor.2022/Babloo.Bachelor.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1],
 ['Ghani','3R5cULL',`2>South.Movies/Ghani.2022.HQ/Ghani.2022.480p.WEB-DL.Hindi.HQ-Dub.ESub-DudeFilms.in.mkv`,2],
