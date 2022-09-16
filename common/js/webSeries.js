@@ -3,7 +3,10 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
-['She Hulk Attorney at Law S01','3L8rMqf',4,'__wsdomain/WebSeries/Hotstar/She.Hulk.Attorney.at.Law.S01/720p/She.Hulk.Attorney.at.Law.S01.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Criminal.Justice.Adhura.Sach.S01','3QJu1RX',5,'__wsdomain/WebSeries/Hotstar/Criminal.Justice.Adhura.Sach.S01/Criminal.Justice.Adhura.Sach.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Dahan.Raakan.Ka.Rahasya.S01','3qGs6TK',9,'__wsdomain/WebSeries/Hotstar/Dahan.Raakan.Ka.Rahasya.S01/Dahan.Raakan.Ka.Rahasya.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['House.of.the.Dragon.S01','3xuZG2K',4,'__wsdomain/WebSeries/HBO/House.of.the.Dragon.S01/House.of.the.Dragon.S01.E01.%7BHindi.(HQ)-English%7D.720p.HDRip-DudeFilms.in.mkv'],
+['She Hulk Attorney at Law S01','3L8rMqf',5,'__wsdomain/WebSeries/Hotstar/She.Hulk.Attorney.at.Law.S01/720p/She.Hulk.Attorney.at.Law.S01.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Ms.Marvel.S01','3TWz6t6',6,'__wsdomain/WebSeries/hotstar/Ms.Marvel.S01/480p/Ms.Marvel.S01.E01.Hindi.English.480p.WEB-DL-DudeFilms.in.mkv'],
 ['Maharani.S02','Maharani.S02',10,'__wsdomain/WebSeries/Sony.Liv/Maharani.S02/Maharani.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Udan.Patolas.S01','3SOTyvA',6,'__wsdomain/WebSeries/Amazon.Prime/Udan.Patolas.S01/Udan.Patolas.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
