@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Jogi','3eXDjg2',`2>BollyWood/Jogi.2022/Jogi.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['King','3Ul9y9i',`2>HollyWood/King.2022/King.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
+['X','3SaMEzt',`2>HollyWood/X.2022/X.2022.Dual.Audio.Hindi.English.480p.Bluray.Esubs-DudeFilms.in.mkv`,3],
 ['Dejavu','3QO9ege',`2>South.Movies/Dejavu.2022.HQ/Dejavu.2022.480p.WEB-DL.Hindi.HQ.DUB-DudeFilms.in.mkv`,1],
 ['Red','3RYOGCJ',`https://dl.gd4hub05.workers.dev/0:/South.Movies/Red.2021/Red.2021.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Brahmastra Part One Shiva','3L6LTVH',`https://dl3.odcloud04.workers.dev/BollyWood/Brahmastra.Part.One.Shiva.2022.CamRip/Brahmastra.Part.One.Shiva.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
