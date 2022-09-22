@@ -8,6 +8,11 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Poikkal Kuthirai','3Lx7E1c',`2>South.Movies/Poikkal.Kuthirai.2022.HQ/Poikkal.Kuthirai.2022.Dual.Audio.Hindi.(HQ).Tamil.480p.WEB-DL-DudeFilms.in.mkv`,2],
+['Do Revenge','3BALWVv',`2>HollyWood/Do.Revenge.2022/Do.Revenge.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
+['Khalli Balli','3R5KfFj',`2>BollyWood/Khalli.Balli.2022.CamRip/Khalli.Balli.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Middle Class Love','3SoVc5T',`2>BollyWood/Middle.Class.Love.2022.CamRip/Middle.Class.Love.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Cobra','3qTU66B',`2>South.Movies/Cobra.2022.HQ/Cobra.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
 ['Jogi','3eXDjg2',`2>BollyWood/Jogi.2022/Jogi.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['King','3Ul9y9i',`2>HollyWood/King.2022/King.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['X','3SaMEzt',`2>HollyWood/X.2022/X.2022.Dual.Audio.Hindi.English.480p.Bluray.Esubs-DudeFilms.in.mkv`,3],
