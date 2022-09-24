@@ -8,8 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Atithi Bhooto Bhava','3S92gE2',`https://dl3.odcloud05.workers.dev/BollyWood/Atithi.Bhooto.Bhava.2022/Atithi.Bhooto.Bhava.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
-['Saroj Ka Rishta','3C5MdkX',`https://dl3.odcloud05.workers.dev/BollyWood/Saroj.Ka.Rishta.2022.HDCam/Saroj.Ka.Rishta.2022.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1],
+['Babli Bouncer','3dDVDul',`3>BollyWood/Babli.Bouncer.2022/Babli.Bouncer.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
+['Atithi Bhooto Bhava','3S92gE2',`3>BollyWood/Atithi.Bhooto.Bhava.2022/Atithi.Bhooto.Bhava.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Saroj Ka Rishta','3C5MdkX',`3>BollyWood/Saroj.Ka.Rishta.2022.HDCam/Saroj.Ka.Rishta.2022.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1],
 ['Poikkal Kuthirai','3Lx7E1c',`2>South.Movies/Poikkal.Kuthirai.2022.HQ/Poikkal.Kuthirai.2022.Dual.Audio.Hindi.(HQ).Tamil.480p.WEB-DL-DudeFilms.in.mkv`,2],
 ['Do Revenge','3BALWVv',`2>HollyWood/Do.Revenge.2022/Do.Revenge.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Khalli Balli','3R5KfFj',`2>BollyWood/Khalli.Balli.2022.CamRip/Khalli.Balli.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
