@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Jamtara.Sabka.Number.Ayega.S02','3UBbhHp',8,'__wsdomain/WebSeries/NetFlix/Jamtara.Sabka.Number.Ayega.S02/Jamtara.Sabka.Number.Ayega.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['College.Romance.S03','3xwuKPA',5,'__wsdomain/WebSeries/Sony.Liv/College.Romance.S03/College.Romance.S03.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Criminal.Justice.Adhura.Sach.S01','3QJu1RX',5,'__wsdomain/WebSeries/Hotstar/Criminal.Justice.Adhura.Sach.S01/Criminal.Justice.Adhura.Sach.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Dahan.Raakan.Ka.Rahasya.S01','3qGs6TK',9,'__wsdomain/WebSeries/Hotstar/Dahan.Raakan.Ka.Rahasya.S01/Dahan.Raakan.Ka.Rahasya.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
