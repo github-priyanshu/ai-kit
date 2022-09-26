@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Captain','3feqga5',`3>South.Movies/Captain.2022.HQ/Captain.2022.Dual.Audio.Hindi(HQ).Tamil.480p.HDRip-DudeFilms.in.mkv`,2],
+['A Trip To Infinity','3UR65j4',`3>HollyWood/A.Trip.To.Infinity.2022/A.Trip.To.Infinity.2022.Dual.Audio.Hindi.English.480p.WEB-DL.Msubs-DudeFilms.in.mkv`,3],
 ['Dhokha','3BKaEmu',`3>BollyWood/Dhokha.2022.CamRip/Dhokha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Prem Geet 3','3SssHEg',`3>BollyWood/Prem.Geet.3.CamRip/Prem.Geet.3.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Thiruchitrambalam','3DTAQO0',`3>South.Movies/Thiruchitrambalam.2022.HQ/Thiruchitrambalam.2022.Dual.Audio.Hindi(HQ).Tamil.480p.WEB-DL-DudeFilms.in.mkv`,2],
