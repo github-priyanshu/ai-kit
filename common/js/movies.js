@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Dhokha','3BKaEmu',`3>BollyWood/Dhokha.2022.CamRip/Dhokha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Prem Geet 3','3SssHEg',`3>BollyWood/Prem.Geet.3.CamRip/Prem.Geet.3.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Thiruchitrambalam','3DTAQO0',`3>South.Movies/Thiruchitrambalam.2022.HQ/Thiruchitrambalam.2022.Dual.Audio.Hindi(HQ).Tamil.480p.WEB-DL-DudeFilms.in.mkv`,2],
+['Lou','3dI8v2F',`3>HollyWood/Lou.2022/Lou.2022.Dual.Audio.Hindi.English.480p.NF.WEB-DL-DudeFilms.in.mkv`,3],
 ['Babli Bouncer','3dDVDul',`3>BollyWood/Babli.Bouncer.2022/Babli.Bouncer.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Atithi Bhooto Bhava','3S92gE2',`3>BollyWood/Atithi.Bhooto.Bhava.2022/Atithi.Bhooto.Bhava.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Saroj Ka Rishta','3C5MdkX',`3>BollyWood/Saroj.Ka.Rishta.2022.HDCam/Saroj.Ka.Rishta.2022.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1],
