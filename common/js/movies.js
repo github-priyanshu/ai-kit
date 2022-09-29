@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Bullet Train','3rjTqHC',`3>HollyWood/Bullet.Train.2022/Bullet.Train.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Captain','3feqga5',`3>South.Movies/Captain.2022.HQ/Captain.2022.Dual.Audio.Hindi(HQ).Tamil.480p.HDRip-DudeFilms.in.mkv`,2],
 ['A Trip To Infinity','3UR65j4',`3>HollyWood/A.Trip.To.Infinity.2022/A.Trip.To.Infinity.2022.Dual.Audio.Hindi.English.480p.WEB-DL.Msubs-DudeFilms.in.mkv`,3],
 ['Dhokha','3BKaEmu',`3>BollyWood/Dhokha.2022.CamRip/Dhokha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
