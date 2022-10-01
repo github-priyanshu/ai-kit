@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Plan A Plan B','3e1572T',`3>BollyWood/Plan.A.Plan.B.2022/Plan.A.Plan.B.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Ishq Pashmina','3RqMAei',`3>BollyWood/Ishq.Pashmina.2022.CamRip/Ishq.Pashmina.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Ranga Ranga Vaibhavanga','3CqrJ6C',`3>South.Movies/Ranga.Ranga.Vaibhavanga.2022.HDCam/Ranga.Ranga.Vaibhavanga.2022.Hindi(HQ).Telugu.480p.HDCAM-DudeFilms.in.mkv`,2],
 ['Viswasam','3BUUIxV',`3>South.Movies/Viswasam.2019/Viswasam.2019.Dual.Audio.Hindi.Tamil.480p.HDRip.ESub-DudeFilms.in.mkv`,2],
 ['Bullet Train','3rjTqHC',`3>HollyWood/Bullet.Train.2022/Bullet.Train.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['Captain','3feqga5',`3>South.Movies/Captain.2022.HQ/Captain.2022.Dual.Audio.Hindi(HQ).Tamil.480p.HDRip-DudeFilms.in.mkv`,2],
