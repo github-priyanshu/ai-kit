@@ -8,6 +8,11 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Woh 3 Din','3ec1Q0Y',`3>BollyWood/Woh.3.Din.2022.CamRip/Woh.3.Din.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Raksha Bandhan','3RA8j3v',`3>BollyWood/Raksha.Bandhan.2022/Raksha.Bandhan.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Vikram Vedha','3CfOad5',`3>BollyWood/Vikram.Vedha.2022.CamRip/Vikram.Vedha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Ranga Ranga Vaibhavanga','3RFDKJE',`3>South.Movies/Ranga.Ranga.Vaibhavanga.2022.HQ/Ranga.Ranga.Vaibhavanga.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2],
+['Karthikeya 2','3CBLVSQ',`3>South.Movies/Karthikeya.2.2022/Karthikeya.2.2022.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Plan A Plan B','3e1572T',`3>BollyWood/Plan.A.Plan.B.2022/Plan.A.Plan.B.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Ishq Pashmina','3RqMAei',`3>BollyWood/Ishq.Pashmina.2022.CamRip/Ishq.Pashmina.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Ranga Ranga Vaibhavanga','3CqrJ6C',`3>South.Movies/Ranga.Ranga.Vaibhavanga.2022.HDCam/Ranga.Ranga.Vaibhavanga.2022.Hindi(HQ).Telugu.480p.HDCAM-DudeFilms.in.mkv`,2],
