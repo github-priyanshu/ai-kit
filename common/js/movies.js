@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Godfather','3rDavwt',`3>South.Movies/Godfather.2022.CamRip/Godfather.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
+['Maja Ma','3fKr7Qd',`3>BollyWood/Maja.Ma.2022/Maja.Ma.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Laal Singh Chaddha HD','3SK7Kpb',`3>BollyWood/Laal.Singh.Chaddha.2022/Laal.Singh.Chaddha.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Woh 3 Din','3ec1Q0Y',`3>BollyWood/Woh.3.Din.2022.CamRip/Woh.3.Din.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Raksha Bandhan','3RA8j3v',`3>BollyWood/Raksha.Bandhan.2022/Raksha.Bandhan.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Vikram Vedha','3CfOad5',`3>BollyWood/Vikram.Vedha.2022.CamRip/Vikram.Vedha.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
