@@ -8,6 +8,11 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Hindutva','3TfMl6Z',`3>BollyWood/Hindutva.2022.CamRip/Hindutva.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Comrade in America','3MnTdwM',`3>South.Movies/Comrade.in.America.2017.HQ/Comrade.in.America.2017.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,1],
+['Dharmaveer','3MnTuji',`3>BollyWood/Dharmaveer.2022/Dharmaveer.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
+['Werewolf by Night','3rP4ZqA',`3>HollyWood/Werewolf.by.Night.2022.HQ/Werewolf.by.Night.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,3],
+['Goodbye','3Vn8MsU',`3>BollyWood/Goodbye.2022.CamRip/Goodbye.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Godfather','3rDavwt',`3>South.Movies/Godfather.2022.CamRip/Godfather.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Maja Ma','3fKr7Qd',`3>BollyWood/Maja.Ma.2022/Maja.Ma.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Laal Singh Chaddha HD','3SK7Kpb',`3>BollyWood/Laal.Singh.Chaddha.2022/Laal.Singh.Chaddha.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
