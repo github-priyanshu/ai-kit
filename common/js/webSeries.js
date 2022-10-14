@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Good.Bad.Girl','3Mwc4Wy',9,'__wsdomain/WebSeries/Sony.Liv/Good.Bad.Girl.S01/Good.Bad.Girl.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['The.Family.Man.S02','3M0qrST',9,'__wsdomain/WebSeries/Amazon.Prime/The.Family.Man.S02/The.Family.Man.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Hush.Hush.S01','3y1J2rX',7,'__wsdomain/WebSeries/Amazon.Prime/Hush.Hush.S01/Hush.Hush.S01.E01.Hindi.720p.WEBRip.ESubs-DudeFilms.in.mkv'],
 ['Jamtara.Sabka.Number.Ayega.S02','3UBbhHp',8,'__wsdomain/WebSeries/NetFlix/Jamtara.Sabka.Number.Ayega.S02/Jamtara.Sabka.Number.Ayega.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
