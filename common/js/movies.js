@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Modi Ji Ki Beti','3TDHWuF',`3>BollyWood/Modi.Ji.Ki.Beti.2022.CamRip/Modi.Ji.Ki.Beti.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Love You Loktantra','3sbwb38',`3>BollyWood/Love.You.Loktantra.2022.CamRip/Love.You.Loktantra.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Jaggu Ki Lalten','3yZWGMI',`3>BollyWood/Jaggu.Ki.Lalten.2022.CamRip/Jaggu.Ki.Lalten.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Code Name: Tiranga','3exThO6',`3>Code.Name.Tiranga.2022.CamRip/Code.Name.Tiranga.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Palthu Janwar','3EKhjAk',`3>South.Movies/Palthu.Janwar.2022/Palthu.Janwar.2022.Hindi-Malayalam.480p.WEB.DL.ESub-DudeFilms.in.mkv`,2],
 ['Lucky Man','3TjKb6r',`3>South.Movies/Lucky.Man.2022.HQ/Lucky.Man.2022.Dual.Audio.Hindi.HQ_Dub.Kannada.480p.HDRip-DudeFilms.in.mkv`,2],
