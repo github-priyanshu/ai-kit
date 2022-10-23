@@ -8,6 +8,12 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Ginna','3F4JD0n',`3>South.Movies/Ginna.2022.CamRip/Ginna.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
+['Bimbisara','3SqPOPs',`3>South.Movies/Bimbisara.2022.HQ/Bimbisara.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
+['Black Adam','3gulfLk',`3>HollyWood/Black.Adam.2022.CamRip/Black.Adam.2022.Hindi.English.480p.CAMRip-DudeFilms.in.mkv`,3],
+['Fakt Mahilao Maate HD','3Tl4X61',`3>Gujarati.Movies/Fakt.Mahilao.Maate.2022/Fakt.Mahilao.Maate.2022.Gujarati.480p.SM.WEB-DL-DudeFilms.in.mkv`,1],
+['The Legend of Maula Jatt','3D07ifz',`3>Punjabi.Movies/The.Legend.of.Maula.Jatt.2022.CamRip/The.Legend.of.Maula.Jatt.2022.Punjabi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Drishyam 2','3eU24do',`3>South.Movies/Drishyam.2.2021.HQ/Drishyam.2.2021.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
 ['Modi Ji Ki Beti','3TDHWuF',`3>BollyWood/Modi.Ji.Ki.Beti.2022.CamRip/Modi.Ji.Ki.Beti.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Love You Loktantra','3sbwb38',`3>BollyWood/Love.You.Loktantra.2022.CamRip/Love.You.Loktantra.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Jaggu Ki Lalten','3yZWGMI',`3>BollyWood/Jaggu.Ki.Lalten.2022.CamRip/Jaggu.Ki.Lalten.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
