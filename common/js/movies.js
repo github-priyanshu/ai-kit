@@ -9,7 +9,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 ['Shyam Singha Roy','3MYaJYK',`3>South.Movies/Shyam.Singha.Roy.2021/Shyam.Singha.Roy.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
-['Ginna','3F4JD0n',`3>South.Movies/Ginna.2022.CamRip/Ginna.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
+['Ginna','3SuLuP7',`3>South.Movies/Ginna.2022.CamRip/Ginna.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Oke Oka Jeevitham 2022','3F4Qert',`3>south.movies/Oke.Oka.Jeevitham.2022.HQ/Oke.Oka.Jeevitham.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
 ['Bimbisara','3SqPOPs',`3>South.Movies/Bimbisara.2022.HQ/Bimbisara.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
 ['Black Adam','3gulfLk',`3>HollyWood/Black.Adam.2022.CamRip/Black.Adam.2022.Hindi.English.480p.CAMRip-DudeFilms.in.mkv`,3],
