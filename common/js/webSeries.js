@@ -3,6 +3,8 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Flames 3','3TE54d3',5,'__wsdomain/WebSeries/Amazon.Prime/Flames/S03/Flames.S03.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
+['Jhansi','3zp5hbY',6,'__wsdomain/WebSeries/Hotstar/Jhansi.S01/Jhansi.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Mismatched','3z5F8Ph',6,'__wsdomain/WebSeries/NetFlix/Mismatched/S01/Mismatched.S01.E01.Hindi.720p.WEB.DL.ESub-DudeFilms.in.mkv'],
 ['Good.Bad.Girl','3Mwc4Wy',9,'__wsdomain/WebSeries/Sony.Liv/Good.Bad.Girl.S01/Good.Bad.Girl.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['The.Family.Man.S02','3M0qrST',9,'__wsdomain/WebSeries/Amazon.Prime/The.Family.Man.S02/The.Family.Man.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
