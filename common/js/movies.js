@@ -8,7 +8,11 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Ram Setu','3Dc5ekW',`3>BollyWood/Ram.Setu.2022.CamRip/Ram.Setu.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Har Har Mahadev','3TP3uoM',`3>BollyWood/Har.Har.Mahadev.2022.CamRip/Har.Har.Mahadev.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Prince','3gSZ4P9',`3>South.Movies/Prince.2022.CamRip/Prince.2022.Hindi.(HQ.Dubbed).480p.CAMRip-DudeFilms.in.mkv`,2],
+['Robbing Mussolini','3Nd3KLX',`3>HollyWood/Robbing.Mussolini.2022/Robbing.Mussolini.2022.Multi.Audio.Hindi.English.Italian.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,3],
+['Dongalunnaru Jagratha','3sGWQoO',`3>South.Movies/Dongalunnaru.Jagratha.2022.HQ/Dongalunnaru.Jagratha.2022.Hindi.(HQ)-Telugu.480p.WEB-DL-DudeFilms.in.mkv`,2],
+[['Ram Setu','3Dc5ekW',`3>BollyWood/Ram.Setu.2022.CamRip/Ram.Setu.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['Thank God','3W6C1jP',`3>BollyWood/Thank.God.2022.CamRip/Thank.God.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
 ['The Extraordinary Journey of the Fakir','3FjfElg',`3>South.Movies/The.Extraordinary.Journey.of.the.Fakir.2018.HQ/The.Extraordinary.Journey.of.the.Fakir.2018.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
 ['Bigil','3DnBiU6',`3>South.Movies/Bigil.2019/Bigil.2019.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
