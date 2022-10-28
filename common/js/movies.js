@@ -8,9 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Ram Setu','3Dc5ekW',`https://s17.drop.download:182/d/epctxfy24tcdvbi4t665lgkyy6hdzijuf6b2vyno3ffe5hqhsudfxdlmfs4fxg2wnoyx35p6/Ram.Setu.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
-['Thank God','3W6C1jP',`https://s23.drop.download:182/d/fxcyjey24tcdvbi4t665fd24zqjz5vmfx5w5qntbmukyyzbdufqk2kknksiicgvyzhu5povy/Thank.God.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
-['The Extraordinary Journey of the Fakir','3FjfElg',`https://s26.drop.download:182/d/kpcs5fq24tcdvbi4t665hcq7zpaedtwj7ofahm5uvb3cixrz3aa6k7bqpggo6x7wxhtkbnvq/The.Extraordinary.Journey.of.the.Fakir.2018.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
+['Ram Setu','3Dc5ekW',`3>BollyWood/Ram.Setu.2022.CamRip/Ram.Setu.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['Thank God','3W6C1jP',`3>BollyWood/Thank.God.2022.CamRip/Thank.God.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
+['The Extraordinary Journey of the Fakir','3FjfElg',`3>South.Movies/The.Extraordinary.Journey.of.the.Fakir.2018.HQ/The.Extraordinary.Journey.of.the.Fakir.2018.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
 ['Bigil','3DnBiU6',`3>South.Movies/Bigil.2019/Bigil.2019.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Shyam Singha Roy','3MYaJYK',`3>South.Movies/Shyam.Singha.Roy.2021/Shyam.Singha.Roy.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
 ['Ginna','3SuLuP7',`3>South.Movies/Ginna.2022.CamRip/Ginna.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2],
