@@ -45,7 +45,7 @@ function realDown(){
 }
 
 function share(){
-makeUi("<span fs='1.2em' col='#ff3000'>Link Created but Quota over</span><br><p>You can get 2 quota in<br>free by Sharing. </p><h3>Click on share button<br>and share to your status.</h3>",`<button class="noBtn" style="background: linear-gradient(90deg,#0e0,#0f0)" onclick="shareOn();">Share to Status</button>`)
+makeUi("<span fs='1.2em' col='#ff3000'>फ्री डाउनलोड करने<br>के लिए शेयर करें</span><br>",`<button class="noBtn" style="background: linear-gradient(90deg,#0e0,#0f0)" onclick="shareOn();">अपने स्टेटस पर लगाएं</button>`)
 }
 
 function shareOn(){
