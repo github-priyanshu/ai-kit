@@ -55,8 +55,15 @@ video.onerror=(e)=>{
 		localStorage.setItem("vidErrorCt",vidErrorCt);
 
 		let errCode=video.error.code-1;
-		let msgAry=["Loading was interrupted. Try again.","This video is not supported in this Browser.","Check your network connectivity","There is an error!"];
+		let msgAry=["Loading was interrupted. Try again.","This video is not supported in this Browser or Network issue.","Check your network connectivity","There is an error!"];
 		let msg=msgAry[errCode];
+
+		if(errCode==3 && vidSource.altLnk!='false'){
+			window.open(vidSource.altLnk);
+			history.go(-1);
+			alert('DOWNLOAD: This video can only be downloaded.');
+			return false;
+		}
 
 		if(vidErrorCt>=2){
 			dialog.inside(`<span col="#f00" ff="glory">Problem in server :</span><br><span ff="glory" col="#444">Unable to play movie now. </span><br><br><i>Please <b><u>Join our Telegram channel</u></b> to know when the error will be resolved.</i>`);
@@ -90,7 +97,7 @@ function onErrDown(){
 	}
 }
 var vidSource={};
-function setMovie(lnk,name,midx=false){
+function setMovie(lnk,name,midx=false,altLnk){
 	if(midx){
 		updateHistory(midx);
 		try{disturbOnVidSet()}catch{}
@@ -98,7 +105,8 @@ function setMovie(lnk,name,midx=false){
 	vidSource={
 		name,
 		src: lnk,
-		mid: midx
+		mid: midx,
+		altLnk
 	}
 
 	load.show();

@@ -95,11 +95,11 @@ function downSeries(sid){
 
 function getMvHtml(val){
 	return `<div class="moviePan noAd flex c">
-					<div class="poster w100p" onclick="setMovie('${val.src}','${val.name}',${val.mid});">
+					<div class="poster w100p" onclick="setMovie('${val.src}','${val.name}',${val.mid},'${val.altLnk}');">
 						<img src="${val.img}" alt="${val.name}" loading="lazy" class="w100p">
 					</div>
 					<div class="data flex">
-						<div class="name"v onclick="setMovie('${val.src}','${val.name}',${val.mid});">${val.name}</div>
+						<div class="name"v onclick="setMovie('${val.src}','${val.name}',${val.mid},'${val.altLnk}');">${val.name}</div>
 
 						<div class="btnBn flex">
 							<div class="mvActBtn flex" ico="send" onclick="shareCurent(${val.mid},'${val.name}')"></div>
