@@ -103,7 +103,8 @@ function getMvHtml(val){
 
 						<div class="btnBn flex">
 							<div class="mvActBtn flex" ico="send" onclick="shareCurent(${val.mid},'${val.name}')"></div>
-							<div class="mvActBtn flex" ico="download" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${val.src}')"></div>
+							<div class="mvActBtn flex" ico="download" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${JSON.stringify({name:val.name,src:val.src,altLnk:val.altLnk})}')"></div>
+
 						</div>
 					</div>
 				</div>`;
