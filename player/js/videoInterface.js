@@ -59,9 +59,7 @@ video.onerror=(e)=>{
 		let msg=msgAry[errCode];
 
 		if(errCode==3 && vidSource.altLnk!='false'){
-			window.open(vidSource.altLnk);
-			history.go(-1);
-			alert('Downloading: This video can only be downloaded.');
+			location.assign(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify({name:vidSource.name,src:vidSource.altLnk,altLnk:'false'})}`);
 			return false;
 		}
 
