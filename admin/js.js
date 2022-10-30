@@ -102,14 +102,6 @@ function addMovies(){
 	}
 }
 
-nameIn.forEach(val=>{
-	val.addEventListener("input",()=>{
-		var p=val.closest(".workPan"),t=p.getAttribute("panFor");
-		var button=op(`.workPan[panFor='${t}'] .imgSrhBtn`);
-		button.setAttribute("url",`https://www.google.co.in/search?q=${val.value}&tbm=isch`);
-	})
-})
-
 lnkIn.forEach(val=>{
 	val.addEventListener("input",()=>{
 		var p=val.closest(".workPan"),t=p.getAttribute("panFor");
@@ -134,9 +126,13 @@ autoPaste.forEach(val=>{
 })
 
 function search(elem){
+	log(elem)
 	window.open(elem.getAttribute("url"));
 }
-
+function searchImg(el){
+	https://www.google.com/search?q=hey&tbm=isch
+	window.open(`https://www.google.com/search?q=${el.previousElementSibling.value}&tbm=isch`);
+}
 function copy(txt){
 	let elem=document.createElement("textarea");
 	document.body.insertAdjacentElement("beforeend",elem)
