@@ -39,7 +39,12 @@
 
       <label class="w100p">
         <div>Video Link</div>
-        <input type="text" class="autoPaste lnkIn">
+        <input type="text" class="autoPaste lnkIn" oninput="addExtraMv(this);">
+      </label>
+
+      <label class="w100p">
+        <div>Drop.down (altLnk)</div>
+        <input type="text" class="autoPaste altLnk">
       </label>
 
       <label class="w100p">
@@ -77,7 +82,12 @@
 
       <label class="w100p">
         <div>Episode 1 link</div>
-        <input type="text"  class="autoPaste lnkIn">
+        <input type="text"  class="autoPaste lnkIn" oninput="addExtraSr(this)">
+      </label>
+
+      <label class="w100p">
+        <div>Drop.down (altLnk) all episodes</div>
+        <input type="text" class="autoPaste altLnk">
       </label>
 
       <label class="w100p">
@@ -101,7 +111,6 @@
   </div>
 
   <!-- common -->
-  <script src="../common/js/variables.js"></script>
   <script src="../common/js/script.js"></script>
 
   <script src="js.js"></script>

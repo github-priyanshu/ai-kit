@@ -7,6 +7,34 @@ data={
 	series:"",
 };
 
+class ExtraDetail{
+	static clearLnk(lnk){
+		lnk=lnk.replace('https://','');
+		lnk=lnk.replace('0:/','');
+		return lnk.split('/');
+	}
+	static getMvName(lnk){
+		var mvType=['BollyWood','South.Movies','HollyWood'];
+
+		lnk=ExtraDetail.clearLnk(lnk);
+		op('.workPan[panfor="movie"] input.name').value=ExtraDetail.clearName(lnk[2]);
+		op('.workPan[panfor="movie"] #type').value=mvType.indexOf(lnk[1])+1;
+	}
+
+	static getSeriesName(lnk){
+		lnk=ExtraDetail.clearLnk(lnk);
+		op('.workPan[panfor="series"] input.name').value=ExtraDetail.clearName(lnk[3]);
+	}
+
+	static clearName(n){
+		return n.replace('.2022','').replaceAll(".",' ')
+	}
+
+}
+
+function addExtraMv(e){	ExtraDetail.getMvName(e.value);}
+function addExtraSr(e){	ExtraDetail.getSeriesName(e.value);}
+
 function copyOpen(el,tocopy){
 	copy(tocopy);
 	setTimeout(()=>{
@@ -22,6 +50,7 @@ function addSeries(){
 	str.push("'"+op(".workPan[panFor='series'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
 	str.push(op("#enum").value);
 	str.push("'"+getShortSeriesLnk(op(".workPan[panFor='series'] .lnkIn").value.trim())+"'");
+	str.push("'"+op(".workPan[panFor='series'] .altLnk").value.trim().replace("https://drop.download/","")+"'");
 
 	str=str.join(",");
 	data.series+=`\n[${str}],`;
@@ -45,10 +74,11 @@ var addedN=0;
 function addMovies(){
 	op("#movieCount").innerHTML=`/...Add Movies (${++addedN})`;
 	var str=[];
-	str.push("'"+op(".workPan[panFor='movie'] .name").value.trim().replaceAll("."," ")+"'");
+	str.push("'"+op(".workPan[panFor='movie'] .name").value.trim());
 	str.push("'"+op(".workPan[panFor='movie'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
 	str.push("`"+getMovieServerNLink()+"`");
 	str.push(op(".workPan[panFor='movie'] select").value);
+	str.push("'"+op(".workPan[panFor='movie'] .altLnk").value.trim().replace("https://drop.download/","")+"'");
 
 	str=str.join(",");
 	data.movie+=`\n[${str}],`;
