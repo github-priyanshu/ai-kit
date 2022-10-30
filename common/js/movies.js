@@ -8,8 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Har Har Mahadev','3TP3uoM',`1>BollyWoodHar.Har.Mahadev.2022.CamRip/Har.Har.Mahadev.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'1q518iu1jk88'],
-['Prince','3gSZ4P9',`1>South.MoviesPrince.2022.CamRip/Prince.2022.Hindi.(HQ.Dubbed).480p.CAMRip-DudeFilms.in.mkv`,2],
+['Har Har Mahadev','3TP3uoM',`1>BollyWood/Har.Har.Mahadev.2022.CamRip/Har.Har.Mahadev.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'1q518iu1jk88'],
+['Prince','3gSZ4P9',`1>South.Movies/Prince.2022.CamRip/Prince.2022.Hindi.(HQ.Dubbed).480p.CAMRip-DudeFilms.in.mkv`,2],
 ['Robbing Mussolini','3Nd3KLX',`1>HollyWood/Robbing.Mussolini.2022/Robbing.Mussolini.2022.Multi.Audio.Hindi.English.Italian.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,3],
 ['Dongalunnaru Jagratha','3sGWQoO',`1>South.Movies/Dongalunnaru.Jagratha.2022.HQ/Dongalunnaru.Jagratha.2022.Hindi.(HQ)-Telugu.480p.WEB-DL-DudeFilms.in.mkv`,2],
 ['Ram Setu','3Dc5ekW',`1>BollyWood/Ram.Setu.2022.CamRip/Ram.Setu.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
