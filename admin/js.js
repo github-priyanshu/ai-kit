@@ -32,8 +32,8 @@ class ExtraDetail{
 
 }
 
-function addExtraMv(e){	ExtraDetail.getMvName(e.value);}
-function addExtraSr(e){	ExtraDetail.getSeriesName(e.value);}
+function addExtraMv(e){	setTimeout(()=>{ExtraDetail.getMvName(e.value)},500);}
+function addExtraSr(e){	setTimeout(()=>{ExtraDetail.getSeriesName(e.value)},500);}
 
 function copyOpen(el,tocopy){
 	copy(tocopy);
