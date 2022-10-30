@@ -61,7 +61,7 @@ video.onerror=(e)=>{
 		if(errCode==3 && vidSource.altLnk!='false'){
 			window.open(vidSource.altLnk);
 			history.go(-1);
-			alert('DOWNLOAD: This video can only be downloaded.');
+			alert('Downloading: This video can only be downloaded.');
 			return false;
 		}
 
@@ -90,7 +90,7 @@ function onErrDown(){
 		var html=`<br><span>/...Download</span><br>Try to DOWNLOAD it, because unable to play right now.`;
 		dialog.buttons("Close","Download");
 		dialog.success=()=>{
-			window.open(`https://ai-movie-download.netlify.app?lnk=${video.src}`);
+			window.open(`https://ai-movie-download.netlify.app?lnk=${getDownData()}`);
 			location.assign(extLink);
 		};
 		return html;
@@ -118,7 +118,7 @@ function setMovie(lnk,name,midx=false,altLnk){
 	try{op(".currentVideo .curData").remove()}catch{}
 	if(video.src.startsWith("http")){
 		elem=`<div class="curData flex">
-					<div class="flex" id="downCur" ico="download" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${video.src}')" bg="#ffa700"></div>
+					<div class="flex" id="downCur" ico="download" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${getDownData()}')" bg="#ffa700"></div>
 					<div class="flex" id="shareCur" ico="send" onclick="shareCurent()" bg="lime" ></div>
 				</div>`;
 	}
@@ -435,4 +435,9 @@ function _kgfAd(mid){
 function getShareLink(toAdd=""){
 	var data=toAdd+shareText;
 	return encodeURI("https://wa.me/?text="+data);
+}
+
+function getDownData(){
+	log(vidSource);
+	return JSON.stringify(vidSource);
 }
