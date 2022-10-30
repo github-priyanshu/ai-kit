@@ -4,25 +4,20 @@ opp("*[sz]").forEach(val=>{
 	val.style.height=at[1]+"px";
 })
 
-var search=location.search,
+var search=location.search.replace('?lnk=',''),
 shareText=`
 Downloading a *Latest Movie* in Free.
-Many Popular Movies are here.
 
-https://ai-player.netlify.app?sh=21
-
-Some Populars are:
-*Khuda Hafiz 2*
+All Movies are:
+*Har Har Mahadev*
+*Code Name: Tiranga*
 *PrithviRaj*
-*RRR*
-*KGF 2*
-*The Kashmir Files*
 
 https://ai-player.netlify.app?sh=21`,
 shareNum=Number(localStorage.getItem("shareNum")) || 0;
 
 
-search=search.split("=")[1];
+search=JSON.parse(decodeURI(search));
 
 var circle=op("#progress circle.main");
 
@@ -35,17 +30,21 @@ function checkQ(){
 }
 
 function download(){
-	makeUi("<p>Click the button download now.</p>",`<button onclick="realDown()" class="noBtn">Download</button>`)
+	if(search.altLnk!="false"){
+		makeUi(`Choose Server to Download..!!`,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Server 1</button><br><br><p>if server 1 not working</p><button onclick="realDown(2,'${search.altLnk}')" class="noBtn">Server 2</button>`)
+	}else{
+		makeUi(``,`<button onclick="realDown(1,${search.src})" class="noBtn">Download</button>`);
+	}
 }
 var isSet=true;
-function realDown(){
+function realDown(server,lnk){
 	setQuota();
-	send("//...Download ~ "+shareNum+" "+search);
-	window.open(search);
+	send("//...Download ~ Server"+server+' '+shareNum+" "+search.name);
+	window.open(lnk);
 }
 
 function share(){
-makeUi("<span fs='1.2em' col='#ff3000'>फ्री डाउनलोड करने<br>के लिए शेयर करें</span><br>",`<button class="noBtn" style="background: linear-gradient(90deg,#0e0,#0f0)" onclick="shareOn();">अपने स्टेटस पर लगाएं</button>`)
+makeUi("<span fs='1.2em' col='#ff3000'>फ्री डाउनलोड करने<br>के लिए शेयर करें</span><br>",`<button class="noBtn" style="background: linear-gradient(90deg,#0e0,#0f0); font-size:1.2em;" onclick="shareOn();">अपने स्टेटस पर लगाएं</button>`)
 }
 
 function shareOn(){
@@ -70,7 +69,7 @@ function progressEnd(){
 
 function startProgress(){
 	circle.classList.add("active");
-	makeUi("<span fs='1.2em' col='#ff3000'>Generating Link...</span><br>Your link is being created. Please wait...")
+	makeUi("<span fs='1.2em' col='#ff3000'>Generating Link...</span><br>Creating Link. Please wait...")
 	setTimeout(progressEnd,10000)
 }
 setTimeout(startProgress,2000)
