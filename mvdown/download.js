@@ -30,10 +30,10 @@ function checkQ(){
 }
 
 function download(){
-	if(search.altLnk!="false"){
+	if(search.altLnk!="false" && search.altLnk){
 		makeUi(`Choose Server to Download..!!`,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Server 1</button><br><br><p>if server 1 not working</p><button onclick="realDown(2,'${search.altLnk}')" class="noBtn">Server 2</button>`)
 	}else{
-		makeUi(``,`<button onclick="realDown(1,${search.src})" class="noBtn">Download</button>`);
+		makeUi(``,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Download</button>`);
 	}
 }
 var isSet=true;
