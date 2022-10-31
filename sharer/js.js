@@ -5,6 +5,7 @@ autoPaste.forEach(val=>{
 		if(val.value==""){
 			navigator.clipboard.readText().then(ret=>{
 				val.value=ret || " ";
+				val.blur();
 			});
 		}
 	});
