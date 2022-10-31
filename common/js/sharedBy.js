@@ -1,0 +1,1 @@
+let shareName=["Team of fun","Awesome Code","Chahat","Telegram","Prashant","Swapnil","Akash","Josh","fb","insta","other","qr code","person","code viewer site","ai kit","WISH","User share","Spin&Win","MallQr","ShortShare","Down Share"];
