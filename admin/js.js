@@ -74,7 +74,7 @@ var addedN=0;
 function addMovies(){
 	op("#movieCount").innerHTML=`/...Add Movies (${++addedN})`;
 	var str=[];
-	str.push("'"+op(".workPan[panFor='movie'] .name").value.trim());
+	str.push("'"+op(".workPan[panFor='movie'] .name").value.trim()+"'");
 	str.push("'"+op(".workPan[panFor='movie'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
 	str.push("`"+getMovieServerNLink()+"`");
 	str.push(op(".workPan[panFor='movie'] select").value);
