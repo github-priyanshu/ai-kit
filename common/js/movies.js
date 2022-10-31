@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Krishna Vrinda Vihari HQ,'3Wbvm8h',`1>South.Movies/Krishna.Vrinda.Vihari.2022.HQ/Krishna.Vrinda.Vihari.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'7htu6nme6ecz'],
+['Krishna Vrinda Vihari HQ','3Wbvm8h',`1>South.Movies/Krishna.Vrinda.Vihari.2022.HQ/Krishna.Vrinda.Vihari.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'7htu6nme6ecz'],
 ['Bheemla Nayak,'3DJPEOX',`1>South.Movies/Bheemla.Nayak.2022/Bheemla.Nayak.2022.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'bg79t35u0wdu'],
 ['Naane Varuven HQ,'3U7nmDX',`1>South.Movies/Naane.Varuven.2022.HQ/Naane.Varuven.2022.Hindi.HQ.Tamil.480p.HDRip-DudeFilms.in.mkv`,2,'g3hkcqhmnjpe'],
 ['Appan,'3UaotlD',`1>South.Movies/Appan.2022/Appan.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'j9ldo3auoce1'],
