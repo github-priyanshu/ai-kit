@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin : Ai Player</title>
+
+  <!-- common -->
+  <link rel="stylesheet" href="../common/css/style.css">
+
+  <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+  <div class="head">
+    <div class="name">Ai-Share Panel</div>
+  </div>
+  <div class="menu">
+    <a href="https://ai-kit.netlify.app/admin" target="__blank">
+      <button>Admin Panel</button>
+    </a> 
+    <a href="https://ai-player.netlify.app" target="__blank">
+      <button>Ai Player</button>
+    </a> 
+  </div>
+  <div class="botPan flex">
+    <div class="workPan" panFor="movie">
+      <div class="top flex">
+        <div id="movieCount">/...Choose Shared by</div>
+      </div>
+      <div class="gridList shareName flex">
+      </div>
+    </div>
+
+    <div class="workPan" panFor="series">
+      <!-- SERIES -->
+      <div class="top flex">
+        <div id="seriesCount">/...General Text</div>
+      </div>
+      <textarea class="txt w100p" style="height: 200px">
+        
+      </textarea>
+      <button onclick="copy(this.previousElementSibling.value)">Copy</button>
+    </div>
+
+    <div class="workPan" panFor="series">
+      <!-- SERIES -->
+      <div class="top flex">
+        <div id="seriesCount">/...Choose Movie</div>
+      </div>
+
+      <div class="gridList mvName flex">
+      </div>
+      
+    </div>
+    <div class="workPan" panFor="series">
+      <!-- SERIES -->
+      <div class="top flex">
+        <div id="seriesCount">/...Choose Link</div>
+      </div>
+      <div class="gridList flex mode">
+        <button class="name" onclick="copy(getFullUrl());">Ai Player</button>
+        <button class="name" onclick="sms();">SMS Text</button>
+        <button class="name" onclick="downloadLink()">Movie Download Page</button>
+        <button class="name" onclick="redirectArticleLink()">Ai Article Redirect</button>
+        <button class="name" onclick="copy(movies[obj.movie].src)">Source direct</button>
+        <button class="name" onclick="movies[obj.movie].altLnk?copy(movies[obj.movie].altLnk) : alert('NA')">Alt Source</button>
+        <button class="name" onclick="copy(movies[obj.movie].img)">Poster Image</button>
+
+      </div>
+    </div>
+    <div class="workPan" panFor="series">
+      <!-- SERIES -->
+      <div class="top flex">
+        <div id="seriesCount">/...Ai Article Redirect Creator</div>
+      </div>
+      <div class="flex">
+        <input type="text" class="autoPaste">
+        <button>Copy</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- common -->
+  <script src="../common/js/sharedBy.js"></script>
+  <script src="../common/js/script.js"></script>
+  <script src="../common/js/movieSiteLnk.js"></script>
+  <script src="../common/js/movies.js"></script>
+
+  <script src="js.js"></script>
+</body>
+</html>

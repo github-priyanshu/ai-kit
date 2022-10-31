@@ -1,0 +1,66 @@
+body{
+	background: #333;
+	color: #fff;
+}
+.head{
+	margin: 30px 0;
+	font-size: 2em;
+}
+.botPan{
+  width: 100%;
+	flex-flow: column;
+}
+.botPan .workPan{
+	width: 90vw;
+	border: 1px solid #000;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 3px;
+}
+.botPan .workPan .top{
+	margin: 20px 0;
+	justify-content: space-between;
+}
+.workPan > *{
+	margin: 10px 0;
+}
+.workPan label{
+	display: block;
+}
+.botPan .workPan input[type='text']{
+	width: 100%;
+}
+select,
+button,
+input,
+textarea{
+	display: inline-block;
+	height: 35px;
+	background: #444;
+	border: 1px solid #000;
+	padding: 0 10px;
+	border-radius: 2px;
+	outline: none;
+	color: #fff;
+}
+
+select:active,
+button:active,
+input:active,
+textarea:active{
+	background: #222;
+}
+.workPan input{
+	font-size: .9em;
+}
+
+
+/* shared by */
+.gridList{
+	flex-flow: row wrap;
+}
+.gridList .name{
+	padding: 8px 10px;
+	width: max-content;
+	margin: 2px;
+}
