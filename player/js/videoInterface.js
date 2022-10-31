@@ -58,7 +58,7 @@ video.onerror=(e)=>{
 		let msgAry=["Loading was interrupted. Try again.","This video is not supported in this Browser or Network issue.","Check your network connectivity","There is an error!"];
 		let msg=msgAry[errCode];
 
-		if(errCode==3 && vidSource.altLnk!='false'){
+		if(errCode==3 && vidSource.altLnk!='false' && vidSource.altLnk){
 			location.assign(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify({name:vidSource.name,src:vidSource.altLnk,altLnk:'false'})}`);
 			return false;
 		}
@@ -116,7 +116,7 @@ function setMovie(lnk,name,midx=false,altLnk){
 	try{op(".currentVideo .curData").remove()}catch{}
 	if(video.src.startsWith("http")){
 		elem=`<div class="curData flex">
-					<div class="flex" id="downCur" ico="download" onclick="checkDownTrue('https://ai-movie-download.netlify.app?lnk=${getDownData()}')" bg="#ffa700"></div>
+					<div class="flex" id="downCur" ico="download" onclick="movieDownloadData(${vidSource.mid})" bg="#ffa700"></div>
 					<div class="flex" id="shareCur" ico="send" onclick="shareCurent()" bg="lime" ></div>
 				</div>`;
 	}
