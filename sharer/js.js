@@ -135,3 +135,7 @@ function redirectArticleLink() {
 function makeRedirectLnk(el){
 	copy(`https://ai-article.netlify.app/page/bhool bhulaiyaa 2.html?redirect=`+JSON.stringify({lnk:el.previousElementSibling.value}));
 }
+
+function aiDownloadPage(el){
+	copy(`https://ai-movie-download.netlify.app/?lnk=`+JSON.stringify({name:"From ai share",src:el.previousElementSibling.value}));
+}
