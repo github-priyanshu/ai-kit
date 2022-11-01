@@ -19,6 +19,7 @@ autoPaste.forEach(val=>{
 })
 
 function copy(txt){
+	if(txt.startsWith('http')){txt=encodeURI(txt)}
 	let elem=document.createElement("textarea");
 	document.body.insertAdjacentElement("beforeend",elem)
 	elem.value=txt;
@@ -128,5 +129,9 @@ function downloadLink(){
 /*REDIRECT ARTICLE LINK*/
 function redirectArticleLink() {
 	var objx={mid:obj.movie};
-	copy(`https://ai-article.netlify.app/page/bhool%20bhulaiyaa%202?redirect=`+JSON.stringify(objx));
+	copy(`https://ai-article.netlify.app/page/bhool bhulaiyaa 2.html?redirect=`+JSON.stringify(objx));
+}
+
+function makeRedirectLnk(el){
+	copy(`https://ai-article.netlify.app/page/bhool bhulaiyaa 2.html?redirect=`+JSON.stringify({lnk:el.previousElementSibling.value}));
 }

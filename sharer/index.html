@@ -59,10 +59,17 @@
         <div id="seriesCount">/...Choose Link</div>
       </div>
       <div class="gridList flex mode">
-        <button class="name" onclick="copy(getFullUrl());">Ai Player</button>
         <button class="name" onclick="sms();">SMS Text</button>
+        <button class="name" onclick="copy(movies[obj.movie].name);">Copy Name</button>
+
+        <div class="w100p" style="margin: 10px; height: 1px; background: #000;"></div>
+
+        <button class="name" onclick="copy(getFullUrl());">Ai Player</button>
         <button class="name" onclick="downloadLink()">Movie Download Page</button>
         <button class="name" onclick="redirectArticleLink()">Ai Article Redirect</button>
+
+        <div class="w100p" style="margin: 10px; height: 1px; background: #000;"></div>
+
         <button class="name" onclick="copy(movies[obj.movie].src)">Source direct</button>
         <button class="name" onclick="movies[obj.movie].altLnk?copy(movies[obj.movie].altLnk) : alert('NA')">Alt Source</button>
         <button class="name" onclick="copy(movies[obj.movie].img)">Poster Image</button>
@@ -76,7 +83,7 @@
       </div>
       <div class="flex">
         <input type="text" class="autoPaste">
-        <button>Copy</button>
+        <button onclick="makeRedirectLnk(this);">Copy</button>
       </div>
     </div>
 
