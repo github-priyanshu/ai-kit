@@ -133,7 +133,7 @@ function redirectArticleLink() {
 }
 
 function makeRedirectLnk(el){
-	copy(`https://ai-article.netlify.app/page/bhool bhulaiyaa 2.html?redirect=`+JSON.stringify({lnk:el.previousElementSibling.value}));
+	copy(`https://ai-article.netlify.app/page/bhool bhulaiyaa 2.html?redirect=`+btoa(JSON.stringify({lnk:el.previousElementSibling.value})));
 }
 
 function aiDownloadPage(el){
