@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Tadka HD','3ftqZ88',`1>BollyWood/Tadka.2022/Tadka.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'0o77qqhuqhpb'],
+['Brahmastra Part One Shiva HD','3zEnWRh',`1>BollyWood/Brahmastra.Part.One.Shiva.2022/Brahmastra.Part.One.-.Shiva.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'yjhq5rzihufx'],
+['The Ghost HQ','3Wo4vps',`1>South.Movies/The.Ghost.2022.HQ/The.Ghost.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'8ztjydxe39ad'],
 ['Krishna Vrinda Vihari HQ','3Wbvm8h',`1>South.Movies/Krishna.Vrinda.Vihari.2022.HQ/Krishna.Vrinda.Vihari.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'7htu6nme6ecz'],
 ['Bheemla Nayak','3DJPEOX',`1>South.Movies/Bheemla.Nayak.2022/Bheemla.Nayak.2022.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'bg79t35u0wdu'],
 ['Naane Varuven HQ','3U7nmDX',`1>South.Movies/Naane.Varuven.2022.HQ/Naane.Varuven.2022.Hindi.HQ.Tamil.480p.HDRip-DudeFilms.in.mkv`,2,'g3hkcqhmnjpe'],
@@ -70,9 +73,7 @@ var movies=
 ['King','3Ul9y9i',`0>HollyWood/King.2022/King.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3],
 ['X','3SaMEzt',`0>HollyWood/X.2022/X.2022.Dual.Audio.Hindi.English.480p.Bluray.Esubs-DudeFilms.in.mkv`,3],
 ['Dejavu','3QO9ege',`0>South.Movies/Dejavu.2022.HQ/Dejavu.2022.480p.WEB-DL.Hindi.HQ.DUB-DudeFilms.in.mkv`,1],
-['Red','3RYOGCJ',`https://dl.gd4hub05.workers.dev/0:/South.Movies/Red.2021/Red.2021.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],
-['Brahmastra Part One Shiva','3L6LTVH',`https://dl3.odcloud04.workers.dev/BollyWood/Brahmastra.Part.One.Shiva.2022.CamRip/Brahmastra.Part.One.Shiva.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1],
-['Thiruchitrambalam','3U24vua',`https://dl.gd4hub05.workers.dev/0:/South.Movies/Thiruchitrambalam.2022.HQ/Thiruchitrambalam.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
+['Red','3RYOGCJ',`https://dl.gd4hub05.workers.dev/0:/South.Movies/Red.2021/Red.2021.Dual.Audio.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2],['Thiruchitrambalam','3U24vua',`https://dl.gd4hub05.workers.dev/0:/South.Movies/Thiruchitrambalam.2022.HQ/Thiruchitrambalam.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2],
 ['Thallumaala','3xjooTX',`https://dl.gd4hub05.workers.dev/0:/South.Movies/Thallumaala.2022.HQ/Thallumaala.2022.Hindi.(HQ.Dubbed).480p.WEB-DL-DudeFilms.in.mkv`,2],
 ['Ek Villain Returns HD','3xaty4r',`0>BollyWood/Ek.Villain.Returns.2022/Ek.Villain.Returns.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1],
 ['Lakshay','3QEdL4Y',`0>South.Movies/Lakshay.2021.Hindi.HQ/Lakshay.2021.Dual.Audio.Hindi.(HQ)-Telugu.480p.WEB-DL-DudeFilms.in.mkv`,1],
