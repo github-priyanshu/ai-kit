@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Phone Bhoot CamRip','3WwoXo9',`1>BollyWood/Phone.Bhoot.2022.CamRip/Phone.Bhoot.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'yodw8l1ye9rr'],
+['Mili CamRip','3NKex0f',`1>BollyWood/Mili.2022.CamRip/Mili.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'b0k2045w9j3v'],
+['Lyle, Lyle, Crocodile CamRip','3FNHTJd',`1>HollyWood/Lyle,.Lyle,.Crocodile.2022.CamRip/Lyle,.Lyle,.Crocodile.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3,'b89y1xtmlct8'],
 ['Tadka HD','3ftqZ88',`1>BollyWood/Tadka.2022/Tadka.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'0o77qqhuqhpb'],
 ['Brahmastra Part One Shiva HD','3zEnWRh',`1>BollyWood/Brahmastra.Part.One.Shiva.2022/Brahmastra.Part.One.-.Shiva.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'yjhq5rzihufx'],
 ['The Ghost HQ','3Wo4vps',`1>South.Movies/The.Ghost.2022.HQ/The.Ghost.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'8ztjydxe39ad'],
