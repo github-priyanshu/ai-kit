@@ -131,3 +131,11 @@ function videoOn(){
 window.onblur=()=>{
 	vidHlp.pause();
 }
+
+var toAs=true;
+window.onscroll=()=>{toAs=false}
+setTimeout(()=>{
+	if(toAs){
+		window.scrollTo(0,500);
+	}
+},5000);
