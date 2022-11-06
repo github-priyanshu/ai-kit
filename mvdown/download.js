@@ -3,7 +3,7 @@ opp("*[sz]").forEach(val=>{
 	val.style.width=at[0]+"px";
 	val.style.height=at[1]+"px";
 })
-
+var vidHlp=op('#hlpVid');
 var search=location.search.replace('?lnk=',''),
 shareText=`
 Downloading a *Latest Movie* in Free.
@@ -14,7 +14,10 @@ All Movies are:
 *PrithviRaj*
 
 https://ai-player.netlify.app?sh=21`,
-shareNum=Number(localStorage.getItem("shareNum")) || 0;
+shareNum=Number(localStorage.getItem("shareNum")) || 0,
+mainHelp="mvdown/media/helpVid/downhlp.mp4",
+shareHelp="mvdown/media/helpVid/sharehlp.mp4",
+uiHtml=[];
 
 
 search=JSON.parse(decodeURI(search));
@@ -26,15 +29,21 @@ function checkQ(){
 		download();
 	}else{
 		share();
+		vidHlp.src=shareHelp;
 	}
 }
 
 function download(){
+	vidHlp.pause();
 	if(search.altLnk!="false" && search.altLnk){
-		makeUi(`Choose Server to Download..!!`,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Server 1</button><br><br><p>if server 1 not working</p><button onclick="realDown(2,'${search.altLnk}')" class="noBtn">Server 2</button>`)
+		uiHtml=[`Choose Server to Download..!!`,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Server 1</button><br><br><p>if server 1 not working</p><button onclick="realDown(2,'${search.altLnk}')" class="noBtn">Server 2</button>`];
 	}else{
-		makeUi(``,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Download</button>`);
+		if(search.src.includes("drop.download")){
+			mainHelp="mvdown/media/helpVid/downalt.mp4";
+		}
+		uiHtml=[``,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Download</button>`];
 	}
+	vidHlp.src=mainHelp;
 }
 var isSet=true;
 function realDown(server,lnk){
@@ -44,7 +53,7 @@ function realDown(server,lnk){
 }
 
 function share(){
-makeUi("<span fs='1.2em' col='#ff3000'>फ्री डाउनलोड करने<br>के लिए शेयर करें</span><br>",`<button class="noBtn" style="background: linear-gradient(90deg,#0e0,#0f0); font-size:1.2em;" onclick="shareOn();">अपने स्टेटस पर लगाएं</button>`)
+	uiHtml=["<span fs='1.2em' col='#ff3000'>फ्री डाउनलोड करने<br>के लिए शेयर करें</span><br>",`<button class="noBtn" style="background: linear-gradient(90deg,#0e0,#0f0); font-size:1.2em;" onclick="shareOn();">अपने स्टेटस पर लगाएं</button>`];
 }
 
 function shareOn(){
@@ -61,16 +70,18 @@ function shared(){
 	setQuota();
 	send("//...Shared from download ~ "+shareNum);
 	download();
+	makeUi(...uiHtml)
 }
 function progressEnd(){
-	log("Progress ended")
-	checkQ();
+	log("Progress ended");
+	makeUi(...uiHtml);
 }
 
 function startProgress(){
 	circle.classList.add("active");
 	makeUi("<span fs='1.2em' col='#ff3000'>Generating Link...</span><br>Creating Link. Please wait...")
 	setTimeout(progressEnd,10000)
+	checkQ();
 }
 setTimeout(startProgress,2000)
 /*
@@ -97,4 +108,26 @@ function startDown(){
 		s--;
 	},1000)
 
+}
+
+document.body.addEventListener("click",videoOn);
+vidHlp.addEventListener("click",videoOnonVid);
+function videoOnonVid(e){
+	e.preventDefault();
+	videoOn();
+	vidHlp.removeEventListener("click",videoOnonVid);
+}
+
+function videoOn(){
+	vidHlp.muted=false
+	vidHlp.currentTime=0;
+	vidHlp.play();
+
+	op(".unmuteT").innerHTML="How to download (help)"
+
+	document.body.removeEventListener("click",videoOn);
+	vidHlp.removeEventListener("click",videoOnonVid);
+}
+window.onblur=()=>{
+	vidHlp.pause();
 }
