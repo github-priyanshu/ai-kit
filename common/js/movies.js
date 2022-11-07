@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Double XL','3WPalk6',`1>BollyWood/Double.XL.2022/Double.XL.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'vnwmfjznw7d5'],
+['Kaduva','3t7dVIt',`1>South.Movies/Kaduva.2022/Kaduva.2022.Hindi-Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'jgqp5ue056ha'],
+['Overdose','3Uc8jIR',`1>HollyWood/Overdose.2022/Overdose.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'em8nj660prho'],
+['Padavettu CamRip','3FRKulj',`1>South.Movies/Padavettu.2022.CamRip/Padavettu.2022.Hindi.(HQ.Dubbed).480p.CAMRip-DudeFilms.in.mkv`,2,'osr22epk6qb9'],
 ['Phone Bhoot CamRip','3WwoXo9',`1>BollyWood/Phone.Bhoot.2022.CamRip/Phone.Bhoot.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'yodw8l1ye9rr'],
 ['Mili CamRip','3NKex0f',`1>BollyWood/Mili.2022.CamRip/Mili.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'b0k2045w9j3v'],
 ['Lyle, Lyle, Crocodile CamRip','3FNHTJd',`1>HollyWood/Lyle,.Lyle,.Crocodile.2022.CamRip/Lyle,.Lyle,.Crocodile.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3,'b89y1xtmlct8'],
