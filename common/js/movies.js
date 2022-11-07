@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Banaras CamRip','3t9fupt',`1>BollyWood/Banaras.2022.CamRip/Banaras.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'qqtlfnazfghe'],
 ['Godse','3DNqBZY',`1>South.Movies/Godse.2022/Godse.2022.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'e7cobx75o9c4'],
 ['Double XL','3WPalk6',`1>BollyWood/Double.XL.2022/Double.XL.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'vnwmfjznw7d5'],
 ['Kaduva','3t7dVIt',`1>South.Movies/Kaduva.2022/Kaduva.2022.Hindi-Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'jgqp5ue056ha'],
