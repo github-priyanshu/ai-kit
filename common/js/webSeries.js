@@ -3,6 +3,8 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Breathe Into the Shadows S02','3hsjX3P',8,'__wsdomain/WebSeries/Amazon.Prime/Breathe.Into.the.Shadows.S02/Breathe.Into.the.Shadows.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','https://dflinks.club/archives/18630'],
+['Tanaav S01','3A7OgU4',6,'__wsdomain/WebSeries/Sony.Liv/Tanaav.S01/Tanaav.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','https://dflinks.club/archives/18716'],
 ['Flames 3','3TE54d3',5,'__wsdomain/WebSeries/Amazon.Prime/Flames/S03/Flames.S03.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Jhansi','3zp5hbY',6,'__wsdomain/WebSeries/Hotstar/Jhansi.S01/Jhansi.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv'],
 ['Mismatched','3z5F8Ph',6,'__wsdomain/WebSeries/NetFlix/Mismatched/S01/Mismatched.S01.E01.Hindi.720p.WEB.DL.ESub-DudeFilms.in.mkv'],
