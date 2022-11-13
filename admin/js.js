@@ -27,7 +27,11 @@ class ExtraDetail{
 	}
 
 	static clearName(n){
-		return n.replace('.2022','').replaceAll(".",' ')
+		var toRemove=[new Date().getFullYear(),'.',' HD',' HQ',' CamRip',' HDCam'];
+		toRemove.forEach(val=>{
+			n=n.replaceAll(val,'');
+		})
+		return n;
 	}
 
 }
