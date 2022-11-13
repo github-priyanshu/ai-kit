@@ -139,3 +139,13 @@ function makeRedirectLnk(el){
 function aiDownloadPage(el){
 	copy(`https://ai-movie-download.netlify.app/?lnk=`+JSON.stringify({name:"From ai share",src:el.previousElementSibling.value}));
 }
+
+function frameLinkCreator(e){
+	var objx={
+		link:e.previousElementSibling.previousElementSibling.previousElementSibling.value,
+		showHelp:Boolean(e.previousElementSibling.value),
+		title: e.previousElementSibling.previousElementSibling.value
+	}
+	log(objx)
+	copy(`https://ai-movie-download.netlify.app/other/frame.html?redirect=`+btoa(JSON.stringify(objx)));
+}
