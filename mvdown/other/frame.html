@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		position: relative;
+	}
+	body{
+		width: 100%;
+		min-height: 100vh;
+	}
+	.flex{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.c{
+		flex-flow: column;
+	}
+	.w100p{width: 100%;}
+	.main{
+		height: 100vh;
+		width: 100%;
+		overflow: hidden;
+	}
+	.main iframe{
+		width: 100%;
+		height: calc(100% - 0px);
+	}
+	.main .helpVidLnk{
+		position: absolute;
+		padding: 10px 20px;
+		text-decoration: none;
+		color: #fff;
+		background: linear-gradient(90deg,#0099ff,#00ff99);
+		bottom: 20px;
+		border-radius: 3px;
+	}
+</style>
+<body>
+	<div class="main flex c">
+		<a href="https://ai-player.netlify.app">Continue...</a>
+	</div>
+	
+<script>
+	var log=console.log;
+	function op(e){return document.querySelector(e)}
+	function opp(e){return document.querySelectorAll(e)}
+ 	
+
+	var redirect=location.search,heads=op(".heads");
+
+	if(redirect){	  
+	  redirect=redirect.replace('?redirect=','').replaceAll("%3D",'=').split("&")[0];
+	  redirect=atob(redirect);
+	  redirect=JSON.parse(decodeURI(redirect));
+
+	  if(redirect.link){
+	  	var html=`<iframe src="${redirect.link}" frameborder="0"></iframe>`;
+	  	if(redirect.showHelp){
+	  		html+=`<a href="../media/helpVid/downalt.mp4" target="_blank" class="helpVidLnk">How to Download</a>`;
+	  	}
+	  	op(".main").innerHTML=html;
+	  	document.title=redirect.link || redirect.title;
+	  	log(redirect)
+	  }
+	}
+</script>
+</body>
+</html>
