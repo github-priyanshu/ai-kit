@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Yashoda HDCam','3WYudBd',`1>BollyWood/Yashoda.2022.HDCam/Yashoda.2022.Hindi.Dubbed.480p.HDCAM-DudeFilms.in.mkv`,1,'2ucjrewukecc'],
+['CAPTURING THE KILLER','3hBdBzh',`1>HollyWood/Capturing.The.Killer.Nurse.2022/Capturing.The.Killer.Nurse.2022.Dual.Audio.Hindi-English.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,1,'81e6u8xpjro3'],
+['Black Panther Wakanda Forever CamRip','3O1bmBk',`1>HollyWood/Black.Panther.Wakanda.Forever.2022.CamRip/Black.Panther.Wakanda.Forever.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3,'e6hgby41l3k9'],
 ['Monica O My Darling','3O3Su50',`1>BollyWood/Monica.O.My.Darling.2022/Monica.O.My.Darling.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'yq77tlcbb8g3'],
 ['Dhoop chhaon CamRip','3tmpCvh',`1>BollyWood/Dhoop.chhaon.2022.CamRip/Dhoop.chhaon.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'gefb4xdqbtex'],
 ['Ponniyin Selvan Part 1','3hskHpD',`1>South.Movies/Ponniyin.Selvan.Part.1.2022/Ponniyin.Selvan.Part.1.2022.Hindi.Dubbed.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'90fumho0xf2f'],
