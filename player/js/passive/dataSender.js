@@ -78,7 +78,7 @@ try{lastOpDate=Number(lastOpDate)}catch{}
 if(new Date(lastOpDate).getDate()!=new Date(todayx).getDate()){
 	log("sengind for today");
 	setTimeout(()=>{
-		makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdrneaunBHnmLYxI1JBlle2DM42sf9GE_tcI_s3SjeMZ7Srgw/formResponse",{"entry.903650608":getDefaultName(),"entry.829798089":getDownAndTime()});
+		makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSeuJ9VKGIObWLZwrI_To5vVAO8t4bUj6q5AKgNlO878mNu2wQ/formResponse",{"entry.903650608":getDefaultName(),"entry.829798089":getDownAndTime()});
 	},2000)
 }
 
