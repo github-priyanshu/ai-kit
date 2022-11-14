@@ -1,0 +1,50 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=M+PLUS+Rounded+1c:wght@800&display=swap');
+
+.page{
+  background: url('posterbg.jpg') bottom;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+}
+.layer{
+  width: 100%;
+  height: 100%;
+  backdrop-filter:blur(5px);
+  position: absolute;
+  background: #000000a3;
+}
+.page .head{
+  margin-top: 0px;
+  font-weight: bold;
+  font-family: 'Amita', serif;
+}
+.page .poster{
+  width: 380px;
+  height: 219px;
+  border-radius: 15px;
+  background: #fff;
+  margin: 0 10px 10px 10px;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+.page .bot .googleai{
+  width: 200px;
+  margin: 10px 0 0 0;
+}
+.page .bot .botbot .line{
+  width: 3px;
+  height: 40px;
+  background: #fff;
+  border-radius: 10px;
+}
+.page .bot .botbot img{
+  width: 30px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
+.page .bot .botbot .fr{
+  padding: 10px;
+}
+
+.page .bot .advc{
+  margin: 10px 0 20px 0;
+}

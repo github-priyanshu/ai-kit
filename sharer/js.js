@@ -149,3 +149,14 @@ function frameLinkCreator(e){
 	log(objx)
 	copy(`https://ai-movie-download.netlify.app/other/frame.html?redirect=`+btoa(JSON.stringify(objx)));
 }
+
+function openPoster(){
+	movies[obj.movie].img
+	var data={
+		name: movies[obj.movie].name,
+		poster: movies[obj.movie].img,
+	}
+	data=JSON.stringify(data);
+	data=btoa(data);
+	window.open("other/posterSave.html?data="+data);
+}

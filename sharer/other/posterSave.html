@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin : Ai Player</title>
+
+  <!-- common -->
+  <link rel="stylesheet" href="../../common/css/style.css">
+  <link rel="stylesheet" type="text/css" href="posterSave.css">
+</head>
+<body class="flex c">
+  <div class="page flex c">
+    <div class="layer"></div>
+    <h2 class="head texCen" id="mvName" contenteditable>Movie Name</h2>
+    <img class="poster" id="poster" src="">
+
+    <div class="bot flex c">
+      <h3>To Watch 👇👇👇 Download</h3>
+      <img src="https://ai-player.netlify.app/logo/googleai.png" class="googleai">
+      <div class="botbot flex">
+
+        <div class="fr f1 flex">
+          <img src="https://bit.ly/3X14msh">
+          <h4>ai_player_movees</h4>
+        </div>
+        <div class="line"></div>
+        <div class="fr f2 flex">
+          <img src="https://bit.ly/3hIPHCd">
+          <h4>Ai Player Movies</h4>
+        </div>
+
+      </div>
+      <h3 class="advc">Google: "<b>Ai Player</b>"</h3>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+<script>    
+
+  function op(e){return document.querySelector(e)}
+  var log=console.log;
+  function opp(e){return document.querySelectorAll(e)}
+      
+  var data=location.search,heads=op(".heads");
+  
+  data=data.replace('?data=','').replaceAll("%3D",'=').split("&")[0];
+  data=atob(data);
+  data=JSON.parse(decodeURI(data));
+  log(data);
+
+  op("#mvName").innerHTML=data.name;
+  op("#poster").src=data.poster;
+
+</script>
+</body>
+</html>
