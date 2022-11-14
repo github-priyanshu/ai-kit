@@ -16,7 +16,7 @@
     <img class="poster" id="poster" src="">
 
     <div class="bot flex c">
-      <h3>To Watch 👇👇👇 Download</h3>
+      <h3 class="texCen">Watch 👇👇👇 Free Download<br>Search:</h3>
       <img src="https://ai-player.netlify.app/logo/googleai.png" class="googleai">
       <div class="botbot flex">
 
@@ -49,7 +49,7 @@
   data=JSON.parse(decodeURI(data));
   log(data);
 
-  op("#mvName").innerHTML=data.name;
+  op("#mvName").innerHTML='<span style="color: #ff3c00">Free</span> "'+data.name+'"';
   op("#poster").src=data.poster;
 
 </script>
