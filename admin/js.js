@@ -27,7 +27,8 @@ class ExtraDetail{
 	}
 
 	static clearName(n){
-		var toRemove=[new Date().getFullYear(),'.',' HD',' HQ',' CamRip',' HDCam'];
+		n=n.replaceAll(".",' ');
+		var toRemove=[new Date().getFullYear(),' HD',' HQ',' CamRip',' HDCam'];
 		toRemove.forEach(val=>{
 			n=n.replaceAll(val,'');
 		})
