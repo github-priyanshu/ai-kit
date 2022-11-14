@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Sardar','3AeC4Rz',`1>South.Movies/Sardar.2022.HQ/Sardar.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'eefgjqo5xvh1'],
 ['Thai Massage CamRip','3UP5wW4',`1>BollyWood/Thai.Massage.2022.CamRip/Thai.Massage.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'i2encs1ci76f'],
 ['Uunchai CamRip','3GiDQ89',`1>BollyWood/Uunchai.2022.CamRip/Uunchai.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'7hgzbla4561h'],
 ['Yashoda HDCam','3WYudBd',`1>BollyWood/Yashoda.2022.HDCam/Yashoda.2022.Hindi.Dubbed.480p.HDCAM-DudeFilms.in.mkv`,1,'2ucjrewukecc'],
