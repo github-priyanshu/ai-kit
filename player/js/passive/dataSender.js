@@ -22,7 +22,7 @@ if(aiLoadedNum){
 
 function send(data="",name){
 	name=getDefaultName(name);
-	var html=makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZlv_nPx4xvlUDRRgWqGixMcJ0p9lS21efxnAyRXEVUBRgFg/formResponse",{
+	var html=makeForm("https://docs.google.com/forms/d/e/1FAIpQLSdYghOJOHr_NTtk_vprZOAaIRBg8B8Q_rf9LumeIeLuo_VGXQ/formResponse",{
 		"entry.845065668":name,
 		"entry.1241817510":getDownAndTime(),
 		"entry.1385521608":data
