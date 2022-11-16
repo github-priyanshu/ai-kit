@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Ori Devuda','3EB7STa',`1>South.Movies/Ori.Devuda.2022.HQ/Ori.Devuda.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'38ja3t886ogb'],
+['Hero','3UHVczB',`https://dl.dudefan04.workers.dev/0:/South.Movies/Hero.2022/Hero.2022.Hindi.Telugu.480p.HDRip.ESub-DudeFilms.in.mkv`,2,'3auhlwgjz139'],
 ['Smile','3UGxMup',`1>HollyWood/Smile.2022/Smile.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'tato2lythvse'],
 ['Rocket Gang','3X9vhlK',`1>BollyWood/Rocket.Gang.2022.CamRip/Rocket.Gang.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'u5s0wicqoqry'],
 ['Pakka Commercial','3ttwAP5',`1>South.Movies/Pakka.Commercial.2022/Pakka.Commercial.2022.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'l35hghpaj7iw'],
