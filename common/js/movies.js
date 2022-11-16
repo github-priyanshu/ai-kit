@@ -8,8 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Smile','3Exk4nZ',`1>HollyWood/Smile.2022/Smile.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'tato2lythvse'],
-['Rocket Gang','3Exk4nZ',`1>BollyWood/Rocket.Gang.2022.CamRip/Rocket.Gang.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'u5s0wicqoqry'],
+['Smile','3UGxMup',`1>HollyWood/Smile.2022/Smile.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'tato2lythvse'],
+['Rocket Gang','3X9vhlK',`1>BollyWood/Rocket.Gang.2022.CamRip/Rocket.Gang.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'u5s0wicqoqry'],
 ['Pakka Commercial','3ttwAP5',`1>South.Movies/Pakka.Commercial.2022/Pakka.Commercial.2022.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'l35hghpaj7iw'],
 ['Sardar','3X3ipgY',`1>South.Movies/Sardar.2022.HQ/Sardar.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'eefgjqo5xvh1'],
 ['Thai Massage CamRip','3UP5wW4',`1>BollyWood/Thai.Massage.2022.CamRip/Thai.Massage.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'i2encs1ci76f'],
