@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Saroj Ka Rishta','3Om0KNF',`https://dl3.oddfun02.workers.dev/BollyWood/Saroj.Ka.Rishta.2022/Saroj.Ka.Rishta.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'kokq8uq0mifo'],
 ['Black Panther Wakanda Forever  V4','3XmPJ31',`https://dl3.oddfun02.workers.dev/HollyWood/Black.Panther.Wakanda.Forever.2022.V4/Black.Panther.Wakanda.Forever.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3,'666xkvh0byy5'],
 ['The Wonder','3tDm5ZG',`https://dl3.oddfun02.workers.dev/HollyWood/The.Wonder.2022/The.Wonder.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'1aeypbdm3s5j'],
 ['Black Adam  Hindi(Cam)','3EBpKNN',`https://dl3.oddfun02.workers.dev/HollyWood/Black.Adam.2022.Hindi(Cam)/Black.Adam.2022.Hindi.(Cam)-English.480p.HDRip-DudeFilms.in.mkv`,3,'2fdvhggp1ii7'],
