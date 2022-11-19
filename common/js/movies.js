@@ -8,6 +8,14 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Mister Mummy','3V9KNwd',`https://dl3.oddfun02.workers.dev/BollyWood/Mister.Mummy.2022.CamRip/Mister.Mummy.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'sxc2tgdsox68'],
+['Drishyam 2 HD','3hXrZBX',`https://dl3.oddfun02.workers.dev/BollyWood/Drishyam.2.2022.CamRip/Drishyam.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'6tth0n6ek39w'],
+['Godfather HD','3U5Q1sd',`https://dl3.oddfun02.workers.dev/South.Movies/Godfather.2022/Godfather.2022.Hindi.Dubbed.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'txpw22d729vj'],
+['Dhokha Round D Corner','3VducrB',`https://dl3.oddfun02.workers.dev/BollyWood/Dhokha.Round.D.Corner.2022/Dhokha.Round.D.Corner.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'g31xw6oo0axc'],
+['Sita Ramam','3Aw5CKt',`https://dl3.oddfun02.workers.dev/South.Movies/Sita.Ramam.2022/Sita.Ramam.2022.Hindi.Dubbed.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'7yo9o7on4kpe'],
+['The People We Hate at the Wedding','3EKqJv2',`https://dl3.oddfun02.workers.dev/HollyWood/The.People.We.Hate.at.the.Wedding.2022/The.People.We.Hate.at.the.Wedding.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,3,'ksr4c3a8xmbw'],
+['Slumberland','3EpGnKO',`https://dl3.oddfun02.workers.dev/HollyWood/Slumberland.2022/Slumberland.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,3,'becybj7fomtq'],
+['Once In the Desert','3gdLWnW',`https://dl3.oddfun02.workers.dev/HollyWood/Once.In.the.Desert.2022/Once.In.the.Desert.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,3,'hujdoxnzxv0p'],
 ['Saroj Ka Rishta','3Om0KNF',`https://dl3.oddfun02.workers.dev/BollyWood/Saroj.Ka.Rishta.2022/Saroj.Ka.Rishta.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'kokq8uq0mifo'],
 ['Black Panther Wakanda Forever  V4','3XmPJ31',`https://dl3.oddfun02.workers.dev/HollyWood/Black.Panther.Wakanda.Forever.2022.V4/Black.Panther.Wakanda.Forever.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,3,'666xkvh0byy5'],
 ['The Wonder','3tDm5ZG',`https://dl3.oddfun02.workers.dev/HollyWood/The.Wonder.2022/The.Wonder.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'1aeypbdm3s5j'],
