@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Blood Sex & Royalty S01','3U1Yixe',3,'__wsdomain/WebSeries/NetFlix/Blood.Sex.&.Royalty.S01/Blood.Sex.&.Royalty.S01.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv','https://dflinks.club/archives/19329'],
 ['Country Mafia S01','3EMx619',10,'__wsdomain/WebSeries/Zee5/Country.Mafia.S01/Country.Mafia.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','https://dflinks.club/archives/19067'],
 ['Mukhbir The Story of a Spy S01','3g0nypy',8,'__wsdomain/WebSeries/Zee5/Mukhbir.The.Story.of.a.Spy.S01/Mukhbir.The.Story.of.a.Spy.S01.E01.Hindi.720p.WEB-DL.ESubs-DudeFilms.in.mkv','https://dflinks.club/archives/18775'],
 ['Breathe Into the Shadows S02','3hsjX3P',8,'__wsdomain/WebSeries/Amazon.Prime/Breathe.Into.the.Shadows.S02/Breathe.Into.the.Shadows.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','https://dflinks.club/archives/18630'],
