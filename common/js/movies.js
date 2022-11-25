@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Chup','3V4RLTC',`https://dl.dhubfan01.workers.dev/0:/BollyWood/Chup.2022/Chup.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'3uqrhmjbn7w4'],
 ['Love Today','3OvY8x0',`https://dl.dudefan04.workers.dev/0:/South.Movies/Love.Today.2022.HQ/Love.Today.2022.Hindi.(HQ).Tamil.480p.HDRip.HC-ESub-DudeFilms.in.mkv`,2,'1skqpjh0ac6n'],
 ['Mister Mummy','3V9KNwd',`https://dl3.oddfun02.workers.dev/BollyWood/Mister.Mummy.2022.CamRip/Mister.Mummy.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'sxc2tgdsox68'],
 ['Drishyam 2 HD','3hXrZBX',`https://dl3.oddfun02.workers.dev/BollyWood/Drishyam.2.2022.CamRip/Drishyam.2.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'6tth0n6ek39w'],
