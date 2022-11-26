@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Bhediya','3GO20HJ',`https://dl.dhubfan01.workers.dev/0:/BollyWood/Bhediya.2022.CamRip/Bhediya.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'4w94otg95ad4'],
+['Paradise City','3XBUe9K',`https://dl.dhubfan01.workers.dev/0:/HollyWood/Paradise.City.2022/Paradise.City.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'k4wo3cpcal2k'],
+['Kantara A Legend  Hindi Cam','3gzjzke',`https://dl.dhubfan01.workers.dev/0:/South.Movies/Kantara.A.Legend.2022.Hindi.Cam/Kantara.2022.Hindi.(Cleaned)-Kannada.480p.HDRip-DudeFilms.in.mkv`,2,'yzbkx2zfomsl'],
+['Meet Cute','3GNeVti',`https://dl.dhubfan01.workers.dev/0:/HollyWood/Meet.Cute.2022/Meet.Cute.2022.Dual.Audio.Hindi.English.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,3,'r7wkyzcx8uvj'],
 ['Chup','3V4RLTC',`https://dl.dhubfan01.workers.dev/0:/BollyWood/Chup.2022/Chup.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'3uqrhmjbn7w4'],
 ['Love Today','3OvY8x0',`https://dl.dudefan04.workers.dev/0:/South.Movies/Love.Today.2022.HQ/Love.Today.2022.Hindi.(HQ).Tamil.480p.HDRip.HC-ESub-DudeFilms.in.mkv`,2,'1skqpjh0ac6n'],
 ['Mister Mummy','3V9KNwd',`https://dl3.oddfun02.workers.dev/BollyWood/Mister.Mummy.2022.CamRip/Mister.Mummy.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'sxc2tgdsox68'],
