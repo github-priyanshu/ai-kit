@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['The Kashmir Files HD','3OOAyvt',`https://ai-movie-download.netlify.app/other/frame.html?redirect=eyJsaW5rIjoiaHR0cHM6Ly9zYmxvbmd2dS5jb20vNTZ2emt0enBmZWtvLmh0bWwiLCJzaG93SGVscCI6ZmFsc2UsInRpdGxlIjoiIn0=`,1,''],
+['(DOWNLOAD ONLY) Kashmir Files HD','3OOAyvt',`https://ai-movie-download.netlify.app/other/frame.html?redirect=eyJsaW5rIjoiaHR0cHM6Ly9zYmxvbmd2dS5jb20vNTZ2emt0enBmZWtvLmh0bWwiLCJzaG93SGVscCI6ZmFsc2UsInRpdGxlIjoiIn0=`,1,'https://ai-movie-download.netlify.app/other/frame.html?redirect=eyJsaW5rIjoiaHR0cHM6Ly9zYmxvbmd2dS5jb20vNTZ2emt0enBmZWtvLmh0bWwiLCJzaG93SGVscCI6ZmFsc2UsInRpdGxlIjoiIn0='],
 ['Bhediya','3GO20HJ',`https://dl.dhubfan01.workers.dev/0:/BollyWood/Bhediya.2022.CamRip/Bhediya.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'4w94otg95ad4'],
 ['Paradise City','3XBUe9K',`https://dl.dhubfan01.workers.dev/0:/HollyWood/Paradise.City.2022/Paradise.City.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'k4wo3cpcal2k'],
 ['Kantara A Legend  Hindi Cam','3gzjzke',`https://dl.dhubfan01.workers.dev/0:/South.Movies/Kantara.A.Legend.2022.Hindi.Cam/Kantara.2022.Hindi.(Cleaned)-Kannada.480p.HDRip-DudeFilms.in.mkv`,2,'yzbkx2zfomsl'],
