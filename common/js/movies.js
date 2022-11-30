@@ -9,6 +9,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 ['(DOWNLOAD ONLY) Kashmir Files HD','3OOAyvt',`https://ai-movie-download.netlify.app/other/frame.html?redirect=eyJsaW5rIjoiaHR0cHM6Ly9zYmxvbmd2dS5jb20vNTZ2emt0enBmZWtvLmh0bWwiLCJzaG93SGVscCI6ZmFsc2UsInRpdGxlIjoiIn0=`,1,''],
+['Theerppu','3gLnudA',`https://dl.dhubfan01.workers.dev/0:/South.Movies/Theerppu.2022.HQ/Theerppu.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'h3ifgs8r03hu'],
+['The Invitation','3AYwK4Z',`https://dl.dhubfan01.workers.dev/0:/HollyWood/The.Invitation.2022/The.Invitation.2022.Dual.Audio.Hindi.Englis.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'g9kckdno7ni2'],
+['The Darker the Lake','3Ukkti7',`https://dl.dhubfan01.workers.dev/0:/HollyWood/The.Darker.the.Lake.2022/The.Darker.the.Lake.2022.Dual.Audio.Hindi.English.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'wdvzey4ivkzw'],
 ['Bhediya','3GO20HJ',`https://dl.dhubfan01.workers.dev/0:/BollyWood/Bhediya.2022.CamRip/Bhediya.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'4w94otg95ad4'],
 ['Paradise City','3XBUe9K',`https://dl.dhubfan01.workers.dev/0:/HollyWood/Paradise.City.2022/Paradise.City.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'k4wo3cpcal2k'],
 ['Kantara A Legend  Hindi Cam','3gzjzke',`https://dl.dhubfan01.workers.dev/0:/South.Movies/Kantara.A.Legend.2022.Hindi.Cam/Kantara.2022.Hindi.(Cleaned)-Kannada.480p.HDRip-DudeFilms.in.mkv`,2,'yzbkx2zfomsl'],
