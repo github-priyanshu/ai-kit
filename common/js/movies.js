@@ -9,6 +9,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 ['Freddy','3VOxqC2',`https://dl.dhubfan02.workers.dev/0:/BollyWood/Freddy.2022/Freddy.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'xyp9qmsfkvs4'],
+['Uppena 2021','3VT4JEc',`2>BollyWood/An.Action.Hero.2022.CamRip/An.Action.Hero.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2,'bgrp5d5v46op'],
+['Goodbye','3EXIAxw',`2>BollyWood/Goodbye.2022/Goodbye.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a7x82pcwcrxs'],
+['Monster','3VOt1is',`2>South.Movies/Monster.2022/Monster.2022.Hindi.Malayalan.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'gasu0z9zt2dq'],
+['Kumari','3HcmSsu',`2>South.Movies/Kumari.2022.HQ/Kumari.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2,'iltax1mb2ttw'],
 ['(DOWNLOAD ONLY) Kashmir Files HD','3OOAyvt',`https://ai-movie-download.netlify.app/other/frame.html?redirect=eyJsaW5rIjoiaHR0cHM6Ly9zYmxvbmd2dS5jb20vNTZ2emt0enBmZWtvLmh0bWwiLCJzaG93SGVscCI6ZmFsc2UsInRpdGxlIjoiIn0=`,1,''],
 ['Theerppu','3gLnudA',`https://dl.dhubfan02.workers.dev/0:/South.Movies/Theerppu.2022.HQ/Theerppu.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'h3ifgs8r03hu'],
 ['The Invitation','3AYwK4Z',`https://dl.dhubfan02.workers.dev/0:/HollyWood/The.Invitation.2022/The.Invitation.2022.Dual.Audio.Hindi.Englis.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'g9kckdno7ni2'],
