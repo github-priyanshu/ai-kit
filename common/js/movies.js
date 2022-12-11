@@ -10,6 +10,10 @@ var movies=
 
 ['Doctor G','3iReXGM',`2>BollyWood/Doctor.G.2022/Doctor.G.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'kp40bxq4h01m'],
 ['Vadh','3W73G3p',`2>BollyWood/Vadh.2022.CamRip/Vadh.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'cezqrrqjkh1l'],
+['Har Har Mahadev','3BqJMbD',`2>BollyWood/Har.Har.Mahadev.2022/Har.Har.Mahadev.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'ea7zz26uw0yi'],
+['Salaam Venky','3hdfq5R',`2>BollyWood/Salaam.Venky.2022.CamRip/Salaam.Venky.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'3v546u2mxd41'],
+['Home 2021','3UMchHS',`2>South.Movies/Home.2021/Home.2021.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'2wg11u5lojrj'],
+['Maarrich','3BqwHiu',`2>BollyWood/Maarrich.2022.CamRip/Maarrich.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'krsmnz0unts3'],
 ['Freddy','3VOxqC2',`https://dl.dhubfan02.workers.dev/0:/BollyWood/Freddy.2022/Freddy.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'xyp9qmsfkvs4'],
 ['India Lockdown','3Hbskvq',`2>BollyWood/India.Lockdown.2022/India.Lockdown.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'k7qvrhwkbc6u'],
 ['Ram Setu','3P13AIe',`2>BollyWood/Ram.Setu.2022/Ram.Setu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'32hkqbsupfvs'],
