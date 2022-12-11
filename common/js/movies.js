@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Doctor G','3iReXGM',`2>BollyWood/Doctor.G.2022/Doctor.G.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'kp40bxq4h01m'],
+['Vadh','3W73G3p',`2>BollyWood/Vadh.2022.CamRip/Vadh.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'cezqrrqjkh1l'],
 ['Freddy','3VOxqC2',`https://dl.dhubfan02.workers.dev/0:/BollyWood/Freddy.2022/Freddy.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'xyp9qmsfkvs4'],
 ['India Lockdown','3Hbskvq',`2>BollyWood/India.Lockdown.2022/India.Lockdown.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'k7qvrhwkbc6u'],
 ['Ram Setu','3P13AIe',`2>BollyWood/Ram.Setu.2022/Ram.Setu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'32hkqbsupfvs'],
