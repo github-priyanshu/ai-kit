@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Govinda Naam Mera','3PGuyFC',`2>BollyWood/Govinda.Naam.Mera.2022/Govinda.Naam.Mera.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'611q2y9puk7m'],
+['Jagame Maya Instant Karma','3HIZR0h',`2>South.Movies/Jagame.Maya.Instant.Karma.2022/Jagame.Maya.Instant.Karma.2022.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'94ze72zw0liv'],
+['Code Name Tiranga','3HJ1POv',`2>BollyWood/Code.Name.Tiranga.2022/Code.Name.Tiranga.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'clkl1fiy78ip'],
 ['Doctor G','3iReXGM',`2>BollyWood/Doctor.G.2022/Doctor.G.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'kp40bxq4h01m'],
 ['Vadh','3W73G3p',`2>BollyWood/Vadh.2022.CamRip/Vadh.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'cezqrrqjkh1l'],
 ['Har Har Mahadev','3BqJMbD',`2>BollyWood/Har.Har.Mahadev.2022/Har.Har.Mahadev.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'ea7zz26uw0yi'],
