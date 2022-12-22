@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Naai Sekar Returns','3BPjf8j',`2>South.Movies/Naai.Sekar.Returns.2022.CamRip/Naai.Sekar.Returns.2022.Hindi.(HQ.Dubbed).480p.CAMRip.-DudeFilms.in.mkv`,2,'ygbkuw92fwqr'],
+['Shadyantra','3PKJW3A',`2>BollyWood/Shadyantra.2022/Shadyantra.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'83of2t7lj3dn'],
+['IPC 376 2021','3G7eZm3',`2>South.Movies/IPC.376.2021/IPC.376.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'oxeglgpjez8z'],
+['Phone Bhoot HD','3BU0XTb',`2>BollyWood/Phone.Bhoot.2022/Phone.Bhoot.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'l0qx29nfuq16'],
 ['Matto Ki Saikil','3YvxJnz',`https://dl.c65wtj2d.workers.dev/0:/BollyWood/Matto.Ki.Saikil.2022/Matto.Ki.Saikil.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'1jjfnlaq5zs1'],
 ['Roy','3PJU24L',`https://dl.c65wtj2d.workers.dev/0:/South.Movies/Roy.2022/Roy.2022.Hindi.Dubbed.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'otsc0h4459yx'],
 ['Akshara 2021','3v56zqc',`https://dl.c65wtj2d.workers.dev/0:/South.Movies/Akshara.2021/Akshara.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'v8wmitqovdw3'],
