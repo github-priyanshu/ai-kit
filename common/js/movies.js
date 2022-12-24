@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Tara Vs Bilal','3jn0By5',`2>BollyWood/Tara.Vs.Bilal.2022/Tara.Vs.Bilal.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'vaj4diw30y1l'],
+['Run And Gun','3Vm5Vzg',`2>HollyWood/Run.And.Gun.2022/Run.And.Gun.2022.Dual.Auido.Hindi.English.480p.WEB-DL.MSubs-DudeFilms.in.mkv`,3,'b4zmyvd1x5ig'],
 ['Naai Sekar Returns','3BPjf8j',`2>South.Movies/Naai.Sekar.Returns.2022.CamRip/Naai.Sekar.Returns.2022.Hindi.(HQ.Dubbed).480p.CAMRip.-DudeFilms.in.mkv`,2,'ygbkuw92fwqr'],
 ['Shadyantra','3PKJW3A',`2>BollyWood/Shadyantra.2022/Shadyantra.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'83of2t7lj3dn'],
 ['IPC 376 2021','3G7eZm3',`2>South.Movies/IPC.376.2021/IPC.376.2021.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'oxeglgpjez8z'],
