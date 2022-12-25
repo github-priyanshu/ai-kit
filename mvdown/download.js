@@ -27,6 +27,7 @@ var circle=op("#progress circle.main");
 function checkQ(){
 	if(shareNum%2==0){
 		download();
+		showAd();
 	}else{
 		share();
 		vidHlp.src=shareHelp;
@@ -70,7 +71,8 @@ function shared(){
 	setQuota();
 	send("//...Shared from download ~ "+shareNum);
 	download();
-	makeUi(...uiHtml)
+	makeUi(...uiHtml);
+	showAd();
 }
 function progressEnd(){
 	log("Progress ended");
@@ -83,7 +85,7 @@ function startProgress(){
 	setTimeout(progressEnd,10000)
 	checkQ();
 }
-setTimeout(startProgress,2000)
+startProgress();
 /*
 if(search){
 	startDown();
