@@ -9,8 +9,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 ['Cirkus','3PPkYAj',`2>BollyWood/Cirkus.2022.CamRip/Cirkus.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'52qdnoq780yf'],
-['Big Dhamaka','3hOt6o5',`2>South.Movies/Big.Dhamaka.2022.CamRip/Big.Dhamaka.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2,'0kjy0nw4xov0'],
+['Matilda the Musical','3FTiSuw',`2>HollyWood/Matilda.the.Musical.2022/Matilda.the.Musical.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'mtnr1uzznzxr'],
+['Kaapa','3C0ZXNc',`2>South.Movies/Kaapa.2022.CamRip/Kaapa.2022.Hindi.(HQ.Dubbed).480p.CAMRip-DudeFilms.in.mkv`,2,'rf34pkpq93gc'],
 ['Tara Vs Bilal','3jn0By5',`2>BollyWood/Tara.Vs.Bilal.2022/Tara.Vs.Bilal.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'vaj4diw30y1l'],
+['Big Dhamaka','3hOt6o5',`2>South.Movies/Big.Dhamaka.2022.CamRip/Big.Dhamaka.2022.Hindi.Dubbed.480p.CAMRip-DudeFilms.in.mkv`,2,'0kjy0nw4xov0'],
 ['Run And Gun','3Vm5Vzg',`2>HollyWood/Run.And.Gun.2022/Run.And.Gun.2022.Dual.Auido.Hindi.English.480p.WEB-DL.MSubs-DudeFilms.in.mkv`,3,'b4zmyvd1x5ig'],
 ['Naai Sekar Returns','3BPjf8j',`2>South.Movies/Naai.Sekar.Returns.2022.CamRip/Naai.Sekar.Returns.2022.Hindi.(HQ.Dubbed).480p.CAMRip.-DudeFilms.in.mkv`,2,'ygbkuw92fwqr'],
 ['Shadyantra','3PKJW3A',`2>BollyWood/Shadyantra.2022/Shadyantra.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'83of2t7lj3dn'],
