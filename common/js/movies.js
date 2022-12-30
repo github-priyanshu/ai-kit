@@ -8,6 +8,12 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Rocket Gang','3CeG0CJ',`2>BollyWood/Rocket.Gang.2022/Rocket.Gang.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'5wq98bgualpn'],
+['Mili','3Cce16u',`2>BollyWood/Mili.2022/Mili.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'zg7qwicmatl9'],
+['A Night at the Kindergarten','3G2QMgx',`2>HollyWood/A.Night.at.the.Kindergarten.2022/A.Night.at.the.Kindergarten.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'3uoivaoo1oa8'],
+['Drishyam 2','3VPvB7H',`2>BollyWood/Drishyam.2.2022/Drishyam.2.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'1wog9ualdb9t'],
+['Dsp','3WQTWuy',`2>South.Movies/Dsp.2022/DSP.2022.Hindi.Dubbed.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'4cj3w7qr03yy'],
+['White Noise','3YXmnc5',`2>HollyWood/White.Noise.2022/White.Noise.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'opdptiz9rtac'],
 ['Double XL HD','3jB35Jm',`2>BollyWood/Double.XL.2022/Double.XL.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'fevl6zxpyx3o'],
 ['Cirkus','3PPkYAj',`2>BollyWood/Cirkus.2022.CamRip/Cirkus.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'52qdnoq780yf'],
 ['Matilda the Musical','3FTiSuw',`2>HollyWood/Matilda.the.Musical.2022/Matilda.the.Musical.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'mtnr1uzznzxr'],
