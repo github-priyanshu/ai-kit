@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Double XL HD','3jB35Jm',`2>BollyWood/Double.XL.2022/Double.XL.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'fevl6zxpyx3o'],
 ['Cirkus','3PPkYAj',`2>BollyWood/Cirkus.2022.CamRip/Cirkus.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'52qdnoq780yf'],
 ['Matilda the Musical','3FTiSuw',`2>HollyWood/Matilda.the.Musical.2022/Matilda.the.Musical.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'mtnr1uzznzxr'],
 ['Kaapa','3C0ZXNc',`2>South.Movies/Kaapa.2022.CamRip/Kaapa.2022.Hindi.(HQ.Dubbed).480p.CAMRip-DudeFilms.in.mkv`,2,'rf34pkpq93gc'],
