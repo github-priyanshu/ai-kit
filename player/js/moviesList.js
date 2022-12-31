@@ -113,7 +113,7 @@ function getMvHtml(val){
 function movieDownloadData(midx){
 	var val=movies[midx];
 	log(val);
-	checkDownTrue(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify({name:val.name,src:val.src,altLnk:val.altLnk})}`)
+	checkDownTrue(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify(val)}`)
 }
 /*
 function share(mid,name=""){

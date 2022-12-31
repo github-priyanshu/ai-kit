@@ -59,7 +59,7 @@ video.onerror=(e)=>{
 		let msg=msgAry[errCode];
 
 		if(errCode==3 && vidSource.altLnk!='false' && vidSource.altLnk){
-			location.assign(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify({name:vidSource.name,src:vidSource.altLnk,altLnk:'false'})}`);
+			location.assign(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify(movies[vidSource.mid])}`);
 			return false;
 		}
 
@@ -100,6 +100,7 @@ function setMovie(lnk,name,midx=false,altLnk){
 		updateHistory(midx);
 		try{disturbOnVidSet()}catch{}
 	}
+	controlBox.style.display='none';
 	vidSource={
 		name,
 		src: lnk,
@@ -214,6 +215,7 @@ function applyData(){/*funciton will be called after the video is started to be 
 	},1000)
 	clearInterval(msgInterval);
 	showDataForUser();
+	controlBox.style.display='';
 
 	if(curVid!=vidSource.name){/*ONE TIME ONLY: WHEN VIDEO STARTS AT FIRST*/
 		curVid=vidSource.name;
