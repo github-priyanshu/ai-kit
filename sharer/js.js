@@ -123,7 +123,7 @@ copy(txt);
 /*DOWNLOAD LINK*/
 function downloadLink(){
 	var val=movies[obj.movie];
-	copy(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify({name:val.name,src:val.src,altLnk:val.altLnk})}`);
+	copy(`https://ai-movie-download.netlify.app?lnk=${val}`);
 }
 
 /*REDIRECT ARTICLE LINK*/
