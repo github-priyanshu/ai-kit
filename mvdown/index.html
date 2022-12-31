@@ -92,6 +92,20 @@
 			top: 5px;
 			right: 5px;
 		}
+
+		.posterBox{
+			width: 300px;
+		}
+		.posterBox img{
+			width: 100%;
+			aspect-ratio: 16/9;
+			border-radius: 10px;
+			box-shadow: 0 5px 20px #0003;
+			object-fit: cover;
+		}
+		.posterBox p{
+			margin-top: 10px;
+		}
 	</style>
 </head>
 <body>
@@ -99,6 +113,11 @@
  	<div class="vidBox flex c" sz="250x500" style="margin-top: 150px;">
  		<video id="hlpVid" src="mvdown/media/helpVid/downhlp.mp4" autoplay controls preload="" width="250px" muted loop></video>
  		<p class="unmuteT">Tap to Unmute</p>
+	</div>
+
+	<div class="posterBox">
+		<img src="" id="mvPos">
+		<h2 id="mvName"></h2>
 	</div>
 
 	<div id="main" class="flex c">
@@ -109,32 +128,32 @@
 		<div class="lnkLoader texCen">
 		</div>
 	</div>
-	
+
 	
  	<div class="AdBox" sz="300x500" style="margin-top: 15px;">   
  		<script type="text/javascript">
-	atOptions = {
-		'key' : '5e034d0b1afa17c3972faf8aebf7576d',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/5e034d0b1afa17c3972faf8aebf7576d/invoke.js"></scr' + 'ipt>');
-</script>
+		atOptions = {
+			'key' : '5e034d0b1afa17c3972faf8aebf7576d',
+			'format' : 'iframe',
+			'height' : 250,
+			'width' : 300,
+			'params' : {}
+		};
+		document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/5e034d0b1afa17c3972faf8aebf7576d/invoke.js"></scr' + 'ipt>');
+	</script>
 
-<script type="text/javascript">
-	atOptions = {
-		'key' : '5e034d0b1afa17c3972faf8aebf7576d',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/5e034d0b1afa17c3972faf8aebf7576d/invoke.js"></scr' + 'ipt>');
-</script>
+	<script type="text/javascript">
+		atOptions = {
+			'key' : '5e034d0b1afa17c3972faf8aebf7576d',
+			'format' : 'iframe',
+			'height' : 250,
+			'width' : 300,
+			'params' : {}
+		};
+		document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/5e034d0b1afa17c3972faf8aebf7576d/invoke.js"></scr' + 'ipt>');
+	</script>
 	</div>
-
+	
 	<div class="tele flex c">
 		<button style="padding: 10px 20px; border: none; background: #0099ff; color: #fff; margin: 10px;" onclick="window.scrollTo(0,0);vidHlp.currentTime=0">How to Download</button>
 		<p class="lined" col="#444" fs=".9em">You can join for direct link.</p>
@@ -184,7 +203,7 @@
 		
 		var swithchAd=false;
 		function showAd(){
-			if(!swithchAd){
+			if(!swithchAd && shareNum>2){
 				/*propellar ads multi*/
 				(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5557928,document.body||document.documentElement)
 

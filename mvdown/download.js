@@ -4,14 +4,17 @@ opp("*[sz]").forEach(val=>{
 	val.style.height=at[1]+"px";
 })
 var vidHlp=op('#hlpVid');
-var search=location.search.replace('?lnk=',''),
-shareText=`
-Downloading a *Latest Movie* in Free.
+var search=location.search.replace('?lnk=','');
+search=JSON.parse(decodeURI(search));
+
+
+var shareText=`
+Downloading a *${search.name || "Latest Movie"}* in Free.
 
 All Movies are:
-*Har Har Mahadev*
-*Code Name: Tiranga*
-*PrithviRaj*
+*Double XL*
+*Cirkus*
+*Phone Booth & many more...*
 
 https://ai-player.netlify.app?sh=21`,
 shareNum=Number(localStorage.getItem("shareNum")) || 0,
@@ -19,10 +22,12 @@ mainHelp="mvdown/media/helpVid/downhlp.mp4",
 shareHelp="mvdown/media/helpVid/sharehlp.mp4",
 uiHtml=[];
 
-
-search=JSON.parse(decodeURI(search));
-
 var circle=op("#progress circle.main");
+applyData();
+function applyData(){
+	if(search.name){op("#mvName").innerHTML=search.name}else{op("#mvName").remove()}
+	if(search.img){op("#mvPos").src=search.img}else{op("#mvPos").remove()}
+}
 
 function checkQ(){
 	if(shareNum%2==0){
