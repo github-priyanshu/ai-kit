@@ -9,12 +9,12 @@ search=JSON.parse(decodeURI(search));
 
 
 var shareText=`
-Downloading a *${search.name || "Latest Movie"}* in Free.
+Downloading *${search.name || "a Latest Movie"}* in Free.
 
 All Movies are:
 *Double XL*
 *Cirkus*
-*Phone Booth & many more...*
+*Phone Booth + many more...*
 
 https://ai-player.netlify.app?sh=21`,
 shareNum=Number(localStorage.getItem("shareNum")) || 1,
