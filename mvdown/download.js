@@ -17,20 +17,16 @@ All Movies are:
 *Phone Booth & many more...*
 
 https://ai-player.netlify.app?sh=21`,
-shareNum=Number(localStorage.getItem("shareNum")) || 0,
+shareNum=Number(localStorage.getItem("shareNum")) || 1,
 mainHelp="mvdown/media/helpVid/downhlp.mp4",
 shareHelp="mvdown/media/helpVid/sharehlp.mp4",
 uiHtml=[];
 
 var circle=op("#progress circle.main");
 applyData();
-function applyData(){
-	if(search.name){op("#mvName").innerHTML=search.name}else{op("#mvName").remove()}
-	if(search.img){op("#mvPos").src=search.img}else{op("#mvPos").remove()}
-}
 
 function checkQ(){
-	if(shareNum%2==0){
+	if(shareNum%3!=0){
 		download();
 		showAd();
 	}else{
@@ -87,7 +83,7 @@ function progressEnd(){
 function startProgress(){
 	circle.classList.add("active");
 	makeUi("<span fs='1.2em' col='#ff3000'>Generating Link...</span><br>Creating Link. Please wait...")
-	setTimeout(progressEnd,10000)
+	setTimeout(progressEnd,2000)
 	checkQ();
 }
 startProgress();
@@ -138,7 +134,7 @@ function videoOn(){
 window.onblur=()=>{
 	vidHlp.pause();
 }
-
+/*
 var toAs=true;
 window.onscroll=()=>{toAs=false}
 setTimeout(()=>{
@@ -146,3 +142,9 @@ setTimeout(()=>{
 		window.scrollTo(0,500);
 	}
 },5000);
+*/
+
+function applyData(){
+	if(search.name){op("#mvName").innerHTML=search.name}else{op("#mvName").remove()}
+	if(search.img){op("#mvPos").src=search.img}else{op("#mvPos").remove()}
+}
