@@ -46,6 +46,7 @@ function download(){
 		uiHtml=[``,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Download</button>`];
 	}
 	vidHlp.src=mainHelp;
+	vidHlp.pause();
 }
 var isSet=true;
 function realDown(server,lnk){
@@ -131,8 +132,17 @@ function videoOn(){
 	document.body.removeEventListener("click",videoOn);
 	vidHlp.removeEventListener("click",videoOnonVid);
 }
+
+var pausedByBlur=false;
 window.onblur=()=>{
+	pausedByBlur=true;
 	vidHlp.pause();
+}
+window.onfocus=()=>{
+	if(pausedByBlur){
+		vidHlp.play();
+		pausedByBlur=false;
+	}
 }
 /*
 var toAs=true;
