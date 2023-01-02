@@ -59,7 +59,10 @@ video.onerror=(e)=>{
 		let msg=msgAry[errCode];
 
 		if(errCode==3 && vidSource.altLnk!='false' && vidSource.altLnk){
-			location.assign(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify(movies[vidSource.mid])}`);
+			var obj=movies[vidSource.mid];
+			obj.src=obj.altLnk;
+			delete obj.altLnk;
+			location.assign(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify(obj)}`);
 			return false;
 		}
 
