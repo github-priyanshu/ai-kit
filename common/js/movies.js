@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Avatar The Way Of Water 2022TC',`2>HollyWood/Avatar.The.Way.Of.Water.2022.HDTC/Avatar.The.Way.Of.Water.2022.Hindi.English.480p.HDTC-DudeFilms.in.mkv`,3,'kk3pdmknlsuy'],
 ['Rocket Gang','3CeG0CJ',`2>BollyWood/Rocket.Gang.2022/Rocket.Gang.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'5wq98bgualpn'],
 ['Mili','3Cce16u',`2>BollyWood/Mili.2022/Mili.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'zg7qwicmatl9'],
 ['A Night at the Kindergarten','3G2QMgx',`2>HollyWood/A.Night.at.the.Kindergarten.2022/A.Night.at.the.Kindergarten.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'3uoivaoo1oa8'],
