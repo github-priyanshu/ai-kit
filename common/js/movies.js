@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Connect 2022','3iiRJJN',`2>South.Movies/Connect.2022.HDCam/Connect.2022.V2.480p.Hindi.HDCAM.AAC.x264-DudeFilms.in.mkv`,2,'padzzwci56sb'],
+['Operation Mincemeat 2021','3WL1cbV',`2>HollyWood/Operation.Mincemeat.2021/Operation.Mincemeat.2021.Dual.Audio.Hindi.English.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'5ejumto93nmh'],
+['Hit The Second Case','3jSYUc7',`2>South.Movies/Hit.The.Second.Case.2022.Hindi.Cam/Hit.The.Second.Case.2022.Hindi.CAM.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'otc2pau7bov3'],
 ['Avatar The Way Of Water 2022TC','3jOiGpb',`2>HollyWood/Avatar.The.Way.Of.Water.2022.HDTC/Avatar.The.Way.Of.Water.2022.Hindi.English.480p.HDTC-DudeFilms.in.mkv`,3,'kk3pdmknlsuy'],
 ['Rocket Gang','3CeG0CJ',`2>BollyWood/Rocket.Gang.2022/Rocket.Gang.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'5wq98bgualpn'],
 ['Mili','3Cce16u',`2>BollyWood/Mili.2022/Mili.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'zg7qwicmatl9'],
