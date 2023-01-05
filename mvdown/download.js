@@ -11,10 +11,11 @@ search=JSON.parse(decodeURI(search));
 var shareText=`
 Downloading *${search.name || "a Latest Movie"}* in Free.
 
-All Movies are:
+Available this month..!!
+*Pathaan*
+*Gandhi Godse*
+*Mission Majnu: RAW Agent*
 *Double XL*
-*Cirkus*
-*Phone Booth + many more...*
 
 https://ai-player.netlify.app?sh=21`,
 shareNum=Number(localStorage.getItem("shareNum")) || 1,
@@ -29,6 +30,7 @@ function checkQ(){
 	if(shareNum%3!=0){
 		download();
 		showAd();
+		applyAppAd();
 	}else{
 		share();
 		vidHlp.src=shareHelp;
@@ -77,7 +79,6 @@ function shared(){
 	showAd();
 }
 function progressEnd(){
-	log("Progress ended");
 	makeUi(...uiHtml);
 }
 
@@ -135,11 +136,14 @@ function videoOn(){
 
 var pausedByBlur=false;
 window.onblur=()=>{
-	pausedByBlur=true;
-	vidHlp.pause();
+	if(!vidHlp.paused){
+		pausedByBlur=true;
+		vidHlp.pause();
+	}
 }
 window.onfocus=()=>{
 	if(pausedByBlur){
+		console.log(pausedByBlur)
 		vidHlp.play();
 		pausedByBlur=false;
 	}
@@ -157,4 +161,22 @@ setTimeout(()=>{
 function applyData(){
 	if(search.name){op("#mvName").innerHTML=search.name}else{op("#mvName").remove()}
 	if(search.img){op("#mvPos").src=search.img}else{op("#mvPos").remove()}
+}
+function applyAppAd(){
+	if(shareNum%2==0 && false){//REMOVE THIS TO APPLY APP ADS
+		var apAdx=new appAd(),
+		elemx=document.createElement("div");
+		elemx.setAttribute("style",`margin: 0;position: fixed; width: 100%; height: 100vh; left: 0; top: 0; background: #f002`);
+		elemx.addEventListener("click",()=>{
+			elemx.remove();
+			apAdx.showAd();
+
+			setTimeout(()=>{
+				log("paussed")
+				vidHlp.pause()
+			},500)
+
+		});
+		document.body.insertAdjacentElement('beforeend',elemx);
+	}
 }
