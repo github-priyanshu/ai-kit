@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Kaleidoscope S01','3ia3qCB',8,'__wsdomain/WebSeries/NetFlix/Kaleidoscope.S01/Kaleidoscope.S01.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv','https://dflinks.club/archives/20272'],
 ['Pitchers S02','3vh3Iuk',5,'__wsdomain/WebSeries/Zee5/Pitchers.S02/Pitchers.S02.E01.Hindi.720p.WEB-DL.ESubs-DudeFilms.in.mkv','https://dflinks.club/archives/20099'],
 ['Kathmandu Connection S02','3HXtR8P',5,'__wsdomain/WebSeries/Sony.Liv/Kathmandu.Connection.S02/Kathmandu.Connection.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','https://dflinks.club/archives/20082'],
 ['Physics Wallah S01','3BFZuQg',6,'__wsdomain/WebSeries/Amazon.Prime/Physics.Wallah.S01/Physics.Wallah.S01.E01.Hindi.720p.WEB-DL.ESubs-DudeFilms.in.mkv','https://dflinks.club/archives/19856'],
