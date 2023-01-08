@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Mumbai Mafia Police Vs The Underworld','3Xhg9lC',`2>HollyWood/Mumbai.Mafia.Police.Vs.The.Underworld.2023/Mumbai.Mafia.Police.Vs.The.Underworld.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'8hzfkbw4kz8e'],
+['Shut In 2022','3Gq1Vs2',`2>HollyWood/Shut.In.2022/Shut.In.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'r9ns4n0lytlg'],
+['Thai Massage 2022','3ItcgpH',`2>BollyWood/Thai.Massage.2022/Thai.Massage.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'cg6nne15wn7k'],
+['Uunchai 2022','3GQNfUk',`2>BollyWood/Uunchai.2022/Uunchai.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'tynh7uukvl35'],
 ['Laththi 2022 Hindi Line','3QDR4iZ',`2>South.Movies/Laththi.2022.Hindi.Line/Laththi.2022.480p.WEB-DL.Hindi.Line.ESub-DudeFilms.in.mkv`,2,'r92y43fviny1'],
 ['Saudi Vellakka 2022','3GMbyCK',`2>South.Movies/Saudi.Vellakka.2022/Saudi.Vellakka.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'d1kv6by7taft'],
 ['Kutch Express','3IPCqmT',`2>Gujarati/Kutch.Express.2023.CamRip/Kutch.Express.2023.Gujarati.480p.CAMRip-DudeFilms.in.mkv`,2,'2vpzftwnzbbn'],
