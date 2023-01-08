@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Laththi 2022 Hindi Line','3QDR4iZ',`2>South.Movies/Laththi.2022.Hindi.Line/Laththi.2022.480p.WEB-DL.Hindi.Line.ESub-DudeFilms.in.mkv`,2,'r92y43fviny1'],
+['Saudi Vellakka 2022','3GMbyCK',`2>South.Movies/Saudi.Vellakka.2022/Saudi.Vellakka.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'d1kv6by7taft'],
+['Kutch Express','3IPCqmT',`2>Gujarati/Kutch.Express.2023.CamRip/Kutch.Express.2023.Gujarati.480p.CAMRip-DudeFilms.in.mkv`,2,'2vpzftwnzbbn'],
+['Sinam 2022','3k1Rgw3',`2>South.Movies/Sinam.2022/Sinam.2022.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'m38q34799g4r'],
 ['Connect 2022','3iiRJJN',`2>South.Movies/Connect.2022.HDCam/Connect.2022.V2.480p.Hindi.HDCAM.AAC.x264-DudeFilms.in.mkv`,2,'padzzwci56sb'],
 ['Operation Mincemeat 2021','3WL1cbV',`2>HollyWood/Operation.Mincemeat.2021/Operation.Mincemeat.2021.Dual.Audio.Hindi.English.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'5ejumto93nmh'],
 ['Hit The Second Case','3jSYUc7',`2>South.Movies/Hit.The.Second.Case.2022.Hindi.Cam/Hit.The.Second.Case.2022.Hindi.CAM.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'otc2pau7bov3'],
