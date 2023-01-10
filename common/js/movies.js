@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['D Block 2022','3WWp646',`2>South.Movies/D.Block.2022/D.Block.2022.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'3j7g9ob8ljav'],
 ['Mumbai Mafia Police Vs The Underworld','3Xhg9lC',`2>HollyWood/Mumbai.Mafia.Police.Vs.The.Underworld.2023/Mumbai.Mafia.Police.Vs.The.Underworld.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'8hzfkbw4kz8e'],
 ['Shut In 2022','3Gq1Vs2',`2>HollyWood/Shut.In.2022/Shut.In.2022.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'r9ns4n0lytlg'],
 ['Thai Massage 2022','3ItcgpH',`2>BollyWood/Thai.Massage.2022/Thai.Massage.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'cg6nne15wn7k'],
