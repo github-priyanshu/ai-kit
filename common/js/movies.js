@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Mister Mummy 2022','3ZFeatl',`2>BollyWood/Mister.Mummy.2022/Mister.Mummy.2022.480p.WEB-DL.AAC.2.0.ESub-DudeFilms.in.mkv`,1,'kmfaebrlaarv'],
 ['Varisu','3GYXHcd',`2>South.Movies/Varisu.2022.HDCam/Varisu.2022.480p.Hindi.HQ.HDCAMRip-DudeFilms.in.mkv`,2,'fjpf00ehzihe'],
 ['Mukundan Unni Associates 2022','3IGbBBo',`2>South.Movies/Mukundan.Unni.Associates.2022/Mukundan.Unni.Associates.2022.Hindi.Malayalm.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'cxxus4wxndig'],
 ['D Block 2022','3WWp646',`2>South.Movies/D.Block.2022/D.Block.2022.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'3j7g9ob8ljav'],
