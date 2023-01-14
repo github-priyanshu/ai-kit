@@ -58,6 +58,7 @@ var movies=
 ['Uppena 2021','3VT4JEc',`2>BollyWood/An.Action.Hero.2022.CamRip/An.Action.Hero.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2,'bgrp5d5v46op'],
 ['Goodbye','3EXIAxw',`2>BollyWood/Goodbye.2022/Goodbye.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a7x82pcwcrxs'],
 ['Monster','3VOt1is',`2>South.Movies/Monster.2022/Monster.2022.Hindi.Malayalan.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'gasu0z9zt2dq'],
+/*
 ['Kumari','3HcmSsu',`2>South.Movies/Kumari.2022.HQ/Kumari.2022.Hindi.HQ.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2,'iltax1mb2ttw'],
 ['(DOWNLOAD ONLY) Kashmir Files HD','3OOAyvt',`https://ai-movie-download.netlify.app/other/frame.html?redirect=eyJsaW5rIjoiaHR0cHM6Ly9zYmxvbmd2dS5jb20vNTZ2emt0enBmZWtvLmh0bWwiLCJzaG93SGVscCI6ZmFsc2UsInRpdGxlIjoiIn0=`,1,''],
 ['Theerppu','3gLnudA',`https://dl.dhubfan02.workers.dev/0:/South.Movies/Theerppu.2022.HQ/Theerppu.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'h3ifgs8r03hu'],
@@ -115,7 +116,7 @@ var movies=
 ['Naane Varuven HQ','3U7nmDX',`1>South.Movies/Naane.Varuven.2022.HQ/Naane.Varuven.2022.Hindi.HQ.Tamil.480p.HDRip-DudeFilms.in.mkv`,2,'g3hkcqhmnjpe'],
 ['Appan','3UaotlD',`1>South.Movies/Appan.2022/Appan.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'j9ldo3auoce1'],
 ['Har Har Mahadev','3TP3uoM',`1>BollyWood/Har.Har.Mahadev.2022.CamRip/Har.Har.Mahadev.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'1q518iu1jk88'],
-
+*/
 ];
 
 var midTemp=movies.length,lastMid=midTemp,
