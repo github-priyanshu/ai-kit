@@ -92,7 +92,7 @@ function onErrDown(){
 		dialog.buttons("Close","Download");
 		dialog.success=()=>{
 			window.open(`https://ai-movie-download.netlify.app?lnk=${getDownData()}`);
-			location.assign(extLink);
+			// location.assign(extLink);
 		};
 		return html;
 	}

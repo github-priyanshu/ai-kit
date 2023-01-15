@@ -200,7 +200,7 @@ function checkDownTrue(lnk){
 	}
 }
 function directAdonSame(){
-	location.assign(extLink);
+	// location.assign(extLink);
 }
 
 function loadPage(){
