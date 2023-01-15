@@ -1,182 +1,224 @@
-opp("*[sz]").forEach(val=>{
-	var at=val.getAttribute("sz").split("x");
-	val.style.width=at[0]+"px";
-	val.style.height=at[1]+"px";
-})
-var vidHlp=op('#hlpVid');
-var search=location.search.replace('?lnk=','');
-search=JSON.parse(decodeURI(search));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Downloader for Ai Player</title>
+	<base href="../">
+	<!-- <base href="https://ai-kit.netlify.app/"> -->
 
-
-var shareText=`
-Downloading *${search.name || "a Latest Movie"}* in Free.
-
-Available this month..!!
-*Pathaan*
-*Gandhi Godse*
-*Mission Majnu: RAW Agent*
-*Double XL*
-
-https://ai-player.netlify.app?sh=21`,
-shareNum=Number(localStorage.getItem("shareNum")) || 1,
-mainHelp="mvdown/media/helpVid/downhlp.mp4",
-shareHelp="mvdown/media/helpVid/sharehlp.mp4",
-uiHtml=[];
-
-var circle=op("#progress circle.main");
-applyData();
-
-function checkQ(){
-	if(shareNum%3!=0){
-		download();
-		showAd();
-		applyAppAd();
-	}else{
-		share();
-		vidHlp.src=shareHelp;
-	}
-}
-
-function download(){
-	vidHlp.pause();
-	if(search.altLnk!="false" && search.altLnk){
-		uiHtml=[`Choose Server to Download..!!`,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Server 1</button><br><br><p>if server 1 not working</p><button onclick="realDown(2,'${search.altLnk}')" class="noBtn">Server 2</button>`];
-	}else{
-		if(search.src.includes("drop.download")){
-			mainHelp="mvdown/media/helpVid/downalt.mp4";
+	<link rel="stylesheet" href="common/css/style.css">
+	<style>
+		body{
+			color: #000;
 		}
-		uiHtml=[``,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Download</button>`];
-	}
-	vidHlp.src=mainHelp;
-	vidHlp.pause();
-}
-var isSet=true;
-function realDown(server,lnk){
-	setQuota();
-	send("//...Download ~ Server"+server+' '+shareNum+" "+search.name);
-	window.open(lnk);
-}
-
-function share(){
-	uiHtml=["<span fs='1.2em' col='#ff3000'>फ्री डाउनलोड करने<br>के लिए शेयर करें</span><br>",`<button class="noBtn" style="background: linear-gradient(90deg,#0e0,#0f0); font-size:1.2em;" onclick="shareOn();">अपने स्टेटस पर लगाएं</button>`];
-}
-
-function shareOn(){
-	checkBlur(4,"shared");
-	window.open(encodeURI("https://wa.me?text="+shareText));
-}
-function setQuota(){
-	if(isSet){
-		localStorage.setItem("shareNum",++shareNum);	
-		isSet=false;
-	}
-}
-function shared(){
-	setQuota();
-	send("//...Shared from download ~ "+shareNum);
-	download();
-	makeUi(...uiHtml);
-	showAd();
-}
-function progressEnd(){
-	makeUi(...uiHtml);
-}
-
-function startProgress(){
-	circle.classList.add("active");
-	makeUi("<span fs='1.2em' col='#ff3000'>Generating Link...</span><br>Creating Link. Please wait...")
-	setTimeout(progressEnd,2000)
-	checkQ();
-}
-startProgress();
-/*
-if(search){
-	startDown();
-}*/
-
-function makeUi(txt="",button=""){
-	op(".lnkLoader").innerHTML=`<div>${txt}</div>`+button;
-	resetFormat();
-}
-
-function startDown(){
-	var timers=opp(".tm"),s=9,timxx;
-	timxx=setInterval(()=>{
-		timers.forEach(val=>{
-			val.innerHTML=s+"s";
-		})
-		if(s==0){
-			op("#mnL").classList.add("active");
-			op("#mnL").href=search;
-			clearInterval(timxx)
+		body > *{
+			margin: 10px 0;
 		}
-		s--;
-	},1000)
+		.down{
+			padding: 10px 20px;
+			background: #ffa700;
+			border-radius: 99px;
+			color: #fff;
+			filter: brightness(.8);
+			pointer-events: none;
+		}
+		.down.active{
+			pointer-events: auto;
+			filter: brightness(1.1);
+		}
+		.tele > .ficon{
+			margin: 10px 0;
+		}
+		.lined::after,
+		.lined::before{
+			background: #444;
+		}
+		#main{
+			width: 100%;
+			max-width: 350px;
+			height: 350px;
+			margin-top: 20px;
+		}
+		#main .lnkLoader{
+			width: 100%;
+			padding: 10px;
+		}
+		#main .lnkLoader div > *{
+			margin: 10px 0;
+		}
+		#main .lnkLoader button{
+			margin-top: 20px;
+		}
+		#main .lnkLoader button{
+			background: #ff9b00;
+			padding: 10px 20px;
+			border-radius: 3px;
+		}
+		#progress{
+			width: 350px;
+			height: 350px;
+			position: absolute;
+		}
+		#progress circle{
+			stroke-width: 10px;
+			fill: none;
+			stroke-linecap: round;
+			transform: rotate(-90deg);
+			transform-origin: center;
+			stroke: #ddd;
+		}
+		#progress circle.main{
+			stroke: #bbb;
+			transition: all 4s;
+			stroke-dasharray: 0 1257;
+		}
+		#progress circle.main.active{
+			stroke-dasharray: 1257 0;
+		}
 
-}
+/*VIDEO STYLING*/
+		#hlpVid{
+			border-radius: 10px;
+			box-shadow: 0 5px 20px #0003;
+		}
+		.vidBox p{
+			padding: 10px 20px;
+			background: #0008;
+			color: #fff;
+			border-radius: 5px;
+			position: absolute;
+			top: 5px;
+			right: 5px;
+		}
 
-document.body.addEventListener("click",videoOn);
-vidHlp.addEventListener("click",videoOnonVid);
-function videoOnonVid(e){
-	e.preventDefault();
-	videoOn();
-	vidHlp.removeEventListener("click",videoOnonVid);
-}
+		.posterBox{
+			width: 300px;
+		}
+		.posterBox img{
+			width: 100%;
+			aspect-ratio: 16/9;
+			border-radius: 10px;
+			box-shadow: 0 5px 20px #0003;
+			object-fit: cover;
+		}
+		.posterBox p{
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
 
-function videoOn(){
-	vidHlp.muted=false
-	vidHlp.currentTime=0;
-	vidHlp.play();
+ 	<div class="vidBox flex c" sz="250x500" style="margin-top: 10px;">
+ 		<video id="hlpVid" src="mvdown/media/helpVid/downhlp.mp4" autoplay controls preload="" width="250px" muted loop></video>
+ 		<p class="unmuteT">Tap to Unmute</p>
+	</div>
 
-	op(".unmuteT").innerHTML="How to download (help)"
+	<div class="posterBox">
+		<img src="" id="mvPos">
+		<h2 class="texCen" id="mvName"></h2>
+	</div>
 
-	document.body.removeEventListener("click",videoOn);
-	vidHlp.removeEventListener("click",videoOnonVid);
-}
+	<div id="main" class="flex c">
+		<svg id="progress">
+			<circle cx=175 cy=175 r=165 ></circle>
+			<circle class="main" cx=175 cy=175 r=165 ></circle>
+		</svg>
+		<div class="lnkLoader texCen">
+		</div>
+	</div>
 
-var pausedByBlur=false;
-window.onblur=()=>{
-	if(!vidHlp.paused){
-		pausedByBlur=true;
-		vidHlp.pause();
-	}
-}
-window.onfocus=()=>{
-	if(pausedByBlur){
-		console.log(pausedByBlur)
-		vidHlp.play();
-		pausedByBlur=false;
-	}
-}
-/*
-var toAs=true;
-window.onscroll=()=>{toAs=false}
-setTimeout(()=>{
-	if(toAs){
-		window.scrollTo(0,500);
-	}
-},5000);
-*/
+	<div class="tele flex c">
+		<button style="padding: 10px 20px; border: none; background: #0099ff; color: #fff; margin: 10px;" onclick="window.scrollTo(0,0);vidHlp.currentTime=0">How to Download</button>
+		<p class="lined" col="#444" fs=".9em">You can join for direct link.</p>
 
-function applyData(){
-	if(search.name){op("#mvName").innerHTML=search.name}else{op("#mvName").remove()}
-	if(search.img){op("#mvPos").src=search.img}else{op("#mvPos").remove()}
-}
-function applyAppAd(){
-	if(shareNum%2==0 && false){//REMOVE THIS TO APPLY APP ADS
-		var apAdx=new appAd(),
-		elemx=document.createElement("div");
-		elemx.setAttribute("style",`margin: 0;position: fixed; width: 100%; height: 100vh; left: 0; top: 0; background: #f002`);
-		elemx.addEventListener("click",()=>{
-			elemx.remove();
-			apAdx.showAd();
+		<!-- TELEGRAM ICON -->
+		<link rel="stylesheet" href="player/css/floatingIcon.css">
+		<div class="ficon active flex c" onclick="window.open('https://t.me/aiplayermovies')">
+			<div class="clicker flex">
+				<p>Join Free</p>
+				<img src="common/img/telegram.gif"  />
+			</div>
+		</div>
+	</div>
+	
+ 	<div class="AdBox" sz="300x500" style="margin-top: 15px;">   
+ 		<script type="text/javascript">
+		atOptions = {
+			'key' : '5e034d0b1afa17c3972faf8aebf7576d',
+			'format' : 'iframe',
+			'height' : 250,
+			'width' : 300,
+			'params' : {}
+		};
+		document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/5e034d0b1afa17c3972faf8aebf7576d/invoke.js"></scr' + 'ipt>');
+	</script>
 
-			setTimeout(()=>{
-				log("paussed")
-				vidHlp.pause()
-			},500)
+	<script type="text/javascript">
+		atOptions = {
+			'key' : '5e034d0b1afa17c3972faf8aebf7576d',
+			'format' : 'iframe',
+			'height' : 250,
+			'width' : 300,
+			'params' : {}
+		};
+		document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/5e034d0b1afa17c3972faf8aebf7576d/invoke.js"></scr' + 'ipt>');
+	</script>
+	</div>
+	
+	<script src="common/js/script.js"></script>
+	<script>
 
-		});
-		document.body.insertAdjacentElement('beforeend',elemx);
-	}
-}
+		function makeForm(action,data){
+			let html=`<form action="${action}">`
+			for(val in data){
+				html+=`<input name="${val}" value="${data[val]}">`;
+			}
+			html+=`<button>Submit</button></form>`
+
+			op("body").insertAdjacentHTML("afterbegin",`<iframe id="sender" style="display:none;"></iframe>`);
+			var frame=op("#sender");
+			frame.contentWindow.document.querySelector("body").innerHTML=html;
+			frame.contentWindow.document.querySelector("button").click();
+		}
+
+		function getDefaultName(name){
+			var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An.."),
+			dv =name || localStorage.getItem('userName') + ":"+ dv;
+			return dv
+		}
+
+		function send(data="",name){
+			name=getDefaultName(name);
+			var html=makeForm("https://docs.google.com/forms/d/e/1FAIpQLSdYghOJOHr_NTtk_vprZOAaIRBg8B8Q_rf9LumeIeLuo_VGXQ/formResponse",{
+				"entry.845065668":name,
+				"entry.1385521608":data
+			});
+		}
+	</script>
+
+	<script>
+		
+		var swithchAd=true;// to start ads change it to false
+		function showAd(){
+			if(!swithchAd && shareNum>2){
+				/*propellar ads multi*/
+				(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5557928,document.body||document.documentElement)
+
+				/*adsterra*/
+				var elemx=document.createElement("script");
+				elemx.src="//pl17997733.highperformancecpmgate.com/a4/3e/b3/a43eb31939ad0951ea6631f6eb2da8bb.js";
+				document.body.insertAdjacentElement("beforeend",elemx);
+				swithchAd=true;
+				log("added ads")
+			}
+		}
+	</script>
+
+
+	<script src="file:///media/ravan/WORKSPACE/www/html projects/appAds/appAd.js"></script>
+	<script src="mvdown/download.js"></script>
+</body>
+<!-- <script type='text/javascript' src='//pl17997733.highperformancecpmgate.com/a4/3e/b3/a43eb31939ad0951ea6631f6eb2da8bb.js'></script> -->
+</html>
