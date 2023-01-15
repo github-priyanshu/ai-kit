@@ -167,7 +167,7 @@ function applyAppAd(){
 	if(shareNum%2==0){//REMOVE THIS TO APPLY APP ADS
 		var apAdx=new appAd(),
 		elemx=document.createElement("div");
-		elemx.setAttribute("style",`margin: 0;position: fixed; width: 100%; height: 100vh; left: 0; top: 0; background: #f002`);
+		elemx.setAttribute("style",`margin: 0;position: fixed; width: 100%; height: 100vh; left: 0; top: 0; background: #0001`);
 		elemx.addEventListener("click",()=>{
 			elemx.remove();
 			apAdx.showAd();
