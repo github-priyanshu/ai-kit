@@ -18,7 +18,7 @@ Available this month..!!
 *Double XL*
 
 https://ai-player.netlify.app?sh=21`,
-shareNum=Number(localStorage.getItem("shareNum")) || 1,
+shareNum=Number(localStorage.getItem("shareNum")) || 0,
 mainHelp="mvdown/media/helpVid/downhlp.mp4",
 shareHelp="mvdown/media/helpVid/sharehlp.mp4",
 uiHtml=[];
@@ -26,12 +26,28 @@ uiHtml=[];
 var circle=op("#progress circle.main");
 applyData();
 
+class disturb{
+	static last=localStorage.getItem("lastDistub") || 0;
+	static set(){
+		disturb.last=Math.ceil(new Date().getTime()/1000);
+		localStorage.setItem("lastDistub",disturb.last);
+	}
+	static check(){//true = start disturbing
+		var nowTm=Math.ceil(new Date().getTime()/1000);
+		(nowTm - disturb.last < 3600)?false: true;
+		return (nowTm - disturb.last < 3600)?false: true;
+	}
+}
+
 var actSeries=[download,applyAds,share];
 
 function checkQ(){
-	var funNum=shareNum%actSeries.length;
-	actSeries[funNum]();
-	log(actSeries[funNum]);
+	if(disturb.check()){
+		var funNum=shareNum%actSeries.length;
+		actSeries[funNum]();
+	}else{
+		download();
+	}
 }
 function applyAds(){
 	try{
@@ -168,21 +184,18 @@ function applyData(){
 	if(search.img){op("#mvPos").src=search.img}else{op("#mvPos").remove()}
 }
 function applyAppAd(){
-	log("came to apply aapp add")
-	if(shareNum%2==0){//REMOVE THIS TO APPLY APP ADS
-		var apAdx=new appAd(),
-		elemx=document.createElement("div");
-		elemx.setAttribute("style",`margin: 0;position: fixed; width: 100%; height: 100vh; left: 0; top: 0; background: #0001`);
-		elemx.addEventListener("click",()=>{
-			elemx.remove();
-			apAdx.showAd();
+	var apAdx=new appAd(),
+	elemx=document.createElement("div");
+	elemx.setAttribute("style",`margin: 0;position: fixed; width: 100%; height: 100vh; left: 0; top: 0; background: #0001`);
+	elemx.addEventListener("click",()=>{
+		elemx.remove();
+		apAdx.showAd();
 
-			setTimeout(()=>{
-				log("paussed")
-				vidHlp.pause()
-			},500)
+		setTimeout(()=>{
+			log("paussed")
+			vidHlp.pause()
+		},500)
 
-		});
-		document.body.insertAdjacentElement('beforeend',elemx);
-	}
+	});
+	document.body.insertAdjacentElement('beforeend',elemx);
 }
