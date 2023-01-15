@@ -26,15 +26,19 @@ uiHtml=[];
 var circle=op("#progress circle.main");
 applyData();
 
+var actSeries=[download,applyAds,share];
+
 function checkQ(){
-	if(shareNum%3!=0){
-		download();
+	var funNum=shareNum%actSeries.length;
+	actSeries[funNum]();
+	log(actSeries[funNum]);
+}
+function applyAds(){
+	try{
 		showAd();
 		applyAppAd();
-	}else{
-		share();
-		vidHlp.src=shareHelp;
-	}
+	}catch{}
+	download();
 }
 
 function download(){
@@ -58,6 +62,7 @@ function realDown(server,lnk){
 }
 
 function share(){
+	vidHlp.src=shareHelp;	
 	uiHtml=["<span fs='1.2em' col='#ff3000'>फ्री डाउनलोड करने<br>के लिए शेयर करें</span><br>",`<button class="noBtn" style="background: linear-gradient(90deg,#0e0,#0f0); font-size:1.2em;" onclick="shareOn();">अपने स्टेटस पर लगाएं</button>`];
 }
 
