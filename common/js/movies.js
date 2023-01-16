@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Varalaru Mukkiyam 2022','3km8B32',`2>South.Movies/Varalaru.Mukkiyam.2022/Varalaru.Mukkiyam.2022.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'t1pp4fvkpaf1'],
+['Kuttay','3XylDbP',`2>BollyWood/Kuttay.2023.CamRip/Kuttay.2023.480p.Hindi.CAMRip-DudeFilms.in.mkv`,1,'fzyx6uho5n42'],
+['Thunivu','3XCbECz',`2>South.Movies/Thunivu.2023.HDCam/Thunivu.2023.480p.HIN.HQ.Dub.HDCAM-DudeFilms.in.mkv`,2,'513uxfml9hr9'],
 ['Mister Mummy 2022','3ZFeatl',`2>BollyWood/Mister.Mummy.2022/Mister.Mummy.2022.480p.WEB-DL.AAC.2.0.ESub-DudeFilms.in.mkv`,1,'kmfaebrlaarv'],
 ['Varisu','3GYXHcd',`2>South.Movies/Varisu.2022.HDCam/Varisu.2022.480p.Hindi.HQ.HDCAMRip-DudeFilms.in.mkv`,2,'fjpf00ehzihe'],
 ['Mukundan Unni Associates 2022','3IGbBBo',`2>South.Movies/Mukundan.Unni.Associates.2022/Mukundan.Unni.Associates.2022.Hindi.Malayalm.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'cxxus4wxndig'],
