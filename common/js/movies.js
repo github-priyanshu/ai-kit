@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Everything Everywhere All At Once 2022','3ZFJLuW',`2>HollyWood/Everything.Everywhere.All.At.Once.2022/Everything.Everywhere.All.At.Once.2022.Hindi-English.480p.BluRay.ESub-DudeFilms.in.mkv`,3,'1stfm5wak5tc'],
 ['Varalaru Mukkiyam 2022','3km8B32',`2>South.Movies/Varalaru.Mukkiyam.2022/Varalaru.Mukkiyam.2022.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'t1pp4fvkpaf1'],
 ['Kuttay','3XylDbP',`2>BollyWood/Kuttay.2023.CamRip/Kuttay.2023.480p.Hindi.CAMRip-DudeFilms.in.mkv`,1,'fzyx6uho5n42'],
 ['Thunivu','3XCbECz',`2>South.Movies/Thunivu.2023.HDCam/Thunivu.2023.480p.HIN.HQ.Dub.HDCAM-DudeFilms.in.mkv`,2,'513uxfml9hr9'],
