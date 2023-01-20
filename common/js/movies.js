@@ -10,6 +10,7 @@ var movies=
 
 ['Mission Majnu: RAW Agent (FullHD)','3wiNbGI',`2>BollyWood/Mission.Majnu.2023/Mission.Majnu.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'3s8cgt8g9fg0'],
 ['Chhatriwali','3wlnXHL',`2>BollyWood/Chhatriwali.2023/Chhatriwali.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'spnlagel99go'],
+['Skin In Flames 2022','3XJMhP3',`2>HollyWood/Skin.In.Flames.2022/Skin.In.Flames.2022.Hindi.Spanish.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'upge734djfua'],
 ['Veera Simha Reddy Cam','3knFxIk',`2>South.Movies/Veera.Simha.Reddy.2023.HDCam/Veera.Simha.Reddy.2023.480p.HDCAM.HIN-DudeFilms.in.mkv`,2,'x4f58vf47p41'],
 ['Everything Everywhere All At Once 2022','3ZFJLuW',`2>HollyWood/Everything.Everywhere.All.At.Once.2022/Everything.Everywhere.All.At.Once.2022.Hindi-English.480p.BluRay.ESub-DudeFilms.in.mkv`,3,'1stfm5wak5tc'],
 ['Varalaru Mukkiyam 2022','3km8B32',`2>South.Movies/Varalaru.Mukkiyam.2022/Varalaru.Mukkiyam.2022.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'t1pp4fvkpaf1'],
