@@ -19,7 +19,7 @@ setInterval(checkDisturb,10*1000);//change the duration to 3 min
 function checkDisturb(){
 	log("ctNm "+ctNm);
 	log("will show ad after min : "+(((ctNm+1)/disturbTime*video.duration-60)/60));
-	if(video.currentTime>=(((ctNm+1)/disturbTime*video.duration-60)/60)){
+	if(video.currentTime>=(((ctNm+1)/disturbTime*video.duration-60))){
 		disturbNext();
 	}
 }
