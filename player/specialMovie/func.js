@@ -13,9 +13,8 @@ if(lastDate!=nowDate){
 	localStorage.setItem("specialCtNm",ctNm);
 }
 var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
-var task=[downAppToCont,share];
 
-setInterval(checkDisturb,60*1000);
+setInterval(checkDisturb,10*1000);//change the duration to 3 min
 
 function checkDisturb(){
 	log("ctNm "+ctNm);
@@ -111,7 +110,7 @@ function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 		}
 
 	</style>
-	<div class="disturb flex c" style="position: fixed;top: 0;left: 0;width: 100%;height: 100vh;background: #fff;">
+	<div class="disturb flex c" style="position: fixed;top: 0;left: 0;width: 100%;height: 100vh;background: #fffa;backdrop-filter: blur(5px);">
 		<h1>${mnTxt}</h1>
 
 		<div class="infor" style="margin: 0">
@@ -125,8 +124,7 @@ function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 	op("body").insertAdjacentHTML("beforeend",html);
 }
 function closeDisturbPan(){
-	opp(".disturb").forEach(val=>{val.remove()})
-	video.play();
+	opp(".disturb").forEach(val=>{val.remove()});
 	back.enable();
 }
 
