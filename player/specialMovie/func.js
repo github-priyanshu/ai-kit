@@ -1,7 +1,7 @@
 var lastDate=localStorage.getItem("specialLastDate"),
 nowDate=new Date().getDate()+"/"+(new Date().getMonth()+1),
 ctNm=Number(localStorage.getItem("specialCtNm") || 0),
-secondToDisturb=10,
+secondToDisturb=60,
 video=op("#mainVid"),
 downloadedNow=false;
 
@@ -16,7 +16,8 @@ if(lastDate!=nowDate){
 var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
 var task=[downAppToCont,share];
 
-// setInterval(disturbNext,secondToDisturb*1000)
+disturbNext();
+setTimeout(disturbNext,secondToDisturb*1000)
 
 function disturbNext(){
 	ctNm=ctNm%task.length;
