@@ -3,7 +3,8 @@ nowDate=new Date().getDate()+"/"+(new Date().getMonth()+1),
 ctNm=Number(localStorage.getItem("specialCtNm") || 0),
 video=op("#mainVid"),
 downloadedNow=false,
-disturbTime=4;
+disturbTime=4,
+priorAdTime=300;//this variable will tell how muchh before ad will runn
 
 video.oncontextmenu=(e)=>{e.preventDefault()}
 
@@ -14,12 +15,12 @@ if(lastDate!=nowDate){
 }
 var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
 
-setInterval(checkDisturb,10*1000);//change the duration to 3 min
+setInterval(checkDisturb,2*60*1000);
 
 function checkDisturb(){
 	log("ctNm "+ctNm);
-	log("will show ad after min : "+(((ctNm+1)/disturbTime*video.duration-60)/60));
-	if(video.currentTime>=(((ctNm+1)/disturbTime*video.duration-60))){
+	log("will show ad after min : "+(((ctNm+1)/disturbTime*video.duration-priorAdTime)/60));
+	if(video.currentTime>=(((ctNm+1)/disturbTime*video.duration-priorAdTime))){
 		disturbNext();
 	}
 }
@@ -46,10 +47,8 @@ function share(){
 function sharing() {
 var srhTxt=`सारी नई फिल्में है 'Ai Player' पर 
 मैं देख रहा हूं '*Pathaan Specials*'
-
 👇 Join Me 👇
-https://ai-player.netlify.app
-
+https://ai-player.netlify.app?sh=17
 All new movies are here:
 *Pathaan*
 *Mission Majnu*

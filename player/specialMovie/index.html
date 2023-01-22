@@ -45,7 +45,7 @@
 	</div>
 
 	<div class="vidBx">
-		<video src="https://web0dev0priyanshu00000.on.drv.tw/www.test/Quit everything bad.mp4" id="mainVid" controls controlsList="nodownload" style="margin: 20px 0;width: 100vw; max-width: 600px; aspect-ratio: 16/9;border-radius: 4px"></video>
+		<video src="" id="mainVid" controls controlsList="nodownload" style="margin: 20px 0;width: 100vw; max-width: 600px; aspect-ratio: 16/9;border-radius: 4px"></video>
 		<!-- https://web0dev0priyanshu00000.on.drv.tw/www.test/Quit everything bad.mp4 -->
 	</div>
 
@@ -75,9 +75,10 @@
 		</style>
 
 		<div class="iconBx w100p flex">
-			<span class="flex" ico="download" style="--col:#ffa700"></span>
-			<span class="flex" ico="share" style="--col:lime"></span>
+			<span class="flex" ico="download" style="--col:#ffa700; display: none;" id="vidDown" onclick="vidDown();"></span>
+			<span class="flex" ico="share" style="--col:lime" id="vidShare" onclick="vidShare();"></span>
 		</div>
+		<script src="downAnShare.js"></script>
 
 		<button class="noBtn downBtn active">
 			Download App (1MB)
