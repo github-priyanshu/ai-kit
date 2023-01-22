@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 let deferredPrompt;
 var downBtn=op(".downBtn");
 log(downBtn)
-// downBtn.classList.remove("active")
+downBtn.classList.remove("active")
 
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault(); deferredPrompt = e;
