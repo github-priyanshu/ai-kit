@@ -16,7 +16,7 @@ if(lastDate!=nowDate){
 var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
 var task=[downAppToCont,share];
 
-downAppToCont();
+setTimeout(downAppToCont,5000)
 setTimeout(disturbNext,secondToDisturb*1000)
 
 function disturbNext(){
