@@ -5,6 +5,8 @@ video=op("#mainVid"),
 downloadedNow=false,
 disturbTime=4;
 
+video.oncontextmenu=(e)=>{e.preventDefault()}
+
 if(lastDate!=nowDate){
 	ctNm=0;
 	localStorage.setItem("specialLastDate",nowDate);
@@ -60,7 +62,10 @@ checkBlur(4,"closeDisturbPan");
 
 function showAppAd(){
 	var apAd=new appAd();
-	apAd.showAd();
+	setTimeout(()=>{
+		apAd.showAd();
+		video.webkitExitFullscreen();
+	},10000)
 }
 function downAppToCont(){
 	if(isDownLoaded()){
@@ -87,6 +92,7 @@ function downloading() {
 function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 	video.pause();
 	back.disable();
+	video.webkitExitFullscreen();
 
 	var html=`
 	<style>
