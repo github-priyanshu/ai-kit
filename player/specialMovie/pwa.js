@@ -1,6 +1,6 @@
 let readyToDownload=false;
 if ('serviceWorker' in navigator) {
-   window.addEventListener('load', function () { navigator.serviceWorker.register('../sw.js').then(function (registration) {log(registration)}, function (err) {
+   window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').then(function (registration) {log(registration)}, function (err) {
    	log(err)
    }); });
 }
