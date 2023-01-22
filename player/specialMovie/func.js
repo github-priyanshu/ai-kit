@@ -73,9 +73,10 @@ function downAppToCont(){
 }
 function downloading() {
 	op('.downBtn').click();
-	setInterval(()=>{
-		if(downloadedNow){closeDisturbPan()};
-	},1000)
+	var intxx=setInterval(()=>{
+		log('downloadedNOe '+downloadedNow);
+		if(downloadedNow){closeDisturbPan();clearInterval(intxx)};
+	},3000)
 }
 
 function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){

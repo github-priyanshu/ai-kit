@@ -16,6 +16,9 @@ window.addEventListener('beforeinstallprompt', (e) => {
 })
 downBtn.onclick=(e) => {
   deferredPrompt.prompt(); deferredPrompt.userChoice.then((choiceResult) => {
-    if (choiceResult.outcome === 'accepted') {downloadedNow=true;} else {}
+    if (choiceResult.outcome === 'accepted') {
+      log('downloadedNOe '+downloadedNow);
+      downloadedNow=true;
+    } else {}
   });
 };
