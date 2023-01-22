@@ -1,12 +1,9 @@
 var lastDate=localStorage.getItem("specialLastDate"),
 nowDate=new Date().getDate()+"/"+(new Date().getMonth()+1),
 ctNm=Number(localStorage.getItem("specialCtNm") || 0),
-secondToDisturb=60,
 video=op("#mainVid"),
-downloadedNow=false;
-
-log(nowDate);
-log(lastDate);
+downloadedNow=false,
+disturbTime=4;
 
 if(lastDate!=nowDate){
 	ctNm=0;
@@ -16,8 +13,15 @@ if(lastDate!=nowDate){
 var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
 var task=[downAppToCont,share];
 
-setTimeout(downAppToCont,5000)
-setTimeout(disturbNext,secondToDisturb*1000)
+setInterval(checkDisturb,60*1000);
+
+function checkDisturb(){
+	log("ctNm "+ctNm);
+	log("ctNm "+ctNm/disturbTime*video.duration);
+	if(video.currentTime>ctNm/disturbTime*video.duration){
+		disturbNext();
+	}
+}
 
 function disturbNext(){
 	ctNm=ctNm%task.length;
@@ -55,7 +59,8 @@ checkBlur(4,"closeDisturbPan");
 }
 
 function showAppAd(){
-
+	var apAd=new appAd();
+	apAd.showAd();
 }
 function downAppToCont(){
 	if(isDownLoaded()){
@@ -75,13 +80,13 @@ function downAppToCont(){
 function downloading() {
 	op('.downBtn').click();
 	var intxx=setInterval(()=>{
-		log('downloadedNOe '+downloadedNow);
 		if(downloadedNow){closeDisturbPan();clearInterval(intxx)};
-	},3000)
+	},3000);
 }
 
 function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 	video.pause();
+	back.disable();
 
 	var html=`
 	<style>
@@ -115,6 +120,8 @@ function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 }
 function closeDisturbPan(){
 	opp(".disturb").forEach(val=>{val.remove()})
+	video.play();
+	back.enable();
 }
 
 function isDownLoaded() {
