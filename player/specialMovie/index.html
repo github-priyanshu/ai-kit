@@ -3,17 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Special Movie: Ai Player</title>
+	<title>Pathaan Specials - Ai Player</title>
 
 	<meta name="theme-color" content="#c964d6">
 	<meta name="google" content="notranslate">
-	<meta property="og:image" content="https://bit.ly/387d4kt">
+	<meta property="og:image" content="https://static.tnn.in/photo/msid-96753367/96753367.jpg">
 
 	<link rel="manifest" href="manifest.json">
 	<link rel="shortcut icon" href="logo/logo.ico" type="image/x-icon">
 
 	<link rel="stylesheet" href="https://ai-kit.netlify.app/common/css/style.css">
-
 	<script src="https://ai-kit.netlify.app/common/js/variables.js"></script>
 	<script src="https://ai-kit.netlify.app/common/js/script.js"></script>
 
@@ -36,17 +35,17 @@
 				transform: rotate(90deg);
 			}
 		</style>
-  	<div fs="1.e5m" col="#8000ff">
+  	<div fs="1.2em" col="#8000ff">
   		<p onclick="location.assign('https://ai-player.netlify.app')" style="display: inline-block;">
   			<span class="head turnRight" bg="#fff" style="top: 3px; font-size: 20px;padding: 4px;border: 1px solid #444;border-radius: 50%;display: inline-block;width: 30px;height: 30px;margin: 10px;" fs="20px" ico="down"></span>
 	  		Ai Player:
   		</p>
-  		<i><b>Pathaan Specials</b></i>
+  		<b fs="1.1em">Pathaan Specials</b>
   	</div>
 	</div>
 
 	<div class="vidBx">
-		<video src="" id="mainVid" controls controlsList="nodownload" style="margin: 20px 0;width: 100vw; max-width: 600px; aspect-ratio: 16/9;border-radius: 4px"></video>
+		<video src="file:///home/ravan/Videos/vid.mp4" id="mainVid" controls controlsList="nodownload" style="margin: 20px 0;width: 100vw; max-width: 600px; aspect-ratio: 16/9;border-radius: 4px"></video>
 	</div>
 
 	<div class="infoBx w100p flex c">
@@ -79,15 +78,16 @@
 			<span class="flex" ico="share" style="--col:lime"></span>
 		</div>
 
-		<div class="downBtn active">
+		<button class="noBtn downBtn active">
 			Download App (1MB)
-		</div>
+		</button>
 	</div>
-	
-	<script>
 
+	<script>
 		resetFormat();
 	</script>
+
 	<script src="pwa.js"></script>
+	<script src="func.js"></script>
 </body>
 </html>
