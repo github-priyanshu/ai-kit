@@ -3,7 +3,7 @@ nowDate=new Date().getDate()+"/"+(new Date().getMonth()+1),
 ctNm=Number(localStorage.getItem("specialCtNm") || 0),
 secondToDisturb=10,
 video=op("#mainVid"),
-downloadedNow=isDownLoaded();
+downloadedNow=false;
 
 log(nowDate);
 log(lastDate);
