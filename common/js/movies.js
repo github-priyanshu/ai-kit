@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Akhanda 2021','3iUZsOo',`2>South.Movies/Akhanda.2021/Akhanda.2021.Hindi.Line.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'6e3xiv57r8ky'],
 ['Mission Majnu: RAW Agent (FullHD)','3wiNbGI',`2>BollyWood/Mission.Majnu.2023/Mission.Majnu.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'3s8cgt8g9fg0'],
 ['Chhatriwali HD','3Hl7gSY',`2>BollyWood/Chhatriwali.2023/Chhatriwali.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'spnlagel99go'],
 ['Skin In Flames 2022','3XJMhP3',`2>HollyWood/Skin.In.Flames.2022/Skin.In.Flames.2022.Hindi.Spanish.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'upge734djfua'],
