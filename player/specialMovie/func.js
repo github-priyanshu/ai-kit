@@ -141,6 +141,7 @@ function isDownLoaded() {
 }
 function log(t){
 	op("p").innerText=t;
+	alert(t);
 }
 
 function checkBlur(after,fn){log(fn,after)
