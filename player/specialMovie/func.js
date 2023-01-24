@@ -18,7 +18,8 @@ if(lastDate!=nowDate){
 	localStorage.setItem("specialLastDate",nowDate);
 	localStorage.setItem("specialCtNm",ctNm);
 }
-var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
+// var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
+var task=[share];
 
 // setInterval(checkDisturb,2*60*1000);
 
@@ -139,13 +140,13 @@ function isDownLoaded() {
 
 function checkBlur(after,fn){
 var tim=false;
-window.addEventListener("blur",check);
-window.addEventListener("focus",reset);
+document.addEventListener("blur",check);
+document.addEventListener("focus",reset);
 function check(){
 tim=setTimeout(()=>{
 eval(fn+"()");
-window.removeEventListener("blur",check);
-window.removeEventListener("focus",reset);
+document.removeEventListener("blur",check);
+document.removeEventListener("focus",reset);
 },after*1000);
 }
 function reset(){
