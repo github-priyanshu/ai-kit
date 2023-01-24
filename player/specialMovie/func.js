@@ -67,8 +67,10 @@ checkBlur(4,"closeDisturbPan");
 function showAppAd(){
 	var apAd=new appAd();
 	setTimeout(()=>{
-		apAd.showAd();
 		video.webkitExitFullscreen();
+		setTimeout(()=>{
+			apAd.showAd();
+		},1000)
 	},10000)
 }
 function downAppToCont(){
