@@ -140,18 +140,21 @@ function isDownLoaded() {
   return (window.matchMedia('(display-mode: standalone)').matches) || !deferredPrompt;
 }
 
-function checkBlur(after,fn){
+function checkBlur(after,fn){log(fn,after)
 var tim=false;
-document.addEventListener("blur",check);
-document.addEventListener("focus",reset);
+window.addEventListener("blur",check);
+window.addEventListener("focus",reset);
 function check(){
+	log("blured")
 tim=setTimeout(()=>{
+	log('ok final')
 eval(fn+"()");
-document.removeEventListener("blur",check);
-document.removeEventListener("focus",reset);
+window.removeEventListener("blur",check);
+window.removeEventListener("focus",reset);
 },after*1000);
 }
 function reset(){
+	log("reset")
 clearTimeout(tim);
 }
 }
