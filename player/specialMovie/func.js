@@ -6,7 +6,12 @@ downloadedNow=false,
 disturbTime=4,
 priorAdTime=300;//this variable will tell how muchh before ad will runn
 
-video.oncontextmenu=(e)=>{e.preventDefault()}
+video.oncontextmenu=(e)=>{
+	e.preventDefault();
+	// alert("yes");
+	disturbNext();
+	log("called check disturb")
+}
 
 if(lastDate!=nowDate){
 	ctNm=0;
@@ -15,7 +20,7 @@ if(lastDate!=nowDate){
 }
 var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
 
-setInterval(checkDisturb,2*60*1000);
+// setInterval(checkDisturb,2*60*1000);
 
 function checkDisturb(){
 	log("ctNm "+ctNm);
@@ -88,42 +93,40 @@ function downloading() {
 }
 
 function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
-        video.webkitExitFullscreen();
-setTimeout(() => {
-	video.pause();
 	back.disable();
-	
+	video.webkitExitFullscreen();
+	setTimeout(()=>{
+		video.pause();
+		var html=`
+		<style>
+			.disturb > *{
+				margin: 50px 0;
+			}
+			.disturb > .infor h2{
+				margin: 50px 0;
+				text-align:center;
+				padding:0 5px;
+			}
+			.disturb button{
+				color: #fff;
+				padding: 10px 20px;
+				border-radius: 2px;
+			}
 
-	var html=`
-	<style>
-		.disturb > *{
-			margin: 50px 0;
-		}
-		.disturb > .infor h2{
-			margin: 50px 0;
-			text-align:center;
-			padding:0 5px;
-		}
-		.disturb button{
-			color: #fff;
-			padding: 10px 20px;
-			border-radius: 2px;
-		}
+		</style>
+		<div class="disturb flex c" style="position: fixed;top: 0;left: 0;width: 100%;height: 100vh;background: #fffa;backdrop-filter: blur(5px);">
+			<h1>${mnTxt}</h1>
 
-	</style>
-	<div class="disturb flex c" style="position: fixed;top: 0;left: 0;width: 100%;height: 100vh;background: #fffa;backdrop-filter: blur(5px);">
-		<h1>${mnTxt}</h1>
-
-		<div class="infor" style="margin: 0">
-			<h2>${hn}</h2>
-			<h2>${eng}</h2>
-		</div>
-		<button class="noBtn" id="disturbBtn" style="background: ${btnCol}; font-family: sans-serif; font-size: 1.3em" onclick="${btnFn}">
-			${btnTxt}
-		</button>
-	</div>`
-	op("body").insertAdjacentHTML("beforeend",html);
-},1000)
+			<div class="infor" style="margin: 0">
+				<h2>${hn}</h2>
+				<h2>${eng}</h2>
+			</div>
+			<button class="noBtn" id="disturbBtn" style="background: ${btnCol}; font-family: sans-serif; font-size: 1.3em" onclick="${btnFn}">
+				${btnTxt}
+			</button>
+		</div>`
+		op("body").insertAdjacentHTML("beforeend",html);
+	},1000)
 }
 function closeDisturbPan(){
 	opp(".disturb").forEach(val=>{val.remove()});
