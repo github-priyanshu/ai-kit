@@ -139,6 +139,9 @@ function closeDisturbPan(){
 function isDownLoaded() {
   return (window.matchMedia('(display-mode: standalone)').matches) || !deferredPrompt;
 }
+function log(t){
+	op("p").innerText=t;
+}
 
 function checkBlur(after,fn){log(fn,after)
 var tim=false;
