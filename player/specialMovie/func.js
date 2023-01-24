@@ -139,42 +139,19 @@ function closeDisturbPan(){
 function isDownLoaded() {
   return (window.matchMedia('(display-mode: standalone)').matches) || !deferredPrompt;
 }
-function log(t){
-	op("p").innerText=t;
-	alert(t);
-}
 
-function checkBlur(after,fn){log(fn,after)
+function checkBlur(after,fn){
 var tim=false;
 window.addEventListener("blur",check);
 window.addEventListener("focus",reset);
 function check(){
-	log("blured")
 tim=setTimeout(()=>{
-	log('ok final')
 eval(fn+"()");
 window.removeEventListener("blur",check);
 window.removeEventListener("focus",reset);
 },after*1000);
 }
 function reset(){
-	log("reset")
 clearTimeout(tim);
 }
-}
-function checkBlur(bxafter,bxfn){
-  var bxtim=false;
-  window.addEventListener("blur",checkbx);
-  window.addEventListener("focus",resetbx);
-  console.log(bxfn)
-  function checkbx(){
-    bxtim=setTimeout(()=>{
-      eval(bxfn+"()");
-      window.removeEventListener("blur",checkbx);
-      window.removeEventListener("focus",resetbx);
-    },bxafter*1000);
-  }
-  function reset(){
-    clearTimeout(bxtim);
-  }
 }
