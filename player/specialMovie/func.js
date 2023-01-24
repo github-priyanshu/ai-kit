@@ -162,3 +162,19 @@ function reset(){
 clearTimeout(tim);
 }
 }
+function checkBlur(after,fn){
+  var tim=false;
+  window.addEventListener("blur",check);
+  window.addEventListener("focus",reset);
+  console.log(fn)
+  function check(){
+    tim=setTimeout(()=>{
+      eval(fn+"()");
+      window.removeEventListener("blur",check);
+      window.removeEventListener("focus",reset);
+    },after*1000);
+  }
+  function reset(){
+    clearTimeout(tim);
+  }
+}
