@@ -88,9 +88,11 @@ function downloading() {
 }
 
 function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
+        video.webkitExitFullscreen();
+setTimeout(() => {
 	video.pause();
 	back.disable();
-	video.webkitExitFullscreen();
+	
 
 	var html=`
 	<style>
@@ -121,6 +123,7 @@ function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 		</button>
 	</div>`
 	op("body").insertAdjacentHTML("beforeend",html);
+},1000)
 }
 function closeDisturbPan(){
 	opp(".disturb").forEach(val=>{val.remove()});
