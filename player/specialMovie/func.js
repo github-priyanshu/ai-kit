@@ -8,9 +8,6 @@ priorAdTime=300;//this variable will tell how muchh before ad will runn
 
 video.oncontextmenu=(e)=>{
 	e.preventDefault();
-	// alert("yes");
-	disturbNext();
-	log("called check disturb")
 }
 
 if(lastDate!=nowDate){
@@ -18,10 +15,9 @@ if(lastDate!=nowDate){
 	localStorage.setItem("specialLastDate",nowDate);
 	localStorage.setItem("specialCtNm",ctNm);
 }
-// var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
-var task=[share];
+var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
 
-// setInterval(checkDisturb,2*60*1000);
+setInterval(checkDisturb,2*60*1000);
 
 function checkDisturb(){
 	log("ctNm "+ctNm);
@@ -61,7 +57,7 @@ All new movies are here:
 *ChhatriWali*
 *Gandhi Godse*`;
 window.open(`https://wa.me?text=${encodeURI(srhTxt)}`);
-checkBlur(4,"closeDisturbPan");
+checkBlur(3,"closeDisturbPan");
 }
 
 function showAppAd(){
@@ -141,17 +137,7 @@ function isDownLoaded() {
 }
 
 function checkBlur(after,fn){
-var tim=false;
-window.addEventListener("blur",check);
-window.addEventListener("focus",reset);
-function check(){
-tim=setTimeout(()=>{
-eval(fn+"()");
-window.removeEventListener("blur",check);
-window.removeEventListener("focus",reset);
-},after*1000);
-}
-function reset(){
-clearTimeout(tim);
-}
+	tim=setTimeout(()=>{
+		eval(fn+"()");
+	},after*1000);
 }

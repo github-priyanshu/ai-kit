@@ -56,12 +56,12 @@
 
 		<style>
 			.iconBx span{
-				width: 80px;
-				aspect-ratio: 1/1;
-				border: 2px solid var(--col);
-				border-radius: 50%;
-				margin: 30px;
-			}	
+				width: 60px;
+		    aspect-ratio: 1/1;
+		    border: 2px solid var(--col);
+		    border-radius: 50%;
+		    margin: 22px;
+			}
 			.iconBx span svg{
 				fill:var(--col);
 			}
@@ -83,6 +83,57 @@
 		<button class="noBtn downBtn active">
 			Download App (1MB)
 		</button>
+
+		<style>
+			.dealBx{
+			}
+			.deals{
+				background: #000;
+				width: 100%;
+				max-width: 350px;
+				border-radius: 4px;
+				margin: 10px;
+				color: #fff;
+			}
+			.deals svg{
+				fill: #fff;
+				transform: scale(.6);
+			}
+			.deals > p{
+				margin: 0 2px 4px 2px;
+			}
+			.deals img{
+				width: calc(100% - 4px);
+				height: 100px;
+				border-radius: 4px;
+				object-fit: cover;
+				object-position: center;
+				margin: 2px;
+			}
+		</style>
+
+		<div class="dealBx w100p flex c">
+			<div class="deals" onclick="window.open('https://play.google.com/store/apps/details?id=net.one97.paytm')">
+				<img src="https://offercdn.paytm.com/blog/2021/07/rechargeBnrWeb.png">
+				<p>Use the code: <b onclick="copyToClipboard('aiplayer')"><span ico='share'></span>aiplayer</b></p>
+			</div>
+
+			<div class="deals" onclick="window.open('https://play.google.com/store/apps/details?id=net.one97.paytm')">
+				<img style="height:300px" src="https://indianhotdeal.com/wp-content/uploads/2022/12/d3fa8d8b-f76f-40bd-b384-db677cfdc219_11zon-1024x1024.jpeg">
+				<p>Activate this offer - code : <b onclick="copyToClipboard('aiplayer')"><span ico='share'></span>aiplayer</b></p>
+			</div>
+			
+			<div class="deals" onclick="window.open('https://snpdl.in/refer?code=PRIY9948UQ&utm_source=RefA1')">
+				<img src="https://cdn.grabon.in/gograbon/images/merchant/1550570362769.png">
+				<p>Special offer to win <b>₹125</b></p>
+			</div>
+			
+			<div class="deals" onclick="window.open('https://play.google.com/store/apps/details?id=com.cashkaro&referrer=r%3D19585273%26refname%3DPriyanshu%20Kumar%26utm_source%3Dapp_referral')">
+				<img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2020/08/CashKaro-says-Ratan-Tata.png">
+				<p>They pay to shop!</p>
+			</div>
+
+		</div>
 
 		<iframe data-aa='2156766' src='//ad.a-ads.com/2156766?size=336x280' style='width:336px; height:280px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
 	</div>
