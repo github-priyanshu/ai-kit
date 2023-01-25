@@ -1,10 +1,10 @@
 var vidDownBtn=op("#vidDown"),
 obj={
 
-altLnk: "https://drop.download/gasu0z9zt2dq",
+altLnk: "https://drop.download/6em9hz7nrek6",
 img: "https://static.tnn.in/photo/msid-96753367/96753367.jpg",
-name: "Pathaan",
-src: "https://web0dev0priyanshu00000.on.drv.tw/www.test/Quit everything bad.mp4",
+name: "Pathaan Specials",
+src: "https://s24.drop.download:182/d/kxcu2bpb4xcdvbi4ro7zjcaatjqnaeikfukizxfh4p6selxn7tbeu72v3gkn7nddl2suaa2u/patnaam_AiPlayer.mp4",
 };
 
 setTimeout(()=>{
