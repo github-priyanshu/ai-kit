@@ -6,6 +6,7 @@ downloadedNow=false,
 disturbTime=4,
 aiLoadedNum=Number(localStorage.getItem("aiLoadedNum")) || 1,
 priorAdTime=300;//this variable will tell how muchh before ad will runn
+aiSharedBy=localStorage.getItem("aiSharedBy");
 
 
 video.oncontextmenu=(e)=>{
