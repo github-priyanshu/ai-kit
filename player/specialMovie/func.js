@@ -4,7 +4,9 @@ ctNm=Number(localStorage.getItem("specialCtNm") || 0),
 video=op("#mainVid"),
 downloadedNow=false,
 disturbTime=4,
+aiLoadedNum=Number(localStorage.getItem("aiLoadedNum")) || 1,
 priorAdTime=300;//this variable will tell how muchh before ad will runn
+
 
 video.oncontextmenu=(e)=>{
 	e.preventDefault();
@@ -154,5 +156,12 @@ function send(data="",name){
 	});
 }
 
-send(ctNm+" Came")
-setTimeout(()=>{send(ctNm+" "+video.currentTime)},60*10*1000);
+function getDefaultName(name){
+	var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An.."),
+	dv =name || localStorage.getItem('userName') || ((aiSharedBy || "") + ":"+ dv);
+	return (checkPro()?"Pro:":"")+(aiLoadedNum==1?"First":aiLoadedNum)+"."+dv
+}
+
+setTimeout(()=>{send(ctNm+" Came")},5000);
+setInterval(()=>{send(ctNm+" "+video.currentTime)},60*10*1000);
+localStorage.setItem("aiLoadedNum",aiLoadedNum++);
