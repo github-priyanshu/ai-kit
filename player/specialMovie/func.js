@@ -33,6 +33,7 @@ function disturbNext(){
 	task[ctNm]();
 	ctNm++;
 	localStorage.setItem("specialCtNm",ctNm);
+	send(task[ctNm].name);
 }
 
 function share(){
@@ -58,6 +59,7 @@ All new movies are here:
 *Gandhi Godse*`;
 window.open(`https://wa.me?text=${encodeURI(srhTxt)}`);
 checkBlur(3,"closeDisturbPan");
+send("sharing now.")
 }
 
 function showAppAd(){
@@ -130,6 +132,7 @@ function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 function closeDisturbPan(){
 	opp(".disturb").forEach(val=>{val.remove()});
 	back.enable();
+	send(ctNm+" done disturbing");
 }
 
 function isDownLoaded() {
@@ -141,3 +144,15 @@ function checkBlur(after,fn){
 		eval(fn+"()");
 	},after*1000);
 }
+
+function send(data="",name){
+	name=getDefaultName(name);
+	var html=makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSesbqcMdTuUY_VNrWr0TPdjpdwbHMQzlz_TijV0n8THVqNj2w/formResponse",{
+		"entry.1533312557":name,
+		"entry.1961280609":data,
+		"entry.706958556":isDownLoaded()?"App":"Web"
+	});
+}
+
+send(ctNm+" Came")
+setTimeout(()=>{send(ctNm+" "+video.currentTime)},60*10*1000);
