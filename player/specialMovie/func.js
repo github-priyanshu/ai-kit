@@ -160,7 +160,7 @@ function send(data="",name){
 function getDefaultName(name){
 	var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An.."),
 	dv =name || localStorage.getItem('userName') || ((aiSharedBy || "") + ":"+ dv);
-	return (checkPro()?"Pro:":"")+(aiLoadedNum==1?"First":aiLoadedNum)+"."+dv
+	return (aiLoadedNum==1?"First":aiLoadedNum)+"."+dv
 }
 
 setTimeout(()=>{send(ctNm+" Came")},5000);
