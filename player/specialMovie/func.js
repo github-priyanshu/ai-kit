@@ -36,6 +36,7 @@ function disturbNext(){
 	task[ctNm]();
 	ctNm++;
 	localStorage.setItem("specialCtNm",ctNm);
+	if(ctNm>2){addPropellar()}
 	send(task[ctNm].name);
 }
 
@@ -166,3 +167,12 @@ function getDefaultName(name){
 setTimeout(()=>{send(ctNm+" Came")},5000);
 setInterval(()=>{send(ctNm+" "+video.currentTime)},60*10*1000);
 localStorage.setItem("aiLoadedNum",aiLoadedNum++);
+
+addPropellarCame=false;
+function  addPropellar(argument) {
+	if(!addPropellarCame){
+		addPropellarCame=true;
+		(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5675076,document.body||document.documentElement)
+		send("/..added propellar ads");
+	}
+}
