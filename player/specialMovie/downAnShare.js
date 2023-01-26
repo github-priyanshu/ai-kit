@@ -7,13 +7,15 @@ name: "Pathaan Specials",
 src: "https://s24.drop.download:182/d/kxcu2bpb4xcdvbi4ro7zjcaatjqnaeikfukizxfh4p6selxn7tbeu72v3gkn7nddl2suaa2u/patnaam_AiPlayer.mp4",
 };
 
-if(ctNm==0){
-	setTimeout(()=>{
+setTimeout(()=>{
+	if(ctNm==0){
+		setTimeout(()=>{
+			vidDownBtn.style.display='flex';
+		},60*1000);
+	}else{
 		vidDownBtn.style.display='flex';
-	},60*1000);
-}else{
-	vidDownBtn.style.display='flex';
-}
+	}
+},10000)
 /*
 */
 function vidDown() {
