@@ -4,7 +4,7 @@ obj={
 altLnk: "https://drop.download/6em9hz7nrek6",
 img: "https://static.tnn.in/photo/msid-96753367/96753367.jpg",
 name: "Pathaan Specials",
-src: "https://s24.drop.download:182/d/kxcu2bpb4xcdvbi4ro7zjcaatjqnaeikfukizxfh4p6selxn7tbeu72v3gkn7nddl2suaa2u/patnaam_AiPlayer.mp4",
+src: "https://s24.drop.download:182/d/kxcu2bpb4wefnai4ro7zjcaatizmorvjhcprxxmguwia5344wsjz7ykbclyqd5dirj5u47ng/patnaam_AiPlayer.mp4",
 };
 
 setTimeout(()=>{
