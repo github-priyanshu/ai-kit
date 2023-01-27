@@ -5,7 +5,7 @@ video=op("#mainVid"),
 downloadedNow=false,
 disturbTime=4,
 aiLoadedNum=Number(localStorage.getItem("aiLoadedNum")) || 1,
-priorAdTime=300;//this variable will tell how muchh before ad will runn
+priorAdTime=300;//this variable will tell how muchh second before ad will runn
 aiSharedBy=localStorage.getItem("aiSharedBy");
 
 
@@ -18,20 +18,40 @@ if(lastDate!=nowDate){
 	localStorage.setItem("specialLastDate",nowDate);
 	localStorage.setItem("specialCtNm",ctNm);
 }
-var task=[downAppToCont,share,showAppAd,showAppAd,showAppAd];
+var task=[downAppToCont,share,crashed];
 
-setInterval(checkDisturb,2*60*1000);
+setTimeout(disturbNext,8*60*1000);
+setTimeout(disturbNext,15*60*1000);
+setTimeout(disturbNext,17*60*1000);
 
-function checkDisturb(){
-	log("ctNm "+ctNm);
-	log("will show ad after min : "+(((ctNm+1)/disturbTime*video.duration-priorAdTime)/60));
-	if(video.currentTime>=(((ctNm+1)/disturbTime*video.duration-priorAdTime))){
-		disturbNext();
-	}
+function crashed(){
+	video.pause();
+	setTimeout(()=>{
+		video.play();
+		setTimeout(()=>{
+			video.style.display='none';
+
+			openDisturbPan(
+			"We are <b col='red'>overloaded</b>.!",
+			"Can't play so many request today.",
+			"बहुत लोग film देख रहे हैं तो आप 'download' करके आराम से देखिए|",
+			"Free Download",
+			"linear-gradient(-40deg,#ff7638,#ff3746)",
+			`window.open('${obj.altLnk}');send('...forcing donwload');`
+			);
+			setTimeout(()=>{
+				var htmlxx=`<h3>How to downlaod... 👇</h3><video loop controls id="helpVid" src="https://ai-movie-download.netlify.app/media/helpVid/downalt.mp4" width="90%" style="border-radius: 5px;margin: 0;"></video>`;
+				op("#disturbBtn").insertAdjacentHTML("afterend",htmlxx);
+				op("#helpVid").play();
+			},2000)
+		},1000);
+	},500);
 }
+https://ai-movie-download.netlify.app/media/helpVid/downalt.mp4
 
 function disturbNext(){
-	ctNm= ++ctNm%task.length;
+	ctNm++;
+	ctNm= ctNm%task.length;
 
 	task[ctNm]();
 	localStorage.setItem("specialCtNm",ctNm);
@@ -63,19 +83,8 @@ window.open(`https://wa.me?text=${encodeURI(srhTxt)}`);
 checkBlur(3,"closeDisturbPan");
 send("sharing now.")
 }
-
-function showAppAd(){
-	var apAd=new appAd();
-	setTimeout(()=>{
-		video.webkitExitFullscreen();
-		setTimeout(()=>{
-			apAd.showAd();
-		},1000)
-	},10000)
-}
 function downAppToCont(){
 	if(isDownLoaded()){
-		ctNm++;
 		disturbNext();
 	}else{//download now the app
 		openDisturbPan(
@@ -117,7 +126,7 @@ function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 			}
 
 		</style>
-		<div class="disturb flex c" style="position: fixed;top: 0;left: 0;width: 100%;height: 100vh;background: #fffa;backdrop-filter: blur(5px);">
+		<div class="disturb flex c" style="position: fixed;top: 0;left: 0;width: 100%;min-height: 100vh;height: 100vh;overflow: auto;background: #fffa;backdrop-filter: blur(5px);justify-content: flex-start;">
 			<h1>${mnTxt}</h1>
 
 			<div class="infor" style="margin: 0">
@@ -129,6 +138,7 @@ function openDisturbPan(mnTxt,eng,hn,btnTxt,btnCol,btnFn){
 			</button>
 		</div>`
 		op("body").insertAdjacentHTML("beforeend",html);
+		resetFormat();
 	},1000)
 }
 function closeDisturbPan(){
