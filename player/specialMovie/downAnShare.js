@@ -1,7 +1,5 @@
 var vidDownBtn=op("#vidDown"),
 obj={
-
-altLnk: "https://drop.download/6em9hz7nrek6",
 img: "https://static.tnn.in/photo/msid-96753367/96753367.jpg",
 name: "Pathaan Specials",
 src: "https://drop.download/6em9hz7nrek6",
