@@ -7,6 +7,7 @@ name: "Pathaan Specials",
 src: "https://drop.download/6em9hz7nrek6",
 };
 
+vidDownBtn.style.display='none';
 setTimeout(()=>{
 	if(ctNm==0){
 		setTimeout(()=>{
@@ -15,7 +16,7 @@ setTimeout(()=>{
 	}else{
 		vidDownBtn.style.display='flex';
 	}
-},10000)
+},5000)
 /*
 */
 function vidDown() {
