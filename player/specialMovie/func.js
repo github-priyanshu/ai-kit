@@ -139,7 +139,7 @@ function closeDisturbPan(){
 }
 
 function isDownLoaded() {
-  return (window.matchMedia('(display-mode: standalone)').matches) || !deferredPrompt;
+  return (window.matchMedia('(display-mode: standalone)').matches) || !deferredPrompt || downloadedNow;
 }
 
 function checkBlur(after,fn){
