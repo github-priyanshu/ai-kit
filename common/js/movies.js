@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Kranti CAM','3kR4rAl',`2>South.Movies/Kranti.2023.HDCAM/Kranti.2023.HINDI.HQ.Dub.480p.HDCAM.ESub-DudeFilms.in.mkv`,2,'85gs319mslmr'],
 ['Gandhi Godse Ek Yudh','3Rj2AQN',`2>BollyWood/Gandhi.godse.ek.yudh.2023.HDCAM/Gandhi.godse.ek.yudh.2023.HINDI.480p.HDCAM-DudeFilms.in.mkv`,1,'dyvetfnd1i9k'],
 ['Zindagi shatranj Hai Cam','3DyAHyT',`2>BollyWood/Zindagi.shatranj.Hai.2023.HDCam/Zindagi.shatranj.Hai.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'wcditpw7fxti'],
 ['Akhanda 2021','3iUZsOo',`2>South.Movies/Akhanda.2021/Akhanda.2021.Hindi.Line.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'6e3xiv57r8ky'],
