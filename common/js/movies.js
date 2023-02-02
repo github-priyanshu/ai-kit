@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Black Panther Wakanda Forever 2022','3l6koTy',`2>HollyWood/Black.Panther.Wakanda.Forever.2022/Black.Panther.Wakanda.Forever.2022.Hindi.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3,'175klr4r6so2'],
 ['Kranti CAM','3kR4rAl',`2>South.Movies/Kranti.2023.HDCAM/Kranti.2023.HINDI.HQ.Dub.480p.HDCAM.ESub-DudeFilms.in.mkv`,2,'85gs319mslmr'],
 ['Gandhi Godse Ek Yudh','3Rj2AQN',`2>BollyWood/Gandhi.godse.ek.yudh.2023.HDCAM/Gandhi.godse.ek.yudh.2023.HINDI.480p.HDCAM-DudeFilms.in.mkv`,1,'dyvetfnd1i9k'],
 ['Zindagi shatranj Hai Cam','3DyAHyT',`2>BollyWood/Zindagi.shatranj.Hai.2023.HDCam/Zindagi.shatranj.Hai.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'wcditpw7fxti'],
