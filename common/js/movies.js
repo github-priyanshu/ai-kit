@@ -10,10 +10,10 @@ var movies=
 
 ['Black Panther Wakanda Forever 2022','3l6koTy',`2>HollyWood/Black.Panther.Wakanda.Forever.2022/Black.Panther.Wakanda.Forever.2022.Hindi.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3,'175klr4r6so2'],
 ['Kranti CAM','3kR4rAl',`2>South.Movies/Kranti.2023.HDCAM/Kranti.2023.HINDI.HQ.Dub.480p.HDCAM.ESub-DudeFilms.in.mkv`,2,'85gs319mslmr'],
-['Gandhi Godse Ek Yudh','3Rj2AQN',`2>BollyWood/Gandhi.godse.ek.yudh.2023.HDCAM/Gandhi.godse.ek.yudh.2023.HINDI.480p.HDCAM-DudeFilms.in.mkv`,1,'dyvetfnd1i9k'],
+['Gandhi Godse Ek Yudh','3Rj2AQN',`2>BollyWood/Gandhi.godse.ek.yudh.2023.HDCAM/Gandhi.godse.ek.yudh.2023.HINDI.480p.HDCAM-DudeFilms.in.mkv`,1,'auvsn5d956be'],
 ['Zindagi shatranj Hai Cam','3DyAHyT',`2>BollyWood/Zindagi.shatranj.Hai.2023.HDCam/Zindagi.shatranj.Hai.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'wcditpw7fxti'],
 ['Akhanda 2021','3iUZsOo',`2>South.Movies/Akhanda.2021/Akhanda.2021.Hindi.Line.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'6e3xiv57r8ky'],
-['Mission Majnu: RAW Agent (FullHD)','3wiNbGI',`2>BollyWood/Mission.Majnu.2023/Mission.Majnu.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'3s8cgt8g9fg0'],
+['Mission Majnu: RAW Agent (FullHD)','3wiNbGI',`2>BollyWood/Mission.Majnu.2023/Mission.Majnu.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'r0thh2sb94gk'],
 ['Chhatriwali HD','3Hl7gSY',`2>BollyWood/Chhatriwali.2023/Chhatriwali.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'spnlagel99go'],
 ['Skin In Flames 2022','3XJMhP3',`2>HollyWood/Skin.In.Flames.2022/Skin.In.Flames.2022.Hindi.Spanish.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'upge734djfua'],
 ['Veera Simha Reddy Cam','3knFxIk',`2>South.Movies/Veera.Simha.Reddy.2023.HDCam/Veera.Simha.Reddy.2023.480p.HDCAM.HIN-DudeFilms.in.mkv`,2,'x4f58vf47p41'],
