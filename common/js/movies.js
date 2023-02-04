@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Sembi','3JJBeBJ',`2>South.Movies/Sembi.2022/Sembi.2022.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'8begef17s6kr'],
 ['Vadh','40pwPd0',`2>BollyWood/Vadh.2022/Vadh.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'9b737b1pyi2x'],
 ['Bas Kar Bassi','3kUCE1Q',`2>TV.Show/Bas.Kar.Bassi.2023/Bas.Kar.Bassi.2023.Hindi.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,1,'o4cubvfhi2hu'],
 ['Black Panther Wakanda Forever 2022','3l6koTy',`2>HollyWood/Black.Panther.Wakanda.Forever.2022/Black.Panther.Wakanda.Forever.2022.Hindi.English.480p.BluRay.ESub-DudeFilms.in.mkv`,3,'175klr4r6so2'],
