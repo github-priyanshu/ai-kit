@@ -1,6 +1,6 @@
 var tools={
 Bg_Remover:["https://removal.ai/upload/","Remove background in 1s",true],
-Vidmate:["https://yt1s.com/en196","Youtube video downloader",true],
+Vidmate:["https://10downloader.fun/","Youtube video downloader",true],
 Hot_Songs:["https://www.saregama.com/bollywood","New Songs Download",true],
 Beautiful_QR:["https://www.qrcode-monkey.com/","QR Code generater",true],
 High_Img:["https://bigjpg.com/","Turn low to high pixel image",true],
