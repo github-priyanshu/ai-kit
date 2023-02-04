@@ -4,7 +4,9 @@ notiTop=op(".noti .top"),
 seen=localStorage.getItem("notifier3") || false,
 notifier3ClTim=Number(localStorage.getItem('notifier3ClTim')) || 0;
 
-notiTop.onclick=()=>{
+notiTop.onclick=closeNoti;
+
+function closeNoti(){
 	noti.classList.toggle("active");
 	clearTimeout(timxx);
 	if(!noti.classList.contains("active") && conN){
@@ -71,7 +73,7 @@ function swiped(dir){
 	if(dir.includes("up")){
 		noti.classList.add("active");
 	}else{
-		noti.classList.remove("active");
+		closeNoti();
 	}
 	onSwipe(noti,"swiped");
 }
