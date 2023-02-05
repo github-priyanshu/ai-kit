@@ -47,7 +47,7 @@ class main{
 			time: 5,
 		},
 		{
-			lnk: "https://m.youtube.com/c/AwesomeCode",
+			lnk: "https://www.youtube.com/channel/UClSSBep-FAPjB6hWiBtxM_A",
 			m1: "<p col='#444'>Just 1 steps away...</p>",
 			m2: `<p col="#ff3000" class="warn">Don't Press <b>Back Button</b></p>`,
 			s: `<div col="#777" fs="2em">STEP 3</div>`,
@@ -133,31 +133,10 @@ class main{
 
 }
 
-
-function checkBlur(time,fn){
-	log(time,fn)
-
-  var tim=false;
-
-  function check(){
-  	console.warn("check");                           
-  	clearTimeout(tim);
-
-
-	  window.addEventListener("blur",check);
-	  setTimeout(()=>{window.addEventListener("focus",reset);},500)
-
-    tim=setTimeout(()=>{
-      a[fn]();
-      window.removeEventListener("blur",check);
-      window.removeEventListener("focus",reset);
-    },time*1000);
-  }
-  function reset(){
-  	console.warn("reset")
-    clearTimeout(tim);
-  }
-  check();
+function checkBlur(after,fn){
+	tim=setTimeout(()=>{
+		eval(fn+"()");
+	},after*1000);
 }
 
 function goPro(){
