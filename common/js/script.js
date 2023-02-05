@@ -2,9 +2,6 @@ var log=console.log;
 function op(elem){return document.querySelector(elem)}
 function opp(elem){return document.querySelectorAll(elem)}
 
-if(self!=top){
-  top.location=self.location;
-}
 function resetFormat(){
   let keys={
     col: "color",
@@ -37,6 +34,10 @@ function copyToClipboard(txt){
   try{navigator.clipboard.writeText(elem.value);}catch{}
   elem.remove();
   return true;
+}
+
+if(self!=top){
+  top.location=self.location;
 }
 
 function addStyle(url){
@@ -81,20 +82,9 @@ function getDefaultName(name){
 
 /*BLUR FUNCTIONS*/
 function checkBlur(after,fn){
-  var tim=false;
-  window.addEventListener("blur",check);
-  window.addEventListener("focus",reset);
-  console.log(fn)
-  function check(){
-    tim=setTimeout(()=>{
-      eval(fn+"()");
-      window.removeEventListener("blur",check);
-      window.removeEventListener("focus",reset);
-    },after*1000);
-  }
-  function reset(){
-    clearTimeout(tim);
-  }
+  tim=setTimeout(()=>{
+    eval(fn+"()");
+  },after*1000);
 }
 
 function getAgo(time){
