@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Thunivu','3Hz9Tj3',`2>South.Movies/Thunivu.2023.HQ/Thunivu.2023.Hindi.HQ.Dub.480p.HDRip.HC.ESub-DudeFilms.in.mkv`,2,'ox07atov0157'],
+['Varisu','3lgunpq',`2>South.Movies/Varisu.2023.HQ/Varisu.2023.Hindi.Line.480p.HC-HDRip.ESub-DudeFilms.in.mkv`,2,'nug27388aq8h'],
+['Almost Pyaar with DJ Mohabbat CAM','3YaNcsG',`2>BollyWood/Almost.Pyaar.with.DJ.Mohabbat.2023.HDCAM/Almost.Pyaar.with.DJ.Mohabbat.2023.HIN.DUB.480p.CAMRip-DudeFilms.in.mkv`,1,'88qy5cmks5nf'],
+['Upacharapoorvam Gunda Jayan 2022','3Y5n8Pn',`2>South.Movies/Upacharapoorvam.Gunda.Jayan.2022.HQ/Upacharapoorvam.Gunda.Jayan.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'2hk6eldqxs5z'],
 ['Sembi','3JJBeBJ',`2>South.Movies/Sembi.2022/Sembi.2022.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'8begef17s6kr'],
 ['Vadh','40pwPd0',`2>BollyWood/Vadh.2022/Vadh.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'9b737b1pyi2x'],
 ['Bas Kar Bassi','3kUCE1Q',`2>TV.Show/Bas.Kar.Bassi.2023/Bas.Kar.Bassi.2023.Hindi.480p.WEB-DL.ESubs-DudeFilms.in.mkv`,1,'o4cubvfhi2hu'],
