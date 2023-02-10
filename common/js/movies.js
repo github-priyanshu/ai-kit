@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Urvashi Rakshasivo','3Yy0krG',`2>South.Movies/Upacharapoorvam.Gunda.Jayan.2022.HQ/Upacharapoorvam.Gunda.Jayan.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'x24320z86q49'],
 ['The Woman King','3YAnYU5',`2>HollyWood/The.Woman.King.2022/The.Woman.King.2022.Dual.Audio.Hindi.English.480p.Bluray.ESubs-DudeFilms.in.mkv`,3,'cun148lz4qlz'],
 ['Thunivu','3Hz9Tj3',`2>South.Movies/Thunivu.2023.HQ/Thunivu.2023.Hindi.HQ.Dub.480p.HDRip.HC.ESub-DudeFilms.in.mkv`,2,'ox07atov0157'],
 ['Varisu','3lgunpq',`2>South.Movies/Varisu.2023.HQ/Varisu.2023.Hindi.Line.480p.HC-HDRip.ESub-DudeFilms.in.mkv`,2,'nug27388aq8h'],
