@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Shiv Shastri Balboa','3jWDtas',`2>BollyWood/Shiv.Shastri.Balboa.2023.HDCAM/Shiv.Shastri.Balboa.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'rzbi05i7nhn0'],
+['Naradan 2022','3YsrvUN',`2>South.Movies/Naradan.2022.HQ/Naradan.2022.Hindi.HQ.Dub.480p.WEB.HDRip-DudeFilms.in.mkv`,2,'612dhw9favt9'],
+['Christopher CAM','3ly9WV5',`2>South.Movies/Christopher.2023.HDCAM/Christopher.2023.Hindi.HC.480p.HDCAM.ESubs-DudeFilms.in.mkv`,2,'fdh44bit63xn'],
+['Vedha','3E7ZNER',`2>South.Movies/Vedha.2022/Vedha.2022.Hindi.Kannada.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'6hc41klodl3k'],
 ['Pathaan','3DdTPBL',`2>BollyWood/Pathaan.2022.V3/Pathaan.2022.480p.Hindi.V3.HQ-HDCAM-DudeFilms.in.mkv`,1,'6em9hz7nrek6'],
 ['Urvashi Rakshasivo','3Yy0krG',`2>South.Movies/Upacharapoorvam.Gunda.Jayan.2022.HQ/Upacharapoorvam.Gunda.Jayan.2022.Hindi.(HQ.Dubbed).480p.HDRip-DudeFilms.in.mkv`,2,'x24320z86q49'],
 ['The Woman King','3YAnYU5',`2>HollyWood/The.Woman.King.2022/The.Woman.King.2022.Dual.Audio.Hindi.English.480p.Bluray.ESubs-DudeFilms.in.mkv`,3,'cun148lz4qlz'],
