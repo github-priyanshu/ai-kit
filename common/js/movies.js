@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Shehzada','3IykE6Y',`https://dl.hitapox429.workers.dev/0:/BollyWood/Shehzada.2023.HDCAM/Shehzada.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'qkg932n543fo'],
 ['Shiv Shastri Balboa','3jWDtas',`2>BollyWood/Shiv.Shastri.Balboa.2023.HDCAM/Shiv.Shastri.Balboa.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'rzbi05i7nhn0'],
 ['Naradan 2022','3YsrvUN',`2>South.Movies/Naradan.2022.HQ/Naradan.2022.Hindi.HQ.Dub.480p.WEB.HDRip-DudeFilms.in.mkv`,2,'612dhw9favt9'],
 ['Christopher CAM','3ly9WV5',`2>South.Movies/Christopher.2023.HDCAM/Christopher.2023.Hindi.HC.480p.HDCAM.ESubs-DudeFilms.in.mkv`,2,'fdh44bit63xn'],
