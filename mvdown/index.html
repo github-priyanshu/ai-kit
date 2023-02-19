@@ -4,7 +4,6 @@
 	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta content="289868" name="dropdownload">
 	<title>Downloader for Ai Player</title>
 	<!-- <base href="../"> -->
 	<base href="https://ai-kit.netlify.app/">
@@ -111,14 +110,18 @@
 </head>
 <body>
 
- 	<div class="vidBox flex c" sz="250x500" style="margin-top: 10px;">
- 		<video id="hlpVid" src="mvdown/media/helpVid/downhlp.mp4" autoplay controls preload="" width="250px" muted loop></video>
+ 	<div class="vidBox flex c" sz="200x400" style="margin-top: 10px;">
+ 		<video id="hlpVid" src="mvdown/media/helpVid/downhlp.mp4" autoplay controls preload="" width="200px" muted loop></video>
  		<p class="unmuteT">Tap to Unmute</p>
 	</div>
 
 	<div class="posterBox">
 		<img src="" id="mvPos">
 		<h2 class="texCen" id="mvName"></h2>
+	</div>
+
+ 	<div class="AdBox" sz="300x125" style="margin-top: 15px;">   
+		<iframe src="https://money-now.netlify.app/ads?type=spapp" width="300px" height="125px" style="border-radius: 10px;" frameborder='0'></iframe>
 	</div>
 
 	<div id="main" class="flex c">
@@ -129,6 +132,17 @@
 		<div class="lnkLoader texCen">
 		</div>
 	</div>
+
+
+ 	<div class="AdBox" sz="300x125" style="margin-top: 15px;">   
+		<iframe src="https://money-now.netlify.app/ads" width="300px" height="125px" style="border-radius: 10px;" frameborder='0'></iframe>
+	</div>
+
+ 	<div class="AdBox" sz="300x125" style="margin-top: 15px;">   
+		<iframe src="https://money-now.netlify.app/ads?type=hidden" width="300px" height="125px" style="border-radius: 10px;" frameborder='0'></iframe>
+	</div>
+	
+
 
 	<div class="tele flex c">
 		<button style="padding: 10px 20px; border: none; background: #0099ff; color: #fff; margin: 10px;" onclick="window.scrollTo(0,0);vidHlp.currentTime=0">How to Download</button>
@@ -198,8 +212,8 @@
 	</script>
 
 
-	<script src="file:///media/ravan/WORKSPACE/www/html projects/appAds/appAd.js"></script>
-	<!-- <script src="https://aimodules.netlify.app/appads/appAd.js"></script> -->
+	<!-- <script src="file:///media/ravan/WORKSPACE/www/html projects/appAds/appAd.js"></script> -->
+	<script src="https://aimodules.netlify.app/appads/appAd.js"></script>
 	<script src="mvdown/download.js"></script>
 </body>
 <!-- <script type='text/javascript' src='//pl17997733.highperformancecpmgate.com/a4/3e/b3/a43eb31939ad0951ea6631f6eb2da8bb.js'></script> -->

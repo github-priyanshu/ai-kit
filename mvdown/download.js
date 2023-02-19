@@ -39,7 +39,7 @@ class disturb{
 	}
 }
 
-var actSeries=[share];
+var actSeries=[share,download];
 
 function checkQ(){
 	if(disturb.check()){
