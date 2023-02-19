@@ -135,7 +135,7 @@
 
 @media screen and (max-width: 618px){
   .mainBnr{
-    margin-bottom: 380px;
+    margin-bottom: 200px;
   }
   .banner .bottom .posPan{
     /*! height: 320px; */
@@ -147,7 +147,7 @@
 }
 @media screen and (max-width: 490px){
   .mainBnr{
-    margin-bottom: 250px;
+    margin-bottom: 130px;
   }
   .banner .bottom{
     width: 100%;
