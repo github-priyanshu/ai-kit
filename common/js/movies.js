@@ -9,6 +9,12 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 ['Shehzada','3IykE6Y',`https://dl.hitapox429.workers.dev/0:/BollyWood/Shehzada.2023.HDCAM/Shehzada.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'qkg932n543fo'],
+['Cirkus 2022','3Sfvwtx',`2>BollyWood/Cirkus.2022/Cirkus.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a3tp7vnyab9u'],
+['LOST','3xBqM82',`2>BollyWood/LOST.2023/LOST.2023.Hindi.ZEE5.480p.WEB-DL-DudeFilms.in.mkv`,1,'5fin516tbcjx'],
+['AntMan and the Wasp Quantumania CAM','3KpfVWF',`2>HollyWood/AntMan.and.the.Wasp.Quantumania.2023.HDCAM/AntMan.and.the.Wasp.Quantumania.2023.480p.V2.CAMRip.Hindi-DudeFilms.in.mkv`,3,'dtwydb9kdzx1'],
+['Chakra','3Em23bH',`2>South.Movies/Chakra.2021/Chakra.2021.Hindi.Tamil.480p.HDRip.HC-ESub-DudeFilms.in.mkv`,2,'bivo4y2yv4z9'],
+['Golden Job','3IbQ0Pd',`2>HollyWood/Golden.Job.2018/Golden.Job.2018.Hindi-Chinese.480p.BluRay.ESub-DudeFilms.in.mkv`,3,'lhvz55mo3r7f'],
+['Furious','3xBr92q',`2>HollyWood/Furious.2017/Furious.2017.Hindi-Russian.480p.BluRay.ESub-DudeFilms.in.mkv`,3,'jpwlw9wmab24'],
 ['Shiv Shastri Balboa','3jWDtas',`2>BollyWood/Shiv.Shastri.Balboa.2023.HDCAM/Shiv.Shastri.Balboa.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'rzbi05i7nhn0'],
 ['Naradan 2022','3YsrvUN',`2>South.Movies/Naradan.2022.HQ/Naradan.2022.Hindi.HQ.Dub.480p.WEB.HDRip-DudeFilms.in.mkv`,2,'612dhw9favt9'],
 ['Christopher CAM','3ly9WV5',`2>South.Movies/Christopher.2023.HDCAM/Christopher.2023.Hindi.HC.480p.HDCAM.ESubs-DudeFilms.in.mkv`,2,'fdh44bit63xn'],
