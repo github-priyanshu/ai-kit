@@ -91,9 +91,9 @@
 }
 .content .listPan .moviePan .poster img,
 .content .listPan .moviePan .poster{
-  height: 250px;
   border-radius: 3px;
   object-fit: cover;
+  aspect-ratio: 16/9;
 }
 .content .listPan .moviePan .data{
   width: 100%;
