@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Mr Local','3khoIir',`2>South.Movies/Mr.Local.2019.HQ/Mr.Local.2019.Hindi.HQ.Dub.480p.WEB.DL-DudeFilms.in.mkv`,2,'6dfe5i1s61mr'],
 ['Shehzada','3IykE6Y',`https://dl.hitapox429.workers.dev/0:/BollyWood/Shehzada.2023.HDCAM/Shehzada.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'qkg932n543fo'],
 ['Cirkus 2022','3Sfvwtx',`2>BollyWood/Cirkus.2022/Cirkus.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a3tp7vnyab9u'],
 ['LOST','3xBqM82',`2>BollyWood/LOST.2023/LOST.2023.Hindi.ZEE5.480p.WEB-DL-DudeFilms.in.mkv`,1,'5fin516tbcjx'],
