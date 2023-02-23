@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Hunt','3IKX3Qz',`https://dl.bagos16551.workers.dev/0:/South.Movies/Hunt.2023.HQ/Hunt.2023.Hindi.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'d707tb3pwui3'],
+['Hunt','3IKX3Qz',`2>South.Movies/Hunt.2023.HQ/Hunt.2023.Hindi.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'d707tb3pwui3'],
 ['Varisu  Clean','3knbGQM',`2>South.Movies/Varisu.2023.Hindi.Clean/Varisu.2023.Hindi.(Cleaned).Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'j5zeo0pb0518'],
 ['Vaathi','3En3PJE',`2>South.Movies/Vaathi.2023.HQ/Vaathi.2023.Hindi.HQ.DUB.480p.HDCAM-DudeFilms.in.mkv`,2,'b0qa02iab3p8'],
 ['Mr Local','3khoIir',`2>South.Movies/Mr.Local.2019.HQ/Mr.Local.2019.Hindi.HQ.Dub.480p.WEB.DL-DudeFilms.in.mkv`,2,'6dfe5i1s61mr'],
