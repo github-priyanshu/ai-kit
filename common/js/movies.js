@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Selfiee','3ZmS0Lo',`2>BollyWood/Selfiee.2023.HDCAM/Selfiee.2023.V2.HINDI.480p.HQ.HDCAM-DudeFilms.in.mkv`,1,'gtpapyah6ycg'],
+['Gold 2022','3EC1v1C',`2>South.Movies/Gold.2022/Gold.2022.Hindi.Dubbed.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'bf82w6ldyb9i'],
 ['Hunt','3IKX3Qz',`2>South.Movies/Hunt.2023.HQ/Hunt.2023.Hindi.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'d707tb3pwui3'],
 ['Varisu  Clean','3knbGQM',`2>South.Movies/Varisu.2023.Hindi.Clean/Varisu.2023.Hindi.(Cleaned).Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'j5zeo0pb0518'],
 ['Vaathi','3En3PJE',`2>South.Movies/Vaathi.2023.HQ/Vaathi.2023.Hindi.HQ.DUB.480p.HDCAM-DudeFilms.in.mkv`,2,'b0qa02iab3p8'],
