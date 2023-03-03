@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Gulmohar','3kGa3Od',`2>BollyWood/Gulmohar.2023/Gulmohar.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'ngek6sr8ksbz'],
+['Alone','3YfRsq0',`2>South.Movies/Alone.2023/Alone.2023.Hindi.Malayalam.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'9zhc2izj8yox'],
 ['Captain','3EINEX4',`2>South.Movies/Captain.2023/Captain.2023.UNCUT.Hindi.Tamil.480p.Web.Dl-DudeFilms.in.mkv`,2,'kintrrvpfq5y'],
 ['Oh my ghost HD','3IUKDp7',`2>South.Movies/Oh.my.ghost.2022.HQ/Oh.my.ghost.2022.HINDI.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'n6zkm6hzmnp2'],
 ['Selfiee','3ZmS0Lo',`2>BollyWood/Selfiee.2023.HDCAM/Selfiee.2023.V2.HINDI.480p.HQ.HDCAM-DudeFilms.in.mkv`,1,'gtpapyah6ycg'],
