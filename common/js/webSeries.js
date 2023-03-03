@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Taj Divided by Blood S01','3KUHbMO',10,'__wsdomain/WebSeries/Zee5/Taj.Divided.by.Blood.S01/Taj.Divided.by.Blood.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv',''],
 ['Taaza Khabar S01','3GhKg5G',6,'__wsdomain/WebSeries/Hotstar/Taaza.Khabar.S01/Taaza.Khabar.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','20292'],
 ['Kaleidoscope S01','3ia3qCB',8,'__wsdomain/WebSeries/NetFlix/Kaleidoscope.S01/Kaleidoscope.S01.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv','20272'],
 ['Pitchers S02','3vh3Iuk',5,'__wsdomain/WebSeries/Zee5/Pitchers.S02/Pitchers.S02.E01.Hindi.720p.WEB-DL.ESubs-DudeFilms.in.mkv','20099'],
