@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['InCar','3ZzIbKi',`2>South.Movies/InCar.2023.CamRip/InCar.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2,'5ifntlktwu7q'],
 ['Sayen','3kJJ2cz',`2>HollyWood/Sayen.2023/Sayen.2023.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'7vzkvj7itudo'],
 ['Mahaveeryar','3SOX8G7',`2>South.Movies/Mahaveeryar.2022.HQ/Mahaveeryar.2022.HINDI.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'y783zl4msrcd'],
 ['Gulmohar','3kGa3Od',`2>BollyWood/Gulmohar.2023/Gulmohar.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'ngek6sr8ksbz'],
