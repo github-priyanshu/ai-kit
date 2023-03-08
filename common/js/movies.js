@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Varisu','3LodMen',`2>South.Movies/Varisu.2023/Varisu.2023.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'lsjoltl04hg9'],
+['Varisu [HD] Final','3LodMen',`2>South.Movies/Varisu.2023/Varisu.2023.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'lsjoltl04hg9'],
 ['The Warrior Queen','3KTkF73',`2>Gujarati/Nayika.Devi.The.Warrior.Queen.2022/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.AMZN.480p.WEB-DL-DudeFilms.in.mkv`,1,'oo329rjg2pmc'],
 ['InCar','3ZzIbKi',`2>South.Movies/InCar.2023.CamRip/InCar.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2,'5ifntlktwu7q'],
 ['Sayen','3kJJ2cz',`2>HollyWood/Sayen.2023/Sayen.2023.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'7vzkvj7itudo'],
