@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Kanjoos Majnu Kharchili Laila','3T8FYDS',`2>BollyWood/Kanjoos.Majnu.Kharchili.Laila.2023/Kanjoos.Majnu.Kharchili.Laila.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'7dzxy0qx83a3'],
 ['Tu Jhoothi Main Makkaar [1Day]','3Jr7VU0',`2>BollyWood/Tu.Jhoothi.Main.Makkaar.2023.CamRip/Tu.Jhoothi.Main.Makkaar.2023.480p.CAMRip-DudeFilms.in.mkv`,1,'u3c71fi9gqxj'],
 ['Varisu [HD] Final','3LodMen',`2>South.Movies/Varisu.2023/Varisu.2023.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'lsjoltl04hg9'],
 ['The Warrior Queen','3KTkF73',`2>Gujarati/Nayika.Devi.The.Warrior.Queen.2022/Nayika.Devi.The.Warrior.Queen.2022.Gujarati.AMZN.480p.WEB-DL-DudeFilms.in.mkv`,1,'oo329rjg2pmc'],
