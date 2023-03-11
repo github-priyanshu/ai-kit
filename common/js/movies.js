@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Middle Class Love 2022','3l9lP3N',`2>BollyWood/Middle.Class.Love.2022/Middle.Class.Love.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'14tr0fchp1w7'],
+['Run Baby Run','3ywgs1S',`2>South.Movies/Run.Baby.Run.2023/Run.Baby.Run.2023.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'fgwsjoi5tvgo'],
+['65','3l9PLwH',`2>HollyWood/65.2023.CAMRip/65.2023.CAMRip.HINDI.DUB.480p.HD-DudeFilms.in.mkv`,3,'l2it0wjlzvqa'],
+['Luther The Fallen Sun','3FfJF4T',`2>HollyWood/Luther.The.Fallen.Sun.2023/Luther.The.Fallen.Sun.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'ruddaw5ud0j0'],
 ['Kanjoos Majnu Kharchili Laila','3T8FYDS',`2>BollyWood/Kanjoos.Majnu.Kharchili.Laila.2023/Kanjoos.Majnu.Kharchili.Laila.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'7dzxy0qx83a3'],
 ['Tu Jhoothi Main Makkaar [1Day]','3Jr7VU0',`2>BollyWood/Tu.Jhoothi.Main.Makkaar.2023.CamRip/Tu.Jhoothi.Main.Makkaar.2023.480p.CAMRip-DudeFilms.in.mkv`,1,'u3c71fi9gqxj'],
 ['Varisu [HD] Final','3LodMen',`2>South.Movies/Varisu.2023/Varisu.2023.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'lsjoltl04hg9'],
