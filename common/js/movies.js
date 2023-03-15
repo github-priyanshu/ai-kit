@@ -22,7 +22,7 @@ var movies=
 ['Gulmohar','3kGa3Od',`2>BollyWood/Gulmohar.2023/Gulmohar.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'ngek6sr8ksbz'],
 ['Alone','3YfRsq0',`2>South.Movies/Alone.2023/Alone.2023.Hindi.Malayalam.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'9zhc2izj8yox'],
 ['Captain','3EINEX4',`2>South.Movies/Captain.2023/Captain.2023.UNCUT.Hindi.Tamil.480p.Web.Dl-DudeFilms.in.mkv`,2,'kintrrvpfq5y'],
-['Oh my ghost HD','3IUKDp7',`2>South.Movies/Oh.my.ghost.2022.HQ/Oh.my.ghost.2022.HINDI.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'n6zkm6hzmnp2'],
+['Oh my ghost HD','3IUKDp7',`2>South.Movies/Oh.my.ghost.2022.HQ/Oh.my.ghost.2022.HINDI.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'fmknd7ny2dg1'],
 ['Selfiee','3ZmS0Lo',`2>BollyWood/Selfiee.2023.HDCAM/Selfiee.2023.V2.HINDI.480p.HQ.HDCAM-DudeFilms.in.mkv`,1,'gtpapyah6ycg'],
 ['Gold 2022','3EC1v1C',`2>South.Movies/Gold.2022/Gold.2022.Hindi.Dubbed.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'bf82w6ldyb9i'],
 ['Hunt','3IKX3Qz',`2>South.Movies/Hunt.2023.HQ/Hunt.2023.Hindi.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'d707tb3pwui3'],
