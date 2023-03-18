@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Am I Next','3ljTMyS',`2>BollyWood/Am.I.Next.2023/Am.I.Next.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'kkry5qywv5na'],
+['Congratulations','3yPTaUO',`2>Gujarati/Congratulations.2023/Congratulations.2023.Gujarati.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'hntcb3d13fgi'],
 ['Middle Class Love 2022','3l9lP3N',`2>BollyWood/Middle.Class.Love.2022/Middle.Class.Love.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'14tr0fchp1w7'],
 ['Run Baby Run','3ywgs1S',`2>South.Movies/Run.Baby.Run.2023/Run.Baby.Run.2023.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'fgwsjoi5tvgo'],
 ['65','3l9PLwH',`2>HollyWood/65.2023.CAMRip/65.2023.CAMRip.HINDI.DUB.480p.HD-DudeFilms.in.mkv`,3,'l2it0wjlzvqa'],
