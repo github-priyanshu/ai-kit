@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Caught out Crime Corruption Cricket','3LzbngX',`2>HollyWood/Caught.out.Crime.Corruption.Cricket.2023/Caught.out.Crime.Corruption.Cricket.2023.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'hv1x7h3izcb0'],
+['Vaathi','42q7y3k',`2>South.Movies/Vaathi.2023/Vaathi.2023.Hindi.Dubbed.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'3kjeogtgm7j4'],
+['Christy','3JtHSdD',`2>South.Movies/Christy.2023/Christy.2023.Hindi.Malayalam.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'xwibwkl8aidg'],
+['Shazam! Fury of The Gods CAM','3Fz88SL',`2>HollyWood/Shazam!.Fury.of.The.Gods.2023.HDCAM/Shazam!.Fury.of.The.Gods.2023.Hindi.Dubbed.480p.HDCAM-DudeFilms.in.mkv`,3,'ygsloqxgol16'],
 ['Am I Next','3ljTMyS',`2>BollyWood/Am.I.Next.2023/Am.I.Next.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'kkry5qywv5na'],
 ['Congratulations','3yPTaUO',`2>Gujarati/Congratulations.2023/Congratulations.2023.Gujarati.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'hntcb3d13fgi'],
 ['Kuttey','3Fu9Tkg',`2>BollyWood/Kuttey.2023/Kuttey.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'gt51owe7jadw'],
