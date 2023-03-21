@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Kabzaa CAM','42F6s4f',`2>South.Movies/Kabzaa.2023.HDCAM/Kabzaa.2023.Hindi.Dubbed.480p.HDCAM-DudeFilms.in.mkv`,2,'x8duwlafwf7z'],
+['Mrs Chatterjee Vs Norway','3JzPF9K',`2>BollyWood/Mrs.Chatterjee.Vs.Norway.2023.CamRip/Mrs.Chatterjee.Vs.Norway.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'ufgefbmi1oxd'],
+['Bakasuran','3JTpgVL',`2>South.Movies/Bakasuran.2023/Bakasuran.2023.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2,'02dpje8qn9vv'],
 ['Caught out Crime Corruption Cricket','3LzbngX',`2>HollyWood/Caught.out.Crime.Corruption.Cricket.2023/Caught.out.Crime.Corruption.Cricket.2023.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'hv1x7h3izcb0'],
 ['Vaathi','42q7y3k',`2>South.Movies/Vaathi.2023/Vaathi.2023.Hindi.Dubbed.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'3kjeogtgm7j4'],
 ['Christy','3JtHSdD',`2>South.Movies/Christy.2023/Christy.2023.Hindi.Malayalam.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'xwibwkl8aidg'],
