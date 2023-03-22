@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Ram Nawmi Special','3P13AIe',`2>BollyWood/Ram.Setu.2022/Ram.Setu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'32hkqbsupfvs'],
+['Pathaan [FULL HD]','3JVCSju',`2>BollyWood/Pathaan.2023/Pathaan.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'g7ade5zdeubq'],
 ['Kabzaa CAM','42F6s4f',`2>South.Movies/Kabzaa.2023.HDCAM/Kabzaa.2023.Hindi.Dubbed.480p.HDCAM-DudeFilms.in.mkv`,2,'x8duwlafwf7z'],
 ['Mrs Chatterjee Vs Norway','3JzPF9K',`2>BollyWood/Mrs.Chatterjee.Vs.Norway.2023.CamRip/Mrs.Chatterjee.Vs.Norway.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'ufgefbmi1oxd'],
 ['Bakasuran','3JTpgVL',`2>South.Movies/Bakasuran.2023/Bakasuran.2023.Hindi.Dubbed.480p.HDRip-DudeFilms.in.mkv`,2,'02dpje8qn9vv'],
@@ -117,7 +119,6 @@ var movies=
 ['Maarrich','3BqwHiu',`2>BollyWood/Maarrich.2022.CamRip/Maarrich.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'krsmnz0unts3'],
 ['Freddy','3VOxqC2',`https://dl.dhubfan02.workers.dev/0:/BollyWood/Freddy.2022/Freddy.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'xyp9qmsfkvs4'],
 ['India Lockdown','3Hbskvq',`2>BollyWood/India.Lockdown.2022/India.Lockdown.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'k7qvrhwkbc6u'],
-['Ram Setu','3P13AIe',`2>BollyWood/Ram.Setu.2022/Ram.Setu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'32hkqbsupfvs'],
 ['Uppena 2021','3VT4JEc',`2>BollyWood/An.Action.Hero.2022.CamRip/An.Action.Hero.2022.Hindi.480p.CAMRip-DudeFilms.in.mkv`,2,'bgrp5d5v46op'],
 ['Goodbye','3EXIAxw',`2>BollyWood/Goodbye.2022/Goodbye.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a7x82pcwcrxs'],
 ['Monster','3VOt1is',`2>South.Movies/Monster.2022/Monster.2022.Hindi.Malayalan.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'gasu0z9zt2dq'],
