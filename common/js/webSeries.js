@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Hunter S01','3n6ceLF',8,'__wsdomain/WebSeries/Amazon.Prime/Hunter.S01/Hunter.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv',''],
 ['Pop Kaun S01','3Tq0jEu',6,'__wsdomain/WebSeries/Hotstar/Pop.Kaun.S01/Pop.Kaun.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','https://dflinks.club/archives/21700'],
 ['Taj Divided by Blood S01','3KUHbMO',10,'__wsdomain/WebSeries/Zee5/Taj.Divided.by.Blood.S01/Taj.Divided.by.Blood.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv',''],
 ['Taaza Khabar S01','3GhKg5G',6,'__wsdomain/WebSeries/Hotstar/Taaza.Khabar.S01/Taaza.Khabar.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','20292'],
