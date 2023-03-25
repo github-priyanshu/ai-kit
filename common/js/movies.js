@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Kanjoos Makhichoos','3nckABs',`https://s28.drop.download:182/d/khcu5pwv4wefnai4kw74dficznr7uymbdc4wjka6bkvx4aywitb32dq4fw6kgauitjbi5pnt/Kanjoos.Makhichoos.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'ew5urqhp247h'],
 ['Chor Nikal Ke Bhaga','3K4kSU1',`2>BollyWood/Chor.Nikal.Ke.Bhaga.2023/Chor.Nikal.Ke.Bhaga.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'ztkarf7ttism'],
 ['Ram Nawmi Special','3P13AIe',`2>BollyWood/Ram.Setu.2022/Ram.Setu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'o26h35ef6up0'],
 ['Pathaan [FULL HD]','3JVCSju',`2>BollyWood/Pathaan.2023/Pathaan.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'g7ade5zdeubq'],
