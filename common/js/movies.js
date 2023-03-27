@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Vinaya Vidheya Rama [HINDI]','3ZiO526',`2>South.Movies/Vinaya.Vidheya.Rama.2019/Vinaya.Vidheya.Rama.2019.Hindi.Telugu.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'bw7t8w3go1ve'],
+['John Wick Chapter 4 TS','3TOXMUw',`2>HollyWood/John.Wick.Chapter.4.2023.HDTS/John.Wick.Chapter.4.2023.Hindi(CLEAN).English.480p.HDTS-DudeFilms.in.mkv`,3,'cu9b8fmfkgft'],
+['Avatar-The Way Of Water 2022','3zcAbUk',`2>HollyWood/Avatar-The.Way.Of.Water.2022/Avatar-The.Way.Of.Water.2022.Hindi.Line-English.480p.HC.WEB-DL-DudeFilms.in.mkv`,3,'1q977qp611k5'],
 ['Kanjoos Makhichoos','3nckABs',`https://s28.drop.download:182/d/khcu5pwv4wefnai4kw74dficznr7uymbdc4wjka6bkvx4aywitb32dq4fw6kgauitjbi5pnt/Kanjoos.Makhichoos.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'ew5urqhp247h'],
 ['Chor Nikal Ke Bhaga','3K4kSU1',`2>BollyWood/Chor.Nikal.Ke.Bhaga.2023/Chor.Nikal.Ke.Bhaga.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'ztkarf7ttism'],
 ['Ram Nawmi Special','3P13AIe',`2>BollyWood/Ram.Setu.2022/Ram.Setu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'o26h35ef6up0'],
