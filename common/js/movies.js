@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Bholaa','3nCsxjT',`2>BollyWood/Bholaa.2023.CamRip/Bholaa.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'gyfacw4kfiev'],
 ['Ram Nawmi Special #Trending','3Zn56Id',`2>BollyWood/Ram.Setu.2022/Ram.Setu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'o26h35ef6up0'],
 ['Vinaya Vidheya Rama [HINDI]','3ZiO526',`2>South.Movies/Vinaya.Vidheya.Rama.2019/Vinaya.Vidheya.Rama.2019.Hindi.Telugu.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'bw7t8w3go1ve'],
 ['John Wick Chapter 4 TS','3TOXMUw',`2>HollyWood/John.Wick.Chapter.4.2023.HDTS/John.Wick.Chapter.4.2023.Hindi(CLEAN).English.480p.HDTS-DudeFilms.in.mkv`,3,'cu9b8fmfkgft'],
