@@ -39,7 +39,7 @@ class disturb{
 	}
 }
 
-var actSeries=[share,download];
+var actSeries=[applyAds,share];
 
 function checkQ(){
 	if(disturb.check()){
@@ -52,7 +52,6 @@ function checkQ(){
 function applyAds(){
 	try{
 		showAd();
-		applyAppAd();
 	}catch{}
 	download();
 }
@@ -182,20 +181,4 @@ setTimeout(()=>{
 function applyData(){
 	if(search.name){op("#mvName").innerHTML=search.name}else{op("#mvName").remove()}
 	if(search.img){op("#mvPos").src=search.img}else{op("#mvPos").remove()}
-}
-function applyAppAd(){
-	var apAdx=new appAd(),
-	elemx=document.createElement("div");
-	elemx.setAttribute("style",`margin: 0;position: fixed; width: 100%; height: 100vh; left: 0; top: 0; background: #0001`);
-	elemx.addEventListener("click",()=>{
-		elemx.remove();
-		apAdx.showAd();
-
-		setTimeout(()=>{
-			log("paussed")
-			vidHlp.pause()
-		},500)
-
-	});
-	document.body.insertAdjacentElement('beforeend',elemx);
 }
