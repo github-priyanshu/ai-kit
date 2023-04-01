@@ -70,6 +70,7 @@ function getDownAndTime(){
 
 
 /*TODAY UNIQUE VIEWER*/
+	log("Came to send for today");
 var lastOpDate=localStorage.getItem("lastOpDate") || false,
 todayx=new Date().getTime();
 
