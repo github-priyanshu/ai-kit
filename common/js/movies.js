@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Dasara Cam','3G9K5tY',`2>BollyWood/Dasara.2023.HDCam/Dasara.2023.HINDI.ORG.480p.HDCAM-DudeFilms.in.mkv`,1,'822qpecl18v8'],
 ['Bholaa','3nCsxjT',`2>BollyWood/Bholaa.2023.CamRip/Bholaa.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'gyfacw4kfiev'],
 ['Ram Nawmi Special #Trending','3Zn56Id',`2>BollyWood/Ram.Setu.2022/Ram.Setu.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'o26h35ef6up0'],
 ['Vinaya Vidheya Rama [HINDI]','3ZiO526',`2>South.Movies/Vinaya.Vidheya.Rama.2019/Vinaya.Vidheya.Rama.2019.Hindi.Telugu.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'bw7t8w3go1ve'],
