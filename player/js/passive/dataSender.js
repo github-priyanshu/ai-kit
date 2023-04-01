@@ -70,13 +70,13 @@ function getDownAndTime(){
 
 
 /*TODAY UNIQUE VIEWER*/
-	log("Came to send for today");
+
 var lastOpDate=localStorage.getItem("lastOpDate") || false,
 todayx=new Date().getTime();
 
 try{lastOpDate=Number(lastOpDate)}catch{}
 
-if(new Date(lastOpDate).getDate()!=new Date(todayx).getDate()){
+if((todayx - lastOpDate)>24*3600*1000){
 	log("sengind for today");
 	setTimeout(()=>{
 		makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSeuJ9VKGIObWLZwrI_To5vVAO8t4bUj6q5AKgNlO878mNu2wQ/formResponse",{"entry.903650608":getDefaultName(),"entry.829798089":getDownAndTime()});
