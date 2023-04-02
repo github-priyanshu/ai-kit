@@ -2,7 +2,6 @@ var mid=moviesAry.length-1;
 getVariableFromQuery();
 
 var curMvDetail=movies[mid],mainLnk=curMvDetail.src,downExp=Number(localStorage.getItem('downExp') || 0);
-log(downExp);
 
 document.title=document.title.replace("movie",curMvDetail.name+' Movie');
 
@@ -69,12 +68,7 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 	  <div class="redirector active" onclick="popunderAd()"></div>
   </div>
 </div>
-
-<div class="relatedMoviePan">
-  <div class="relateMovie">
-    
-  </div>  
-</div>`)
+`)
 
 function getVariableFromQuery(){
 	var query=location.search.replace("?","");
@@ -82,7 +76,6 @@ function getVariableFromQuery(){
 	query=query.split("&");
 	for(let val of query){
 		val=decodeURI(val).split("=");
-		log(val);
 		window[val[0]]=val[1];
 	}
 }

@@ -127,6 +127,29 @@
   font-weight: bolder;
   font-size: 1em;
 }
+.workPan .relatedMoviePan{
+  overflow: auto;
+  max-width: 95vw;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.workPan .relatedMoviePan .relatedOne{
+  justify-content: flex-start;
+}
+.workPan .relatedMoviePan a{
+  width: 200px;
+  display: block;
+  aspect-ratio: 16/9;
+  margin: 10px;
+}
+.workPan .relatedMoviePan a img{
+  width: 200px;
+  display: block;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+}
 @keyframes col{
   to{
     filter: hue-rotate(360deg);
