@@ -12,7 +12,7 @@ function getLink(elem,value){
 	}else if(value.includes("download")){
 		window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getPxLnk(curMvDetail,elem.innerText.replace('px',''))));
 	}else if(value.includes("watch")){
-		window.open('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',elem.innerText.replace('px','')));
+		window.open('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',elem.innerText.replace('px',''))+'"');
 	}
 
 	if(!exInc){
