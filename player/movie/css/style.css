@@ -114,9 +114,12 @@
 .workPan .chooseLink .redirector.active{
   display: block;
 }
-.workPan .chooseLink select,
+.workPan .chooseLink .subBtn{
+  display:none;
+}
 .workPan .chooseLink button{
   padding: 10px 0px;
+  margin: 5px;
 }
 .workPan .chooseLink button{
   background: linear-gradient(90deg,#0ff,#a420ff);
@@ -129,7 +132,7 @@
 }
 .workPan .relatedMoviePan{
   overflow: auto;
-  max-width: 95vw;
+  max-width: 95%;
   background: #fff;
   padding: 10px;
   border-radius: 10px;
