@@ -1,5 +1,5 @@
 var lastShare=localStorage.getItem("lastShare") || false,nowVid,
-extLink="https://money-now.netlify.app",
+extLink="https://www.youtube.com/watch?v=RSPlBjSIHZ0",
 shareNum=Number(localStorage.getItem("shareNum")) || 0;
 
 var hrShare={
