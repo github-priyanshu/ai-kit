@@ -1,7 +1,8 @@
 var mid=moviesAry.length-1;
 getVariableFromQuery();
 
-var curMvDetail=movies[mid],mainLnk=curMvDetail.src;
+var curMvDetail=movies[mid],mainLnk=curMvDetail.src,downExp=Number(localStorage.getItem('downExp') || 0);
+log(downExp);
 
 document.title=document.title.replace("movie",curMvDetail.name+' Movie');
 
@@ -17,6 +18,7 @@ function getLink(){
 		value=value.replace('watch','');
 		window.open('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',value)+'"');
 	}
+	localStorage.setItem('downExp',++downExp);
 }
 
 op('.workPan').insertAdjacentHTML("afterbegin",`
@@ -40,19 +42,27 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 
 
 <div class="linkPan flex c">
+	<p class='texCen'>👇👇 Choose the link to download</p>
+	<div class="lineMargin" m="5px"></div>
   <div class="chooseLink flex">
     <select id="link">
-      <option value="0">Choose Link</option>
+      <option value="0">Choose Link 👈</option>
 
-      <option value="${curMvDetail.altLnk}">Sure Download [480px]</option>
+      <optgroup label="Pakka Downlaod">
+	      <option value="${curMvDetail.altLnk}">Sure Download [480px]</option>
+      </optgroup>
 
-      <option value="download480">Fast Download [480px]</option>
-      <option value="download720">Fast Download [720px]</option>
-      <option value="download1080">Fast Download [1080px]</option>
+      <optgroup label="Not Pakka">
+	      <option value="download480">Fast Download [480px]</option>
+	      <option value="download720">Fast Download [720px]</option>
+	      <option value="download1080">Fast Download [1080px]</option>
+      </optgroup>
 
-      <option value="watch480">Watch Online [480px]</option>
-      <option value="watch720">Watch Online [720px]</option>
-      <option value="watch1080">Watch Online [1080px]</option>
+      <optgroup label="Watch Online">
+	      <option value="watch480">Watch Online [480px]</option>
+	      <option value="watch720">Watch Online [720px]</option>
+	      <option value="watch1080">Watch Online [1080px]</option>
+			</optgroup>
 
     </select>
     <button class="noBtn" onclick="getLink();">Get Link</button>
