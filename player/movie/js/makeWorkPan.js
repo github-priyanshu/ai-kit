@@ -51,16 +51,16 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 	      <option value="${curMvDetail.altLnk}">Sure Download [480px]</option>
       </optgroup>
 
-      <optgroup label="Not Pakka">
-	      <option value="download480">Fast Download [480px]</option>
-	      <option value="download720">Fast Download [720px]</option>
-	      <option value="download1080">Fast Download [1080px]</option>
+      <optgroup label="Fast (Not Pakka)">
+	      <option value="download480">Download [480px]</option>
+	      <option value="download720">Download [720px]</option>
+	      <option value="download1080">Download [1080px]</option>
       </optgroup>
 
       <optgroup label="Watch Online">
-	      <option value="watch480">Watch Online [480px]</option>
-	      <option value="watch720">Watch Online [720px]</option>
-	      <option value="watch1080">Watch Online [1080px]</option>
+	      <option value="watch480">480px</option>
+	      <option value="watch720">720px</option>
+	      <option value="watch1080">1080px</option>
 			</optgroup>
 
     </select>
