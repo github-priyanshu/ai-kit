@@ -330,7 +330,6 @@ function vidOnStart(){/*ON THE VIDEO PAN IS SHOWN TO PLAY*/
 		durationChRate=1000;
 	}
 	chAiGooLogo(true);
-	/*TEMP*/ try{tempPreventPlay();}catch{}
 }
 
 function stopPlaying(){/*to stop the video forcefully*/
