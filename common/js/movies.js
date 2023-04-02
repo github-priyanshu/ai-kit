@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Almost Pyaar With DJ Mohabbat','3U4NmAD',`2>BollyWood/Almost.Pyaar.With.DJ.Mohabbat.2023/Almost.Pyaar.With.DJ.Mohabbat.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'lru3ok6q7pws'],
+['Faraaz','40BudbI',`2>BollyWood/Faraaz.2023/Faraaz.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'uwh9j6483mil'],
 ['Gaslight','3zoLkSo',`https://cdn-151.anonfiles.com/N1bbgfibz7/142bdcb3-1680344646/Gaslight.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'d821j8ln8591'],
 ['Dasara Cam','3G9K5tY',`2>BollyWood/Dasara.2023.HDCam/Dasara.2023.HINDI.ORG.480p.HDCAM-DudeFilms.in.mkv`,1,'822qpecl18v8'],
 ['Bholaa','3nCsxjT',`2>BollyWood/Bholaa.2023.CamRip/Bholaa.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'gyfacw4kfiev'],
