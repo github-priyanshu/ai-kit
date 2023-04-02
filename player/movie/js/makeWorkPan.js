@@ -1,3 +1,4 @@
+var mid=moviesAry.length-1;
 getVariableFromQuery();
 
 var curMvDetail=movies[mid],mainLnk=curMvDetail.src;
