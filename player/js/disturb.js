@@ -14,9 +14,6 @@ if(checkPro()){
 			addScript("js/disturb/after30minAd.js");
 		},30*60*1000)
 	}
-	if(experienceMin>=10 && isDownLoaded()){
-		addScript("js/temp/noPlay.js");
-	}
 }
 
 function disturbOnVidStart(){
