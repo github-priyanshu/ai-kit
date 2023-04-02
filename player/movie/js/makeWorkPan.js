@@ -5,19 +5,20 @@ var curMvDetail=movies[mid],mainLnk=curMvDetail.src,downExp=Number(localStorage.
 
 document.title=document.title.replace("movie",curMvDetail.name+' Movie');
 
-function getLink(){
-	var value=op('#link').value;
-	if(value==0){
-		alert("Choose the link to download...")
-		return false;
-	}else if(value.includes("download")){
-		value=value.replace('download','');
+var exInc=false;
+function getLink(elem,value){
+	if(value=="alt"){
 		window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getAltLnk(curMvDetail)));
+	}else if(value.includes("download")){
+		window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getPxLnk(curMvDetail,elem.innerText.replace('px',''))));
 	}else if(value.includes("watch")){
-		value=value.replace('watch','');
-		window.open('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',value)+'"');
+		window.open('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',elem.innerText.replace('px','')));
 	}
-	localStorage.setItem('downExp',++downExp);
+
+	if(!exInc){
+		localStorage.setItem('downExp',++downExp);
+		exInc=true;
+	}
 }
 
 op('.workPan').insertAdjacentHTML("afterbegin",`
@@ -43,28 +44,38 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 <div class="linkPan flex c">
 	<p class='texCen'>👇👇 Choose the link to download</p>
 	<div class="lineMargin" m="5px"></div>
-  <div class="chooseLink flex">
-    <select id="link">
-      <option value="0">Choose Link 👈</option>
+  <div class="chooseLink flex c texCen" col="#fff">
 
-      <optgroup label="Pakka Downlaod">
-	      <option value="${curMvDetail.altLnk}">Download [480px]</option>
-      </optgroup>
+  	<div class="sureDownload">
+  		<button class="noBtn" onclick='getLink(this,"alt");'>Download 480px</button>
+  	</div>
 
-      <optgroup label="Fast (Not Pakka)">
-	      <option value="download480">Download [480px]</option>
-	      <option value="download720">Download [720px]</option>
-	      <option value="download1080">Download [1080px]</option>
-      </optgroup>
+  	<div class="lineMargin" m="20px" w="100%" h="1px" bg="#fff"></div>
 
-      <optgroup label="Watch Online">
-	      <option value="watch480">480px</option>
-	      <option value="watch720">720px</option>
-	      <option value="watch1080">1080px</option>
-			</optgroup>
+  	<div class="fast">
+  		<p>It may not work sometimes</p>
+  		<button class="noBtn" onclick="this.nextElementSibling.style.display='block'">Fast Download</button>
+  		<div class='subBtn'>
+  			<button class="noBtn" onclick='getLink(this,"download");'>480px</button>
+  			<button class="noBtn" onclick='getLink(this,"download");'>720px</button>
+  			<button class="noBtn" onclick='getLink(this,"download");'>1080px</button>
+  		</div>
+  	</div>
+  	<div class="lineMargin" m="20px" w="100%" h="1px" bg="#fff"></div>
 
-    </select>
-    <button class="noBtn" onclick="getLink();">Get Link</button>
+
+  	<div class="Watch Online">
+  		<p>It may not work sometimes</p>
+  		<button class="noBtn" onclick="this.nextElementSibling.style.display='block'">Watch Online</button>
+
+  		<div class='subBtn'>
+  			<button class="noBtn" onclick='getLink(this,"watch");'>480px</button>
+  			<button class="noBtn" onclick='getLink(this,"watch");'>720px</button>
+  			<button class="noBtn" onclick='getLink(this,"watch");'>1080px</button>
+  		</div>
+
+  	</div>
+
 	  <div class="redirector active" onclick="popunderAd()"></div>
   </div>
 </div>
