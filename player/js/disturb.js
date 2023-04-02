@@ -17,8 +17,3 @@ if(checkPro()){
 function disturbOnVidStart(){
 	try{hrShare.start(vidSource.name);}catch{}
 }
-function disturbOnVidSet(){
-	if(video.getAttribute("mid")==96 || 95 || 43 || 76 || 78){/*CHECKING IF KGF IS PLAYED TO SHOW AD*/
-		try{ _kgfAd(midx);}catch{};
-	}
-}

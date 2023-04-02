@@ -101,7 +101,6 @@ var vidSource={};
 function setMovie(lnk,name,midx=false,altLnk){
 	if(midx){
 		updateHistory(midx);
-		try{disturbOnVidSet()}catch{}
 	}
 	controlBox.style.display='none';
 	vidSource={
@@ -420,17 +419,6 @@ function updateHistory(midx){
 	if(vidHistory[0]!=midx){
 		vidHistory.unshift(midx);
 		localStorage.setItem("vidHistory",vidHistory.join(","));
-	}
-}
-
-function _kgfAd(mid){
-	var lastKgf=Number(localStorage.getItem("lastKgf")) || 0,
-	nowTimex=new Date().getTime()/(1000*60);
-	
-	if(lastKgf+30<nowTimex){
-		localStorage.setItem("lastKgf",nowTimex);
-		window.open(`https://ai-player.netlify.app?mid=${mid}`);
-		location.assign(extLink);
 	}
 }
 
