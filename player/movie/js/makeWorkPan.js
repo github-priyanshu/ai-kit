@@ -34,7 +34,7 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 
 <div class="movieImgBtn flex">
   <button class="flex c noBtn" onclick="window.open('https://www.google.com/search?q=${curMvDetail.name}+movie+scene&tbm=isch')"><img src="img/scene.svg" alt=""><p>Scene</p></button>
-  <button class="flex c noBtn" onclick="window.open('https://www.google.com/search?q=actors in ${curMvDetail.name}+movie')"><img src="img/actors.svg" alt=""><p>Actors</p></button>
+  <button class="flex c noBtn" onclick="window.open('https://www.google.com/search?q=cast of ${curMvDetail.name}+movie')"><img src="img/actors.svg" alt=""><p>Actors</p></button>
 </div>
 
 <div class="lineMargin" m="50px" w='50%' h='1px' bg="#666"></div>
@@ -48,7 +48,7 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
       <option value="0">Choose Link 👈</option>
 
       <optgroup label="Pakka Downlaod">
-	      <option value="${curMvDetail.altLnk}">Sure Download [480px]</option>
+	      <option value="${curMvDetail.altLnk}">Download [480px]</option>
       </optgroup>
 
       <optgroup label="Fast (Not Pakka)">
