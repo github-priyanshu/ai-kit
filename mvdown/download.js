@@ -59,12 +59,12 @@ function applyAds(){
 function download(){
 	vidHlp.pause();
 	if(search.altLnk!="false" && search.altLnk){
-		uiHtml=[`Choose Server to Download..!!`,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Server 1</button><br><br><p>if server 1 not working</p><button onclick="realDown(2,'${search.altLnk}')" class="noBtn">Server 2</button>`];
+		uiHtml=[`Choose Server to Download..!!`,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Server 1</button><br><br><p>if server 1 not working</p><button onclick="realDown(2,'${search.altLnk}')" class="noBtn">Drop Download</button>`];
 	}else{
 		if(search.src.includes("drop.download")){
 			mainHelp="mvdown/media/helpVid/downalt.mp4";
 		}
-		uiHtml=[``,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Download</button>`];
+		uiHtml=[``,`<button onclick="realDown(1,'${search.src}')" class="noBtn">Drop Download</button>`];
 	}
 	vidHlp.src=mainHelp;
 	vidHlp.pause();
