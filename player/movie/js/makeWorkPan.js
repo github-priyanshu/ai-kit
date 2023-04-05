@@ -28,10 +28,13 @@ function getLink(elem,value){
 }
 
 op('.workPan').insertAdjacentHTML("afterbegin",`
-<div class="downBtn">
-	<button>Install App</button>
+<div class="downBtn active flex c">
+	<button class="noBtn" style="padding: 40px 20px;background: linear-gradient(90deg, #ff0077 50%, #00c8ff 50%);clip-path: polygon(50% 25%, 0% 0%, 0% 70%, 50% 100%, 100% 70%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);color: #fff;font-size: 1em;text-shadow: 0 2px 10px #000;font-weight: bold;">Install App</button>
 	<p>0.8 MB App</p>
 </div>
+
+<div class="lineMargin" m="10px"></div>
+
 <div class="posterPan flex">
   <div class="poster">
     <img src="${curMvDetail.img}" alt="">
