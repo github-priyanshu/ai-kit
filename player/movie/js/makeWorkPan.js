@@ -7,7 +7,10 @@ document.title=document.title.replace("movie",curMvDetail.name+' Movie');
 
 var exInc=false;
 function getLink(elem,value){
-	if(isDownLoaded()){
+	if(!isDownLoaded() && downExp>1){
+		alert("You need to open 'Ai Player' app to watch movies");
+		op(".downBtn").click();
+	}else{
 		if(value=="alt"){
 			window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getAltLnk(curMvDetail)));
 		}else if(value.includes("download")){
@@ -21,8 +24,6 @@ function getLink(elem,value){
 			exInc=true;
 		}
 		sendPartenerData();
-	}else{
-		op(".downBtn").click();
 	}
 }
 
