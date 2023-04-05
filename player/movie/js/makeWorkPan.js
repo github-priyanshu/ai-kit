@@ -7,22 +7,30 @@ document.title=document.title.replace("movie",curMvDetail.name+' Movie');
 
 var exInc=false;
 function getLink(elem,value){
-	if(value=="alt"){
-		window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getAltLnk(curMvDetail)));
-	}else if(value.includes("download")){
-		window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getPxLnk(curMvDetail,elem.innerText.replace('px',''))));
-	}else if(value.includes("watch")){
-		window.open('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',elem.innerText.replace('px',''))+'"');
-	}
+	if(isDownLoaded()){
+		if(value=="alt"){
+			window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getAltLnk(curMvDetail)));
+		}else if(value.includes("download")){
+			window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getPxLnk(curMvDetail,elem.innerText.replace('px',''))));
+		}else if(value.includes("watch")){
+			window.open('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',elem.innerText.replace('px',''))+'"');
+		}
 
-	if(!exInc){
-		localStorage.setItem('downExp',++downExp);
-		exInc=true;
+		if(!exInc){
+			localStorage.setItem('downExp',++downExp);
+			exInc=true;
+		}
+		sendPartenerData();
+	}else{
+		op(".downBtn").click();
 	}
-	sendPartenerData();
 }
 
 op('.workPan').insertAdjacentHTML("afterbegin",`
+<div class="downBtn">
+	<button>Install App</button>
+	<p>0.8 MB App</p>
+</div>
 <div class="posterPan flex">
   <div class="poster">
     <img src="${curMvDetail.img}" alt="">
