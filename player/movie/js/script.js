@@ -2,8 +2,6 @@ var log=console.log;
 function op(elem){return document.querySelector(elem)}
 function opp(elem){return document.querySelectorAll(elem)}
 
-
-
 function resetFormat(){
   let keys={
     col: "color",
@@ -31,3 +29,39 @@ function resetFormat(){
 }
 
 resetFormat();
+
+function makeForm(action,data){
+  let html=`<form action="${action}">`
+  for(let val in data){
+    html+=`<input name="${val}" value="${data[val]}">`;
+  }
+  html+=`<button>Submit</button></form>`
+
+  op("body").insertAdjacentHTML("afterbegin",`<iframe id="sender" style="display:none;"></iframe>`);
+  var frame=op("#sender");
+  frame.contentWindow.document.querySelector("body").innerHTML=html;
+  frame.contentWindow.document.querySelector("button").click();
+}
+
+function getDefaultName(name){
+  var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An..");
+  return dv;
+}
+
+function makeScript(obj){
+  var elem=document.createElement('script');
+  for(let val in obj){
+    elem.setAttribute(val,obj[val]);
+  }
+  document.body.insertAdjacentElement("beforeend",elem);
+}
+var lastSentPartner=Number(localStorage.getItem("lastSentPartner") || 0);
+log(lastSentPartner);
+function sendPartenerData(){
+  var now=new Date().getTime();
+  if(now - lastSentPartner > 1000*3600*24)
+  makeForm("https://docs.google.com/forms/d/e/1FAIpQLSf5LjLD2vtgWJqhhXEP7mDK-hSYlA5Tbgk_3yHs6-o7KXItaA/formResponse",{
+    "entry.297810841":localStorage.getItem("aiSharedBy") || "Priyanshu",
+    "entry.1599869699":curMvDetail.name +'..'+downExp+'..'+ getDefaultName()
+  })
+}

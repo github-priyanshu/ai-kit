@@ -19,6 +19,7 @@ function getLink(elem,value){
 		localStorage.setItem('downExp',++downExp);
 		exInc=true;
 	}
+	sendPartenerData();
 }
 
 op('.workPan').insertAdjacentHTML("afterbegin",`
@@ -48,6 +49,7 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 
   	<div class="sureDownload">
   		<button class="noBtn" onclick='getLink(this,"alt");'>Download 480px</button>
+  		
   	</div>
 
   	<div class="lineMargin" m="20px" w="100%" h="1px" bg="#fff"></div>
