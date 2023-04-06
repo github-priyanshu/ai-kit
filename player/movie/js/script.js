@@ -66,4 +66,6 @@ function sendPartenerData(){
     localStorage.setItem("movie_gettingLink"+curMvDetail.name,true);
   }
 }
-sendPartenerData();
+setTimeout(()=>{
+  sendPartenerData();
+},3000)
