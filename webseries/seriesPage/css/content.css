@@ -1,0 +1,16 @@
+.content img{
+  max-width: 600px;
+  width: 90%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+}
+.content .lnkPan{
+  flex-flow: row wrap;
+  
+}
+.content .lnkPan button{
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #111;
+  border-radius: 3px;
+}

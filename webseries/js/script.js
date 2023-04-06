@@ -2,13 +2,6 @@ var log=console.log;
 function op(elem){return document.querySelector(elem)}
 function opp(elem){return document.querySelectorAll(elem)}
 
-opp(".lineMargin").forEach(val=>{
-  val.style.margin=val.getAttribute("m") || 0;
-  val.style.height=val.getAttribute("h") || 0;
-  val.style.width=val.getAttribute("w") || 0;
-  val.style.background=val.getAttribute("bg") || 0;
-})
-
 function resetFormat(){
   let keys={
     col: "color",
@@ -27,6 +20,24 @@ function resetFormat(){
     elem.innerHTML=elems[elem.getAttribute('ico')];
     elem.removeAttribute('ico');
   })
+  
+  opp(".lineMargin").forEach(val=>{
+    val.style.margin=val.getAttribute("m") || 0;
+    val.style.height=val.getAttribute("h") || 0;
+    val.style.width=val.getAttribute("w") || 0;
+    val.style.background=val.getAttribute("bg") || 0;
+  })
 }
 
 resetFormat();
+
+function getVariableFromQuery(){
+  var query=location.search.replace("?","");
+
+  query=query.split("&");
+  for(let val of query){
+    val=decodeURI(val).split("=");
+    log(val);
+    window[val[0]]=val[1];
+  }
+}

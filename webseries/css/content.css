@@ -1,0 +1,21 @@
+.content{
+  flex-flow: row wrap;
+}
+.content a {
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 10px;
+  background: #fff;
+}
+.content span{
+  align-self: flex-start;
+  margin: 10px 5px;
+  color: #000;
+}
+
+.content a img{
+  max-width: 400px;
+  border-radius: 10px 10px 0 0;
+  aspect-ratio: 16/9;
+  width: 100%;
+}
