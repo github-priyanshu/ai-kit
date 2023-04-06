@@ -26,6 +26,9 @@
     <a href="https://bit.ly" col="#fff" target="__blank">
       <button>Open Bitly</button>
     </a>
+    <a href="https://ai-kit.netlify.app/sharer" col="#fff" target="__blank">
+      <button>Share Panel</button>
+    </a>
   </div>
   <div class="botPan flex">
     <div class="workPan" panFor="movie">
@@ -43,11 +46,6 @@
       </label>
 
       <label class="w100p">
-        <div>Drop.down (altLnk)</div>
-        <input type="text" class="autoPaste altLnk">
-      </label>
-
-      <label class="w100p">
         <div>Name</div>
         <div class="flex">
           <input class="name" type="text"><button class="imgSrhBtn" onclick="searchImg(this)">Search</button>
@@ -58,6 +56,11 @@
         <div>Img</div>
         <input type="text" class="autoPaste imgIn">
       </div>
+
+      <label class="w100p">
+        <div>Drop.down (altLnk)</div>
+        <input type="text" class="autoPaste altLnk">
+      </label>
 
       <div class="w100p">
         <select id="type">
@@ -85,10 +88,10 @@
         <input type="text"  class="autoPaste lnkIn" oninput="addExtraSr(this)" onclick="addExtraSr(this)">
       </label>
 
-      <label class="w100p">
-        <div>Drop.down (altLnk) all episodes</div>
-        <input type="text" class="autoPaste altLnk">
-      </label>
+      <div class="w100p">
+        <input type="number" id="enum" placeholder="No. of episodes" style="width:100px">
+        <button onclick='copyToClipboard(ExtraDetail.getAllEpisodeLinkOfSeries().join("\n"))'>Copy All Episode Link</button>
+      </div>
 
       <label class="w100p">
         <div>Name</div>
@@ -102,10 +105,12 @@
         <input type="text" class="autoPaste imgIn">
       </div>
 
-      <div class="w100p">
-        <input type="number" id="enum" placeholder="No. of episodes">
-        <button onclick="addSeries()">Add More</button>
-      </div>
+      <label class="w100p">
+        <div>Drop.down (altLnk) all episodes</div>
+        <textarea id="seriesAltLnks" type="text" class="autoPaste altLnk w100p"></textarea>
+      </label>
+
+      <button onclick="addSeries()">Add More</button>
 
     </div>
   </div>

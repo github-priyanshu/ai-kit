@@ -23,16 +23,25 @@ class ExtraDetail{
 
 	static getSeriesName(lnk){
 		lnk=ExtraDetail.clearLnk(lnk);
-		op('.workPan[panfor="series"] input.name').value=ExtraDetail.clearName(lnk[3]);
+		op('.workPan[panfor="series"] input.name').value=ExtraDetail.clearName(lnk[3]).replace("S0","Season ");
 	}
 
 	static clearName(n){
 		n=n.replaceAll(".",' ');
-		var toRemove=[new Date().getFullYear(),' HD',' HQ',' CamRip',' HDCam'];
+		var toRemove=[new Date().getFullYear()];
 		toRemove.forEach(val=>{
 			n=n.replaceAll(val,'');
 		})
 		return n;
+	}
+	static getAllEpisodeLinkOfSeries(){
+		var allLnk=[];
+		var l=op(".workPan[panfor='series'] .lnkIn").value;
+		for(let i=1; i<=op('#enum').value; i++){
+			var istr=i>9?i:'0'+i;
+			allLnk.push(l.replaceAll(`.E01`,`.E`+istr));
+		}
+		return allLnk;
 	}
 
 }
@@ -55,13 +64,13 @@ function addSeries(){
 	str.push("'"+op(".workPan[panFor='series'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
 	str.push(op("#enum").value);
 	str.push("'"+getShortSeriesLnk(op(".workPan[panFor='series'] .lnkIn").value.trim())+"'");
-	str.push("'"+op(".workPan[panFor='series'] .altLnk").value.trim().replace("https://drop.download/","")+"'");
+	str.push("'"+op("#seriesAltLnks").value.replaceAll("\n",'').replaceAll("https://drop.download/",',').substring(1) +"'");
 
 	str=str.join(",");
 	data.series+=`\n[${str}],`;
 	log(data.series);
 
-	opp(".workPan[panFor='series'] input").forEach(val=>{
+	opp(".workPan[panFor='series'] input,.workPan[panFor='series'] textarea").forEach(val=>{
 		val.value="";
 	})
 }
