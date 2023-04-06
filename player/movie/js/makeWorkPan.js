@@ -110,6 +110,7 @@ function getPxLnk(movieObj,px) {
 		name: movieObj.name,
 		img: movieObj.img,
 		src: mainLnk.replaceAll('480',px),
+		altLnk: movieObj.altLnk
 	}
 }
 function getAltLnk(movieObj) {
@@ -117,6 +118,7 @@ function getAltLnk(movieObj) {
 		mid: mid,
 		name: movieObj.name,
 		img: movieObj.img,
-		src: movieObj.altLnk,
+		src: movieObj.src,
+		altLnk: movieObj.altLnk
 	}
 }
