@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Accident Man Hitmans Holiday 2022','3zCGQHG',`2>HollyWood/Accident.Man.Hitmans.Holiday.2022/Accident.Man.Hitmans.Holiday.2022.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'nepicdrfxw3d'],
+['Babylon 2022','3nLGPyt',`2>HollyWood/Babylon.2022/Babylon.2022.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'xjbs9dqbh94l'],
 ['Almost Pyaar With DJ Mohabbat','3U4NmAD',`2>BollyWood/Almost.Pyaar.With.DJ.Mohabbat.2023/Almost.Pyaar.With.DJ.Mohabbat.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'lru3ok6q7pws'],
 ['Faraaz','40BudbI',`2>BollyWood/Faraaz.2023/Faraaz.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'uwh9j6483mil'],
 ['Gaslight','3zoLkSo',`https://cdn-151.anonfiles.com/N1bbgfibz7/142bdcb3-1680344646/Gaslight.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'d821j8ln8591'],
