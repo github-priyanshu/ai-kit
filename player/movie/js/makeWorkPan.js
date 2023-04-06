@@ -23,6 +23,7 @@ function getLink(elem,value){
 			localStorage.setItem('downExp',++downExp);
 			exInc=true;
 		}
+		location.assign("//ookroush.com/4/4937751");
 	}
 }
 
@@ -89,7 +90,7 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 
   	</div>
 
-	  <div class="redirector active" onclick="popunderAd()"></div>
+	  <div class="redirector" onclick="popunderAd()"></div>
   </div>
 </div>
 `)
