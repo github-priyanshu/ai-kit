@@ -120,10 +120,6 @@
 		<h2 class="texCen" id="mvName"></h2>
 	</div>
 
- 	<div class="AdBox" sz="300x125" style="margin-top: 15px;">   
-		<iframe src="https://money-now.netlify.app/ads?type=spapp" width="300px" height="125px" style="border-radius: 10px;" frameborder='0'></iframe>
-	</div>
-
 	<div id="main" class="flex c">
 		<svg id="progress">
 			<circle cx=175 cy=175 r=165 ></circle>
@@ -159,7 +155,7 @@
 	</div>
 	
  	<div class="AdBox" sz="240x400" style="margin-top: 15px;">   
-		<iframe data-aa='1950199' src='//ad.a-ads.com/1950199?size=240x400' style='width:240px; height:400px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+		<iframe data-aa='1950199' src='//ad.a-ads.com/1950199?size=320x100' style='width:320px; height:100px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
 	</div>
 	
 	<script src="common/js/script.js"></script>
@@ -199,12 +195,13 @@
 		function showAd(){
 			if(!swithchAd && shareNum>2){
 				/*propellar ads multi*/
-				(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5557928,document.body||document.documentElement)
+				// (function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5557928,document.body||document.documentElement)
 
-				/*adsterra*//*
+				/*adsterra*/
+				
 				var elemx=document.createElement("script");
 				elemx.src="//pl17997733.highperformancecpmgate.com/a4/3e/b3/a43eb31939ad0951ea6631f6eb2da8bb.js";
-				document.body.insertAdjacentElement("beforeend",elemx);*/
+				document.body.insertAdjacentElement("beforeend",elemx);
 				swithchAd=true;
 				log("added ads")
 			}
