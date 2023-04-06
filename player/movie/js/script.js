@@ -55,13 +55,14 @@ function makeScript(obj){
   }
   document.body.insertAdjacentElement("beforeend",elem);
 }
-var lastSentPartner=Number(localStorage.getItem("lastSentPartner") || 0);
-log(lastSentPartner);
+
 function sendPartenerData(){
-  var now=new Date().getTime();
-  if(now - lastSentPartner > 1000*3600*24)
-  makeForm("https://docs.google.com/forms/d/e/1FAIpQLSf5LjLD2vtgWJqhhXEP7mDK-hSYlA5Tbgk_3yHs6-o7KXItaA/formResponse",{
-    "entry.297810841":localStorage.getItem("aiSharedBy") || "Priyanshu",
-    "entry.1599869699":curMvDetail.name +'..'+downExp+'..'+ getDefaultName()
-  })
+  if(!localStorage["movie_gettingLink"+curMvDetail.name]){
+    log('sending..')
+    makeForm("https://docs.google.com/forms/d/e/1FAIpQLSf5LjLD2vtgWJqhhXEP7mDK-hSYlA5Tbgk_3yHs6-o7KXItaA/formResponse",{
+      "entry.297810841":localStorage.getItem("aiSharedBy") || "Priyanshu",
+      "entry.1599869699":curMvDetail.name +'..'+downExp+'..'+ getDefaultName()
+    })
+    localStorage.setItem("movie_gettingLink"+curMvDetail.name,true);
+  }
 }

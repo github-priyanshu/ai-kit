@@ -23,7 +23,6 @@ function getLink(elem,value){
 			localStorage.setItem('downExp',++downExp);
 			exInc=true;
 		}
-		sendPartenerData();
 	}
 }
 
