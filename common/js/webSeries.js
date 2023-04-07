@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Pop Kaun Season 1','3nVw4tq',6,'__wsdomain/WebSeries/Hotstar/Pop.Kaun.S01/Pop.Kaun.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','5jdpx3l283ke,5dctunarshje,iv1exvdip1qt,x0e2ol46qlis,fs5i7g5mef0c,l8u4q1xigb2s'],
 ['Shadow And Bone Season 2','403QoXf',8,'__wsdomain/WebSeries/NetFlix/Shadow.And.Bone.S02/Shadow.And.Bone.S02.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv','9bgwwlxscdls,1jqd30unmw8m,a5p3iszyrhwy,7w4za4hk2ruh,rn9zl830tjmu,90seinqyxx2q,00eu8a4em9nz,im6uesvy8ub9'],
 ['United Kacche Season 1','3GKrntl',8,'__wsdomain/WebSeries/Zee5/United.Kacche.S01/United.Kacche.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','7d59hf4xvhfz,0k0kbzy6heg5,k0ztyf8rbf86,nin9qqh7j6xx,erhnw9k8q15g,eyhmrgsofmzm,dq79n26c3em7,lj5nzco6icyh'],
 ['Hunter Season 1','3zC54BX',8,'__wsdomain/WebSeries/Amazon.Prime/Hunter.S01/Hunter.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','pqogb5fhp1od,fhuzram3jllv,sgwmj8uemilg,2kzn0dldcg4c,swx2zjxz4qfd,0dnbfiwa0cyt,f3qc52qds9sw,t608qt632oka'],
