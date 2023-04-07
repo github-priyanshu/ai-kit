@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Shadow And Bone Season 2','403QoXf',8,'__wsdomain/WebSeries/NetFlix/Shadow.And.Bone.S02/Shadow.And.Bone.S02.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv','9bgwwlxscdls,1jqd30unmw8m,a5p3iszyrhwy,7w4za4hk2ruh,rn9zl830tjmu,90seinqyxx2q,00eu8a4em9nz,im6uesvy8ub9'],
 ['United Kacche Season 1','3GKrntl',8,'__wsdomain/WebSeries/Zee5/United.Kacche.S01/United.Kacche.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','7d59hf4xvhfz,0k0kbzy6heg5,k0ztyf8rbf86,nin9qqh7j6xx,erhnw9k8q15g,eyhmrgsofmzm,dq79n26c3em7,lj5nzco6icyh'],
 ['Hunter Season 1','3zC54BX',8,'__wsdomain/WebSeries/Amazon.Prime/Hunter.S01/Hunter.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','pqogb5fhp1od,fhuzram3jllv,sgwmj8uemilg,2kzn0dldcg4c,swx2zjxz4qfd,0dnbfiwa0cyt,f3qc52qds9sw,t608qt632oka'],
 ['Rocket Boys Season 2','40Ka5EB',8,'__wsdomain/WebSeries/Sony.Liv/Rocket.Boys.S02/Rocket.Boys.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','rgk0huq6pugg,d82epggrvyyh,d5x8i8058zhm,3j28zenbhsh5,pd50ddlq5b2m,jbb7zm3srx7x,hhjtfp7ldb5h,2l3o9l61l8c2'],
