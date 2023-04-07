@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Gumraah Cam','3MnZkDk',`https://production.green-violet-3676ddd.rocalig516.workers.dev/93b07f3e8cdf7df7f7da848a46111d76/workerslinks.xyz/Gumraah%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'c3gw1riqzec5'],
+['16 August 1947','3nWyb02',`https://soft-credit-bfc5.tacon65193.workers.dev/1c4b55d081e0d14cae9353120c591525/workerslinks.xyz/August%2016%201947%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'yuxmepl1erdj'],
+['The Pope\'s Exorcist','3ZNRYMz',`https://broken-wave-d815.sor10.workers.dev/ebcfa74ada286ee086e8817a4d344e8d/workerslinks.xyz/The%20Popes%20Exorcist%20(2023)%20English%20480p%20HDCAM%20HCESub%20[BollyFlix].mkv`,1,'tt8ggks061c9'],
 ['Accident Man Hitmans Holiday 2022','3zCGQHG',`2>HollyWood/Accident.Man.Hitmans.Holiday.2022/Accident.Man.Hitmans.Holiday.2022.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'nepicdrfxw3d'],
 ['Babylon 2022','3nLGPyt',`2>HollyWood/Babylon.2022/Babylon.2022.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'xjbs9dqbh94l'],
 ['Almost Pyaar With DJ Mohabbat','3U4NmAD',`2>BollyWood/Almost.Pyaar.With.DJ.Mohabbat.2023/Almost.Pyaar.With.DJ.Mohabbat.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'lru3ok6q7pws'],
