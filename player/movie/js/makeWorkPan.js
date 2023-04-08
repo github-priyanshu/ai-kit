@@ -68,8 +68,8 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 
   	<div class="fast">
   		<p>It may not work sometimes</p>
-  		<button class="noBtn" onclick="this.nextElementSibling.style.display='block'">Fast Download</button>
-  		<div class='subBtn'>
+  		<button class="noBtn active" onclick="this.nextElementSibling.style.display='block'">Fast Download</button>
+  		<div class='subBtn' style="display: block;">
   			<button class="noBtn" onclick='getLink(this,"download");'>480px</button>
   			<button class="noBtn" onclick='getLink(this,"download");'>720px</button>
   			<button class="noBtn" onclick='getLink(this,"download");'>1080px</button>
