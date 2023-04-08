@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+  background: var(--darkBg1);
+  color: #fff;
+}
 .parent{
   width: 100%;
   flex-flow: row wrap;
@@ -10,7 +14,6 @@
   min-height: 100%;  
 }
 .parent .introPan{
-  background: linear-gradient(#f1f1ff,#fff);
   height: 100vh;
   border-right: 5px solid #a300ff;
   font-family: "Black And White Picture";
@@ -64,8 +67,9 @@
 
 .workPan .posterPan .poster{
   width: 98%;
-  aspect-ratio: 16/9;
-  max-width: 500px;
+  aspect-ratio: 5/7;
+  max-width: 300px;
+  object-fit: cover;
 }
 
 
@@ -133,7 +137,7 @@
 .workPan .relatedMoviePan{
   overflow: auto;
   max-width: 95%;
-  background: #fff;
+  background: #222;
   padding: 10px;
   border-radius: 10px;
   margin-top: 50px;
@@ -148,9 +152,10 @@
   margin: 10px;
 }
 .workPan .relatedMoviePan a img{
-  width: 200px;
+  width: 150px;
   display: block;
-  aspect-ratio: 16/9;
+  aspect-ratio: 5/7;
+  object-fit: cover;
   border-radius: 5px;
 }
 @keyframes col{
