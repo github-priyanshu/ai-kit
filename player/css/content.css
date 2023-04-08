@@ -1,5 +1,5 @@
 .content{
-  background: #fff9;
+  background: #0009;
 }
 .content .head{
   width: 60%;
@@ -13,10 +13,11 @@
   box-shadow: 0 10px 40px #0005;
 }
 .content .head .srhBox {
-  border: 1px solid #fff;
+  border: 1px solid #222;
   border-radius: 3px;
   align-items: stretch;
-  background: #fff;
+  background: #222;
+  color:#fff;
   padding: 0 5px;
 }
 .content .head .srhBox svg{
@@ -25,26 +26,28 @@
 }
 #category,
 .content .head .srhBox input{
-  color: #222;
+  color: #fff;
   padding: 3px;
   height: 30px;
 }
 #category{
   border-radius: 3px;
-  background: #fff;
-  color: #333;
+  background: #222;
+  color: #fff;
 }
 .content .listPan{
   flex-flow: row wrap;  
 }
 .moviePan{
-  margin: 30px 15px;
+  margin: 30px 20px;
   width: 100%;
   border-radius: 3px;
-  background: #fff;
+  background: #333;
   color: #333;
   box-shadow: 0 1px 2px #00000020;
-  max-width: 400px;
+  max-width: 200px;
+  border: 3px solid #555;
+  border-radius: 7px;
 }
 /*A-ADS*/
 .content .a-ads {
@@ -92,31 +95,26 @@
 }
 .content .listPan .moviePan .poster img,
 .content .listPan .moviePan .poster{
-  border-radius: 3px;
+  border-radius: 5px;
   object-fit: cover;
-  aspect-ratio: 16/9;
+  aspect-ratio: 5/7;
 }
 .content .listPan .moviePan .data{
   width: 100%;
-  justify-content: space-between;
-  fill: #444;
-  border-top: 1px solid #bbb;
+/*   justify-content: space-between; */
+  fill: #fff;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  background: linear-gradient(#0000,#000);
+  border-radius: 0 0 5px 5px;
+  
 }
 .content .listPan .moviePan .data .name{
-  padding: 8px;
+  padding: 30px 5px 5px 5px;
+  text-align: center;
 }
-/* 
-.content .listPan .moviePan.series .data{
-  opacity: 0;
-  transform: translateY(30px) scale(.7);
-  pointer-events: none;
-  transition: all .25s;
-}
-.content .listPan .moviePan.series:hover .data{
-  opacity: 1;
-  transform: translateY(0) scale(1);
-  pointer-events: auto;
-} */
+
 .content .listPan .moviePan.series .downPan{
   position: absolute;
   width: 100%;
@@ -170,4 +168,9 @@
   .content .head .srhBox input{
     width: 130px;
   }
+  .content .moviePan{
+    margin: 15px 8px;
+    max-width: 150px;
+  } 
+  
 }

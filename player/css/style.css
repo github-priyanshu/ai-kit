@@ -31,7 +31,7 @@ html{
 	width: var(--allWidth);
 	width: 100%;
 	min-height: 100vh;
-	background: #d2d5eb;
+	background: #000;
 	background-size: cover;
 	background-attachment: fixed;
 	color: #333;

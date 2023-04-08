@@ -1,5 +1,5 @@
 .mainBnr{
-  margin-bottom: 250px;
+  margin-bottom: 400px;
   height: 500px;
   justify-content: flex-start;
   display: none;
@@ -23,10 +23,10 @@
   margin: 5px 0;
 }
 .banner .addLink{
-  background: #fff;
+  background: #050505;
   border-radius: 5px;
   padding: 10px;
-  color: #333;
+  color: #fff;
 }
 .banner .addLink img{
   max-width: 70vw;
@@ -40,7 +40,7 @@
 .banner .bottom{
   justify-content: flex-start;
   padding: 5px;
-  background: linear-gradient(#fff9,#fff);
+  background: linear-gradient(#0009,#333);
   height: auto;
 }
 .banner .bottom .bnrBtn {
@@ -55,7 +55,7 @@
   position: absolute;
   width: 100px;
   height: 55px;
-  background: #fff;
+  background: #333;
   bottom: -55px;
   border-radius: 0 0 99px 99px; 
   cursor: pointer;
@@ -64,7 +64,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #fff;
+  background: #333;
   position: absolute;
   left: -10px;
   top: -10px;
@@ -75,7 +75,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #9294a4;
+  background: #030303;
   border-radius: 50%;
   left: -10px;
   bottom: -10px;
@@ -91,9 +91,9 @@
   color: #333;
 }
 .banner .bottom .bnrBtn button {
-  background: #fffd;
-  border: 1px solid #0003;
-  color: #444;
+  background: #000d;
+  border: 1px solid #999;
+  color: #fff;
   padding: 6px 17px;
   border-radius: 4px;
   box-shadow: 0 5px 30px #0003;
@@ -118,12 +118,12 @@
   overflow-y: hidden;
 }
 .banner .bottom .posPan .pos{
-  min-width: 460px;
+  min-width: 260px;
   /*! height: 350px; */
   border-radius: 10px;
   display: inline-block;
   margin: 0 10px;
-  aspect-ratio: 16/9;
+  aspect-ratio: 5/7;
 }
 .banner .bottom .posPan .pos img{
   width: 100%;
@@ -135,19 +135,19 @@
 
 @media screen and (max-width: 618px){
   .mainBnr{
-    margin-bottom: 200px;
+    margin-bottom: 300px;
   }
   .banner .bottom .posPan{
     /*! height: 320px; */
   }
   .banner .bottom .posPan .pos{
-    min-width: 390px;
+    min-width: 190px;
     /*! height: 310px; */
   }
 }
 @media screen and (max-width: 490px){
   .mainBnr{
-    margin-bottom: 130px;
+    margin-bottom: 230px;
   }
   .banner .bottom{
     width: 100%;
@@ -156,10 +156,9 @@
     /*! height: 260px; */ 
   }
   .banner .bottom .posPan .pos{
-    min-width: 310px;
+    min-width: 150px;
     /*! height: 260px; */
     border-radius: 5px;
-    aspect-ratio: 16/9;
   }
 }
 .banner ::-webkit-scrollbar{

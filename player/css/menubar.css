@@ -1,6 +1,6 @@
 .menuPan{
 	max-width: calc(100% - 10px);
-	overflow: auto;
+	overflow: ;
 	margin-bottom: 100px;
 	background: var(--stdBg);
   border-radius: 5px;
@@ -8,7 +8,8 @@
 	box-shadow: 0 20px 50px #0005;
 }
 .menuBar{
-	width: max-content;
+	width: 100%;
+	flex-flow: row wrap;
 }
 
 .menuBar .menu{
@@ -21,6 +22,7 @@
 }
 
 .menuBar .menu.active{
-	background: #fff;
-	color: #333;
+	background: #222;
+	color: #fff;
+	border-color:#000;
 }
