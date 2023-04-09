@@ -67,3 +67,6 @@ textarea:active{
 	width: max-content;
 	margin: 2px;
 }
+.hidden{
+	display: none;
+}

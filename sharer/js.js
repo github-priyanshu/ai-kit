@@ -41,6 +41,10 @@ shareNameBx=op(".shareName"),
 mvNameBx=op(".mvName"),
 msgTxt=op("textarea.txt");
 
+function getMoviePageLnk() {
+	return ("https://ai-player.netlify.app/movie?mid="+obj.movie+"&sh="+obj.sharedBy);
+}
+
 function getFullUrl(){
 	var shtxt=""
 	if(obj.sharedBy!=''){
@@ -159,4 +163,7 @@ function openPoster(){
 	data=JSON.stringify(data);
 	data=btoa(data);
 	window.open("other/posterSave.html?data="+data);
+}
+op("textarea").ondblclick=()=>{
+	opp(".hidden").forEach(val=>{val.classList.remove('hidden')});
 }

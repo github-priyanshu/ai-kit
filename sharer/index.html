@@ -59,24 +59,23 @@
         <div id="seriesCount">/...Choose Link</div>
       </div>
       <div class="gridList flex mode">
+
+        <button class="name" onclick="copy(getMoviePageLnk());">Copy Movie Page Link</button>
         <button class="name" onclick="sms();">SMS Text</button>
         <button class="name" onclick="copy(movies[obj.movie].name);">Copy Name</button>
 
         <div class="w100p" style="margin: 10px; height: 1px; background: #000;"></div>
 
-<button class="name" onclick="window.open(`https://www.google.com/search?q=${movies[obj.movie].name}&tbm=isch`)">Find Photo (Dear Aman) </button>
+        <button class="name hidden" onclick="copy(movies[obj.movie].src)">Source direct</button>
+        <button class="name hidden" onclick="movies[obj.movie].altLnk?copy(movies[obj.movie].altLnk) : alert('NA')">Alt Source</button>
+        <button class="name" onclick="copy(movies[obj.movie].img)">Poster Image</button>
 
-        <button class="name" onclick="copy(getFullUrl());">Ai Player</button>
+        <div class="w100p" style="margin: 10px; height: 1px; background: #000;"></div>
+
         <button class="name" onclick="downloadLink()">Movie Download Page</button>
         <button class="name" onclick="redirectArticleLink()">Ai Article Redirect</button>
         <button class="name" onclick="openPoster()">Open Poster</button>
         <button class="name" onclick="window.open(`https://youtube.com/search?q=${movies[obj.movie].name} trailer shorts`)">Find Trailer</button>
-
-        <div class="w100p" style="margin: 10px; height: 1px; background: #000;"></div>
-
-        <button class="name" onclick="copy(movies[obj.movie].src)">Source direct</button>
-        <button class="name" onclick="movies[obj.movie].altLnk?copy(movies[obj.movie].altLnk) : alert('NA')">Alt Source</button>
-        <button class="name" onclick="copy(movies[obj.movie].img)">Poster Image</button>
 
       </div>
     </div>
