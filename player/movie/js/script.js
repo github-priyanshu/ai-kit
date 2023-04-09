@@ -44,7 +44,7 @@ function makeForm(action,data){
 }
 
 function getDefaultName(name){
-  var dv=navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An..");
+  var dv=(localStorage.getItem("aiSharedBy") || "") +'.'+curMvDetail.name+'.'+ navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An..");
   return dv;
 }
 
