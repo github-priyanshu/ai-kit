@@ -16,7 +16,8 @@ else if(mid){
 	dialog.inside(`Want to watch <span fs="1.1em" col="#ff3000">'${curMx.name}'</span> for free.`);
 	dialog.success=()=>{
 		log(curMx)
-		setMovie(curMx.src,curMx.name,mid,curMx.altLnk);
+		// setMovie(curMx.src,curMx.name,mid,curMx.altLnk);
+		location.assign(`movie?mid=${mid}&m=${curMx.name}`);
 	}
 	dialog.show();
 }
