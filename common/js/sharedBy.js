@@ -3,4 +3,4 @@ try{
   if(sh && !localStorage.getItem('aiSharedBy')){
     localStorage.setItem('aiSharedBy',shareName[sh-1]);
   }
-}catch(){}
+}catch(e){}
