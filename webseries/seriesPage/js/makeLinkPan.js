@@ -1,7 +1,8 @@
 getVariableFromQuery();
-var curData=webseriesAry[sid];
-log(curData)
-var lnkBtnHTML='',lnkBtns=1;
+var curData=webseriesAry[sid],
+lnkBtnHTML='',lnkBtns=1;
+document.title=document.title.replace("this",curData.name);
+
 for(let a of curData.alt){
 	lnkBtnHTML+=`<a href="${a}" target="__blank"><button class="noBtn">Episode ${lnkBtns++}</button></a>`;
 }
