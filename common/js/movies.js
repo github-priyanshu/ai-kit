@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Ravanasura','41eVRvb',`https://autumn-night-0866.cexifib990.workers.dev/342a3d94ccfb4eb2124eda9336150e77/workerslinks.xyz/Ravanasura%20(2023)%20{Hindi%20(HQ)Telugu}%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,2,'o4aqvjqexvsr'],
 ['Shazam Fury of the Gods','4198CY4',`https://blue-hat-62d5.somiho3134.workers.dev/7f8ceea7a4b2584606afa1aa12d41a86/workerslinks.xyz/Shazam%20Fury%20of%20the%20Gods%20(2023)%20English%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,3,'44ioihcic8r7'],
 ['Gumraah Cam','3MnZkDk',`https://production.green-violet-3676ddd.rocalig516.workers.dev/93b07f3e8cdf7df7f7da848a46111d76/workerslinks.xyz/Gumraah%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'c3gw1riqzec5'],
 ['16 August 1947','3nWyb02',`https://soft-credit-bfc5.tacon65193.workers.dev/1c4b55d081e0d14cae9353120c591525/workerslinks.xyz/August%2016%201947%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'yuxmepl1erdj'],
