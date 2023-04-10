@@ -23,7 +23,7 @@ function getLink(elem,value){
 			localStorage.setItem('downExp',++downExp);
 			exInc=true;
 		}
-		location.assign("//ookroush.com/4/4937751");
+		location.assign("https://www.highrevenuegate.com/z2yyd7d1?key=af770677dcffca4ead1cd93452352b57");
 	}
 }
 
