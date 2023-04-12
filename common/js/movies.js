@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Romancham','3mpzKDp',`2>South.Movies/Romancham.2023/Romancham.2023.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'0m01p4pryfua'],
+['Acharya HD','3o6PoEn',`2>South.Movies/Acharya.2022/Acharya.2022.Hindi.Telugu.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'yacm6j78g7oz'],
 ['Madhur Wine','3zOgFht',`https://production.empty-haze-a538dwsds.coyof25633.workers.dev/c6f4afac7d866a6ae685a87e01be378a/workerslinks.xyz/Madhura%20Wines%20(2021)%20{HindiTelugu}%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,2,'fkh9fduetg2t'],
 ['Ravanasura','41eVRvb',`https://autumn-night-0866.cexifib990.workers.dev/342a3d94ccfb4eb2124eda9336150e77/workerslinks.xyz/Ravanasura%20(2023)%20{Hindi%20(HQ)Telugu}%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,2,'o4aqvjqexvsr'],
 ['Shazam Fury of the Gods','4198CY4',`https://blue-hat-62d5.somiho3134.workers.dev/7f8ceea7a4b2584606afa1aa12d41a86/workerslinks.xyz/Shazam%20Fury%20of%20the%20Gods%20(2023)%20English%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,3,'44ioihcic8r7'],
