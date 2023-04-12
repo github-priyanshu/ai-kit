@@ -12,7 +12,7 @@ var movies=
 ['Ravanasura','41eVRvb',`https://autumn-night-0866.cexifib990.workers.dev/342a3d94ccfb4eb2124eda9336150e77/workerslinks.xyz/Ravanasura%20(2023)%20{Hindi%20(HQ)Telugu}%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,2,'o4aqvjqexvsr'],
 ['Shazam Fury of the Gods','4198CY4',`https://blue-hat-62d5.somiho3134.workers.dev/7f8ceea7a4b2584606afa1aa12d41a86/workerslinks.xyz/Shazam%20Fury%20of%20the%20Gods%20(2023)%20English%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,3,'44ioihcic8r7'],
 ['Gumraah Cam','3MnZkDk',`https://production.green-violet-3676ddd.rocalig516.workers.dev/93b07f3e8cdf7df7f7da848a46111d76/workerslinks.xyz/Gumraah%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'c3gw1riqzec5'],
-['16 August 1947','3nWyb02',`https://soft-credit-bfc5.tacon65193.workers.dev/1c4b55d081e0d14cae9353120c591525/workerslinks.xyz/August%2016%201947%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'yuxmepl1erdj'],
+['16 August 1947','3nWyb02',`2>BollyWood/August.16.1947.2023.CamRip/August.16.1947.2023.Hindi.CAMRIP.480p.ESub-DudeFilms.in.mkv`,1,'yuxmepl1erdj'],
 ['The Pope\'s Exorcist','3ZNRYMz',`https://broken-wave-d815.sor10.workers.dev/ebcfa74ada286ee086e8817a4d344e8d/workerslinks.xyz/The%20Popes%20Exorcist%20(2023)%20English%20480p%20HDCAM%20HCESub%20[BollyFlix].mkv`,1,'tt8ggks061c9'],
 ['Accident Man Hitmans Holiday 2022','3zBcpln',`2>HollyWood/Accident.Man.Hitmans.Holiday.2022/Accident.Man.Hitmans.Holiday.2022.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'nepicdrfxw3d'],
 ['Babylon 2022','43pCOjM',`2>HollyWood/Babylon.2022/Babylon.2022.Hindi.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'xjbs9dqbh94l'],
