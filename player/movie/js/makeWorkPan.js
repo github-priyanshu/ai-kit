@@ -12,18 +12,18 @@ function getLink(elem,value){
 		op(".downBtn").click();
 	}else{
 		if(value=="alt"){
-			window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getAltLnk(curMvDetail)));
+			location.assign('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getAltLnk(curMvDetail)));
 		}else if(value.includes("download")){
-			window.open('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getPxLnk(curMvDetail,elem.innerText.replace('px',''))));
+			location.assign('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getPxLnk(curMvDetail,elem.innerText.replace('px',''))));
 		}else if(value.includes("watch")){
-			window.open('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',elem.innerText.replace('px',''))+'"');
+			location.assign('https://ai-player.netlify.app?mlnk="'+mainLnk.replaceAll('480',elem.innerText.replace('px',''))+'"');
 		}
 
 		if(!exInc){
 			localStorage.setItem('downExp',++downExp);
 			exInc=true;
 		}
-		location.assign("https://www.highrevenuegate.com/z2yyd7d1?key=af770677dcffca4ead1cd93452352b57");
+		window.open('https://www.highrevenuegate.com/z2yyd7d1?key=af770677dcffca4ead1cd93452352b57');
 	}
 }
 
@@ -68,7 +68,7 @@ op('.workPan').insertAdjacentHTML("afterbegin",`
 
   	<div class="fast">
   		<p>It may not work sometimes</p>
-  		<button class="noBtn active" onclick="this.nextElementSibling.style.display='block'">Fast Download</button>
+  		<div class="noBtn active" onclick="this.nextElementSibling.style.display='block'">||Fast Download||</div>
   		<div class='subBtn' style="display: block;">
   			<button class="noBtn" onclick='getLink(this,"download");'>480px</button>
   			<button class="noBtn" onclick='getLink(this,"download");'>720px</button>
