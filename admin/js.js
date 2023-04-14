@@ -59,11 +59,13 @@ function copyOpen(el,tocopy){
 var addedNS=0;
 function addSeries(){
 	op("#seriesCount").innerHTML=`/...Add Series (${++addedNS})`;
-	var str=[];
-	str.push("'"+op(".workPan[panFor='series'] .name").value.trim()+"'");
+	var str=[],namex=op(".workPan[panFor='series'] .name").value.trim();
+
+	str.push("'"+namex+"'");
 	str.push("'"+op(".workPan[panFor='series'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
 	str.push(op("#enum").value);
-	str.push("'"+getShortSeriesLnk(op(".workPan[panFor='series'] .lnkIn").value.trim())+"'");
+	var altx=getShortSeriesLnk(op(".workPan[panFor='series'] .lnkIn").value.trim());
+	str.push("'"+altx+"'");
 	str.push("'"+op("#seriesAltLnks").value.replaceAll("\n",'').replaceAll("https://drop.download/",',').substring(1) +"'");
 
 	str=str.join(",");
@@ -73,6 +75,10 @@ function addSeries(){
 	opp(".workPan[panFor='series'] input,.workPan[panFor='series'] textarea").forEach(val=>{
 		val.value="";
 	})
+	seriesFileRenamer();
+	function seriesFileRenamer() {
+		log(altx,namex);
+	}
 }
 function getShortSeriesLnk(fl){
 	if(fl.includes("WebSeries")){
@@ -87,16 +93,19 @@ function getShortSeriesLnk(fl){
 var addedN=0;
 function addMovies(){
 	op("#movieCount").innerHTML=`/...Add Movies (${++addedN})`;
-	var str=[];
-	str.push("'"+op(".workPan[panFor='movie'] .name").value.trim()+"'");
+	var str=[],namex=op(".workPan[panFor='movie'] .name").value.trim();
+	str.push("'"+namex+"'");
 	str.push("'"+op(".workPan[panFor='movie'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
 	str.push("`"+getMovieServerNLink()+"`");
 	str.push(op(".workPan[panFor='movie'] select").value);
-	str.push("'"+op(".workPan[panFor='movie'] .altLnk").value.trim().replace("https://drop.download/","")+"'");
+	var altx=op(".workPan[panFor='movie'] .altLnk").value.trim().replace("https://drop.download/","");
+	str.push("'"+altx+"'");
 
 	str=str.join(",");
 	data.movie+=`\n[${str}],`;
-	log(data.movie);
+
+	dropDownloadFileRename(altx,namex);
+	
 
 	opp(".workPan[panFor='movie'] input").forEach(val=>{
 		val.value="";
@@ -157,4 +166,8 @@ function copy(txt){
 	document.execCommand("copy");
 	navigator.clipboard.writeText(elem.value);
 	elem.remove();
+}
+
+function dropDownloadFileRename(id,name){
+	document.body.insertAdjacentHTML("afterbegin",`<iframe style='display: none;' src="https://drop.download/api/file/rename?key=289868qd58qohdgkd5rxlk&file_code=${id}&name=ai-player.netlify.app - ${name}.mp4" frameborder="0"></iframe>`);
 }
