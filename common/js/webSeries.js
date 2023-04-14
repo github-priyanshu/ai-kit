@@ -3,6 +3,7 @@ var webseries=
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
+['Farzi Season 1','43BjYX4',8,'__wsdomain/WebSeries/Amazon.Prime/Farzi.S01/Farzi.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','3f5l3jvh0ivx,bdevz59ataby,f11n89h2yhfu,p89ogvv5lh9e,5ska6sy8plkg,oewqe8a7q0w8,fghyn11yz9jt,0lrui2nx0ahc'],
 ['Jubilee Season 1','3KsMtgB',4,'__wsdomain/WebSeries/Jubilee.S01/Jubilee.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','w1t0wll1xnu7,jtli0wwbpqwj,797e8g5z4wbf,bt7acvnb9iyw'],
 ['Pop Kaun Season 1','3Guu9ma',6,'__wsdomain/WebSeries/Hotstar/Pop.Kaun.S01/Pop.Kaun.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','5jdpx3l283ke,5dctunarshje,iv1exvdip1qt,x0e2ol46qlis,fs5i7g5mef0c,l8u4q1xigb2s'],
 ['Shadow And Bone Season 2','3nQNVSi',8,'__wsdomain/WebSeries/NetFlix/Shadow.And.Bone.S02/Shadow.And.Bone.S02.E01.Hindi.English.720p.WEB-DL.ESub-DudeFilms.in.mkv','9bgwwlxscdls,1jqd30unmw8m,a5p3iszyrhwy,7w4za4hk2ruh,rn9zl830tjmu,90seinqyxx2q,00eu8a4em9nz,im6uesvy8ub9'],
