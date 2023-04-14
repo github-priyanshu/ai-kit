@@ -64,9 +64,9 @@ function addSeries(){
 	str.push("'"+namex+"'");
 	str.push("'"+op(".workPan[panFor='series'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
 	str.push(op("#enum").value);
-	var altx=getShortSeriesLnk(op(".workPan[panFor='series'] .lnkIn").value.trim());
+	str.push("'"+getShortSeriesLnk(op(".workPan[panFor='series'] .lnkIn").value.trim())+"'");
+	var altx=op("#seriesAltLnks").value.replaceAll("\n",'').replaceAll("https://drop.download/",',').substring(1);
 	str.push("'"+altx+"'");
-	str.push("'"+op("#seriesAltLnks").value.replaceAll("\n",'').replaceAll("https://drop.download/",',').substring(1) +"'");
 
 	str=str.join(",");
 	data.series+=`\n[${str}],`;
@@ -77,7 +77,11 @@ function addSeries(){
 	})
 	seriesFileRenamer();
 	function seriesFileRenamer() {
-		log(altx,namex);
+		var epn=0;
+		for(var val of altx.trim().split(',')){
+			log(val,namex + " Episode "+ epn)
+			dropDownloadFileRename(val,namex + " Episode "+ ++epn);
+		}
 	}
 }
 function getShortSeriesLnk(fl){
