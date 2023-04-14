@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Shehzada HD','3MJWlWe',`https://production.muddy-dust-edaeerthhhhhf.tebivog448.workers.dev/cbc3ff53ffaddb7e46fb102767bfe7a5/workerslinks.xyz/Shehzada%20(2023)%20Hindi%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,1,'joffahd18lpn'],
 ['Romancham','3mpzKDp',`2>South.Movies/Romancham.2023/Romancham.2023.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'0m01p4pryfua'],
 ['Acharya HD','3o6PoEn',`2>South.Movies/Acharya.2022/Acharya.2022.Hindi.Telugu.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'yacm6j78g7oz'],
 ['Madhur Wine','3zOgFht',`https://production.empty-haze-a538dwsds.coyof25633.workers.dev/c6f4afac7d866a6ae685a87e01be378a/workerslinks.xyz/Madhura%20Wines%20(2021)%20{HindiTelugu}%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,2,'fkh9fduetg2t'],
@@ -60,7 +61,6 @@ var movies=
 ['Hunt','4186pvZ',`2>South.Movies/Hunt.2023.HQ/Hunt.2023.Hindi.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'d707tb3pwui3'],
 ['Vaathi','3KaRTNe',`2>South.Movies/Vaathi.2023.HQ/Vaathi.2023.Hindi.HQ.DUB.480p.HDCAM-DudeFilms.in.mkv`,2,'b0qa02iab3p8'],
 ['Mr Local','3MoXdPG',`2>South.Movies/Mr.Local.2019.HQ/Mr.Local.2019.Hindi.HQ.Dub.480p.WEB.DL-DudeFilms.in.mkv`,2,'6dfe5i1s61mr'],
-['Shehzada','3Mrb87Y',`https://dl.hitapox429.workers.dev/0:/BollyWood/Shehzada.2023.HDCAM/Shehzada.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'qkg932n543fo'],
 ['Cirkus 2022','414Sd7D',`2>BollyWood/Cirkus.2022/Cirkus.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a3tp7vnyab9u'],
 ['LOST','3KaSL4s',`2>BollyWood/LOST.2023/LOST.2023.Hindi.ZEE5.480p.WEB-DL-DudeFilms.in.mkv`,1,'5fin516tbcjx'],
 ['AntMan and the Wasp Quantumania CAM','3MHHHij',`2>HollyWood/AntMan.and.the.Wasp.Quantumania.2023.HDCAM/AntMan.and.the.Wasp.Quantumania.2023.480p.V2.CAMRip.Hindi-DudeFilms.in.mkv`,3,'dtwydb9kdzx1'],
