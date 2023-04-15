@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-['Shakuntalam','40dcxCa',`https://drop.download/sag8zido3n20`,2,'sag8zido3n20']
+['Shakuntalam','40dcxCa',`https://drop.download/sag8zido3n20`,2,'sag8zido3n20'],
 ['Mrs Undercover','409803W',`https://white-mountain-9365.niraf83295.workers.dev/7b161f1b404c3f083b5f07e210e10e89/workerslinks.xyz/Mrs%20Undercover%20(2023)%20Hindi%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,1,'0zkw6jghxbq0'],
 ['Pinky Beauty Parlour Cam','3MIQTCK',`https://production.calm-night-7f7ahkjdfoi.cikiv60028.workers.dev/ad3d84f5a563c796fe793250e2b2d2b6/workerslinks.xyz/Pinky%20Beauty%20Parlour%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'vrinln6wn75n'],
 ['Shehzada HD','3MJWlWe',`https://production.muddy-dust-edaeerthhhhhf.tebivog448.workers.dev/cbc3ff53ffaddb7e46fb102767bfe7a5/workerslinks.xyz/Shehzada%20(2023)%20Hindi%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,1,'joffahd18lpn'],
