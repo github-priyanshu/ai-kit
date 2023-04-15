@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Pinky Beauty Parlour Cam','3MIQTCK',`https://production.calm-night-7f7ahkjdfoi.cikiv60028.workers.dev/ad3d84f5a563c796fe793250e2b2d2b6/workerslinks.xyz/Pinky%20Beauty%20Parlour%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'vrinln6wn75n'],
 ['Shehzada HD','3MJWlWe',`https://production.muddy-dust-edaeerthhhhhf.tebivog448.workers.dev/cbc3ff53ffaddb7e46fb102767bfe7a5/workerslinks.xyz/Shehzada%20(2023)%20Hindi%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,1,'joffahd18lpn'],
 ['Romancham','3mpzKDp',`2>South.Movies/Romancham.2023/Romancham.2023.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'0m01p4pryfua'],
 ['Acharya HD','3o6PoEn',`2>South.Movies/Acharya.2022/Acharya.2022.Hindi.Telugu.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'yacm6j78g7oz'],
