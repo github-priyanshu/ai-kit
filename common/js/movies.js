@@ -10,9 +10,9 @@ var movies=
 
 ['Iron Sky The Comming Race','3LbKmPO',`https://drop.download/sogdm277w7f8`,3,'sogdm277w7f8'],
 ['Das Ki Dhamki Cam','40s79LX',`https://drop.download/eauufke1omxl`,1,'eauufke1omxl'],
-['Shakuntalam Cam','40dcxCa',`https://drop.download/sag8zido3n20`,2,'sag8zido3n20'],
+['Shakuntalam Cam','40dcxCa',`2>South.Movies/Shaakuntalam.2023.HDCam/Shaakuntalam.2023.Hindi.HQ.Dub.480p.HDCAM-DudeFilms.in.mkv`,2,'sag8zido3n20'],
 ['Mrs Undercover','409803W',`https://white-mountain-9365.niraf83295.workers.dev/7b161f1b404c3f083b5f07e210e10e89/workerslinks.xyz/Mrs%20Undercover%20(2023)%20Hindi%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,1,'0zkw6jghxbq0'],
-['Pinky Beauty Parlour Cam','3MIQTCK',`https://production.calm-night-7f7ahkjdfoi.cikiv60028.workers.dev/ad3d84f5a563c796fe793250e2b2d2b6/workerslinks.xyz/Pinky%20Beauty%20Parlour%20(2023)%20Hindi%20480p%20HQ%20SPrint%20[BollyFlix].mkv`,1,'vrinln6wn75n'],
+['Pinky Beauty Parlour Cam','3MIQTCK',`2>South.Movies/Pinky.Beauty.Parlour.2023.HDCam/Pinky.Beauty.Parlour.2023.Hindi.HQ.Dub.480p.HDCAM-DudeFilms.in.mkv`,1,'vrinln6wn75n'],
 ['Shehzada HD','3MJWlWe',`https://production.muddy-dust-edaeerthhhhhf.tebivog448.workers.dev/cbc3ff53ffaddb7e46fb102767bfe7a5/workerslinks.xyz/Shehzada%20(2023)%20Hindi%20480p%20WEBDL%20ESub%20[BollyFlix].mkv`,1,'joffahd18lpn'],
 ['Romancham','3mpzKDp',`2>South.Movies/Romancham.2023/Romancham.2023.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'0m01p4pryfua'],
 ['Acharya HD','3o6PoEn',`2>South.Movies/Acharya.2022/Acharya.2022.Hindi.Telugu.480p.WEBDL.ESub-DudeFilms.in.mkv`,2,'yacm6j78g7oz'],
