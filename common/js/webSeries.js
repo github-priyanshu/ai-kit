@@ -4,6 +4,7 @@ var webseries=
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 
 ['Garmi Season 1','41oxLhW',9,'__wsdomain/WebSeries/Garmi.S01/Garmi.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','o0o4mhdo9rh0,s8h89no76ner,6hb85swu7vhc,5v7ohnuyfksw,rn0xqxeipds7,bya4f4f3h95p,bxq75gn4o5ks,qhf6vzwe1gfb,02dotv32lzxx'],
+['The Diplomat Season 1','41wYRn9',8,'__wsdomain/WebSeries/The.Diplomat.S01/The.Diplomat.S01.E01.%7BHindi-English%7D.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv','f5dhoielsdga,8q7vjty7aybr,biww13kek1d1,4bksjwliohoz,w8fki6bmkws0,mtr7gtushgzl,5oky5ha6gjo9,b98xuto7tcpe'],
 ['Obsession Season 1','40aXYPF',4,'__wsdomain/WebSeries/NetFlix/Obsession.S01/Obsession.S01.E01.Hindi.English.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv','un0uoo5hdh0j,a0divmi49ch6,be9j9gpfh832'],
 ['Florida Man Season 1','3myEUxd',7,'__wsdomain/WebSeries/NetFlix/Florida.Man.S01/Florida.Man.S01.E01.Hindi.English.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv','oqrjyo62oyv5,tzinubvv3amq,49e3fnlmj7we,m9ap30btqzmb,gsct0ax5pst0,f0y2z56cfj71,bh1nm8qr0t1i'],
 ['Farzi Season 1','43BjYX4',8,'__wsdomain/WebSeries/Amazon.Prime/Farzi.S01/Farzi.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','3f5l3jvh0ivx,bdevz59ataby,f11n89h2yhfu,p89ogvv5lh9e,5ska6sy8plkg,oewqe8a7q0w8,fghyn11yz9jt,0lrui2nx0ahc'],
