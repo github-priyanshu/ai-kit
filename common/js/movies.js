@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Selfiee  HD','3LkcWyP',`2>Movies/Selfiee.2023/Selfiee.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'e820hohwnayk'],
 ['AntMan and the Wasp Quantumania HD (English)','3mTtiVG',`2>English.Movies/AntMan.and.the.Wasp.Quantumania.2023/AntMan.and.the.Wasp.Quantumania.2023.English.480p.WEBDL.ESub-DudeFilms.in.mkv`,3,'0mti2pg2qgk7'],
 ['Iron Sky The Comming Race','3LbKmPO',`https://drop.download/sogdm277w7f8`,3,'sogdm277w7f8'],
 ['Das Ki Dhamki Cam','40s79LX',`https://drop.download/eauufke1omxl`,1,'eauufke1omxl'],
