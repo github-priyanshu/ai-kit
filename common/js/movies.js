@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Ghosted','3mPhHHf',`https://drop.download/vm3lctq3zcxi`,3,'vm3lctq3zcxi'],
 ['Chengiz','3mNJFmI',`https://drop.download/316l66zxybr1`,2,'316l66zxybr1'],
 ['Kisi Ka Bhai Kisi Ki Jaan','3UXmL96',`https://drop.download/a7gna82gubrt`,1,'a7gna82gubrt'],
 ['Selfiee  HD','3LkcWyP',`2>Movies/Selfiee.2023/Selfiee.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'e820hohwnayk'],
