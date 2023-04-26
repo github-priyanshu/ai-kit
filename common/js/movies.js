@@ -9,6 +9,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 ['Kisi Ka Bhai Kisi Ki Jaan','3UXmL96',`https://drop.download/a7gna82gubrt`,1,'a7gna82gubrt'],
+['Alita Battle Angel','3Hh696y',`https://drop.download/lwdp6inoqyh8`,3,'lwdp6inoqyh8'],
+['Haunting','3V5AMBA',`https://drop.download/s7mu44ivg98b`,1,'s7mu44ivg98b'],
 ['Ghosted','3mPhHHf',`https://drop.download/vm3lctq3zcxi`,3,'vm3lctq3zcxi'],
 ['Chengiz','3mNJFmI',`https://drop.download/316l66zxybr1`,2,'316l66zxybr1'],
 ['Selfiee  HD','3LkcWyP',`2>Movies/Selfiee.2023/Selfiee.2023.Hindi.480p.WEBDL.ESub-DudeFilms.in.mkv`,1,'e820hohwnayk'],
