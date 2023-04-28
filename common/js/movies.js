@@ -9,6 +9,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 ['Kisi Ka Bhai Kisi Ki Jaan','3UXmL96',`https://drop.download/a7gna82gubrt`,1,'a7gna82gubrt'],
+['Ved','44d4OHy',`https://drop.download/vbmor5gv3mep`,1,'vbmor5gv3mep'],
+['U Turn','3Vc6jlg',`https://drop.download/om7at6hxk1wf`,1,'om7at6hxk1wf'],
 ['Alita Battle Angel','3Hh696y',`https://drop.download/lwdp6inoqyh8`,3,'lwdp6inoqyh8'],
 ['Haunting','3V5AMBA',`https://drop.download/s7mu44ivg98b`,1,'s7mu44ivg98b'],
 ['Ghosted','3mPhHHf',`https://drop.download/vm3lctq3zcxi`,3,'vm3lctq3zcxi'],
