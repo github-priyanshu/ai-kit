@@ -10,6 +10,8 @@ var movies=
 	
 
 	
+['Guardians of the Galaxy Vol. 3','3LXM4Vj',`https://drop.download/fyy5pazvsqu5`,3,'fyy5pazvsqu5'],
+
 
 	
 ['Burial 2022','44dK7v9',`https://dl.yocima74984581.workers.dev/0:/Movies/Burial.2022/Burial.2022.Dual.Audio.Hindi.English.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'236cgtpmiefc'],
