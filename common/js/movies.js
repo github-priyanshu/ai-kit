@@ -10,6 +10,8 @@ var movies=
 	
 
 	
+
+	
 ['Burial 2022','44dK7v9',`https://dl.yocima74984581.workers.dev/0:/Movies/Burial.2022/Burial.2022.Dual.Audio.Hindi.English.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'236cgtpmiefc'],
 ['Kisi Ka Bhai Kisi Ki Jaan','3UXmL96',`https://drop.download/a7gna82gubrt`,1,'a7gna82gubrt'],
 ['Ved','44d4OHy',`https://drop.download/vbmor5gv3mep`,1,'vbmor5gv3mep'],
