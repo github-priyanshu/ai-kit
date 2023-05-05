@@ -8,7 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 	
-
+['The Kerala Story','3nyROLX',`https://drop.download/773wbusrr099`,1,'773wbusrr099'],
 	
 ['Guardians of the Galaxy Vol. 3','3LXM4Vj',`https://drop.download/fyy5pazvsqu5`,3,'fyy5pazvsqu5'],
 
