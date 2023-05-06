@@ -2,6 +2,9 @@ var webseries=
 [
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
+	
+
+	
 ['Citadel Season 1','3oXRiaw',2,'__wsdomain/WebSeries/Citadel.S01/Citadel.S01.E01.AMZN.720p.WEB-DL.Esub-DudeFilms.in.mkv','ya48nboh05kv,2c6ckvqag5c1'],
 
 ['The Nurse Season 1','3LH8GJW',4,'__wsdomain/WebSeries/The.Nurse.S01/The.Nurse.S01.E01.Hindi.English.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv','dx5nyfsis8a7,1tf5mauqpvoz,lgu50fcyivfw,g7x0gexagjo7'],
