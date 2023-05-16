@@ -15,11 +15,20 @@ var movies=
 
 	
 
-	
 
 	
 
-	
+['Bholaa','3o4lcKq',`2>2023/Bholaa.2023.AMZN.Hindi.480p.Web.DL-DudeFilms.in.mkv`,1,'612j8ptsblwe'],
+
+['Shaakuntalam','3IcWled',`https://dl.coxom302087418.workers.dev/0:/Movies/Shaakuntalam.2023/Shaakuntalam.2023.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'b389dx6q7lfo'],
+
+['Afwaah  CamRip','3MakaV0',`https://dl.coxom302087418.workers.dev/0:/Movies/Afwaah.2023.CamRip/Afwaah.2023.HINDI.DUB.480p.CAMRip-DudeFilms.in.mkv`,1,'3k29q9k8jxno'],
+
+['Mrs Chatterjee vs Norway','431jsjF',`https://dl.coxom302087418.workers.dev/0:/Movies/Mrs.Chatterjee.vs.Norway.2023/Mrs.Chatterjee.vs.Norway.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'fw30u6apfvma'],
+
+['Royalteen Princess Margrethe','3W5Owwy',`https://dl.coxom302087418.workers.dev/0:/Movies/Royalteen.Princess.Margrethe.2023/Royalteen.Princess.Margrethe.2023.Hindi.English.Norwegian.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'jzhvor2nx18a'],
+
+['Titu Ambani 2022','3MslnZl',`https://dl.coxom302087418.workers.dev/0:/Movies/Titu.Ambani.2022/Titu.Ambani.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1,'r1nhr9mvymk4'],
 ['The Kerala Story','3nyROLX',`https://drop.download/773wbusrr099`,1,'773wbusrr099'],
 	
 
