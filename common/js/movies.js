@@ -15,7 +15,7 @@ var movies=
 
 	
 
-
+['Kathal A Jackfruit Mystry','431qB3I',`https://drop.download/1pvq6tw0hi8n`,1,'1pvq6tw0hi8n'],
 	
 ['Crater HD','42Lqeuk',`https://drop.download/92qi6y30d9lx`,3,'92qi6y30d9lx'],
 ['Bholaa','3o4lcKq',`2>2023/Bholaa.2023.AMZN.Hindi.480p.Web.DL-DudeFilms.in.mkv`,1,'612j8ptsblwe'],
