@@ -14,7 +14,7 @@ var movies=
 	
 
 	
-
+['Custody','3oogxDc',`https://dl.coxom302087418.workers.dev/0:/Movies/Custody.2023.HDCam/Custody.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,2,'e1troj4tphk4'],
 ['Kathal A Jackfruit Mystry','431qB3I',`https://drop.download/1pvq6tw0hi8n`,1,'1pvq6tw0hi8n'],
 	
 ['Crater HD','42Lqeuk',`https://drop.download/92qi6y30d9lx`,3,'92qi6y30d9lx'],
