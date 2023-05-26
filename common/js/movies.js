@@ -8,67 +8,25 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-	
-['Custody','3oogxDc',`https://dl.coxom302087418.workers.dev/0:/Movies/Custody.2023.HDCam/Custody.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,2,'e1troj4tphk4'],
-['Kathal A Jackfruit Mystry','431qB3I',`https://drop.download/1pvq6tw0hi8n`,1,'1pvq6tw0hi8n'],
-	
+['Bheed','3BYGmga',`2>Bheed.2023/Bheed.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a94sd5alatu3'],
+['Polite Society','45uu2lr',`2>Polite.Society.2023/Polite.Society.2023.Dual.Audio.Hindi.English.480p.WEB-DL.MSubs-DudeFilms.in.mkv`,1,'i9r7fqdzaovx'],
+['Operation Mayfair','45vGTnk',`2>Operation.Mayfair.2023/Operation.Mayfair.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'70dsz4t8xyhc'],
+['John Wick Chapter 4','437rHvc',`2>John.Wick.Chapter.4.2023/John.Wick.Chapter.4.2023.ORG.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'3ew42r5lqoqc'],
+['Thugs','3WPzHih',`2>Thugs.2023/Thugs.2023.Hindi.Tamil.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'u7r88d1okgh5'],
+['Sirf Ek Bandaa Kaafi Hai','3MzJXpZ',`2>Sirf.Ek.Bandaa.Kaafi.Hai.2023/Sirf.Ek.Bandaa.Kaafi.Hai.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'6h4e8mao2wre'],
+['Renfield','435iC6f',`2>Renfield.2023/Renfield.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'b00phkmwadmt'],
+['Bhediya','3qdgfjb',`2>Bhediya.2023/Bhediya.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'7urma9d4vi54'],
+['Custody','3oogxDc',`2>Custody.2023.HDCam/Custody.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,2,'e1troj4tphk4'],
+['Kathal A Jackfruit Mystry','431qB3I',`https://drop.download/1pvq6tw0hi8n`,1,'1pvq6tw0hi8n'],	
 ['Crater HD','42Lqeuk',`https://drop.download/92qi6y30d9lx`,3,'92qi6y30d9lx'],
 ['Bholaa','3o4lcKq',`2>2023/Bholaa.2023.AMZN.Hindi.480p.Web.DL-DudeFilms.in.mkv`,1,'612j8ptsblwe'],
-
-['Shaakuntalam','3IcWled',`https://dl.coxom302087418.workers.dev/0:/Movies/Shaakuntalam.2023/Shaakuntalam.2023.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'b389dx6q7lfo'],
-
-['Afwaah  CamRip','3MakaV0',`https://dl.coxom302087418.workers.dev/0:/Movies/Afwaah.2023.CamRip/Afwaah.2023.HINDI.DUB.480p.CAMRip-DudeFilms.in.mkv`,1,'3k29q9k8jxno'],
-
-['Mrs Chatterjee vs Norway','431jsjF',`https://dl.coxom302087418.workers.dev/0:/Movies/Mrs.Chatterjee.vs.Norway.2023/Mrs.Chatterjee.vs.Norway.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'fw30u6apfvma'],
-
-['Royalteen Princess Margrethe','3W5Owwy',`https://dl.coxom302087418.workers.dev/0:/Movies/Royalteen.Princess.Margrethe.2023/Royalteen.Princess.Margrethe.2023.Hindi.English.Norwegian.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'jzhvor2nx18a'],
-
-['Titu Ambani 2022','3MslnZl',`https://dl.coxom302087418.workers.dev/0:/Movies/Titu.Ambani.2022/Titu.Ambani.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1,'r1nhr9mvymk4'],
-['The Kerala Story','3nyROLX',`https://drop.download/773wbusrr099`,1,'773wbusrr099'],
-	
-
-	
+['Shaakuntalam','3IcWled',`2>Shaakuntalam.2023/Shaakuntalam.2023.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'b389dx6q7lfo'],
+['Afwaah  CamRip','3MakaV0',`2>Afwaah.2023.CamRip/Afwaah.2023.HINDI.DUB.480p.CAMRip-DudeFilms.in.mkv`,1,'3k29q9k8jxno'],
+['Mrs Chatterjee vs Norway','431jsjF',`2>Mrs.Chatterjee.vs.Norway.2023/Mrs.Chatterjee.vs.Norway.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'fw30u6apfvma'],
+['Royalteen Princess Margrethe','3W5Owwy',`2>Royalteen.Princess.Margrethe.2023/Royalteen.Princess.Margrethe.2023.Hindi.English.Norwegian.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'jzhvor2nx18a'],
+['Titu Ambani 2022','3MslnZl',`2>Titu.Ambani.2022/Titu.Ambani.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1,'r1nhr9mvymk4'],
+['The Kerala Story','3nyROLX',`https://drop.download/773wbusrr099`,1,'773wbusrr099'],	
 ['Guardians of the Galaxy Vol. 3','3LXM4Vj',`https://drop.download/fyy5pazvsqu5`,3,'fyy5pazvsqu5'],
-
-
 ['Burial 2022','44dK7v9',`https://dl.yocima74984581.workers.dev/0:/Movies/Burial.2022/Burial.2022.Dual.Audio.Hindi.English.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'236cgtpmiefc'],
 ['Kisi Ka Bhai Kisi Ki Jaan','3UXmL96',`https://drop.download/a7gna82gubrt`,1,'a7gna82gubrt'],
 ['Ved','44d4OHy',`https://drop.download/vbmor5gv3mep`,1,'vbmor5gv3mep'],
