@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 	
+['Jogira Sara Ra Ra','43O26rh',`https://drop.download/n2if6u5jtmzh`,1,'n2if6u5jtmzh'],        
 ['Bheed','3BYGmga',`2>Bheed.2023/Bheed.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a94sd5alatu3'],
 ['Polite Society','45uu2lr',`2>Polite.Society.2023/Polite.Society.2023.Dual.Audio.Hindi.English.480p.WEB-DL.MSubs-DudeFilms.in.mkv`,1,'i9r7fqdzaovx'],
 ['Operation Mayfair','45vGTnk',`2>Operation.Mayfair.2023/Operation.Mayfair.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'70dsz4t8xyhc'],
