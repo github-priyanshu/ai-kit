@@ -7,7 +7,7 @@ var movies=
 [
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
-hhh
+
 ['Dasara','3WGY3KS',`2>Dasara.2023/Dasara.2023.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'ea2oek3lpfhe'],
 ['Jogira Sara Ra Ra','43O26rh',`https://drop.download/n2if6u5jtmzh`,1,'n2if6u5jtmzh'],        
 ['Bheed','3BYGmga',`2>Bheed.2023/Bheed.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a94sd5alatu3'],
