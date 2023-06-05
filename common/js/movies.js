@@ -8,6 +8,16 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+
+['Zara Hatke Zara Bachke','43obcLj',`2>Zara.Hatke.Zara.Bachke.2023/Zara.Hatke.Zara.Bachke.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'jwv1jwhwxx10'],
+
+['Medellin','3oUoSi5',`2>Medellin.2023/Medellin.2023.Dual.Audio.Hindi.English.480p.WEB-DL.MSubs-DudeFilms.in.mkv`,3,'gmcp1mvoyuis'],
+
+['Chal Man Jeetva Jaiye 2','3MLNotT',`2>Chal.Man.Jeetva.Jaiye.2.2023/Chal.Man.Jeetva.Jaiye.2.2023.Gujarati.480p.WEB-DL-DudeFilms.in.mkv`,1,'ig78ukp1c0l4'],
+
+['Gumraah HD','3oNFsjM',`2>Gumraah.2023/Gumraah.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'rgt7ajzh2fa2'],
+
+['Pathaam Valavu 2022','3NdbS0A',`2>Pathaam.Valavu.2022/Pathaam.Valavu.2022.Hindi.Malayalam.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'8byhgsz8wblp'],
 ['Dasara','3WGY3KS',`2>Dasara.2023/Dasara.2023.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'ea2oek3lpfhe'],
 ['Jogira Sara Ra Ra','43O26rh',`https://drop.download/n2if6u5jtmzh`,1,'n2if6u5jtmzh'],        
 ['Bheed','3BYGmga',`2>Bheed.2023/Bheed.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'a94sd5alatu3'],
