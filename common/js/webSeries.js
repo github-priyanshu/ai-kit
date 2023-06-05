@@ -5,6 +5,8 @@ var webseries=
 	
 
 	
+['Scoop Season 1','3WLxEM5',6,'__wsdomain/WebSeries/Scoop.S01/Scoop.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','zrxxkqhdmy2a,8yzrb44smgex,hmzihldmzmod,buzcluqffczw,g62phvum2lhi,z2afikyo8m9c'],
+['Taj Reign of Revenge Season 2','45IqdsV',8,'__wsdomain/WebSeries/Taj.Reign.of.Revenge.S02/Taj.Reign.of.Revenge.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','25lzmb4tania,asn4yi3ba5u3,1r6dvhkdch2h,evwzjl20vtsf,8gtf5qsbsx2p,ofua5v1usr09,y0e7eajb59ls,srv6kbm7c76m'],
 ['Citadel Season 1','3oXRiaw',2,'__wsdomain/WebSeries/Citadel.S01/Citadel.S01.E01.AMZN.720p.WEB-DL.Esub-DudeFilms.in.mkv','ya48nboh05kv,2c6ckvqag5c1'],
 
 ['The Nurse Season 1','3LH8GJW',4,'__wsdomain/WebSeries/The.Nurse.S01/The.Nurse.S01.E01.Hindi.English.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv','dx5nyfsis8a7,1tf5mauqpvoz,lgu50fcyivfw,g7x0gexagjo7'],
