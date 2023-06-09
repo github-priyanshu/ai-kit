@@ -9,6 +9,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 
 
+
+['Bloody Daddy','3P5IVoI',`https://drop.download/uezckfknuwb5`,1,'uezckfknuwb5'],
 ['Zara Hatke Zara Bachke','43obcLj',`2>Zara.Hatke.Zara.Bachke.2023/Zara.Hatke.Zara.Bachke.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'jwv1jwhwxx10'],
 
 ['Medellin','3oUoSi5',`2>Medellin.2023/Medellin.2023.Dual.Audio.Hindi.English.480p.WEB-DL.MSubs-DudeFilms.in.mkv`,3,'gmcp1mvoyuis'],
