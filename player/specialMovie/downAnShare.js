@@ -33,7 +33,7 @@ function vidDown() {
 	}
 }
 
-function vidShare(data={title:"Pathaan",text:"Pathaan free *watch and download*",url:"https://ai-player.netlify.app?sh=17"}){
+function vidShare(data={title:"Pathaan",text:"Pathaan free *watch and download*",url:"https://ai-playerx.netlify.app?sh=17"}){
   try{
     navigator.share(data)
   }catch{

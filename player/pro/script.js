@@ -12,9 +12,9 @@ Some Populars are:
 *Pushpa*
 
 And many more in one link..!!
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*
-*HTTPS://AI-PLAYER.NETLIFY.APP/?SH=17*`;
+*HTTPS://ai-playerx.netlify.app/?SH=17*
+*HTTPS://ai-playerx.netlify.app/?SH=17*
+*HTTPS://ai-playerx.netlify.app/?SH=17*`;
 
 shMsg=encodeURI("https://wa.me/?text="+shMsg);
 
@@ -69,7 +69,7 @@ class main{
 			m1: "<p col='#444'>Congrates now you are Pro* user</p>",
 			m2: `<p col="#f00" class="warn">Use below button only</p>`,
 			s: `<div col="#777" fs="2em">DONE</div>`,
-			button: `<button class="noBtn" onclick="goPro();" bg="#0099ff" onclick="location.replace('https://ai-player.netlify.app#pro')" col="#fff">Click Me*</button>`,
+			button: `<button class="noBtn" onclick="goPro();" bg="#0099ff" onclick="location.replace('https://ai-playerx.netlify.app#pro')" col="#fff">Click Me*</button>`,
 			m3: `<p col="#222">Enjoy 1 week premium for free.</p>`,
 		}
 	]
@@ -141,7 +141,7 @@ function checkBlur(after,fn){
 
 function goPro(){
 	if(localStorage.getItem("proTimEnd")){
-		location.replace("https://ai-player.netlify.app#pro");
+		location.replace("https://ai-playerx.netlify.app#pro");
 	}else{
 		alert("You have got premium from here once...");
 		location.reload();

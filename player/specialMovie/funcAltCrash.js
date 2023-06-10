@@ -73,7 +73,7 @@ function sharing() {
 var srhTxt=`सारी नई फिल्में है 'Ai Player' पर 
 मैं देख रहा हूं '*Pathaan Specials*'
 👇 Join Me 👇
-https://ai-player.netlify.app?sh=17
+https://ai-playerx.netlify.app?sh=17
 All new movies are here:
 *Pathaan*
 *Mission Majnu*
