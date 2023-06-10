@@ -29,8 +29,8 @@ Some Populars are:
 *KGF 2*
 *The Kashmir Files*
 
-https://ai-player.netlify.app?sh=17
-https://ai-player.netlify.app?sh=17`;
+https://ai-playerx.netlify.app?sh=17
+https://ai-playerx.netlify.app?sh=17`;
 
 if(typeof vidHistory=="string"){
 	vidHistory=vidHistory.split(",")

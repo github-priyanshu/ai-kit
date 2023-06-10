@@ -1,6 +1,6 @@
 /*++++++++ PLAYER.JS actually its+++++++++++*/
 var log=console.log,
-domain="https://ai-player.netlify.app/";
+domain="https://ai-playerx.netlify.app/";
 
 /*dom elements*/
 var video=op(".videoBox video"),

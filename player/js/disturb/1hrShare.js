@@ -61,7 +61,7 @@ function shareHTML(txt="<h3>Apply the link to <u>Status</u> to continue...</h3>"
 		<div class="shBtn flex">
 			<button class="noBtn flex" onclick="checkShare();this.children[0].click()" bg="linear-gradient(0deg,#06b900,#08f400)" ico="whatsapp"><a href="${url}" hidden target="__blank"></a></button>
 		</div>
-		${(toAskPro())?`<button onclick="window.open('https://ai-player.netlify.app/pro')" class="noBtn" fs="1em">Don't want to <span fw="bold">Share</span></button>`:''}
+		${(toAskPro())?`<button onclick="window.open('https://ai-playerx.netlify.app/pro')" class="noBtn" fs="1em">Don't want to <span fw="bold">Share</span></button>`:''}
 	</div>
 	`;
 	return html;
