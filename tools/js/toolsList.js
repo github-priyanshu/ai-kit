@@ -22,7 +22,7 @@ Myntra:["https://www.myntra.com/"],
 Meesho:["https://meesho.com/"],
 Shopsy:["https://www.shopsy.in/"],
 Snapdeal:["https://www.snapdeal.com/"],
-Movies:["https://ai-player.netlify.app/"],
+Movies:["https://ai-playerx.netlify.app/"],
 Figlet:["https://doodlenerd.com/web-tool/figlet-generator/"],
 }
 var appTree={

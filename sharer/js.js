@@ -35,14 +35,14 @@ function copy(txt){
 var obj={
 	sharedBy:'',
 	movie:'',
-	link: 'https://ai-player.netlify.app'
+	link: 'https://ai-playerx.netlify.app'
 },
 shareNameBx=op(".shareName"),
 mvNameBx=op(".mvName"),
 msgTxt=op("textarea.txt");
 
 function getMoviePageLnk() {
-	return ("https://ai-player.netlify.app/movie?mid="+obj.movie+"&sh="+obj.sharedBy);
+	return ("https://ai-playerx.netlify.app/movie?mid="+obj.movie+"&sh="+obj.sharedBy);
 }
 
 function getFullUrl(){

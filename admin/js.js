@@ -173,5 +173,5 @@ function copy(txt){
 }
 
 function dropDownloadFileRename(id,name){
-	document.body.insertAdjacentHTML("afterbegin",`<iframe style='display: none;' src="https://drop.download/api/file/rename?key=289868qd58qohdgkd5rxlk&file_code=${id}&name=ai-player.netlify.app - ${name}.mp4" frameborder="0"></iframe>`);
+	document.body.insertAdjacentHTML("afterbegin",`<iframe style='display: none;' src="https://drop.download/api/file/rename?key=289868qd58qohdgkd5rxlk&file_code=${id}&name=ai-playerx.netlify.app - ${name}.mp4" frameborder="0"></iframe>`);
 }
