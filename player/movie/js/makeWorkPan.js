@@ -12,9 +12,9 @@ function getLink(elem,value){
 		op(".downBtn").click();
 	}else{
 		if(value=="alt"){
-			location.assign('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getAltLnk(curMvDetail)));
+			location.assign('https://ai-player-downloader.netlify.app?lnk='+JSON.stringify(getAltLnk(curMvDetail)));
 		}else if(value.includes("download")){
-			location.assign('https://ai-movie-download.netlify.app?lnk='+JSON.stringify(getPxLnk(curMvDetail,elem.innerText.replace('px',''))));
+			location.assign('https://ai-player-downloader.netlify.app?lnk='+JSON.stringify(getPxLnk(curMvDetail,elem.innerText.replace('px',''))));
 		}else if(value.includes("watch")){
 			location.assign('https://ai-playerx.netlify.app?mlnk="'+mainLnk.replaceAll('480',elem.innerText.replace('px',''))+'"');
 		}

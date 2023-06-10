@@ -62,7 +62,7 @@ video.onerror=(e)=>{
 			var obj=movies[vidSource.mid];
 			obj.src=obj.altLnk;
 			delete obj.altLnk;
-			location.assign(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify(obj)}`);
+			location.assign(`https://ai-player-downloader.netlify.app?lnk=${JSON.stringify(obj)}`);
 			return false;
 		}
 
@@ -91,7 +91,7 @@ function onErrDown(){
 		var html=`<br><span>/...Download</span><br>Try to DOWNLOAD it, because unable to play right now.`;
 		dialog.buttons("Close","Download");
 		dialog.success=()=>{
-			window.open(`https://ai-movie-download.netlify.app?lnk=${getDownData()}`);
+			window.open(`https://ai-player-downloader.netlify.app?lnk=${getDownData()}`);
 			location.assign(extLink);
 		};
 		return html;

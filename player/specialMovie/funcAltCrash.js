@@ -40,14 +40,14 @@ function crashed(){
 			`window.open('${obj.altLnk}');send('...forcing donwload');`
 			);
 			setTimeout(()=>{
-				var htmlxx=`<h3>How to downlaod... 👇</h3><video loop controls id="helpVid" src="https://ai-movie-download.netlify.app/media/helpVid/downalt.mp4" width="90%" style="border-radius: 5px;margin: 0;"></video>`;
+				var htmlxx=`<h3>How to downlaod... 👇</h3><video loop controls id="helpVid" src="https://ai-player-downloader.netlify.app/media/helpVid/downalt.mp4" width="90%" style="border-radius: 5px;margin: 0;"></video>`;
 				op("#disturbBtn").insertAdjacentHTML("afterend",htmlxx);
 				op("#helpVid").play();
 			},2000)
 		},1000);
 	},500);
 }
-https://ai-movie-download.netlify.app/media/helpVid/downalt.mp4
+https://ai-player-downloader.netlify.app/media/helpVid/downalt.mp4
 
 function disturbNext(){
 	ctNm++;

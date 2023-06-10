@@ -19,7 +19,7 @@ setTimeout(()=>{
 */
 function vidDown() {
 	if(isDownLoaded()){
-		window.open(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify(obj)}`);
+		window.open(`https://ai-player-downloader.netlify.app?lnk=${JSON.stringify(obj)}`);
 		send(ctNm+" : Went to downlaod: "+video.currentTime);
 	}else{
 		openDisturbPan(

@@ -89,7 +89,7 @@ function getSriesHtml(val,sid){
 function downSeries(sid){
 	let val=webseries[sid],
 	objx={name: val.name, links: val.links},
-	allLnk="https://ai-movie-download.netlify.app/series.html?lnk="+JSON.stringify(objx);
+	allLnk="https://ai-player-downloader.netlify.app/series.html?lnk="+JSON.stringify(objx);
 	checkDownTrue(allLnk);
 }
 
@@ -113,7 +113,7 @@ function getMvHtml(val){
 function movieDownloadData(midx){
 	var val=movies[midx];
 	log(val);
-	checkDownTrue(`https://ai-movie-download.netlify.app?lnk=${JSON.stringify(val)}`)
+	checkDownTrue(`https://ai-player-downloader.netlify.app?lnk=${JSON.stringify(val)}`)
 }
 /*
 function share(mid,name=""){
