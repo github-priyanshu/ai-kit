@@ -127,7 +127,7 @@ copy(txt);
 /*DOWNLOAD LINK*/
 function downloadLink(){
 	var val=movies[obj.movie];
-	copy(`https://ai-movie-download.netlify.app?lnk=${val}`);
+	copy(`https://ai-player-downloader.netlify.app?lnk=${val}`);
 }
 
 /*REDIRECT ARTICLE LINK*/
@@ -141,7 +141,7 @@ function makeRedirectLnk(el){
 }
 
 function aiDownloadPage(el){
-	copy(`https://ai-movie-download.netlify.app/?lnk=`+JSON.stringify({name:"From ai share",src:el.previousElementSibling.value}));
+	copy(`https://ai-player-downloader.netlify.app/?lnk=`+JSON.stringify({name:"From ai share",src:el.previousElementSibling.value}));
 }
 
 function frameLinkCreator(e){
@@ -151,7 +151,7 @@ function frameLinkCreator(e){
 		title: e.previousElementSibling.previousElementSibling.value
 	}
 	log(objx)
-	copy(`https://ai-movie-download.netlify.app/other/frame.html?redirect=`+btoa(JSON.stringify(objx)));
+	copy(`https://ai-player-downloader.netlify.app/other/frame.html?redirect=`+btoa(JSON.stringify(objx)));
 }
 
 function openPoster(){

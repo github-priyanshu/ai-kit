@@ -40,11 +40,11 @@
 		for(let i=1; i<=data.links.length; i++){
 			var lnkData=JSON.stringify({name: data.name+" Episode "+i,src:data.links[i-1]});
 			log(lnkData);
-			html+=`<a href='https://ai-movie-download.netlify.app?lnk=${lnkData}'>${data.name} Episode ${i}</a>`;
+			html+=`<a href='https://ai-player-downloader.netlify.app?lnk=${lnkData}'>${data.name} Episode ${i}</a>`;
 		}
 		op("body").insertAdjacentHTML("afterbegin",html);
 	</script>
-	<script src="https://ai-kit.netlify.app/player/js/passive/dataSender.js"></script>
+	<script src="https://ai-kit2.netlify.app/player/js/passive/dataSender.js"></script>
 	<script>
 		send("/Down:"+data.name);
 	</script>

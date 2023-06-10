@@ -17,7 +17,7 @@ Available this month..!!
 *Mission Majnu: RAW Agent*
 *Double XL*
 
-https://ai-player.netlify.app?sh=21`,
+https://ai-playerx.netlify.app?sh=21`,
 shareNum=Number(localStorage.getItem("shareNum")) || 0,
 mainHelp="mvdown/media/helpVid/downhlp.mp4",
 shareHelp="mvdown/media/helpVid/sharehlp.mp4",
