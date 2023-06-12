@@ -56,3 +56,28 @@ input:active{
 .workPan input{
 	font-size: .9em;
 }
+
+
+
+
+.choosePanMv,
+.choosePanSr{
+	max-height: 200px;
+	overflow: auto;
+	flex-flow: row wrap;
+}
+
+.choosePanMv label,
+.choosePanSr label{
+	border-radius: 4px;
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px 6px;
+	width: 46%;
+	font-size: .8em;
+	text-transform: capitalize;
+}
+.choosePanMv label input,
+.choosePanSr label input{
+	height: 8px;
+}

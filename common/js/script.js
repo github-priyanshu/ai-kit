@@ -107,3 +107,11 @@ function getAgo(time){
   }
   return [Math.floor(diff/pri[s]),s];
 }
+
+function getLongUrl(shortUrl){
+  if(shortUrl.includes("imgur.")){
+    return `https://i.imgur.com/${shortUrl}.jpg`;
+  }else{
+    return `https://bit.ly/${shortUrl}`;
+  }
+}

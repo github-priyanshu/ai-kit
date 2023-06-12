@@ -14,7 +14,7 @@ class ExtraDetail{
 		return lnk.split('/');
 	}
 	static getMvName(lnk){
-		var mvType=['BollyWood','South.Movies','HollyWood'];
+		var mvType=['BollyWood','South Movies','HollyWood'];
 
 		lnk=ExtraDetail.clearLnk(lnk);
 		op('.workPan[panfor="movie"] input.name').value=ExtraDetail.clearName(lnk[2]);
@@ -23,7 +23,7 @@ class ExtraDetail{
 
 	static getSeriesName(lnk){
 		lnk=ExtraDetail.clearLnk(lnk);
-		op('.workPan[panfor="series"] input.name').value=ExtraDetail.clearName(lnk[3]).replace("S0","Season ");
+		op('.workPan[panfor="series"] input.name').value=ExtraDetail.clearName(lnk[2]).replace("S0","Season ");
 	}
 
 	static clearName(n){
@@ -100,7 +100,7 @@ function addMovies(){
 	var str=[],namex=op(".workPan[panFor='movie'] .name").value.trim();
 	str.push("'"+namex+"'");
 	str.push("'"+op(".workPan[panFor='movie'] .imgIn").value.trim().replace("https://bit.ly/","")+"'");
-	str.push("`"+getMovieServerNLink()+"`");
+	str.push("`"+getMovieServerNLink(op(".workPan[panFor='movie'] .lnkIn").value)+"`");
 	str.push(op(".workPan[panFor='movie'] select").value);
 	var altx=op(".workPan[panFor='movie'] .altLnk").value.trim().replace("https://drop.download/","");
 	str.push("'"+altx+"'");
@@ -114,19 +114,20 @@ function addMovies(){
 	opp(".workPan[panFor='movie'] input").forEach(val=>{
 		val.value="";
 	})
+}
 
-	function getMovieServerNLink(){
-		var link=op(".workPan[panFor='movie'] .lnkIn").value.trim();
 
-		var num=0;
-		for(let val of ms){
-			if(link.includes(val)){
-				link=link.replace(val,num+">");
-			}
-			num++;
+function getMovieServerNLink(link){
+	link.trim();
+
+	var num=0;
+	for(let val of ms){
+		if(link.includes(val)){
+			link=link.replace(val,num+">");
 		}
-		return link;
+		num++;
 	}
+	return link;
 }
 
 lnkIn.forEach(val=>{
