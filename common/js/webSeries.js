@@ -2,17 +2,12 @@ var webseries=
 [
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
-	
 
-	
 ['Scoop Season 1','3WLxEM5',6,'__wsdomain/WebSeries/Scoop.S01/Scoop.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','zrxxkqhdmy2a,8yzrb44smgex,hmzihldmzmod,buzcluqffczw,g62phvum2lhi,z2afikyo8m9c'],
 ['Taj Reign of Revenge Season 2','45IqdsV',8,'__wsdomain/WebSeries/Taj.Reign.of.Revenge.S02/Taj.Reign.of.Revenge.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','25lzmb4tania,asn4yi3ba5u3,1r6dvhkdch2h,evwzjl20vtsf,8gtf5qsbsx2p,ofua5v1usr09,y0e7eajb59ls,srv6kbm7c76m'],
 ['Citadel Season 1','3oXRiaw',2,'__wsdomain/WebSeries/Citadel.S01/Citadel.S01.E01.AMZN.720p.WEB-DL.Esub-DudeFilms.in.mkv','ya48nboh05kv,2c6ckvqag5c1'],
-
 ['The Nurse Season 1','3LH8GJW',4,'__wsdomain/WebSeries/The.Nurse.S01/The.Nurse.S01.E01.Hindi.English.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv','dx5nyfsis8a7,1tf5mauqpvoz,lgu50fcyivfw,g7x0gexagjo7'],
-
 ['Sweet Tooth Season 2','3VkvUIL',8,'__wsdomain/WebSeries/Sweet.Tooth.S02/Sweet.Tooth.S02.E01.Dual.Audio.Hindi.English.720p.(10bit).WEB-DL.MSubs-DudeFilms.in.mkv','7dlxo24eh3v0,8phfvlvt5dzd,z51j2g0czyc4,69fsm152zg3z,6xe1n58ira4q,7g0btr4ea8zi,8tfw69j66l1j,029uw69si5mu'],
-
 ['Save The Tigers Season 1','446DJpD',6,'__wsdomain/WebSeries/Save.The.Tigers.S01/Save.The.Tigers.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','frdhc8o3ajzg,kv1n8d20gm19,dnzbib7xh11l,3lvrfwu5al7i,5l6czwy7erg4,0d9t9o8klgry'],
 ['Garmi Season 1','41oxLhW',9,'__wsdomain/WebSeries/Garmi.S01/Garmi.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','o0o4mhdo9rh0,s8h89no76ner,6hb85swu7vhc,5v7ohnuyfksw,rn0xqxeipds7,bya4f4f3h95p,bxq75gn4o5ks,qhf6vzwe1gfb,02dotv32lzxx'],
 ['The Diplomat Season 1','41wYRn9',8,'__wsdomain/WebSeries/The.Diplomat.S01/The.Diplomat.S01.E01.%7BHindi-English%7D.720p.(10bit).WEB-DL.ESub-DudeFilms.in.mkv','f5dhoielsdga,8q7vjty7aybr,biww13kek1d1,4bksjwliohoz,w8fki6bmkws0,mtr7gtushgzl,5oky5ha6gjo9,b98xuto7tcpe'],
