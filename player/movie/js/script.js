@@ -69,3 +69,11 @@ function sendPartenerData(){
 setTimeout(()=>{
   sendPartenerData();
 },3000)
+
+function getLongUrl(shortUrl){
+  if(shortUrl.includes("imgur.")){
+    return `https://i.imgur.com/${shortUrl}.jpg`;
+  }else{
+    return `https://bit.ly/${shortUrl}`;
+  }
+}
