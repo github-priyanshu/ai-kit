@@ -33,7 +33,6 @@ for(let i=0; i <webseries.length; i++){
 	let valx=webseries[i],
 	links=[],
 	alt=("https://drop.download/"+valx[4]).replaceAll(",",",https://drop.download/").split(',');
-	log(alt)
 	for(let j=1; j<=valx[2]; j++){
 		links.push(valx[3].replace("__wsdomain/",seriesDomain).replace("E01","E"+get2dNum(j)));
 	}
@@ -43,7 +42,6 @@ for(let i=0; i <webseries.length; i++){
 		links,
 		alt
 	};
-	log(tempSr);
 	webseriesAry.push(tempSr[i]);
 }
 webseries=tempSr;
