@@ -48,7 +48,7 @@ function createSeriesFinalFromFinalLnk() {
 function copyAllSeriesLNk(){
 	var lnks="";
 	for(let val of curSrsDetail){
-		for(let i=0;i<val[2]; i++){
+		for(let i=1;i<=val[2]; i++){
 			lnks+= val[0].replace("E01","E"+get2dNum(i)) +"\n";
 		}
 	}
