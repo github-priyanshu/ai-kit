@@ -43,6 +43,7 @@ input{
 	border-radius: 2px;
 	outline: none;
 	color: #fff;
+  word-wrap: normal
 }
 textarea{
 	height: 100px;

@@ -115,7 +115,7 @@ function createMovieFinalFromFinalLnk() {
 }
 
 function shortImgurLnk(lnk){
-	return "imgur."+lnk.replace("https://i.imgur.com/","").replace(".jpg","");
+	try{return "imgur."+lnk.replace("https://i.imgur.com/","").replace(".jpg","")}catch(er){alert(er)};
 }
 
 function createFinalMovieCode(){
@@ -123,14 +123,18 @@ function createFinalMovieCode(){
 	var dropLnkAry=op("#altMvLnk").value.split("\n");
 
 	for(let i=0; i<curMvsDetail.length; i++){
-		var mvType=['BollyWood','South Movies','HollyWood'];
-		var val=curMvsDetail[i];
-		var imgLnk=shortImgurLnk(val[1]);
-		var lnkSecData=ExtraDetail.clearLnk(val[0]);
-		log(lnkSecData);
-		var movieName=lnkSecData[2].replaceAll('.',' ');
+		try{
+			var mvType=['BollyWood','South Movies','HollyWood'];
+			var val=curMvsDetail[i];
+			var imgLnk=shortImgurLnk(val[1]);
+			var lnkSecData=ExtraDetail.clearLnk(val[0]);
+			log(lnkSecData);
+			var movieName=lnkSecData[2].replaceAll('.',' ');
 
-		str+="\n['"+movieName+"','"+imgLnk+"',`"+getMovieServerNLink(val[0])+"`,"+(mvType.indexOf(lnkSecData[1])+1)+",'"+dropLink(i,movieName)+"'],"
+			str+="\n['"+movieName+"','"+imgLnk+"',`"+getMovieServerNLink(val[0])+"`,"+(mvType.indexOf(lnkSecData[1])+1)+",'"+dropLink(i,movieName)+"'],"
+		}catch(err){
+			log(err);
+		}
 	}
 
 	op("#finalCodeMv").value=str;
@@ -151,7 +155,7 @@ function copyAllMovieLNk(){
 }
 
 function applyFetchedData(ret){
-	// localStorage.setItem("dudedomain",ret.domain);
+	localStorage.setItem("dudedomain",ret.domain);
 	applyMovieInfo(ret.movieAry);
 	applySeriesInfo(ret.seriesAry);
 
