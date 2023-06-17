@@ -10,6 +10,7 @@ var movies=
 
 
 
+['Adipurush : Lord Ram Movie','43JVgDr',`https://drop.download/3ksyuo13vwbh`,1,'3ksyuo13vwbh'],
 ['I Love You 2023','imgur.ELydxB7',`2>I.Love.You.2023/I.Love.You.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'mxvv7pgoy51a'],
 ['Transformers rise of the beasts 2023 HDCAM V3','imgur.2TDHOzc',`2>Transformers.rise.of.the.beasts.2023.HDCAM.V3/Transformers.rise.of.the.beasts.2023.HINDI.v3.480p.HDCAM-DudeFilms.in.mkv`,3,'7x49k60rao46'],
 ['Sisu 2023','imgur.u9lF1Vf',`2>Sisu.2023/Sisu.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'u08w6x3v57nt'],
