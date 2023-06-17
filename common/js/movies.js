@@ -10,6 +10,15 @@ var movies=
 
 
 
+['I Love You 2023','imgur.ELydxB7',`2>I.Love.You.2023/I.Love.You.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'mxvv7pgoy51a'],
+['Transformers rise of the beasts 2023 HDCAM V3','imgur.2TDHOzc',`2>Transformers.rise.of.the.beasts.2023.HDCAM.V3/Transformers.rise.of.the.beasts.2023.HINDI.v3.480p.HDCAM-DudeFilms.in.mkv`,3,'7x49k60rao46'],
+['Sisu 2023','imgur.u9lF1Vf',`2>Sisu.2023/Sisu.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'u08w6x3v57nt'],
+['Thuramukham 2023 HQ','imgur.sqnkRqN',`2>Thuramukham.2023.HQ/Thuramukham.2023.HINDI.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'dx3r77g73dx6'],
+['Meter 2023 HQ','imgur.rERA0Bo',`2>Meter.2023.HQ/Meter.2023.HINDI.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'znihonaun9ey'],
+['Custody 2023 HQ','imgur.gkA30fL',`2>Custody.2023.HQ/Custody.2023.HINDI.HQ.DUB.480p.WEB.DL-DudeFilms.in.mkv`,2,'t1er51fvx07u'],
+['Fast-X 2023 Hindi Line','imgur.0rIVXXc',`2>Fast-X.2023.Hindi.Line/Fast-X.2023.Hindi.Line-English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'rz0e2a7klfdh'],
+['Gulaam Chor 2023','imgur.kXU2eqF',`2>Gulaam.Chor.2023/Gulaam.Chor.2023.Gujarati.480p.JC.WEB-DL-DudeFilms.in.mkv`,1,'jaj5scskmfzx'],
+['Aum Mangalam Singlem 2022','imgur.puUX8di',`2>Aum.Mangalam.Singlem.2022/Aum.Mangalam.Singlem.2022.Gujarati.480p.SM.WEB-DL-DudeFilms.in.mkv`,1,'kzjuw0h2t579'],
 ['Bloody Daddy','3P5IVoI',`https://drop.download/uezckfknuwb5`,1,'uezckfknuwb5'],
 ['Zara Hatke Zara Bachke','43obcLj',`2>Zara.Hatke.Zara.Bachke.2023/Zara.Hatke.Zara.Bachke.2023.Hindi.480p.HDCAM-DudeFilms.in.mkv`,1,'jwv1jwhwxx10'],
 
