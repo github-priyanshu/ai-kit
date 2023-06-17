@@ -4,7 +4,12 @@ var webseries=
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
 	
 
-	
+
+['Rafuchakkar s01','imgur.lgxG2wy',3,'__wsdomain/WebSeries/Rafuchakkar.s01/Rafuchakkar.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','mxvv7pgoy51a,7x49k60rao46,u08w6x3v57nt'],
+['Shaitan Season 1','imgur.t3Nlo15',9,'__wsdomain/WebSeries/Shaitan.S01/Shaitan.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','dx3r77g73dx6,znihonaun9ey,t1er51fvx07u,rz0e2a7klfdh,jaj5scskmfzx,kzjuw0h2t579,86vbysnmmi9k,db5evnsnxg2u,l3s6tllwo3ry'],
+['Jee Karda Season 1','imgur.r7zsMM1',8,'__wsdomain/WebSeries/Jee.Karda.S01/Jee.Karda.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv',''],
+['Inspector Avinash Season 1','imgur.7ggRSo9',8,'__wsdomain/WebSeries/Inspector.Avinash.S01/Inspector.Avinash.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv',''],
+['Modern Love Chennai Season 1','imgur.GEuD7F8',6,'__wsdomain/WebSeries/Modern.Love.Chennai.S01/Modern.Love.Chennai.S01.E01.Hindi.Tamil.Telugu.720p.WEB-DL.ESub-DudeFilms.in.mkv',''],	
 ['Scoop Season 1','3WLxEM5',6,'__wsdomain/WebSeries/Scoop.S01/Scoop.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','zrxxkqhdmy2a,8yzrb44smgex,hmzihldmzmod,buzcluqffczw,g62phvum2lhi,z2afikyo8m9c'],
 ['Taj Reign of Revenge Season 2','45IqdsV',8,'__wsdomain/WebSeries/Taj.Reign.of.Revenge.S02/Taj.Reign.of.Revenge.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','25lzmb4tania,asn4yi3ba5u3,1r6dvhkdch2h,evwzjl20vtsf,8gtf5qsbsx2p,ofua5v1usr09,y0e7eajb59ls,srv6kbm7c76m'],
 ['Citadel Season 1','3oXRiaw',2,'__wsdomain/WebSeries/Citadel.S01/Citadel.S01.E01.AMZN.720p.WEB-DL.Esub-DudeFilms.in.mkv','ya48nboh05kv,2c6ckvqag5c1'],
