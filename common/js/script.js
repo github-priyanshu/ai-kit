@@ -110,7 +110,7 @@ function getAgo(time){
 
 function getLongUrl(shortUrl){
   if(shortUrl.includes("imgur.")){
-    return `https://i.imgur.com/${shortUrl}.jpg`;
+    return `https://i.imgur.com/${shortUrl.replace("imgur.","")}.jpg`;
   }else{
     return `https://bit.ly/${shortUrl}`;
   }
