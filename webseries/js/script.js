@@ -41,3 +41,10 @@ function getVariableFromQuery(){
     window[val[0]]=val[1];
   }
 }
+function getLongUrl(shortUrl){
+  if(shortUrl.includes("imgur.")){
+    return `https://i.imgur.com/${shortUrl.replace("imgur.","")}.jpg`;
+  }else{
+    return `https://bit.ly/${shortUrl}`;
+  }
+}
