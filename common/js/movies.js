@@ -11,6 +11,10 @@ var movies=
 
 
 ['Adipurush : Lord Ram Movie','43JVgDr',`https://drop.download/3ksyuo13vwbh`,1,'3ksyuo13vwbh'],
+['Siya 2022','imgur.mK62dLB',`2>Siya.2022/Siya.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'vj48ee99w0o5'],
+['Jaggu Ki Lalten 2022','imgur.H9zoG4P',`2>Jaggu.Ki.Lalten.2022/Jaggu.Ki.Lalten.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1,'22fmj49jlxk7'],
+['Anni Manchi Sakunamule 2023','imgur.5gctyrl',`2>Anni.Manchi.Sakunamule.2023/Anni.Manchi.Sakunamule.2023.Hindi.Telugu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'pa5hcb7nbx0a'],
+['The Flash 2023 HDTS','imgur.TnPDa6F',`2>The.Flash.2023.HDTS/The.Flash.2023.Hindi.Line.480p.HDTS-DudeFilms.in.mkv`,3,'0nokvklo3bay'],
 ['I Love You 2023','imgur.ELydxB7',`2>I.Love.You.2023/I.Love.You.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'mxvv7pgoy51a'],
 ['Transformers rise of the beasts 2023 HDCAM V3','imgur.2TDHOzc',`2>Transformers.rise.of.the.beasts.2023.HDCAM.V3/Transformers.rise.of.the.beasts.2023.HINDI.v3.480p.HDCAM-DudeFilms.in.mkv`,3,'7x49k60rao46'],
 ['Sisu 2023','imgur.u9lF1Vf',`2>Sisu.2023/Sisu.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'u08w6x3v57nt'],
