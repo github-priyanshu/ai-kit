@@ -8,8 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
-
-
+['Veeram 2023','imgur.bNxfGj9',`2>Veeram.2023/Veeram.2023.Hindi.Kannada.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'cqy6qmmeciyi'],
 ['Adipurush : Lord Ram Movie','43JVgDr',`https://drop.download/3ksyuo13vwbh`,1,'3ksyuo13vwbh'],
 ['Siya 2022','imgur.mK62dLB',`2>Siya.2022/Siya.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'vj48ee99w0o5'],
 ['Jaggu Ki Lalten 2022','imgur.H9zoG4P',`2>Jaggu.Ki.Lalten.2022/Jaggu.Ki.Lalten.2022.Hindi.480p.WEB-DL-DudeFilms.in.mkv`,1,'22fmj49jlxk7'],
