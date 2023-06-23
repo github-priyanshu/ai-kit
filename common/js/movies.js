@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['ASEQ','3XkUUki',`https://drop.download/qdrsqqtpwy6n`,1,'qdrsqqtpwy6n'],
+['Titu Weds Sheru','3NHvVEA',`https://drop.download/ibq5i58u356y`,1,'ibq5i58u356y'],
 ['Veeram 2023','imgur.bNxfGj9',`2>Veeram.2023/Veeram.2023.Hindi.Kannada.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'cqy6qmmeciyi'],
 ['Adipurush : Lord Ram Movie','43JVgDr',`https://drop.download/3ksyuo13vwbh`,1,'3ksyuo13vwbh'],
 ['Siya 2022','imgur.mK62dLB',`2>Siya.2022/Siya.2022.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'vj48ee99w0o5'],
