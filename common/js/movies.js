@@ -8,6 +8,7 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Kisi Ka Bhai Kisi Ki Jaan 2023','imgur.XTcx6Lg',`2>Kisi.Ka.Bhai.Kisi.Ki.Jaan.2023/Kisi.Ka.Bhai.Kisi.Ki.Jaan.2023.480p.ZEE5.WEB.DL-DudeFilms.in.mkv`,1,'l0yb2gvtjhgf'],
 ['ASEQ','3XkUUki',`https://drop.download/qdrsqqtpwy6n`,1,'qdrsqqtpwy6n'],
 ['Titu Weds Sheru','3NHvVEA',`https://drop.download/ibq5i58u356y`,1,'ibq5i58u356y'],
 ['Veeram 2023','imgur.bNxfGj9',`2>Veeram.2023/Veeram.2023.Hindi.Kannada.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'cqy6qmmeciyi'],
