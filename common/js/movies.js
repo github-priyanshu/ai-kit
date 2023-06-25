@@ -8,6 +8,10 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['1920 horror of the heart 2023 HDCam','imgur.jTZCFWM',`2>1920.horror.of.the.heart.2023.HDCam/1920.horror.of.the.heart.2023.Hindi.480.HDCAM-DudeFilms.in.mkv`,3,'whf81pyxkyot'],
+['Through My Window Across The Sea 2023','imgur.UxN8I2A',`2>Through.My.Window.Across.The.Sea.2023/Through.My.Window.Across.The.Sea.2023.Hindi.English.Spanish.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'o8hipzzf2dpr'],
+['The Perfect Find 2023','imgur.wd8lDJK',`2>The.Perfect.Find.2023/The.Perfect.Find.2023.Hindi-English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'848fqty3q839'],
+['iNumber Number Jozi Gold 2023','imgur.qhL8u4l',`2>iNumber.Number.Jozi.Gold.2023/iNumber.Number.Jozi.Gold.2023.Hindi.English.Zulu.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'hin0goazzjmv'],
 ['Kisi Ka Bhai Kisi Ki Jaan 2023','imgur.XTcx6Lg',`2>Kisi.Ka.Bhai.Kisi.Ki.Jaan.2023/Kisi.Ka.Bhai.Kisi.Ki.Jaan.2023.480p.ZEE5.WEB.DL-DudeFilms.in.mkv`,1,'l0yb2gvtjhgf'],
 ['ASEQ','3XkUUki',`https://drop.download/qdrsqqtpwy6n`,1,'qdrsqqtpwy6n'],
 ['Titu Weds Sheru','3NHvVEA',`https://drop.download/ibq5i58u356y`,1,'ibq5i58u356y'],
