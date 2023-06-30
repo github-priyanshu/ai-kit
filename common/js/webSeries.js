@@ -2,7 +2,9 @@ var webseries=
 [
 /*change the episod number to '01' */
 /*[name,bitly img id,totalEpisods,fristEpisodeLink],*/
-	
+
+['Inspector Avinash Season 1','imgur.7ggRSo9',8,'__wsdomain/WebSeries/Inspector.Avinash.S01/Inspector.Avinash.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','z7djlcf76b9d,yp5xti7jc3nm,4c1i02ann7g2,nuy5kd7usz03,oxgzm2cfxk22,os99jpfmlduf,w6usghbv0867,wg1tiss6s4b4'],
+['Modern Love Chennai Season 1','imgur.GEuD7F8',6,'__wsdomain/WebSeries/Modern.Love.Chennai.S01/Modern.Love.Chennai.S01.E01.Hindi.Tamil.Telugu.720p.WEB-DL.ESub-DudeFilms.in.mkv','c253yffcdlnx,9igc3loqp6z3,4qbs4w6o3uus,kmeutehia70c,5lzwgw77ulq6,bge0x6fqaxmv'],
 ['Scoop Season 1','3WLxEM5',6,'__wsdomain/WebSeries/Scoop.S01/Scoop.S01.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','zrxxkqhdmy2a,8yzrb44smgex,hmzihldmzmod,buzcluqffczw,g62phvum2lhi,z2afikyo8m9c'],
 ['Taj Reign of Revenge Season 2','45IqdsV',8,'__wsdomain/WebSeries/Taj.Reign.of.Revenge.S02/Taj.Reign.of.Revenge.S02.E01.Hindi.720p.WEB-DL.ESub-DudeFilms.in.mkv','25lzmb4tania,asn4yi3ba5u3,1r6dvhkdch2h,evwzjl20vtsf,8gtf5qsbsx2p,ofua5v1usr09,y0e7eajb59ls,srv6kbm7c76m'],
 ['Citadel Season 1','3oXRiaw',2,'__wsdomain/WebSeries/Citadel.S01/Citadel.S01.E01.AMZN.720p.WEB-DL.Esub-DudeFilms.in.mkv','ya48nboh05kv,2c6ckvqag5c1'],
