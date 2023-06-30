@@ -8,6 +8,12 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Spy 2023 CamRip','imgur.kZJX4lm',`2>Spy.2023.CamRip/Spy.2023.Hindi.480.HDCAM-DudeFilms.in.mkv`,2,'hrrr7sve7imy'],
+['Satya Prem Ki Katha 2023 CamRip','imgur.6mJSIAB',`2>Satya.Prem.Ki.Katha.2023.CamRip/Satya.Prem.Ki.Katha.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'dpt8grqsieh5'],
+['The Machine 2023','imgur.o5sanxm',`2>The.Machine.2023/The.Machine.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'8f360y5fj0h3'],
+['Lust Stories 2 2023','imgur.39C1zXZ',`2>Lust.Stories.2.2023/Lust.Stories.2.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'kv6bpnmxeru7'],
+['Big George Foreman 2023','imgur.hXkFzw2',`2>Big.George.Foreman.2023/Big.George.Foreman.2023.Hindi.English.480p.BluRay.ESubs-DudeFilms.in.mkv`,3,'z896r1hwn1gk'],
+['Dia 2020','imgur.c4Mlmli',`2>Dia.2020/Dia.2020.Hindi.Kannada.480p.WEB-DL.ESub-DudeFilms.in.mkv`,2,'gurcendu64au'],
 ['1920 horror of the heart 2023 HDCam','imgur.jTZCFWM',`2>1920.horror.of.the.heart.2023.HDCam/1920.horror.of.the.heart.2023.Hindi.480.HDCAM-DudeFilms.in.mkv`,3,'whf81pyxkyot'],
 ['Through My Window Across The Sea 2023','imgur.UxN8I2A',`2>Through.My.Window.Across.The.Sea.2023/Through.My.Window.Across.The.Sea.2023.Hindi.English.Spanish.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'o8hipzzf2dpr'],
 ['The Perfect Find 2023','imgur.wd8lDJK',`2>The.Perfect.Find.2023/The.Perfect.Find.2023.Hindi-English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'848fqty3q839'],
