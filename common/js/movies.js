@@ -8,6 +8,9 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Sergeant 2023','imgur.ggWfY6g',`2>Sergeant.2023/Sergeant.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'jdz5zlm737sx'],
+['Lakadbaggha 2023','imgur.7sZwaKV',`2>Lakadbaggha.2023/Lakadbaggha.2023.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'4378t7x81t8q'],
+['Afwaah 2023','imgur.NnMlDg5',`2>Afwaah.2023/Afwaah.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'ifarro92dv64'],
 ['Spy 2023 CamRip','imgur.kZJX4lm',`2>Spy.2023.CamRip/Spy.2023.Hindi.480.HDCAM-DudeFilms.in.mkv`,2,'hrrr7sve7imy'],
 ['Satya Prem Ki Katha 2023 CamRip','imgur.6mJSIAB',`2>Satya.Prem.Ki.Katha.2023.CamRip/Satya.Prem.Ki.Katha.2023.Hindi.480p.CAMRip-DudeFilms.in.mkv`,1,'dpt8grqsieh5'],
 ['The Machine 2023','imgur.o5sanxm',`2>The.Machine.2023/The.Machine.2023.Hindi.English.480p.WEB-DL.ESub-DudeFilms.in.mkv`,3,'8f360y5fj0h3'],
