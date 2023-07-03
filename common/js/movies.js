@@ -8,6 +8,8 @@ var movies=
 /*['name',`0>lnk`,mid,'img', cat],*/
 /*['name',`0>lnk`,mid,'img', cat],*/
 
+['Indiana-Jones 2023 HDCAM','imgur.ixYDrZ8',`2>Indiana-Jones.2023.HDCAM/Indiana-Jones.2023.Hindi.480p.V2-HDCAM-DudeFilms.in.mkv`,1,'vpfz2r0ymofw'],
+['AdiPurush 2023 HDRip','imgur.tNKKq3l',`2>AdiPurush.2023.HDRip/AdiPurush.2023.Hindi-Line.480p.HDRip-DudeFilms.in.mkv`,1,'q1s4aonlrogu'],
 ['Sergeant 2023','imgur.ggWfY6g',`2>Sergeant.2023/Sergeant.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'jdz5zlm737sx'],
 ['Lakadbaggha 2023','imgur.7sZwaKV',`2>Lakadbaggha.2023/Lakadbaggha.2023.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'4378t7x81t8q'],
 ['Afwaah 2023','imgur.NnMlDg5',`2>Afwaah.2023/Afwaah.2023.Hindi.480p.WEB-DL.ESub-DudeFilms.in.mkv`,1,'ifarro92dv64'],
